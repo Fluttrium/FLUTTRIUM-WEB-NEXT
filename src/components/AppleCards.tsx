@@ -11,7 +11,7 @@ export function AppleCardsCarouselDemo() {
   return (
     <div className="w-full h-full py-20">
       <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
-        Get to know your iSad.
+        Наши кейсы
       </h2>
       <Carousel items={cards} />
     </div>
@@ -29,15 +29,12 @@ const DummyContent = () => {
           >
             <p className="text-neutral-600 text-base md:text-2xl font-sans max-w-3xl mx-auto">
               <span className="font-bold text-neutral-700">
-                The first rule of Apple club is that you boast about Apple club.
+                Сделали сайт для торгового центра "Добрыня"
               </span>{" "}
-              Keep a journal, quickly jot down a grocery list, and take amazing
-              class notes. Want to convert those notes to text? No problem.
-              Langotiya jeetu ka mara hua yaar is ready to capture every
-              thought.
+              Мы рады представить наш новый проект — современный и интерактивный сайт для торгового центра "Добрыня". В рамках этого проекта наша команда работала над созданием уникальной онлайн-платформы, которая не только отражает стиль и атмосферу торгового центра, но и предоставляет удобный интерфейс для его посетителей.
             </p>
             <Image
-              src="/fuzzieLogo.png"
+              src="/projects/case1.png"
               alt="Macbook mockup from Aceternity UI"
               height="500"
               width="500"
@@ -52,39 +49,20 @@ const DummyContent = () => {
 
 const data = [
   {
-    category: "Artificial Intelligence",
-    title: "You can do more with AI.",
-    src: "/fuzzieLogo.png",
+    category: "Недвижимость",
+    title: "Сайт для Торгового Центра",
+    src: "/projects/case1.png",
     content: <DummyContent />,
   },
   {
-    category: "Productivity",
-    title: "Enhance your productivity.",
-    src: "/fuzzieLogo.png",
+    category: "Некомерческие организации",
+    title: "Сайт для НКО СИНЕРГИЯ",
+    src: "/projects/case2.png",
     content: <DummyContent />,
   },
   {
-    category: "Product",
-    title: "Launching the new Apple Vision Pro.",
-    src: "/fuzzieLogo.png",
-    content: <DummyContent />,
-  },
-
-  {
-    category: "Product",
-    title: "Maps for your iPhone 15 Pro Max.",
-    src: "/fuzzieLogo.png",
-    content: <DummyContent />,
-  },
-  {
-    category: "iOS",
-    title: "Photography just got better.",
-    src: "/fuzzieLogo.png",
-    content: <DummyContent />,
-  },
-  {
-    category: "Hiring",
-    title: "Hiring for a Staff Software Engineer",
+    category: "Приложения",
+    title: "Корпоративное такси",
     src: "/fuzzieLogo.png",
     content: <DummyContent />,
   },

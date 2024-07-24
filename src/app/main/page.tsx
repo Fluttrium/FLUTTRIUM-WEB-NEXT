@@ -3,7 +3,8 @@ import { CardHoverEffectDemo } from "@/components/Cards";
 import Navbar from "@/components/global/navbar";
 import { ThreeDCardDemo } from "@/components/Projects";
 import { AppleCardsCarouselDemo } from "@/components/AppleCards";
-import { SignupFormDemo } from "@/components/SignUpForm";
+import { Form } from "@/components/Form";
+import Footer from "@/components/global/footer";
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
       <ThreeDCardDemo />
       <CardHoverEffectDemo />
       <AppleCardsCarouselDemo/>
-      <SignupFormDemo/>
+      <Form/>
+      <Footer/>
     </div>
   );
 }

@@ -1,69 +1,88 @@
 import Navbar from "@/components/global/navbar";
+import { FlipWords } from "@/components/ui/flip-words";
 import { GlareCard } from "@/components/ui/glare-card";
+import { Spotlight } from "@/components/ui/spotlight";
+import { MaskContainer } from "@/components/ui/svg-mask-effect";
 import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 
 export default function Home() {
-  const words = [
-    {
-      text: "Создай",
-    },
-    {
-      text: "новые",
-    },
-    {
-      text: "возможности",
-    },
-    {
-      text: "для",
-    },
-    {
-      text: "своего",
-    },
-    {
-      text: "бизнеса",
-    },
-    {
-      text: "с",
-    },
-    {
-      text: "FLUTTRIUM.",
-      className: "text-blue-500 dark:text-blue-500",
-    },
+  const words2 = [
+    "мобильные приложения для среднего бизнеса",
+    "веб приложения",
+    "дизайн",
+    "MVP для вашего стартапа",
   ];
+
   return (
     <main>
       <Navbar />
-      <section className="h-screen w-full  bg-neutral-950 rounded-md  !overflow-visible relative flex  items-start justify-center antialiased">
-        <div className="absolute h-full w-full bg-black">
-          <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div>
-          <div className="absolute left-0 right-0 top-[-10%] h-[1000px] w-[1000px] rounded-full bg-[radial-gradient(circle_400px_at_50%_300px,#fbfbfb36,#000)]"></div>
+
+      <section className="h-screen w-full  bg-neutral-950 rounded-md  !overflow-visible relative flex    antialiased">
+        <Spotlight className=" -top-10 -left-20  z-30" />
+        <div className="absolute h-full w-full bg-slate-950">
+          <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
         </div>
-        <div className="flex flex-col justify-between">
-          <div className="absolute flex left-0  z-30 px-9 ">
-            <TypewriterEffect className="pt-40 h-2/3  " words={words} />
+        <div className="absolute top-0 z-[-2] h-screen w-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"></div>
+        <div className="flex flex-row w-screen">
+          <div className="absolute w-1/3 z-50 px-9  ">
+            <div className=" pt-40 text-5xl z-50 mx-auto font-normal text-neutral-600 dark:text-neutral-400">
+              Мы&nbsp;разрабатываем
+              <FlipWords words={words2} />
+            </div>
+            <div className="absolute z-40 h-96 w-96 flex items-center justify-center  overflow-hidden">
+              <MaskContainer
+                revealText={
+                  <p className="max-w-4xl mx-auto white text-center  text-4xl font-bold">
+                    AGJ
+                  </p>
+                }
+                className="h-[40rem] border rounded-md"
+              >
+                The f <span className="text-red-500">dfsf</span> is t{" "}
+                <span className="text-red-500">fdsf</span>.
+              </MaskContainer>
+            </div>
           </div>
-          <div className="  z-20 pt-60 flex flex-row">
-            <GlareCard className=" flex   flex-col items-center justify-center   py-2 px-2">
-              <p className="font-bold text-white text-lg">The greatest trick</p>
-              <p className="font-normal text-base text-neutral-200 mt-4">
-                The greatest trick the devil ever pulled was to convince the
-                world that he didn&apos;t exist.
-              </p>
-            </GlareCard>
-            <GlareCard className=" flex   flex-col items-center justify-center   py-2 px-2">
-              <p className="font-bold text-white text-lg">The greatest trick</p>
-              <p className="font-normal text-base text-neutral-200 mt-4">
-                The greatest trick the devil ever pulled was to convince the
-                world that he didn&apos;t exist.
-              </p>
-            </GlareCard>
-            <GlareCard className=" flex   flex-col items-center justify-center   py-2 px-2">
-              <p className="font-bold text-white text-lg">The greatest trick</p>
-              <p className="font-normal text-base text-neutral-200 mt-4">
-                The greatest trick the devil ever pulled was to convince the
-                world that he didn&apos;t exist.
-              </p>
-            </GlareCard>
+
+          <div className="absolute w-2/5 z-40 right-0 top-24">
+            <div className=" space-y-4 flex flex-col col w-3/4 justify-stretch">
+              <div className=" ">
+                <GlareCard
+                  width="400px"
+                  height="150px"
+                  className="flex flex-col py-2 px-2 items-top justify-start "
+                >
+                  <p className="font-bold text-white text-5xl">1</p>
+                  <p className="font-medium text-2xl text-neutral-200 mt-7 ">
+                    Проведем интервью и составим ТЗ.
+                  </p>
+                </GlareCard>
+              </div>
+              <div className=" ">
+                <GlareCard
+                  width="400px"
+                  height="150px"
+                  className="flex flex-col py-2 px-2 items-top justify-start "
+                >
+                  <p className="font-bold text-white text-5xl">2</p>
+                  <p className="font-medium text-2xl text-neutral-200 mt-7 ">
+                    Разработаем ваш продукт.
+                  </p>
+                </GlareCard>
+              </div>
+              <div className=" ">
+                <GlareCard
+                  width="400px"
+                  height="150px"
+                  className="flex flex-col py-2 px-2 items-top justify-start "
+                >
+                  <p className="font-bold text-white text-5xl">3</p>
+                  <p className="font-medium text-2xl text-neutral-200 mt-7 ">
+                    Получим за это лавандос.
+                  </p>
+                </GlareCard>
+              </div>
+            </div>
           </div>
         </div>
       </section>

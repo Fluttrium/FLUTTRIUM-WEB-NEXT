@@ -7,7 +7,7 @@ import { Form } from "./Form";
 
 export function HeroScrollDemo() {
   return (
-    <div className="flex flex-col overflow-hidden">
+    <div className="flex flex-col">
       <ContainerScroll
         titleComponent={
           <>

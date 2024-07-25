@@ -4,9 +4,19 @@ import { HoverEffect } from "./ui/card-hover-effect";
 
 export function CardHoverEffectDemo() {
   return (
-    <div className="max-w-5xl mx-auto px-8">
-      <HoverEffect items={projects} />
-    </div>
+    <>
+    <div className="flex justify-center">
+  <h1 className="text-4xl font-semibold text-black dark:text-white text-center">
+    <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none block">
+    Рассказываем, как будем сотрудничать
+    </span>
+  </h1>
+</div>
+    <div className="max-w-5xl mx-auto px-8 lg:border lg:border-gray-200 lg:rounded-lg lg:p-4">
+      
+    <HoverEffect items={projects} />
+  </div>
+  </>
   );
 }
 export const projects = [

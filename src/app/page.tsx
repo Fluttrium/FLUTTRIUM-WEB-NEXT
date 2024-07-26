@@ -1,5 +1,6 @@
 import AppleCardsCarouselDemo from "@/components/AppleCards";
 import { CardHoverEffectDemo } from "@/components/Cards";
+import SocialContacts from "@/components/Contacs";
 import { HeroScrollDemo } from "@/components/ContainerScroll";
 import Footer from "@/components/global/footer";
 import Navbar from "@/components/global/navbar";
@@ -46,7 +47,7 @@ export default function Home() {
               >
                 <p className="font-bold text-white text-5xl">1</p>
                 <p className="font-medium text-2xl text-neutral-200 mt-7 ">
-                  Проведем интервью и составим ТЗ.
+                  Проведем интервью и составим ТЗ
                 </p>
               </GlareCard>
 
@@ -57,7 +58,7 @@ export default function Home() {
               >
                 <p className="font-bold text-white text-5xl">2</p>
                 <p className="font-medium text-2xl text-neutral-200 mt-7 ">
-                  Разработаем ваш продукт.
+                  Разработаем ваш продукт
                 </p>
               </GlareCard>
             </div>
@@ -69,7 +70,7 @@ export default function Home() {
               >
                 <p className="font-bold text-white text-5xl">3</p>
                 <p className="font-medium text-2xl text-neutral-200 mt-7 ">
-                  Получим за это лавандос.
+                Обеспечим поддержку и развитие
                 </p>
               </GlareCard>
             </div>
@@ -81,6 +82,7 @@ export default function Home() {
       <TypewriterEffectSmoothDemo/>
       <CardHoverEffectDemo />
       <AppleCardsCarouselDemo/>
+      <SocialContacts/>
       <Footer/>
     </main>
   );

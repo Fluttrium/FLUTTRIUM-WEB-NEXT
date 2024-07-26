@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { DM_Sans } from "next/font/google";
+import { Roboto_Condensed } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/providers/theme-provider";
 
-const inter = DM_Sans({ subsets: ["latin"] });
+const inter = Roboto_Condensed({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "RentAPP",

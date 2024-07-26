@@ -30,27 +30,6 @@ export const FlipWords = ({
     }
   }, [isAnimating, duration, startAnimation]);
 
-  // Function to split word into parts (letters and spaces)
-  const splitWord = (word: string) => {
-    const parts = [];
-    let part = "";
-    for (const char of word) {
-      if (char === " ") {
-        if (part) {
-          parts.push(part);
-          part = "";
-        }
-        parts.push(" ");
-      } else {
-        part += char;
-      }
-    }
-    if (part) {
-      parts.push(part);
-    }
-    return parts;
-  };
-
   return (
     <AnimatePresence
       onExitComplete={() => {
@@ -70,28 +49,22 @@ export const FlipWords = ({
           position: "absolute",
         }}
         className={cn(
-          "z-10 inline-block relative text-left text-neutral-900 dark:text-neutral-100 px-2",
+          "z-10 inline-block relative text-left text-neutral-900 dark:text-neutral-100",
           className
         )}
         key={currentWord}
       >
-        {splitWord(currentWord).map((part, index) =>
-          part === " " ? (
-            <span key={index}>&nbsp;</span>
-          ) : (
-            part.split("").map((letter, i) => (
-              <motion.span
-                key={currentWord + index + i}
-                initial={{ opacity: 0, y: 10, filter: "blur(8px)" }}
-                animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-                transition={{ delay: i * 0.08, duration: 0.4 }}
-                className="inline-block"
-              >
-                {letter}
-              </motion.span>
-            ))
-          )
-        )}
+        {currentWord.split(" ").map((word, index) => (
+          <motion.span
+            key={currentWord + index}
+            initial={{ opacity: 0, y: 10, filter: "blur(8px)" }}
+            animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            transition={{ delay: index * 0.1, duration: 0.5 }}
+            className="inline-block mr-2"
+          >
+            {word}
+          </motion.span>
+        ))}
       </motion.div>
     </AnimatePresence>
   );

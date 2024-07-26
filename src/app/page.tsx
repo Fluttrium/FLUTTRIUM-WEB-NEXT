@@ -1,4 +1,10 @@
+import AppleCardsCarouselDemo from "@/components/AppleCards";
+import { CardHoverEffectDemo } from "@/components/Cards";
+import { HeroScrollDemo } from "@/components/ContainerScroll";
+import Footer from "@/components/global/footer";
 import Navbar from "@/components/global/navbar";
+import { ThreeDCardDemo } from "@/components/Projects";
+import { TypewriterEffectSmoothDemo } from "@/components/Tehnology";
 import { FlipWords } from "@/components/ui/flip-words";
 import { GlareCard } from "@/components/ui/glare-card";
 import { Spotlight } from "@/components/ui/spotlight";
@@ -70,6 +76,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <ThreeDCardDemo />
+      <HeroScrollDemo/>
+      <TypewriterEffectSmoothDemo/>
+      <CardHoverEffectDemo />
+      <AppleCardsCarouselDemo/>
+      <Footer/>
     </main>
   );
 }

@@ -19,7 +19,7 @@ export default function Home() {
 
       <section className="h-screen w-full  bg-neutral-950 rounded-md  !overflow-visible relative flex    antialiased">
         <Spotlight className=" -top-10 -left-20  z-30" />
-        <div className="absolute h-full w-full bg-slate-950">
+        <div className="absolute h-full w-screen bg-slate-950">
           <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
         </div>
         <div className="absolute top-0 z-[-2] h-screen w-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"></div>
@@ -28,19 +28,6 @@ export default function Home() {
             <div className=" pt-40 text-5xl z-50 mx-auto font-normal text-neutral-600 dark:text-neutral-400">
               Мы&nbsp;разрабатываем
               <FlipWords words={words2} />
-            </div>
-            <div className="absolute z-40 h-96 w-96 flex items-center justify-center  overflow-hidden">
-              <MaskContainer
-                revealText={
-                  <p className="max-w-4xl mx-auto white text-center  text-4xl font-bold">
-                    AGJ
-                  </p>
-                }
-                className="h-[40rem] border rounded-md"
-              >
-                The f <span className="text-red-500">dfsf</span> is t{" "}
-                <span className="text-red-500">fdsf</span>.
-              </MaskContainer>
             </div>
           </div>
 

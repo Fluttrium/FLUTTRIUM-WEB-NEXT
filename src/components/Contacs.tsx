@@ -5,7 +5,7 @@ import { FaXTwitter } from 'react-icons/fa6';
 
 const SocialContacts = () => {
     return (
-        <div className="flex flex-wrap justify-center gap-5 p-5 bg-gray-100 rounded-lg md:gap-10 md:p-10">
+        <div id="contacs" className="flex flex-wrap justify-center gap-5 p-5 bg-gray-100 rounded-lg md:gap-10 md:p-10">
             <IconButton href="" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
                 <FaTelegramPlane className="text-black text-4xl md:text-6xl" />
             </IconButton>

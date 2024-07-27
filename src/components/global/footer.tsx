@@ -9,7 +9,14 @@ const Footer = (props: Props) => {
   return (
     <footer className="py-4 px-4 bg-black/40 backdrop-blur-lg flex items-center border-t-[1px] border-neutral-900 justify-between">
       <aside className="flex items-center gap-[2px]">
-        <p className="text-3xl font-bold">Fluttrium</p>
+        <p className="text-4xl font-bold">Fluttrium</p>
+        <Image
+          src="/fuzzieLogo.png"
+          width={15}
+          height={15}
+          alt="fuzzie logo"
+          className="shadow-sm"
+        />
         <Image
           src="/fuzzieLogo.png"
           width={15}
@@ -21,19 +28,16 @@ const Footer = (props: Props) => {
       <nav className="hidden md:block">
         <ul className="flex items-center gap-8 list-none">
           <li>
-            <Link href="#">Услуги</Link>
+            <Link href="#service">Услуги</Link>
           </li>
           <li>
-            <Link href="#">Портфолио</Link>
+            <Link href="#portfolio">Портфолио</Link>
           </li>
           <li>
-            <Link href="#">Технологии</Link>
+            <Link href="#technology">Технологии</Link>
           </li>
           <li>
-            <Link href="#">Документация</Link>
-          </li>
-          <li>
-            <Link href="#">Контакты</Link>
+            <Link href="#contacs">Контакты</Link>
           </li>
         </ul>
       </nav>

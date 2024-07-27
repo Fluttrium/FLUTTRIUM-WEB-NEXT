@@ -28,27 +28,27 @@ export function Form() {
           <form className="my-8" onSubmit={handleSubmit}>
             <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
               <LabelInputContainer>
-                <Label htmlFor="firstname">First name</Label>
+                <Label htmlFor="firstname">Имя</Label>
                 <Input id="firstname" placeholder="Tyler" type="text" />
               </LabelInputContainer>
               <LabelInputContainer>
-                <Label htmlFor="lastname">Last name</Label>
+                <Label htmlFor="lastname">Фамилия</Label>
                 <Input id="lastname" placeholder="Durden" type="text" />
               </LabelInputContainer>
             </div>
             <LabelInputContainer className="mb-4">
-              <Label htmlFor="email">Email Address</Label>
-              <Input id="email" placeholder="projectmayhem@fc.com" type="email" />
+              <Label htmlFor="email">Почта</Label>
+              <Input id="email" placeholder="example@.com" type="email" />
             </LabelInputContainer>
             <LabelInputContainer className="mb-4">
-              <Label htmlFor="phone">Phone</Label>
+              <Label htmlFor="phone">Телефон</Label>
               <Input id="phone" placeholder="+7 921 457 00 57" type="phone" />
             </LabelInputContainer>
             <LabelInputContainer className="mb-4">
               <Label htmlFor="idea">Расскажите о себе и о своей идее</Label>
               <textarea
                 id="idea"
-                placeholder="Your idea..."
+                placeholder="Ваша идея..."
                 className="border border-gray-300 rounded-md p-2 w-full h-32 resize-none"
               ></textarea>
             </LabelInputContainer>

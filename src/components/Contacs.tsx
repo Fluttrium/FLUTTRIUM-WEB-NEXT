@@ -5,35 +5,33 @@ import { FaXTwitter } from 'react-icons/fa6';
 
 const SocialContacts = () => {
     return (
-        <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', padding: '20px', backgroundColor: '#F5F5F7', borderRadius: '10px' }}>
+        <div className="flex flex-wrap justify-center gap-5 p-5 bg-gray-100 rounded-lg md:gap-10 md:p-10">
             <IconButton href="" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
-                <FaTelegramPlane size={48} color="#000000" />
+                <FaTelegramPlane className="text-black text-4xl md:text-6xl" />
             </IconButton>
             <IconButton href="" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
-                <FaWhatsapp size={48} color="#000000" />
+                <FaWhatsapp className="text-black text-4xl md:text-6xl" />
+            </IconButton>
+            <IconButton href="" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                <FaTiktok className="text-black text-4xl md:text-6xl" />
             </IconButton>
             <IconButton href="" target="_blank" rel="noopener noreferrer" aria-label="VK">
-                <FaTiktok size={48} color="#000000" />
-            </IconButton>
-            <IconButton href="" target="_blank" rel="noopener noreferrer" aria-label="VK">
-                <FaVk size={48} color="#000000" />
+                <FaVk className="text-black text-4xl md:text-6xl" />
             </IconButton>
             <IconButton href="" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <FaGithub size={48} color="#000000" />
+                <FaGithub className="text-black text-4xl md:text-6xl" />
             </IconButton>
             <IconButton href="" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                <FaInstagram size={48} color="#000000" />
+                <FaInstagram className="text-black text-4xl md:text-6xl" />
             </IconButton>
-            <IconButton href="" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                <FaXTwitter size={48} color="#000000" />
+            <IconButton href="" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                <FaXTwitter className="text-black text-4xl md:text-6xl" />
             </IconButton>
-            <IconButton href="" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                <FaFacebook size={48} color="#000000" />
+            <IconButton href="" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <FaFacebook className="text-black text-4xl md:text-6xl" />
             </IconButton>
-            </div>
+        </div>
     );
 }
 
 export default SocialContacts;
-
-

@@ -18,8 +18,8 @@ export function Form() {
 
   return (
     <div className="max-w-6xl w-full mx-auto p-4 md:p-8 shadow-input bg-white dark:bg-black mb-40 flex flex-col md:flex-row">
-      <div className="md:w-2/3 mb-8 md:mb-0 md:pr-8 flex items-center justify-center">
-        <p className="font-medium text-neutral-800 dark:text-neutral-200 text-4xl text-center">
+      <div className="hidden md:flex md:w-2/3 mb-8 md:mb-0 md:pr-8 items-center justify-center">
+        <p className="font-medium text-neutral-800 dark:text-neutral-200 text-2xl md:text-4xl text-center">
           Чем мы можем вам помочь? Кратко опишите запрос на разработку — мы свяжемся с вами в течение дня
         </p>
       </div>
@@ -92,7 +92,7 @@ const LabelInputContainer = ({
 export default function Page() {
   return (
     <>
-      <h1 className="text-4xl font-semibold text-black dark:text-white">
+      <h1 className="text-3xl md:text-4xl font-semibold text-black dark:text-white">
         Работаем с клиентами <br />
         <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
           по всему миру

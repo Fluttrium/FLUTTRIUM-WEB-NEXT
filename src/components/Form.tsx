@@ -18,8 +18,8 @@ export function Form() {
 
   return (
     <div className="max-w-6xl w-full mx-auto p-4 md:p-8 shadow-input bg-white dark:bg-black mb-40 flex flex-col md:flex-row">
-      <div className="md:w-2/3 mb-8 md:mb-0 md:pr-8 flex items-center justify-center">
-        <p className="font-medium text-neutral-800 dark:text-neutral-200 text-4xl text-center">
+      <div className="hidden md:flex md:w-2/3 mb-8 md:mb-0 md:pr-8 items-center justify-center">
+        <p className="font-medium text-neutral-800 dark:text-neutral-200 text-2xl md:text-4xl text-center">
           Чем мы можем вам помочь? Кратко опишите запрос на разработку — мы свяжемся с вами в течение дня
         </p>
       </div>
@@ -28,27 +28,27 @@ export function Form() {
           <form className="my-8" onSubmit={handleSubmit}>
             <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
               <LabelInputContainer>
-                <Label htmlFor="firstname">First name</Label>
+                <Label htmlFor="firstname">Имя</Label>
                 <Input id="firstname" placeholder="Tyler" type="text" />
               </LabelInputContainer>
               <LabelInputContainer>
-                <Label htmlFor="lastname">Last name</Label>
+                <Label htmlFor="lastname">Фамилия</Label>
                 <Input id="lastname" placeholder="Durden" type="text" />
               </LabelInputContainer>
             </div>
             <LabelInputContainer className="mb-4">
-              <Label htmlFor="email">Email Address</Label>
-              <Input id="email" placeholder="projectmayhem@fc.com" type="email" />
+              <Label htmlFor="email">Почта</Label>
+              <Input id="email" placeholder="example@.com" type="email" />
             </LabelInputContainer>
             <LabelInputContainer className="mb-4">
-              <Label htmlFor="phone">Phone</Label>
+              <Label htmlFor="phone">Телефон</Label>
               <Input id="phone" placeholder="+7 921 457 00 57" type="phone" />
             </LabelInputContainer>
             <LabelInputContainer className="mb-4">
               <Label htmlFor="idea">Расскажите о себе и о своей идее</Label>
               <textarea
                 id="idea"
-                placeholder="Your idea..."
+                placeholder="Ваша идея..."
                 className="border border-gray-300 rounded-md p-2 w-full h-32 resize-none"
               ></textarea>
             </LabelInputContainer>
@@ -92,7 +92,7 @@ const LabelInputContainer = ({
 export default function Page() {
   return (
     <>
-      <h1 className="text-4xl font-semibold text-black dark:text-white">
+      <h1 className="text-3xl md:text-4xl font-semibold text-black dark:text-white">
         Работаем с клиентами <br />
         <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
           по всему миру

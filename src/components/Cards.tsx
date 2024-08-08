@@ -5,9 +5,9 @@ import { HoverEffect } from "./ui/card-hover-effect";
 export function CardHoverEffectDemo() {
   return (
     <>
-    <div className="flex justify-center">
+    <div id="service" className="flex justify-center">
   <h1 className="text-4xl font-semibold text-black dark:text-white text-center">
-    <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none block">
+    <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none block mb-5">
     Рассказываем, как будем сотрудничать
     </span>
   </h1>

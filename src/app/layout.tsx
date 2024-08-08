@@ -6,8 +6,8 @@ import { ThemeProvider } from "@/providers/theme-provider";
 const inter = Roboto_Condensed({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "RentAPP",
-  description: "Автоматизируй бизнес с нами",
+  title: "Fluttrium",
+  description: "Развивайте бизнес с нами",
 };
 
 export default function RootLayout({

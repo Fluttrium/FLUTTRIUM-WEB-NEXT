@@ -9,6 +9,7 @@ import { TypewriterEffectSmoothDemo } from "@/components/Tehnology";
 import { FlipWords } from "@/components/ui/flip-words";
 import { GlareCard } from "@/components/ui/glare-card";
 import { Spotlight } from "@/components/ui/spotlight";
+import "@/app/globals.css";
 
 export default function Home() {
   const words2 = [
@@ -22,16 +23,16 @@ export default function Home() {
     <main className="overflow-hidden">
       <Navbar />
 
-      <section className="h-screen w-full bg-neutral-950 !overflow-hidden relative flex antialiased">
-        <Spotlight className="absolute z-50" />
+      <section className="  h-60p :h-screen w-full bg-neutral-950 !overflow-hidden relative flex antialiased">
+        <Spotlight className="hidden md:absolute z-50" />
 
         <div className="absolute h-full w-full bg-slate-950">
           <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
         </div>
 
-        <div className="flex flex-col md:flex-row mx-10  z-50 px-9 w-screen  justify-between items-center h-full">
+        <div className=" flex items-center justify-center md:flex flex-row mx-10  z-50 px-9 w-screen  md:justify-between md:items-center h-full">
           <div
-            className="relative text-7xl z-50 font-normal text-neutral-600 dark:text-neutral-400"
+            className="hidden  md:relative text-7xl z-50 font-normal text-neutral-600 dark:text-neutral-400"
             style={{ top: "-15%", transform: "translateY(-55%)" }}
           >
             Мы&nbsp;разрабатываем
@@ -39,7 +40,16 @@ export default function Home() {
               <FlipWords words={words2} />
             </div>
           </div>
-          <div className="flex flex-col gap-8">
+          <div
+            className="block  md:relative text-3xl z-50 font-normal text-neutral-600 dark:text-neutral-400"
+            style={{ top: "-15%", transform: "translateY(-55%)" }}
+          >
+            Мы&nbsp;разрабатываем
+            <div className="absolute top-full left-0 w-full mt-4">
+              <FlipWords words={words2} />
+            </div>
+          </div>
+          <div className="hidden  md:flex flex-col gap-8">
             <div className=" flex flex-row gap-8">
               <GlareCard
                 width="200px"

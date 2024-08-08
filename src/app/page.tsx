@@ -4,7 +4,7 @@ import SocialContacts from "@/components/Contacs";
 import { HeroScrollDemo } from "@/components/ContainerScroll";
 import Footer from "@/components/global/footer";
 import Navbar from "@/components/global/navbar";
-import { ThreeDCardDemo } from "@/components/Projects";
+import { ProjectsCards } from "@/components/Projects";
 import { TypewriterEffectSmoothDemo } from "@/components/Tehnology";
 import { FlipWords } from "@/components/ui/flip-words";
 import { GlareCard } from "@/components/ui/glare-card";
@@ -19,12 +19,13 @@ export default function Home() {
   ];
 
   return (
-    <main>
+    <main className="overflow-hidden">
       <Navbar />
 
-      <section className="h-screen w-screen bg-neutral-950 rounded-md !overflow-hidden relative flex antialiased">
+      <section className="h-screen w-full bg-neutral-950 !overflow-hidden relative flex antialiased">
         <Spotlight className="absolute z-50" />
-        <div className="absolute h-screen w-screen bg-slate-950">
+
+        <div className="absolute h-full w-full bg-slate-950">
           <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
         </div>
 
@@ -70,20 +71,19 @@ export default function Home() {
               >
                 <p className="font-bold text-white text-5xl">3</p>
                 <p className="font-medium text-2xl text-neutral-200 mt-7 ">
-                Обеспечим поддержку и развитие
+                  Обеспечим поддержку и развитие
                 </p>
               </GlareCard>
             </div>
           </div>
         </div>
       </section>
-      <ThreeDCardDemo />
-      <HeroScrollDemo/>
-      <TypewriterEffectSmoothDemo/>
+      <ProjectsCards />
+      <HeroScrollDemo />
+      <TypewriterEffectSmoothDemo />
       <CardHoverEffectDemo />
-      <AppleCardsCarouselDemo/>
-      <SocialContacts/>
-      <Footer/>
+      <AppleCardsCarouselDemo />
+      <SocialContacts />
     </main>
   );
 }

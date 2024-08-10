@@ -57,7 +57,7 @@ export function ProjectsCards() {
               className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
               Мы поддерживаем некоммерческие организации в их стремлении делать
-              мир лучше.
+              мир лучше
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-4">
               <Image
@@ -95,12 +95,11 @@ export function ProjectsCards() {
               translateZ="60"
               className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
-              Нужен профессиональный сайт, который выделит ваш бизнес среди
-              конкурентов и привлечет клиентов?
+              Мы разрабатываем профессиональный и уникальный сайт, который поможет вашему бизнесу выделиться среди конкурентов
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-4">
               <Image
-                src="/projects/case4.png"
+                src="/projects/biz.png"
                 height="1000"
                 width="1000"
                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
@@ -127,15 +126,14 @@ export function ProjectsCards() {
               translateZ="50"
               className="text-xl font-bold text-neutral-600 dark:text-white"
             >
-              Сайты для творческих деятелей
+              Приложения для корпораций
             </CardItem>
             <CardItem
               as="p"
               translateZ="60"
               className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
-              Мы предлагаем вдохновляющие идеи, ресурсы и возможности для
-              развития вашего творчества.
+              Мы разрабатываем масштабируемые и надежные платформы, адаптированные под уникальные нужды вашего бизнеса, чтобы обеспечить его успешное развитие и укрепление позиций в отрасли
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-4">
               <Image

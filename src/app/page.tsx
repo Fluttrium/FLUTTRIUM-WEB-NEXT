@@ -13,9 +13,10 @@ import "@/app/globals.css";
 
 export default function Home() {
   const words2 = [
-    "мобильные приложения для среднего бизнеса",
+    "мобильные приложения для вашего бизнеса",
     "веб приложения",
-    "дизайн",
+    "профессиональные сайты",
+    "уникалтный дизайн",
     "MVP для вашего стартапа",
   ];
 
@@ -90,7 +91,7 @@ export default function Home() {
       </section>
       <ProjectsCards />
       <HeroScrollDemo />
-      <TypewriterEffectSmoothDemo />
+      <TypewriterEffectSmoothDemo /> 
       <CardHoverEffectDemo />
       <AppleCardsCarouselDemo />
       <SocialContacts />

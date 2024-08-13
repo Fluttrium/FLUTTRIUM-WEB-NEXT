@@ -98,7 +98,7 @@ const data: {
   {
     category: "Приложения для корпораций",
     title: "Корпоративное такси",
-    src: "/fuzzieLogo.png",
+    src: "/projects/case6.png",
     content: (
       <DummyContent
         contentData={[
@@ -106,7 +106,7 @@ const data: {
             title: "Корпоративное такси",
             description:
               "Наш новый проект — корпоративное такси, разработанное для улучшения внутренней логистики компании. Удобный интерфейс и высокая функциональность.",
-            imageSrc: "/fuzzieLogo.png",
+            imageSrc: "/projects/case7.png",
             imageAlt: "Corporate taxi app mockup",
           },
         ]}

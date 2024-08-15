@@ -72,7 +72,7 @@ export function ProjectsCards() {
               <CardItem
                 translateZ={20}
                 as={Link}
-                href="projects/case3.png"
+                href="https://fond-synergy.ru/"
                 target="__blank"
                 className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
               >
@@ -110,7 +110,7 @@ export function ProjectsCards() {
               <CardItem
                 translateZ={20}
                 as={Link}
-                href="https://twitter.com/mannupaaji"
+                href="https://tcdobrynya.ru/"
                 target="__blank"
                 className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
               >
@@ -148,7 +148,7 @@ export function ProjectsCards() {
               <CardItem
                 translateZ={20}
                 as={Link}
-                href="https://twitter.com/mannupaaji"
+                href="/projects/case_dob.png"
                 target="__blank"
                 className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
               >

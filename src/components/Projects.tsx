@@ -36,13 +36,13 @@ export function ProjectsCards() {
     },
   ];
   return (
-    <section className=" w-screen !overflow-hidden">
+    <section className="  w-screen !overflow-hidden">
       <div className="-z-10 absolute h-full w-full bg-slate-950">
         <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
       </div>
-      <TypewriterEffect className="pt-5 h-2/3" words={words} />
+      <TypewriterEffect className="hidden md:block pt-5 h-32 md:mx-10 mt-12 mb-24 " words={words} />
 
-      <div className="px-9 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6  sm:mx-0">
+      <div className="px-9 my-7 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6  sm:mx-0">
         <CardContainer className="inter-var r mb-6 md:mb-0">
           <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-auto rounded-xl p-6 border">
             <CardItem
@@ -57,7 +57,7 @@ export function ProjectsCards() {
               className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
               Мы поддерживаем некоммерческие организации в их стремлении делать
-              мир лучше.
+              мир лучше
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-4">
               <Image
@@ -95,15 +95,14 @@ export function ProjectsCards() {
               translateZ="60"
               className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
-              Нужен профессиональный сайт, который выделит ваш бизнес среди
-              конкурентов и привлечет клиентов?
+              Мы разрабатываем профессиональный и уникальный сайт, который поможет вашему бизнесу выделиться среди конкурентов
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-4">
               <Image
-                src="/projects/case4.png"
+                src="/projects/case_dob.png"
                 height="1000"
                 width="1000"
-                className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                className= " h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                 alt="thumbnail"
               />
             </CardItem>
@@ -127,15 +126,14 @@ export function ProjectsCards() {
               translateZ="50"
               className="text-xl font-bold text-neutral-600 dark:text-white"
             >
-              Сайты для творческих деятелей
+              Приложения для корпораций
             </CardItem>
             <CardItem
               as="p"
               translateZ="60"
               className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
-              Мы предлагаем вдохновляющие идеи, ресурсы и возможности для
-              развития вашего творчества.
+              Мы разрабатываем масштабируемые и надежные платформы, адаптированные под уникальные нужды вашего бизнеса, чтобы обеспечить его успешное развитие и укрепление позиций в отрасли
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-4">
               <Image

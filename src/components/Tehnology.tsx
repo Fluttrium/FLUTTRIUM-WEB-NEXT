@@ -4,7 +4,7 @@ import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
 
 export function TypewriterEffectSmoothDemo() {
   const words = [
-    { text: "Coздаваем" },
+    { text: "Coздаём" },
     { text: "потрясающие" },
     { text: "приложения" },
     { text: "на" },

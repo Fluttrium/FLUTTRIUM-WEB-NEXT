@@ -62,7 +62,7 @@ const data: {
   {
     category: "Бизнес",
     title: "Сайт для Торгового Центра",
-    src: "/projects/Foto1.jpg",
+    src: "/projects/case_dob.png",
     content: (
       <DummyContent
         contentData={[
@@ -88,7 +88,7 @@ const data: {
             title: "Сайт для НКО СИНЕРГИЯ",
             description:
               "Мы разработали интуитивно понятный интерфейс и богатый функционал, который позволяет пользователям легко получать информацию, участвовать в активностях и взаимодействовать с организацией. Мы стремились создать пространство, которое не только отражает ценности и миссию «СИНЕРГИЯ», но и способствует более глубокому вовлечению и взаимодействию",
-            imageSrc: "/projects/case2.png",
+            imageSrc: "/projects/case3.png",
             imageAlt: "Project mockup for Synergy NGO",
           },
         ]}
@@ -111,6 +111,24 @@ const data: {
           },
         ]}
       />
+    ),
+  },
+  {
+    category: "Платформы для вашего бизнеса",
+    title: "Интернет магазин ножей",
+    src: "/projects/knifes.png",
+    content: (
+        <DummyContent
+            contentData={[
+              {
+                title: "Интернет магазин ножей",
+                description:
+                    "Наш новый проект интернет площадки для продажи ноже с регистрацией, оплатой онлайн и доставкой по всей России ",
+                imageSrc: "/projects/knifes.png",
+                imageAlt: "Corporate taxi app mockup",
+              },
+            ]}
+        />
     ),
   },
 ];

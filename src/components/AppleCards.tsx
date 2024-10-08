@@ -62,7 +62,7 @@ const data: {
   {
     category: "Бизнес",
     title: "Сайт для Торгового Центра",
-    src: "/projects/Foto1.jpg",
+    src: "/projects/case_dob.png",
     content: (
       <DummyContent
         contentData={[
@@ -88,7 +88,7 @@ const data: {
             title: "Сайт для НКО СИНЕРГИЯ",
             description:
               "Мы разработали интуитивно понятный интерфейс и богатый функционал, который позволяет пользователям легко получать информацию, участвовать в активностях и взаимодействовать с организацией. Мы стремились создать пространство, которое не только отражает ценности и миссию «СИНЕРГИЯ», но и способствует более глубокому вовлечению и взаимодействию",
-            imageSrc: "/projects/case2.png",
+            imageSrc: "/projects/case3.png",
             imageAlt: "Project mockup for Synergy NGO",
           },
         ]}
@@ -98,7 +98,7 @@ const data: {
   {
     category: "Приложения для корпораций",
     title: "Корпоративное такси",
-    src: "/fuzzieLogo.png",
+    src: "/projects/case6.png",
     content: (
       <DummyContent
         contentData={[
@@ -106,11 +106,29 @@ const data: {
             title: "Корпоративное такси",
             description:
               "Наш новый проект — корпоративное такси, разработанное для улучшения внутренней логистики компании. Удобный интерфейс и высокая функциональность.",
-            imageSrc: "/fuzzieLogo.png",
+            imageSrc: "/projects/case7.png",
             imageAlt: "Corporate taxi app mockup",
           },
         ]}
       />
+    ),
+  },
+  {
+    category: "Платформы для вашего бизнеса",
+    title: "Интернет магазин ножей",
+    src: "/projects/knifes.png",
+    content: (
+        <DummyContent
+            contentData={[
+              {
+                title: "Интернет магазин ножей",
+                description:
+                    "Наш новый проект интернет площадки для продажи ноже с регистрацией, оплатой онлайн и доставкой по всей России ",
+                imageSrc: "/projects/knifes.png",
+                imageAlt: "Corporate taxi app mockup",
+              },
+            ]}
+        />
     ),
   },
 ];

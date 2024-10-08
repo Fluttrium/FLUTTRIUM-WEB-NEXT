@@ -4,7 +4,7 @@ import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
 
 export function TypewriterEffectSmoothDemo() {
   const words = [
-    { text: "Coздаваем" },
+    { text: "Coздаём" },
     { text: "потрясающие" },
     { text: "приложения" },
     { text: "на" },
@@ -16,7 +16,7 @@ export function TypewriterEffectSmoothDemo() {
   ];
 
   return (
-    <div id="technology" className="flex flex-col items-center h-[20rem]">
+    <div id="technology" className="hidden md:flex flex-col items-center h-[20rem]">
       <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base">
         Дорога к свободе начинается отсюда
       </p>

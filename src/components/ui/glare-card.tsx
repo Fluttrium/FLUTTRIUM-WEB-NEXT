@@ -142,3 +142,47 @@ export const GlareCard = ({
     </div>
   );
 };
+
+// Компонент для маленьких карточек на мобильных экранах
+export const SmallGlareCard = ({
+  children,
+  className,
+  aspectRatio = "1/1", // квадратные карточки
+}: {
+  children: React.ReactNode;
+  className?: string;
+  aspectRatio?: string;
+}) => {
+  return (
+    <GlareCard
+      className={className}
+      width="50px" // Ширина маленькой карточки
+      height="50px" // Высота маленькой карточки
+      aspectRatio={aspectRatio}
+    >
+      {children}
+    </GlareCard>
+  );
+};
+
+// Пример использования
+export const ResponsiveGlareCard = ({
+  children,
+  className,
+  aspectRatio = "17/21",
+}: {
+  children: React.ReactNode;
+  className?: string;
+  aspectRatio?: string;
+}) => {
+  return (
+    <GlareCard
+      className={className}
+      width="100%"
+      height="auto"
+      aspectRatio={aspectRatio}
+    >
+      {children}
+    </GlareCard>
+  );
+};

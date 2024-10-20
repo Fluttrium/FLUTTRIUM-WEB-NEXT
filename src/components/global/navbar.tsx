@@ -3,67 +3,13 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { MenuIcon, XIcon } from "lucide-react"; // Удалили XIcon из основного рендера
-import MobileMenu from "./MobileMenu"; // Импорт мобильного меню
 
 type MenuItem = {
   title: string;
   children?: { title: string; route: string }[];
 };
 
-const menuItemsForBurger: MenuItem[] = [
-  {
-    title: "Услуги",
-    children: [
-      { title: "История", route: "/history" },
-      { title: "Цели и задачи", route: "/aim" },
-    ],
-  },
-  {
-    title: "Портфолио",
-    children: [
-      { title: "История", route: "/history" },
-      { title: "Цели и задачи", route: "/aim" },
-    ],
-  },
-  {
-    title: "Flutter",
-    children: [
-      { title: "История", route: "/history" },
-      { title: "Цели и задачи", route: "/aim" },
-    ],
-  },
-  
-  {
-    title: "Контакты",
-    children: [
-      { title: "История", route: "/history" },
-      { title: "Цели и задачи", route: "/aim" },
-    ],
-  },
-];
-
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen((prev) => !prev);
-  };
-
-  useEffect(() => {
-    // Закрыть меню при клике вне его
-    const handleClickOutside = (event: MouseEvent) => {
-      if (isMenuOpen && !(event.target as HTMLElement).closest('.mobile-menu')) {
-        setIsMenuOpen(false);
-      }
-    };
-
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, [isMenuOpen]);
-
   return (
     <header className="fixed right-0 left-0 top-0 py-4 px-4 bg-black/40 backdrop-blur-lg z-[100] flex items-center border-b-[1px] border-neutral-900 justify-between">
       <aside className="flex items-center gap-2">
@@ -105,19 +51,11 @@ const Navbar = () => {
             Связаться с нами
           </span>
         </Link>
-        {/* Бургер-меню иконка */}
-        <MenuIcon className="md:hidden cursor-pointer" onClick={toggleMenu} />
+        {/* Отображаем номер телефона для мобильной версии */}
+        <p className="md:hidden text-2xl font-semibold text-white">
+          +7(921)011-27-94
+        </p>
       </aside>
-
-      {isMenuOpen && (
-        <div className="mobile-menu fixed inset-0 bg-black/50 backdrop-blur-sm z-[999] flex flex-col">
-          {/* Блок крестика для закрытия меню справа */}
-          <div className="absolute top-4 right-4">
-            <XIcon className="w-8 h-8 cursor-pointer text-white" onClick={toggleMenu} />
-          </div>
-          <MobileMenu menuItems={menuItemsForBurger} toggleMenu={toggleMenu} />
-        </div>
-      )}
     </header>
   );
 };

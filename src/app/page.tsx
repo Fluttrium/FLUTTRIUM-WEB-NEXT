@@ -9,6 +9,7 @@ import { FlipWords } from "@/components/ui/flip-words";
 import { GlareCard } from "@/components/ui/glare-card";
 import { Spotlight } from "@/components/ui/spotlight";
 import "@/app/globals.css";
+import { FreeAudit } from "@/components/ui/audit";
 
 export default function Home() {
     const words2 = [
@@ -29,9 +30,9 @@ export default function Home() {
                     <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
                 </div>
 
-                <div className="flex flex-col items-center justify-center md:flex-row md:mx-10 z-50 px-4 w-full h-full mt-12">
+                <div className="flex flex-col items-center justify-center md:flex-row md:mx-10 z-50 px-4 w-full h-full">
                     {/* Элемент для больших экранов */}
-                    <div className="hidden md:block text-6xl z-50 font-normal text-neutral-600 dark:text-neutral-400 relative mt-[-30%]">
+                    <div className="hidden md:block text-6xl z-50 font-normal text-neutral-600 dark:text-neutral-400 relative">
                         Мы&nbsp;разрабатываем
                         <div className="absolute top-full left-0 w-full mt-4">
                             <FlipWords words={words2} />
@@ -39,7 +40,7 @@ export default function Home() {
                     </div>
 
                     {/* Элемент для маленьких экранов */}
-                    <div className="block md:hidden flex flex-col items-center text-center mt-20">
+                    <div className="block md:hidden flex flex-col items-center text-center">
                         <div className="text-4xl z-50 font-normal text-neutral-600 dark:text-neutral-400">
                             Мы&nbsp;разрабатываем
                         </div>
@@ -89,7 +90,7 @@ export default function Home() {
                     </div>
 
                     {/* Карточки для больших экранов */}
-                    <div className="hidden md:flex flex-col gap-10 ml-6 mt-20">
+                    <div className="hidden md:flex flex-col gap-10 ml-6">
                         <div className="flex flex-row gap-10">
                             <GlareCard
                                 width="220px"

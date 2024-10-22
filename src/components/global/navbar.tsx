@@ -31,6 +31,9 @@ const Navbar = () => {
             <Link href="#portfolio">Портфолио</Link>
           </li>
           <li>
+  <Link href="/flutter">Flutter</Link>
+</li>
+          <li>
             <Link href="#technology">Технологии</Link>
           </li>
           <li>

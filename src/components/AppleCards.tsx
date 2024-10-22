@@ -80,7 +80,7 @@ const data: {
   {
     category: "Некомерческие организации",
     title: "Сайт для НКО СИНЕРГИЯ",
-    src: "/projects/case2.png",
+    src: "/projects/case3.png",
     content: (
       <DummyContent
         contentData={[

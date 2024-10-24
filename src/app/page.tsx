@@ -24,7 +24,7 @@ export default function Home() {
         <main className="overflow-hidden">
             <Navbar />
             <section className="mp-10 h-auto md:h-screen w-full bg-neutral-950 !overflow-hidden relative flex antialiased">
-                <Spotlight className="absolute z-50" />
+                <Spotlight className="absolute" />
 
                 <div className="absolute h-full w-full bg-slate-950">
                     <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
@@ -129,10 +129,18 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+            <div className="relative z-50 -mt-20">
             <ProjectsCards />
+            </div>
+            <div className="relative z-50 -mt-40">
             <HeroScrollDemo />
+            </div>
+            <div className="relative z-50 -mt-40">
             <TypewriterEffectSmoothDemo />
+            </div>
+            <div className="relative z-50 -mt-20">
             <CardHoverEffectDemo />
+            </div>
             <AppleCardsCarouselDemo />
             <SocialContacts />
         </main>

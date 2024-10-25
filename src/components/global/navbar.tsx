@@ -43,7 +43,7 @@ const Navbar = ({ className }: { className?: string }) => {
               />
               <ProductItem
                 title="Приложение для корпораций"
-                href="https://tailwindmasterkit.com"
+                href="/corporation"
                 src="/flutter-10181843-8492733.png"
                 description="Production ready Tailwind css components for your next project"
               />
@@ -63,10 +63,10 @@ const Navbar = ({ className }: { className?: string }) => {
           </MenuItem>
           <MenuItem setActive={setActive} active={active} item="Цены">
             <div className="flex flex-col space-y-4 text-sm">
-              <HoveredLink href="/hobby">Базовый план</HoveredLink>
-              <HoveredLink href="/individual">Стандартный план</HoveredLink>
-              <HoveredLink href="/team">Премиум план</HoveredLink>
-              <HoveredLink href="/enterprise">Индивидуальные услуги</HoveredLink>
+              <HoveredLink href="/price/base">Базовый план</HoveredLink>
+              <HoveredLink href="/price/standart">Стандартный план</HoveredLink>
+              <HoveredLink href="/price/premium">Премиум план</HoveredLink>
+              <HoveredLink href="/price/individual">Индивидуальные услуги</HoveredLink>
             </div>
           </MenuItem>
           <MenuItem setActive={setActive} active={active} item="Контакты">

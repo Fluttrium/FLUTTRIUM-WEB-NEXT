@@ -49,7 +49,7 @@ const Navbar = ({ className }: { className?: string }) => {
               />
               <ProductItem
                 title="Интернет магазин"
-                href="https://gomoonbeam.com"
+                href="/internetshop"
                 src="/flutter-10181843-8492733.png"
                 description="Never write from scratch again. Go from idea to blog in minutes."
               />

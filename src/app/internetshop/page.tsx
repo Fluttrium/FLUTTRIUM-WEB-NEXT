@@ -1,0 +1,48 @@
+import AppleCardsCarouselDemo from "@/components/AppleCards";
+import { CardHoverEffectDemo } from "@/components/Cards";
+import SocialContacts from "@/components/Contacs";
+import { HeroScrollDemo } from "@/components/ContainerScroll";
+import Navbar from "@/components/global/navbar";
+import { ProjectsCards } from "@/components/Projects";
+import { TypewriterEffectSmoothDemo } from "@/components/Tehnology";
+import { FlipWords } from "@/components/ui/flip-words";
+import { GlareCard } from "@/components/ui/glare-card";
+import { Spotlight } from "@/components/ui/spotlight";
+import "@/app/globals.css";
+import { CoverDemo } from "@/components/ui/coverDemo";
+import FlutterInfo from "@/components/ui/blockText";
+import { Benefit } from "@/components/benefit";
+import { StickyScrollRevealDemo } from "@/components/ui/skill";
+import { ExperienceDemo } from "@/components/ui/expierence";
+import { PricingAndTimeline } from "@/components/ui/price";
+import { CardHoverEffectDemo3 } from "@/components/ui/Cards3";
+import { FreeAudit } from "@/components/ui/audit";
+import { FeedbackForm } from "@/components/ui/writeus";
+import RetailPage from "@/components/ui/retailpage";
+import { Advantage } from "@/components/ui/advantages";
+import { FunctionEx } from "@/components/ui/function";
+import BookDemo from "@/components/ui/bron";
+import Licence from "@/components/ui/licence";
+import InternetShopPage from "@/components/ui/internetshopPage";
+import { CardHoverEffectDemo6 } from "@/components/ui/Cards6";
+import { CardHoverEffectDemo7 } from "@/components/ui/Cards7";
+import NextDevelopmentCard2 from "@/components/ui/razrab2";
+import { FAQ } from "@/components/ui/faq";
+
+
+
+export default function Flutter() {
+    return (
+        <main className="overflow-hidden">
+            <Navbar />
+            <InternetShopPage/>
+            <div className="relative z-50">
+            <CardHoverEffectDemo6/>
+            </div>
+            <CardHoverEffectDemo7/>
+            <NextDevelopmentCard2/>
+            <FAQ/>
+            <FeedbackForm/>
+        </main>
+    );
+}

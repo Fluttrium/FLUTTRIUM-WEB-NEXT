@@ -82,13 +82,13 @@ const Navbar = ({ className }: { className?: string }) => {
           <div className="text-sm grid grid-cols-2 gap-10 p-4">
               <ProductItem
                 title="Flutter"
-                href=""
+                href="/flutter"
                 src="/flutter-10181843-8492733.png"
                 description="Prepare for tech interviews like never before."
               />
               <ProductItem
   title="Next JS"
-  href=""
+  href="/nextjs"
   src="/projects/nextjs-light.svg" // Заменил путь на светлую версию изображения
   description="Production ready Tailwind css components for your next project"
 />

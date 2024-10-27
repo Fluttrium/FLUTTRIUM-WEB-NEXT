@@ -55,7 +55,7 @@ const Navbar = ({ className }: { className?: string }) => {
               />
               <ProductItem
                 title="CRM система"
-                href="https://userogue.com"
+                href="/crm"
                 src="/flutter-10181843-8492733.png"
                 description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
               />

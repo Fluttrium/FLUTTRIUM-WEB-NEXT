@@ -5,7 +5,7 @@ import Link from "next/link";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "../ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import { IconButton } from "@mui/material";
-import { FaTelegramPlane } from "react-icons/fa";
+import { FaTelegramPlane, FaTiktok, FaGithub, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Navbar = ({ className }: { className?: string }) => {
   const [active, setActive] = useState<string | null>(null);
@@ -71,7 +71,24 @@ const Navbar = ({ className }: { className?: string }) => {
               <HoveredLink href="/price/individual">Индивидуальные услуги</HoveredLink>
             </div>
           </MenuItem>
-          <HoveredLink href="/flutter">Контакты</HoveredLink>
+          <MenuItem setActive={setActive} active={active} item="Контакты">
+          <IconButton href="https://t.me/fluttrium_official" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+        <FaTelegramPlane className="text-white text-4xl md:text-6xl" />
+      </IconButton>
+      <IconButton href="https://www.tiktok.com/@fluttrium" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+        <FaTiktok className="text-white text-4xl md:text-6xl" />
+      </IconButton>
+      <IconButton href="https://github.com/orgs/Fluttrium" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <FaGithub className="text-white text-4xl md:text-6xl" />
+      </IconButton>
+      <IconButton href="" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <FaInstagram className="text-white text-4xl md:text-6xl" />
+      </IconButton>
+      <IconButton href="https://www.youtube.com/channel/UCcBh05h-yxZOzXhnOz9ub5w" target="_blank" rel="noopener noreferrer" aria-label="Youtube">
+        <FaYoutube className="text-white text-4xl md:text-6xl" />
+      </IconButton>
+      <p className="text-sm font-semibold md:text-2xl mr-1 md:mr-2 text-center">+7(921)011-27-94</p>
+          </MenuItem>
           <MenuItem setActive={setActive} active={active} item="Технологии">
             <div className="text-sm grid grid-cols-2 gap-10 p-4">
               <ProductItem
@@ -92,9 +109,9 @@ const Navbar = ({ className }: { className?: string }) => {
       </nav>
 
       <aside className="flex items-center gap-2 md:gap-4">
-      <IconButton href="https://t.me/fluttrium_official" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
-                <FaTelegramPlane className="text-white text-4xl md:text-6xl" />
-            </IconButton>
+        <IconButton href="https://t.me/fluttrium_official" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+          <FaTelegramPlane className="text-white text-4xl md:text-6xl" />
+        </IconButton>
         <p className="text-sm font-semibold md:text-2xl mr-1 md:mr-2">+7(921)011-27-94</p>
         <Link
           href="/dashboard"

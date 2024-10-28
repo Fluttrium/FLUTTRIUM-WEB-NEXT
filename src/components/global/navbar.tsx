@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "../ui/navbar-menu";
 import { cn } from "@/lib/utils";
+import { IconButton } from "@mui/material";
+import { FaTelegramPlane } from "react-icons/fa";
 
 const Navbar = ({ className }: { className?: string }) => {
   const [active, setActive] = useState<string | null>(null);
@@ -90,6 +92,9 @@ const Navbar = ({ className }: { className?: string }) => {
       </nav>
 
       <aside className="flex items-center gap-2 md:gap-4">
+      <IconButton href="https://t.me/fluttrium_official" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+                <FaTelegramPlane className="text-white text-4xl md:text-6xl" />
+            </IconButton>
         <p className="text-sm font-semibold md:text-2xl mr-1 md:mr-2">+7(921)011-27-94</p>
         <Link
           href="/dashboard"

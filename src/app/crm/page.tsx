@@ -40,7 +40,7 @@ import NextDevelopmentCard3 from "@/components/ui/razrab3";
 export default function Flutter() {
     return (
         <main className="overflow-hidden">
-            <Navbar />
+            <Navbar/>
             <CrmPage/>
             <div className="relative z-50 -mt-40">
             <HeroParallaxDemo/>

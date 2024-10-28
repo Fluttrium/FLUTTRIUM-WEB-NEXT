@@ -23,16 +23,15 @@ export default function Home() {
     return (
         <main className="overflow-hidden">
             <Navbar />
-            <section className="mp-10 h-auto md:h-screen w-full bg-neutral-950 !overflow-hidden relative flex antialiased">
-                <Spotlight className="absolute" />
-
-                <div className="absolute h-full w-full bg-slate-950">
-                    <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
+            <section className="mp-10 h-auto md:h-screen w-full bg-neutral-950 relative flex antialiased overflow-hidden">
+                <Spotlight className="absolute top-0 left-0 z-[100] w-full h-full pointer-events-none" />
+                <div className="absolute inset-0 bg-slate-950 opacity-90">
+                    <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
                 </div>
 
-                <div className="flex flex-col items-center justify-center md:flex-row md:mx-10 z-50 px-4 w-full h-full">
+                <div className="relative z-50 flex flex-col items-center justify-center md:flex-row md:mx-10 px-4 w-full h-full">
                     {/* Элемент для больших экранов */}
-                    <div className="hidden md:block text-6xl z-50 font-normal text-neutral-600 dark:text-neutral-400 relative">
+                    <div className="hidden md:block text-6xl font-normal text-neutral-600 dark:text-neutral-400 relative">
                         Мы&nbsp;разрабатываем
                         <div className="absolute top-full left-0 w-full mt-4">
                             <FlipWords words={words2} />
@@ -41,7 +40,7 @@ export default function Home() {
 
                     {/* Элемент для маленьких экранов */}
                     <div className="block md:hidden flex flex-col items-center text-center">
-                        <div className="text-4xl z-50 font-normal text-neutral-600 dark:text-neutral-400">
+                        <div className="text-4xl font-normal text-neutral-600 dark:text-neutral-400">
                             Мы&nbsp;разрабатываем
                         </div>
                         <div className="mt-4">
@@ -130,16 +129,16 @@ export default function Home() {
                 </div>
             </section>
             <div className="relative z-50 -mt-20">
-            <ProjectsCards />
+                <ProjectsCards />
             </div>
             <div className="relative z-50 -mt-40">
-            <HeroScrollDemo />
+                <HeroScrollDemo />
             </div>
             <div className="relative z-50 -mt-40">
-            <TypewriterEffectSmoothDemo />
+                <TypewriterEffectSmoothDemo />
             </div>
             <div className="relative z-50 -mt-20">
-            <CardHoverEffectDemo />
+                <CardHoverEffectDemo />
             </div>
             <AppleCardsCarouselDemo />
             <SocialContacts />

@@ -8,7 +8,7 @@ import { TypewriterEffectSmoothDemo } from "@/components/Tehnology";
 import { FlipWords } from "@/components/ui/flip-words";
 import { GlareCard } from "@/components/ui/glare-card";
 import { Spotlight } from "@/components/ui/spotlight";
-import "@/app/globals.css";
+import "@/app/nextjs/globals.css";
 import { CoverDemo } from "@/components/ui/coverDemo";
 import FlutterInfo from "@/components/ui/blockText";
 import { Benefit } from "@/components/benefit";

@@ -43,19 +43,19 @@ const Navbar = ({ className }: { className?: string }) => {
               />
               <ProductItem
                 title="Приложение для корпораций"
-                href="https://tailwindmasterkit.com"
+                href="/corporation"
                 src="/flutter-10181843-8492733.png"
                 description="Production ready Tailwind css components for your next project"
               />
               <ProductItem
                 title="Интернет магазин"
-                href="https://gomoonbeam.com"
+                href="/internetshop"
                 src="/flutter-10181843-8492733.png"
                 description="Never write from scratch again. Go from idea to blog in minutes."
               />
               <ProductItem
                 title="CRM система"
-                href="https://userogue.com"
+                href="/crm"
                 src="/flutter-10181843-8492733.png"
                 description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
               />
@@ -63,10 +63,10 @@ const Navbar = ({ className }: { className?: string }) => {
           </MenuItem>
           <MenuItem setActive={setActive} active={active} item="Цены">
             <div className="flex flex-col space-y-4 text-sm">
-              <HoveredLink href="/hobby">Базовый план</HoveredLink>
-              <HoveredLink href="/individual">Стандартный план</HoveredLink>
-              <HoveredLink href="/team">Премиум план</HoveredLink>
-              <HoveredLink href="/enterprise">Индивидуальные услуги</HoveredLink>
+              <HoveredLink href="/price/base">Базовый план</HoveredLink>
+              <HoveredLink href="/price/standart">Стандартный план</HoveredLink>
+              <HoveredLink href="/price/premium">Премиум план</HoveredLink>
+              <HoveredLink href="/price/individual">Индивидуальные услуги</HoveredLink>
             </div>
           </MenuItem>
           <MenuItem setActive={setActive} active={active} item="Контакты">
@@ -82,13 +82,13 @@ const Navbar = ({ className }: { className?: string }) => {
           <div className="text-sm grid grid-cols-2 gap-10 p-4">
               <ProductItem
                 title="Flutter"
-                href=""
+                href="/flutter"
                 src="/flutter-10181843-8492733.png"
                 description="Prepare for tech interviews like never before."
               />
               <ProductItem
   title="Next JS"
-  href=""
+  href="/nextjs"
   src="/projects/nextjs-light.svg" // Заменил путь на светлую версию изображения
   description="Production ready Tailwind css components for your next project"
 />

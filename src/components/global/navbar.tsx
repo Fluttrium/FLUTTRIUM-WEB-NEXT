@@ -125,6 +125,7 @@ const Navbar = ({ className }: { className?: string }) => {
       </aside>
     </header>
   );
+
 };
 
 export function NavbarDemo() {

@@ -1,33 +1,44 @@
-import type { Metadata } from "next";
-import { Roboto_Condensed } from "next/font/google";
+import {Metadata} from "next";
+import {Roboto_Condensed} from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/providers/theme-provider";
-import { Analytics } from '@vercel/analytics/react';
-const inter = Roboto_Condensed({ subsets: ["latin"] });
+import {ThemeProvider} from "@/providers/theme-provider";
+import {Analytics} from '@vercel/analytics/react';
+import {NextIntlClientProvider} from 'next-intl';
+import {useLanguage} from "@/store"; // Импортируйте хранилище
+import {cookies} from 'next/headers';
+
+const inter = Roboto_Condensed({subsets: ["latin"]});
 
 export const metadata: Metadata = {
-  title: "Fluttrium",
-  description: "Развивайте бизнес с нами",
+    title: "Fluttrium",
+    description: "Развивайте бизнес с нами",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="ru">
-      <body className={inter.className}>
+export default async function RootLayout({
+                                             children,
+                                         }: Readonly<{ children: React.ReactNode }>) {
+    // Проверяем язык в куки
+    const cookieStore = cookies();
+    const language = cookieStore.get('language')?.value || 'en'; // Устанавливаем значение по умолчанию на 'en'
+
+    // Импортируем сообщения на основе текущего языка
+    const messages = await import(`../../messages/${language}.json`).then(module => module.default);
+
+    return (
+        <html lang={language}>
+        <body className={inter.className}>
         <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          enableSystem
-          disableTransitionOnChange
+            attribute="class"
+            defaultTheme="dark"
+            enableSystem
+            disableTransitionOnChange
         >
-          {children}
+            <NextIntlClientProvider messages={messages}>
+                {children}
+            </NextIntlClientProvider>
         </ThemeProvider>
-        <Analytics />
-      </body>
-    </html>
-  );
+        <Analytics/>
+        </body>
+        </html>
+    );
 }

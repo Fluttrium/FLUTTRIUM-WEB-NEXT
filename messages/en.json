@@ -1,0 +1,15 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "hero_1": "We",
+    "hero_2": "develop",
+    "words1": "mobile applications for your business",
+    "words2": "web applications",
+    "words3": "professional websites",
+    "words4": "unique design",
+    "words5": "MVP for your startup",
+    "hero_card1": "Conduct an interview and create a technical specification",
+    "hero_card2": "Develop your product",
+    "hero_card3": "Provide support and development"
+  }
+}

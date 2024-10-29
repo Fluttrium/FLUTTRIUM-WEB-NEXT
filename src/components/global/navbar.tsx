@@ -12,7 +12,7 @@ import {useTranslations} from "use-intl";
 
 
 const Navbar = ({className}: { className?: string }) => {
-    const t =useTranslations('navbar')
+    const t = useTranslations('navbar')
     const [active, setActive] = useState<string | null>(null);
     const {language, setLanguage} = useLanguage();
     const router = useRouter();
@@ -134,7 +134,8 @@ const Navbar = ({className}: { className?: string }) => {
                     <DropdownMenuTrigger className='text-3xl'>
                         {language === "en" ? "EN" : "RU"}
                     </DropdownMenuTrigger>
-                    <DropdownMenuContent className='mt-4 flex flex-col bg-black/40 backdrop-blur-lg z-[100] items-center'>
+                    <DropdownMenuContent
+                        className='mt-4 flex flex-col bg-black/40 backdrop-blur-lg z-[100] items-center'>
                         <DropdownMenuItem
 
                             className='text-3xl flex flex-col items-center'

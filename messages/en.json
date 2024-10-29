@@ -8,8 +8,49 @@
     "words3": "professional websites",
     "words4": "unique design",
     "words5": "MVP for your startup",
-    "hero_card1": "Conduct an interview and create a technical specification",
-    "hero_card2": "Develop your product",
-    "hero_card3": "Provide support and development"
+    "hero_card1": "We will conduct an interview and create a specification",
+    "hero_card2": "We will develop your product",
+    "hero_card3": "We will provide support and development"
+  },
+  "ProjectCard": {
+    "tapeword1": "Implement",
+    "tapeword2": "any",
+    "tapeword3": "your",
+    "tapeword4": "idea",
+    "tapeword5": "together",
+    "tapeword6": "with",
+    "tapeword7": "the company",
+    "tapeword8": "FLUTTRIUM",
+    "titlecard1": "Websites for non-profit organizations",
+    "titlecard2": "Websites for business",
+    "titlecard3": "Applications for corporations",
+    "titlecard4": "We create platforms for your business",
+    "titledisc1": "We support non-profit organizations in their quest to make the world a better place",
+    "titledisc2": "We develop a professional and unique website that helps your business stand out from the competition",
+    "titledisc3": "We develop scalable and reliable platforms tailored to the unique needs of your business.",
+    "titledisc4": "We create powerful and flexible e-commerce solutions, providing a full set of tools for effective business management.",
+    "cardButton": "Order now →"
+  },
+  "formSection": {
+    "formTitle1": "We work with clients",
+    "formTitle2": "around the world"
+  },
+  "beetween": {
+    "title1": "Creating",
+    "title2": "amazing",
+    "title3": "applications",
+    "title4": "on",
+    "title5": "the Flutter framework",
+    "road": "The road to freedom begins here",
+    "button": "Contact us"
+  },
+  "navbar": {
+    "mainNavItm1": "Services",
+    "mainNavItm2": "Flutter",
+    "mainNavItm3": "Products",
+    "mainNavItm4": "Prices",
+    "mainNavItm5": "Contacts",
+    "mainNavItm6": "Technologies",
+    "navMainButton": "Fill out the brief"
   }
 }

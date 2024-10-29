@@ -44,5 +44,15 @@
     "title6": "Flutter",
     "road": "Дорога к свободе начинается отсюда",
     "button": "связаться с нами"
+  },
+  "navbar": {
+    "mainNavItm1": "Услги",
+    "mainNavItm2": "Флаттер",
+    "mainNavItm3": "Продукты",
+    "mainNavItm4": "Цены",
+    "mainNavItm5": "Контакты",
+    "mainNavItm6": "Технологии",
+    "navMainButton": "Заполнить бриф"
+
   }
 }

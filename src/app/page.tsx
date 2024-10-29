@@ -12,6 +12,7 @@ import {Spotlight} from "@/components/ui/spotlight";
 import "@/app/globals.css";
 import {FreeAudit} from "@/components/ui/audit";
 import {useTranslations} from "use-intl";
+import "@/app/globals.css";
 
 export default function Home() {
     const t = useTranslations('HomePage');
@@ -37,12 +38,15 @@ export default function Home() {
     );
 
     return (
-        <main className="overflow-hidden">
+        <main className="overflow-hidden relative">
 
             <Navbar/>
             <section
-                className="mp-10 h-auto md:h-screen w-full bg-neutral-950 !overflow-hidden relative flex antialiased">
-                <Spotlight className="absolute z-50"/>
+                className=" relative mp-10 h-auto md:h-screen w-full bg-neutral-950 !overflow-hidden  flex antialiased">
+                <Spotlight
+                    className="absolute z-50 top-0 right-40 "
+                    fill="white"
+                />
 
                 <div className="absolute h-full w-full bg-slate-950">
                     <div
@@ -51,7 +55,7 @@ export default function Home() {
                 </div>
 
                 <div className="relative z-50 flex flex-col items-center justify-center md:flex-row md:mx-10 px-4 w-full h-full">
-                    {/* Элемент для больших экранов */}
+
 
                     <div
                         className="hidden md:block text-6xl z-50 font-normal text-neutral-600 dark:text-neutral-400 relative">
@@ -62,7 +66,7 @@ export default function Home() {
                         </div>
                     </div>
 
-                    {/* Элемент для маленьких экранов */}
+
                     <div className="block md:hidden flex flex-col items-center text-center">
 
                         <div className="text-4xl z-50 font-normal text-neutral-600 dark:text-neutral-400">
@@ -74,7 +78,7 @@ export default function Home() {
                         </div>
                     </div>
 
-                    {/* Карточки для мобильных экранов */}
+
                     <div className="flex flex-col justify-center gap-2 mt-10 md:hidden">
                         <div className="flex flex-row justify-center gap-2">
                             {renderGlareCard(1, t('hero_card1'))}
@@ -94,7 +98,7 @@ export default function Home() {
                         </div>
                     </div>
 
-                    {/* Карточки для больших экранов */}
+
                     <div className="hidden md:flex flex-col gap-10 ml-6">
                         <div className="flex flex-row gap-10">
                             {renderGlareCard(1, t('hero_card1'))}
@@ -114,7 +118,9 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+
             </section>
+
 
             <div className="relative z-50 -mt-20">
                 <ProjectsCards />
@@ -130,6 +136,7 @@ export default function Home() {
             </div>
             <AppleCardsCarouselDemo />
             <SocialContacts />
+
 
         </main>
     );

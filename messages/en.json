@@ -8,7 +8,7 @@
     "words3": "professional websites",
     "words4": "unique design",
     "words5": "MVP for your startup",
-    "hero_card1": "We will conduct an interview and create a specification",
+    "hero_card1": "We will conduct interviews and create technical specifications",
     "hero_card2": "We will develop your product",
     "hero_card3": "We will provide support and development"
   },
@@ -21,18 +21,18 @@
     "tapeword6": "with",
     "tapeword7": "the company",
     "tapeword8": "FLUTTRIUM",
-    "titlecard1": "Websites for non-profit organizations",
-    "titlecard2": "Websites for business",
-    "titlecard3": "Applications for corporations",
+    "titlecard1": "Websites for Nonprofit Organizations",
+    "titlecard2": "Websites for Business",
+    "titlecard3": "Applications for Corporations",
     "titlecard4": "We create platforms for your business",
-    "titledisc1": "We support non-profit organizations in their quest to make the world a better place",
+    "titledisc1": "We support nonprofit organizations in their efforts to make the world a better place",
     "titledisc2": "We develop a professional and unique website that helps your business stand out from the competition",
-    "titledisc3": "We develop scalable and reliable platforms tailored to the unique needs of your business.",
-    "titledisc4": "We create powerful and flexible e-commerce solutions, providing a full set of tools for effective business management.",
+    "titledisc3": "We create scalable and reliable platforms tailored to the unique needs of your business.",
+    "titledisc4": "We develop powerful and flexible solutions for e-commerce, providing a complete set of tools for effective business management.",
     "cardButton": "Order now →"
   },
   "formSection": {
-    "formTitle1": "We work with clients",
+    "formTitle1": "Working with clients",
     "formTitle2": "around the world"
   },
   "beetween": {
@@ -40,9 +40,10 @@
     "title2": "amazing",
     "title3": "applications",
     "title4": "on",
-    "title5": "the Flutter framework",
-    "road": "The road to freedom begins here",
-    "button": "Contact us"
+    "title5": "the framework",
+    "title6": "Flutter",
+    "road": "The road to freedom starts here",
+    "button": "contact us"
   },
   "navbar": {
     "mainNavItm1": "Services",
@@ -52,5 +53,57 @@
     "mainNavItm5": "Contacts",
     "mainNavItm6": "Technologies",
     "navMainButton": "Fill out the brief"
+  },
+  "MainForm": {
+    "FormDisc": "How can we help you? Briefly describe your development request — we will get back to you within a day.",
+    "label1": "Name",
+    "label2": "Surname",
+    "label3": "Email",
+    "label4": "Phone",
+    "label5": "Tell us about yourself and your idea",
+    "formButton": "Send",
+    "placeHold": "Your idea.."
+  },
+  "Sotr": {
+    "How": "We explain how we will cooperate",
+    "title1": "Full cycle of mobile application development",
+    "description1": "From idea to implementation — we engage in mobile application development for iOS and Android. We create intuitive and highly effective applications that attract users and help your business reach new heights.",
+    "title2": "Design that inspires",
+    "description2": "We develop unique and appealing designs for both mobile applications and accompanying websites. Our goal is to make your application and website visually attractive and user-friendly.",
+    "title3": "Responsive websites for your application",
+    "description3": "Create the perfect online presence for your mobile application. We develop responsive websites that look great on all devices and effectively showcase your application.",
+    "title4": "Integration of application and website",
+    "description4": "We ensure seamless integration between your mobile application and website. This includes data synchronization, the ability to log in via the website, and interaction between the two platforms.",
+    "title5": "Optimization and SEO",
+    "description5": "Increase the visibility of your application in search engines with our SEO services. We optimize your website to attract the target audience and ensure better promotion of your application online.",
+    "title6": "Support and analytics",
+    "description6": "We provide support and maintenance services for your applications and websites. We also implement analytics systems so you can track performance, analyze user behavior, and gain valuable insights to improve your product."
+  },
+  "Projects": {
+    "casesTitle": "Our cases",
+    "case1": {
+      "category": "Business",
+      "title": "Website for a Shopping Center",
+      "description": "We are pleased to present our new project — a modern and interactive website for the shopping center 'Dobrynya'. As part of this project, our team worked on creating a unique online platform that not only reflects the style and atmosphere of the shopping center but also provides a convenient interface for its visitors.",
+      "imageAlt": "Macbook mockup from Aceternity UI"
+    },
+    "case2": {
+      "category": "Nonprofit Organizations",
+      "title": "Website for NGO SYNERGY",
+      "description": "We developed an intuitive interface and rich functionality that allows users to easily access information, participate in activities, and interact with the organization. We aimed to create a space that not only reflects the values and mission of 'SYNERGY' but also fosters deeper engagement and interaction.",
+      "imageAlt": "Project mockup for NGO SYNERGY"
+    },
+    "case3": {
+      "category": "Corporate Applications",
+      "title": "Corporate Taxi",
+      "description": "Our new project — a corporate taxi designed to improve the internal logistics of the company. A user-friendly interface and high functionality.",
+      "imageAlt": "Corporate taxi application mockup"
+    },
+    "case4": {
+      "category": "Platforms for Your Business",
+      "title": "Online Knife Store",
+      "description": "Our new project is an online platform for selling knives with registration, online payment, and delivery across Russia.",
+      "imageAlt": "Online knife store mockup"
+    }
   }
 }

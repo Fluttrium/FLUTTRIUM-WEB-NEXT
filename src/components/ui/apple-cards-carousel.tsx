@@ -106,7 +106,7 @@ export const Carousel = ({items, initialScroll = 0}: CarouselProps) => {
                     <div
                         className={cn(
                             "flex flex-row justify-start gap-4 pl-4",
-                            "max-w-7xl mx-auto"
+                            "max-w-7xl mx-auto" // remove max-w-4xl if you want the carousel to span the full width of its container
                         )}
                     >
                         {items.map((item, index) => (
@@ -126,14 +126,14 @@ export const Carousel = ({items, initialScroll = 0}: CarouselProps) => {
                                     },
                                 }}
                                 key={"card" + index}
-                                className="last:pr-[5%] md:last:pr-[33%] rounded-3xl"
+                                className="last:pr-[5%] md:last:pr-[33%]  rounded-3xl"
                             >
                                 {item}
                             </motion.div>
                         ))}
                     </div>
                 </div>
-                <div className="hidden md:flex justify-end gap-2 mr-10"> {/* Скрыть на мобильных устройствах */}
+                <div className="flex justify-end gap-2 mr-10">
                     <button
                         className="relative z-40 h-10 w-10 rounded-full bg-gray-100 flex items-center justify-center disabled:opacity-50"
                         onClick={scrollLeft}
@@ -150,7 +150,6 @@ export const Carousel = ({items, initialScroll = 0}: CarouselProps) => {
                     </button>
                 </div>
             </div>
-
         </CarouselContext.Provider>
     );
 };
@@ -200,47 +199,44 @@ export const Card = ({
         <>
             <AnimatePresence>
                 {open && (
-                    <div className="fixed inset-0 h-screen z-50 overflow-auto">
+                    <motion.div
+                        initial={{opacity: 0, scale: 0.9}}
+                        animate={{opacity: 1, scale: 1}}
+                        exit={{opacity: 0, scale: 0.9}}
+                        className="fixed inset-0 z-50 overflow-auto bg-black/80 backdrop-blur-lg"
+                    >
                         <motion.div
-                            initial={{opacity: 0}}
-                            animate={{opacity: 1}}
-                            exit={{opacity: 0}}
-                            className="bg-black/80 backdrop-blur-lg h-full w-full fixed inset-0"
-                        />
-                        <motion.div
-                            initial={{opacity: 0}}
-                            animate={{opacity: 1}}
-                            exit={{opacity: 0}}
-                            ref={containerRef}
-                            layoutId={layout ? `card-${card.title}` : undefined}
-                            className="max-w-5xl mx-auto bg-white dark:bg-neutral-900 h-fit pt-11 px-4 z-[60] my-10  md:p-10 rounded-3xl font-sans relative"
+                            initial={{opacity: 0, y: 50}}
+                            animate={{opacity: 1, y: 0}}
+                            exit={{opacity: 0, y: 50}}
+                            className="flex items-center justify-center min-h-screen"
                         >
-                            <button
-                                className="sticky top-4 h-8 w-8 right-0 ml-auto bg-black dark:bg-white rounded-full flex items-center justify-center"
-                                onClick={handleClose}
+                            <div
+                                ref={containerRef}
+                                className="relative bg-white dark:bg-neutral-900 w-full max-w-5xl p-10 mx-4 rounded-3xl font-sans"
                             >
-                                <IconX className="h-6 w-6 text-neutral-100 dark:text-neutral-900"/>
-                            </button>
-                            <motion.p
-                                layoutId={layout ? `category-${card.title}` : undefined}
-                                className="text-base font-medium text-black dark:text-white"
-                            >
-                                {card.category}
-                            </motion.p>
-                            <motion.p
-                                layoutId={layout ? `title-${card.title}` : undefined}
-                                className="text-2xl md:text-5xl font-semibold text-neutral-700 mt-4 dark:text-white"
-                            >
-                                {card.title}
-                            </motion.p>
-                            <div className="py-10">{card.content}</div>
+                                <button
+
+                                    className="absolute top-4 right-4 h-8 w-8 bg-black dark:bg-white rounded-full flex items-center justify-center"
+                                >
+                                    <IconX className="text-neutral-100 dark:text-neutral-900"/>
+                                </button>
+                                <motion.p className="text-lg font-medium text-neutral-500">
+                                    {card.category}
+                                </motion.p>
+                                <motion.h2 className="mt-4 text-3xl font-bold text-neutral-800 dark:text-white">
+                                    {card.title}
+                                </motion.h2>
+                                <div className="mt-6">{card.content}</div>
+                            </div>
                         </motion.div>
-                    </div>
+                    </motion.div>
                 )}
             </AnimatePresence>
+
             <motion.button
                 layoutId={layout ? `card-${card.title}` : undefined}
-                onClick={handleOpen}
+
                 className="rounded-3xl bg-gray-100 dark:bg-neutral-900 h-80 w-56 md:h-[40rem] md:w-96 overflow-hidden flex flex-col items-start justify-start relative z-10"
             >
                 <div
@@ -282,7 +278,7 @@ export const BlurImage = ({
     return (
         <Image
             className={cn(
-                "transition duration-300",
+                " h-full w-full mx-auto object-contain",
                 isLoading ? "blur-sm" : "blur-0",
                 className
             )}

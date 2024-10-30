@@ -1,25 +1,33 @@
 "use client";
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import Image from "next/image";
 import Link from "next/link";
 import {HoveredLink, Menu, MenuItem, ProductItem} from "../ui/navbar-menu";
 import {IconButton} from "@mui/material";
 import {FaGithub, FaInstagram, FaTelegramPlane, FaTiktok, FaYoutube} from "react-icons/fa";
-import {DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger,} from "@/components/ui/dropdown-menu"
+import {DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger} from "@/components/ui/dropdown-menu";
 import {useLanguage} from "@/store";
 import {useRouter} from "next/navigation";
 import {useTranslations} from "use-intl";
 
-
 const Navbar = ({className}: { className?: string }) => {
-    const t = useTranslations('navbar')
+    const t = useTranslations('navbar');
     const [active, setActive] = useState<string | null>(null);
     const {language, setLanguage} = useLanguage();
     const router = useRouter();
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
     const handleChangeLanguage = (value: string) => {
         setLanguage(value);
         router.refresh(); // Перезагрузка страницы для применения изменений
     };
+
+    if (!isClient) return null;
+
     return (
         <header
             className="fixed right-0 left-0 top-0 py-4 px-4 bg-black/40 backdrop-blur-lg z-[100] flex items-center border-b-[1px] border-neutral-900 justify-between">
@@ -37,6 +45,7 @@ const Navbar = ({className}: { className?: string }) => {
             <nav
                 className="absolute left-[50%] top-[50%] transform translate-x-[-50%] translate-y-[-50%] hidden md:block">
                 <Menu setActive={setActive}>
+
                     <MenuItem setActive={setActive} active={active} item={t('mainNavItm1')}>
                         <div className="flex flex-col space-y-4 text-sm">
                             <HoveredLink href="#service">Разработка веб-сайтов</HoveredLink>
@@ -111,7 +120,7 @@ const Navbar = ({className}: { className?: string }) => {
                                 title="Flutter"
                                 href="/flutter"
                                 src="/flutter-10181843-8492733.png"
-                                description="Cовременный фреймворк от Google для разработки нативных приложений на мобильных устройствах"
+                                description="Современный фреймворк от Google для разработки нативных приложений на мобильных устройствах"
                             />
                             <ProductItem
                                 title="Next JS"
@@ -125,11 +134,9 @@ const Navbar = ({className}: { className?: string }) => {
             </nav>
 
             <div className="flex items-center gap-2 md:gap-4">
-                <div>
-                    {language === "ru" && (
-                        <div className="text-sm font-semibold md:text-2xl mr-1 md:mr-2">+7(921)011-27-94</div>
-                    )}
-                </div>
+                {language === "ru" && (
+                    <div className="text-sm font-semibold md:text-2xl mr-1 md:mr-2">+7(921)011-27-94</div>
+                )}
                 <DropdownMenu>
                     <DropdownMenuTrigger className='text-3xl'>
                         {language === "en" ? "EN" : "RU"}
@@ -137,33 +144,21 @@ const Navbar = ({className}: { className?: string }) => {
                     <DropdownMenuContent
                         className='mt-4 flex flex-col bg-black/40 backdrop-blur-lg z-[100] items-center'>
                         <DropdownMenuItem
-
                             className='text-3xl flex flex-col items-center'
-                            onClick={() => {
-                                setLanguage('en');
-                                handleChangeLanguage('en')
-                            }}
+                            onClick={() => handleChangeLanguage('en')}
                         >
                             EN
-                            {language === "en" && (
-                                <div className='h-1 bg-white w-full mt-1'></div>
-                            )}
+                            {language === "en" && <div className='h-1 bg-white w-full mt-1'></div>}
                         </DropdownMenuItem>
                         <DropdownMenuItem
                             className='text-3xl flex flex-col items-center'
-                            onClick={() => {
-                                setLanguage('ru');
-                                handleChangeLanguage('ru');
-                            }}
+                            onClick={() => handleChangeLanguage('ru')}
                         >
                             RU
-                            {language === "ru" && (
-                                <div className='h-1 bg-white w-full mt-1'></div>
-                            )}
+                            {language === "ru" && <div className='h-1 bg-white w-full mt-1'></div>}
                         </DropdownMenuItem>
                     </DropdownMenuContent>
                 </DropdownMenu>
-
 
                 <Link
                     href="/dashboard"
@@ -173,24 +168,12 @@ const Navbar = ({className}: { className?: string }) => {
                         className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"/>
                     <span
                         className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 md:px-6 py-1 md:py-2 text-xs md:text-base font-semibold text-white backdrop-blur-3xl">
-            {t('navMainButton')}
-          </span>
+                    {t('navMainButton')}
+                    </span>
                 </Link>
             </div>
         </header>
     );
-
 };
-
-export function NavbarDemo() {
-    return (
-        <div className="relative w-full flex items-center justify-center">
-            <Navbar className="top-2"/>
-            <p className="text-black dark:text-white">
-                The Navbar will show on top of the page
-            </p>
-        </div>
-    );
-}
 
 export default Navbar;

@@ -19,10 +19,8 @@ export function TypewriterEffectSmoothDemo() {
   ];
 
   return (
-    <div id="technology" className="hidden md:flex flex-col items-center h-[20rem]">
-      <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base">
-          {t('road')}
-      </p>
+    <div id="technology" className="hidden pt-11 md:flex flex-col items-center h-[20rem]">
+
       <TypewriterEffectSmooth words={words} />
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
       <a href="https://t.me/fluttrium" target="_blank" rel="noopener noreferrer">

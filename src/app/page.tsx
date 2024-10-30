@@ -38,7 +38,7 @@ export default function Home() {
     );
 
     return (
-        <main className="overflow-hidden relative">
+        <main className="overflow-hidden ">
 
             <Navbar/>
             <section

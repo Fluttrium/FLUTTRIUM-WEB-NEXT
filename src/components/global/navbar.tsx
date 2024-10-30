@@ -139,7 +139,7 @@ const Navbar = ({className}: { className?: string }) => {
                 )}
                 <DropdownMenu>
                     <DropdownMenuTrigger className='text-3xl'>
-                        {language === "en" ? "EN" : "RU"}
+                        {language === "en" ? "EN" : language === "ru" ? "RU" : "CZ"}
                     </DropdownMenuTrigger>
                     <DropdownMenuContent
                         className='mt-4 flex flex-col bg-black/40 backdrop-blur-lg z-[100] items-center'>
@@ -157,8 +157,16 @@ const Navbar = ({className}: { className?: string }) => {
                             RU
                             {language === "ru" && <div className='h-1 bg-white w-full mt-1'></div>}
                         </DropdownMenuItem>
+                        <DropdownMenuItem
+                            className='text-3xl flex flex-col items-center'
+                            onClick={() => handleChangeLanguage('cz')}
+                        >
+                            CZ
+                            {language === "cz" && <div className='h-1 bg-white w-full mt-1'></div>}
+                        </DropdownMenuItem>
                     </DropdownMenuContent>
                 </DropdownMenu>
+
 
                 <Link
                     href="/dashboard"

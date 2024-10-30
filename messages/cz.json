@@ -1,0 +1,109 @@
+{
+  "HomePage": {
+    "title": "Ahoj světe!",
+    "hero_1": "My",
+    "hero_2": "vyvíjíme",
+    "words1": "mobilní aplikace pro váš byznys",
+    "words2": "webové aplikace",
+    "words3": "profesionální webové stránky",
+    "words4": "unikátní design",
+    "words5": "MVP pro váš startup",
+    "hero_card1": "Provedeme rozhovor a sestavíme TDD",
+    "hero_card2": "Vyvineme váš produkt",
+    "hero_card3": "Zajistíme podporu a rozvoj"
+  },
+  "ProjectCard": {
+    "tapeword1": "Realizujte",
+    "tapeword2": "jakoukoliv",
+    "tapeword3": "vaši",
+    "tapeword4": "myšlenku",
+    "tapeword5": "společně",
+    "tapeword6": "s",
+    "tapeword7": "firmou",
+    "tapeword8": "FLUTTRIUM",
+    "titlecard1": "Webové stránky pro neziskové organizace",
+    "titlecard2": "Webové stránky pro byznys",
+    "titlecard3": "Aplikace pro korporace",
+    "titlecard4": "Vytváříme platformy pro váš byznys",
+    "titledisc1": "Podporujeme neziskové organizace v jejich úsilí udělat svět lepším místem",
+    "titledisc2": "Vyvíjíme profesionální a unikátní web, který pomůže vašemu byznysu vyniknout mezi konkurencí",
+    "titledisc3": "Vyvíjíme škálovatelné a spolehlivé platformy přizpůsobené unikátním potřebám vašeho byznysu.",
+    "titledisc4": "Vyvíjíme mocná a flexibilní řešení pro e-commerce, poskytující kompletní sadu nástrojů pro efektivní provozování byznysu.",
+    "cardButton": "Objednat nyní →"
+  },
+  "formSection": {
+    "formTitle1": "Pracujeme se zákazníky",
+    "formTitle2": "po celém světě"
+  },
+  "beetween": {
+    "title1": "Vytváříme",
+    "title2": "úžasné",
+    "title3": "aplikace",
+    "title4": "na",
+    "title5": "frameworku",
+    "title6": "Flutter",
+    "road": "Cesta ke svobodě začíná zde",
+    "button": "kontaktujte nás"
+  },
+  "navbar": {
+    "mainNavItm1": "Služby",
+    "mainNavItm2": "Flutter",
+    "mainNavItm3": "Produkty",
+    "mainNavItm4": "Ceny",
+    "mainNavItm5": "Kontakty",
+    "mainNavItm6": "Technologie",
+    "navMainButton": "Vyplnit brief"
+  },
+  "MainForm": {
+    "FormDisc": "Jak vám můžeme pomoci? Stručně popište žádost o vývoj - spojíme se s vámi během dne.",
+    "label1": "Jméno",
+    "label2": "Příjmení",
+    "label3": "E-mail",
+    "label4": "Telefon",
+    "label5": "Povězte nám o sobě a o své myšlence",
+    "formButton": "Odeslat",
+    "placeHold": "Vaše myšlenka.."
+  },
+  "Sotr": {
+    "How": "Vyprávíme, jak budeme spolupracovat",
+    "title1": "Plný cyklus vývoje mobilních aplikací",
+    "description1": "Od myšlenky k realizaci - zabýváme se vývojem mobilních aplikací pro iOS a Android. Vytváříme intuitivní a vysoce efektivní aplikace, které přitáhnou uživatele a pomohou vašemu byznysu dosáhnout nových výšin.",
+    "title2": "Design, který inspiruje",
+    "description2": "Vyvíjíme unikátní a atraktivní design jak pro mobilní aplikace, tak pro přidružené webové stránky. Naším cílem je udělat vaši aplikaci a web vizuálně atraktivní a pohodlné pro uživatele.",
+    "title3": "Adaptivní webové stránky pro vaši aplikaci",
+    "description3": "Vytvořte ideální online přítomnost pro vaši mobilní aplikaci. Vyvíjíme adaptivní webové stránky, které budou vypadat skvěle na všech zařízeních a efektivně prezentovat vaši aplikaci.",
+    "title4": "Integrace aplikace a webu",
+    "description4": "Zajišťujeme bezproblémovou integraci mezi vaší mobilní aplikací a webovou stránkou. To zahrnuje synchronizaci dat, možnost autorizace přes web a interakci mezi oběma platformami.",
+    "title5": "Optimalizace a SEO",
+    "description5": "Zvyšte viditelnost vaší aplikace ve vyhledávačích s našimi SEO službami. Optimalizujeme vaše stránky pro přilákání cílového publika a zajišťujeme lepší propagaci vaší aplikace na internetu.",
+    "title6": "Podpora a analytika",
+    "description6": "Poskytujeme služby podpory a aktualizace vašich aplikací a webových stránek. Také implementujeme analytické systémy, abyste mohli sledovat výkon, analyzovat chování uživatelů a získávat cenné poznatky pro zlepšení vašeho produktu."
+  },
+  "Projects": {
+    "casesTitle": "Naše projekty",
+    "case1": {
+      "category": "Byznys",
+      "title": "Web pro Obchodní Centrum",
+      "description": "Jsme rádi, že vám představujeme náš nový projekt - moderní a interaktivní web pro obchodní centrum 'Dobrynya'. V rámci tohoto projektu náš tým pracoval na vytvoření unikátní online platformy, která nejen odráží styl a atmosféru obchodního centra, ale také poskytuje pohodlné rozhraní pro jeho návštěvníky.",
+      "imageAlt": "Maketa Macbook od Aceternity UI"
+    },
+    "case2": {
+      "category": "Neziskové organizace",
+      "title": "Web pro NKO SYNERGIE",
+      "description": "Vyvinuli jsme intuitivní rozhraní a bohatou funkcionalitu, která uživatelům umožňuje snadno získat informace, účastnit se aktivit a interagovat s organizací. Snažili jsme se vytvořit prostor, který nejen odráží hodnoty a poslání „SYNERGIE“, ale také přispívá k hlubšímu zapojení a interakci.",
+      "imageAlt": "Maketa projektu pro NKO SYNERGIE"
+    },
+    "case3": {
+      "category": "Aplikace pro korporace",
+      "title": "Korporátní taxi",
+      "description": "Náš nový projekt - korporátní taxi, vyvinuté pro zlepšení vnitřní logistiky společnosti. Pohodlné rozhraní a vysoká funkčnost.",
+      "imageAlt": "Maketa aplikace korporátního taxi"
+    },
+    "case4": {
+      "category": "Platformy pro váš byznys",
+      "title": "Internetový obchod s noži",
+      "description": "Náš nový projekt internetové platformy pro prodej nožů s registrací, online platbou a doručením po celé České republice.",
+      "imageAlt": "Maketa internetového obchodu s noži"
+    }
+  }
+}

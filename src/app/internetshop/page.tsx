@@ -28,6 +28,7 @@ import { CardHoverEffectDemo6 } from "@/components/ui/Cards6";
 import { CardHoverEffectDemo7 } from "@/components/ui/Cards7";
 import NextDevelopmentCard2 from "@/components/ui/razrab2";
 import { FAQ } from "@/components/ui/faq";
+import { TextForm } from "@/components/ui/textform";
 
 
 
@@ -42,7 +43,7 @@ export default function Flutter() {
             <CardHoverEffectDemo7/>
             <NextDevelopmentCard2/>
             <FAQ/>
-            <FeedbackForm/>
+            <TextForm/>
         </main>
     );
 }

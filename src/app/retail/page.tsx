@@ -23,6 +23,7 @@ import { Advantage } from "@/components/ui/advantages";
 import { FunctionEx } from "@/components/ui/function";
 import BookDemo from "@/components/ui/bron";
 import Licence from "@/components/ui/licence";
+import { TextForm } from "@/components/ui/textform";
 
 
 
@@ -30,16 +31,18 @@ export default function Flutter() {
     return (
         <main className="overflow-hidden">
             <Navbar />
+            <div className="relative z-50">
             <RetailPage/>
-            <div className="relative z-50 -mt-40">
+            </div>
+            <div className="relative -mt-40">
             <Advantage/>
             </div>
-            <div className="relative z-50">
+            <div className="relative">
             <FunctionEx/>
             </div>
             <BookDemo/>
             <Licence/>
-            <FeedbackForm/>
+            <TextForm/>
         </main>
     );
 }

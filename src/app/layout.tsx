@@ -6,6 +6,7 @@ import {Analytics} from '@vercel/analytics/react';
 import {NextIntlClientProvider} from 'next-intl';
 import {useLanguage} from "@/store"; // Импортируйте хранилище
 import {cookies} from 'next/headers';
+import Navbar from "@/components/global/navbar";
 
 const inter = Roboto_Condensed({subsets: ["latin"]});
 
@@ -34,6 +35,7 @@ export default async function RootLayout({
             disableTransitionOnChange
         >
             <NextIntlClientProvider messages={messages}>
+                <Navbar/>
                 {children}
             </NextIntlClientProvider>
         </ThemeProvider>

@@ -30,7 +30,6 @@ import { TextForm } from "@/components/ui/textform";
 export default function Flutter() {
     return (
         <main className="overflow-hidden">
-            <Navbar />
             <div className="relative z-50">
             <RetailPage/>
             </div>

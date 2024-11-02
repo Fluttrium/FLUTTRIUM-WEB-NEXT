@@ -48,7 +48,7 @@ const Navbar = ({className}: { className?: string }) => {
 
                     <MenuItem setActive={setActive} active={active} item={t('mainNavItm1')}>
                         <div className="flex flex-col space-y-4 text-sm">
-                            <HoveredLink href="#service">Разработка веб-сайтов</HoveredLink>
+                            <HoveredLink href="/web-sites">Разработка веб-сайтов</HoveredLink>
                             <HoveredLink href="#portfolio">Мобильные приложения</HoveredLink>
                             <HoveredLink href="/flutter">UI/UX дизайн</HoveredLink>
                             <HoveredLink href="#technology">Консультации по технологиям</HoveredLink>

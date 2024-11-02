@@ -169,7 +169,7 @@ const Navbar = ({className}: { className?: string }) => {
 
 
                 <Link
-                    href="/dashboard"
+                    href="/brief"
                     className="relative h-8 md:h-12 overflow-hidden rounded-full p-[2px] md:p-[3px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
                 >
                     <span

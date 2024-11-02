@@ -1,42 +1,60 @@
-// pages/retail.tsx
-import React from 'react';
+"use client"
+import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import './Particles.css';
+import './Particles.css'; // Убедитесь, что этот файл больше не содержит эффектов частиц
+import Modal from '../Modal';
+import { Spotlight } from './spotlight'; // Подключаем компонент Spotlight
 
 const CorporatioPage = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
+
+  const handleOpenModal = () => setModalOpen(true);
+  const handleCloseModal = () => setModalOpen(false);
+
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen px-20">
-      <div className="particles"></div>
-      <div className="flex flex-col md:flex-row items-center justify-center w-full">
+    <div className="flex flex-col items-center justify-center min-h-screen px-5 md:px-20 relative">
+      {/* Фоновый цвет с градиентом */}
+      <div className="absolute h-full w-full bg-slate-950">
+        <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
+      </div>
+
+      {/* Компонент Spotlight */}
+      <Spotlight
+        className="absolute z-50 top-0 left-0 w-full h-full"
+        fill="white"
+      />
+
+      <div className="flex flex-col md:flex-row items-center justify-center w-full z-10"> {/* Добавлено z-10 для поднятия над фоном */}
         {/* Левая часть с текстом и компонентом */}
-        <div className="w-full md:w-1/2">
-          <h1 className="text-6xl font-bold text-center md:text-left mb-12">
+        <div className="w-full md:w-1/2 mb-12 md:mb-0">
+          <h1 className="text-4xl md:text-6xl font-bold text-center md:text-left mb-6">
             Разработка корпоративных приложений
           </h1>
-          <p className = "text-xl">
-            Разработаем корпоративное приложение для оцифровки и ускорения HR-процессов: корпоративного документооборота, оформления больничных и отпусков, обучения и найма сотрудников. Вы получите кастомную систему с интеграцией с мобильными и веб-приложениями, которая работает под потребности и процессы вашей компании
+          <p className="text-lg md:text-xl">
+            Разработаем корпоративное приложение для оцифровки и ускорения HR-процессов: корпоративного документооборота, оформления больничных и отпусков, обучения и найма сотрудников. Вы получите кастомную систему с интеграцией с мобильными и веб-приложениями, которая работает под потребности и процессы вашей компании.
           </p>
           {/* Кнопка */}
-          <Link href="/flutter">
-            <button className="flex items-center px-12 py-4 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-xl mt-12">
-              Забронировать демо
-              <svg
-                className="ml-2 w-8 h-8"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </button>
-          </Link>
+          <button
+            onClick={handleOpenModal}
+            className="flex items-center px-8 md:px-12 py-4 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-lg md:text-xl mt-6"
+          >
+            Запросить Демо
+            <svg
+              className="ml-2 w-6 h-6 md:w-8 md:h-8"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </button>
         </div>
 
         {/* Правая часть с изображением */}
@@ -50,6 +68,9 @@ const CorporatioPage = () => {
           />
         </div>
       </div>
+
+      {/* Модальное окно */}
+      <Modal isOpen={isModalOpen} onClose={handleCloseModal} />
     </div>
   );
 };

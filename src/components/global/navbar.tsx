@@ -10,6 +10,11 @@ import {useLanguage} from "@/store";
 import {useRouter} from "next/navigation";
 import {useTranslations} from "use-intl";
 
+const flags = {
+    en: "/projects/png-transparent-flag-of-the-united-kingdom-english-flag-logo-united-kingdom-thumbnail.png",
+    ru: "/projects/pngtree-round-country-flag-russia-png-image_4017370.png.jpeg",
+    cz: "/projects/pngtree-round-country-flag-czech-republic-png-image_4012916.png.jpeg"
+};
 const Navbar = ({className}: { className?: string }) => {
     const t = useTranslations('navbar');
     const [active, setActive] = useState<string | null>(null);
@@ -49,10 +54,10 @@ const Navbar = ({className}: { className?: string }) => {
                     <MenuItem setActive={setActive} active={active} item={t('mainNavItm1')}>
                         <div className="flex flex-col space-y-4 text-sm">
                             <HoveredLink href="/web-sites">Разработка веб-сайтов</HoveredLink>
-                            <HoveredLink href="#portfolio">Мобильные приложения</HoveredLink>
-                            <HoveredLink href="/flutter">UI/UX дизайн</HoveredLink>
-                            <HoveredLink href="#technology">Консультации по технологиям</HoveredLink>
-                            <HoveredLink href="#contacts">Поддержка и обслуживание</HoveredLink>
+                            <HoveredLink href="/mobileapp">Мобильные приложения</HoveredLink>
+                            <HoveredLink href="/uiuxdesign">UI/UX дизайн</HoveredLink>
+                            <HoveredLink href="/itconsul">Консультации по технологиям</HoveredLink>
+                            <HoveredLink href="/itsupport">Поддержка и обслуживание</HoveredLink>
                         </div>
                     </MenuItem>
                     <HoveredLink href="/flutter">{t("mainNavItm2")}</HoveredLink>
@@ -138,35 +143,43 @@ const Navbar = ({className}: { className?: string }) => {
                     <div className="text-sm font-semibold md:text-2xl mr-1 md:mr-2">+7(921)011-27-94</div>
                 )}
                 <DropdownMenu>
-                    <DropdownMenuTrigger className='text-3xl'>
-                        {language === "en" ? "EN" : language === "ru" ? "RU" : "CZ"}
-                    </DropdownMenuTrigger>
-                    <DropdownMenuContent
-                        className='mt-4 flex flex-col bg-black/40 backdrop-blur-lg z-[100] items-center'>
-                        <DropdownMenuItem
-                            className='text-3xl flex flex-col items-center'
-                            onClick={() => handleChangeLanguage('en')}
-                        >
-                            EN
-                            {language === "en" && <div className='h-1 bg-white w-full mt-1'></div>}
-                        </DropdownMenuItem>
-                        <DropdownMenuItem
-                            className='text-3xl flex flex-col items-center'
-                            onClick={() => handleChangeLanguage('ru')}
-                        >
-                            RU
-                            {language === "ru" && <div className='h-1 bg-white w-full mt-1'></div>}
-                        </DropdownMenuItem>
-                        <DropdownMenuItem
-                            className='text-3xl flex flex-col items-center'
-                            onClick={() => handleChangeLanguage('cz')}
-                        >
-                            CZ
-                            {language === "cz" && <div className='h-1 bg-white w-full mt-1'></div>}
-                        </DropdownMenuItem>
-                    </DropdownMenuContent>
-                </DropdownMenu>
-
+            <DropdownMenuTrigger className="text-3xl">
+                {language === "en" ? "EN" : language === "ru" ? "RU" : "CZ"}
+            </DropdownMenuTrigger>
+            <DropdownMenuContent
+                className="mt-4 flex flex-col bg-black/40 backdrop-blur-lg z-[100] items-center">
+                <DropdownMenuItem
+                    className="text-3xl flex flex-col items-center"
+                    onClick={() => handleChangeLanguage('en')}
+                >
+                    <div className="flex items-center">
+                        <img src={flags.en} alt="English" className="w-6 h-6 mr-2" />
+                        EN
+                    </div>
+                    {language === "en" && <div className="h-1 bg-white w-full mt-1"></div>}
+                </DropdownMenuItem>
+                <DropdownMenuItem
+                    className="text-3xl flex flex-col items-center"
+                    onClick={() => handleChangeLanguage('ru')}
+                >
+                    <div className="flex items-center">
+                        <img src={flags.ru} alt="Russian" className="w-6 h-6 mr-2" />
+                        RU
+                    </div>
+                    {language === "ru" && <div className="h-1 bg-white w-full mt-1"></div>}
+                </DropdownMenuItem>
+                <DropdownMenuItem
+                    className="text-3xl flex flex-col items-center"
+                    onClick={() => handleChangeLanguage('cz')}
+                >
+                    <div className="flex items-center">
+                        <img src={flags.cz} alt="Czech" className="w-6 h-6 mr-2" />
+                        CZ
+                    </div>
+                    {language === "cz" && <div className="h-1 bg-white w-full mt-1"></div>}
+                </DropdownMenuItem>
+            </DropdownMenuContent>
+        </DropdownMenu>
 
                 <Link
                     href="/brief"

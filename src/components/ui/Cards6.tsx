@@ -25,7 +25,7 @@ export const projects = [
     title: "Интернет-магазин под ключ",
     description:
       "Полный цикл разработки от бизнес-анализа и индивидуального проектирования до интеграции со сложными CRM и ERP-системами. Разработка сайта интернет магазина под ключ на базе Next JS",
-      image: <img src="/logo.png" alt="Demo" />,
+
       link: "",
   },
   {
@@ -33,7 +33,7 @@ export const projects = [
     title: "Интернет-магазин на готовой платформе",
     description:
       "Быстрый запуск MVP для первых продаж и кастомная разработка сложных проектов на платформе CS-Cart с функциональным движком для быстрого старта и неограниченного роста",
-      image: <img src="/logo.png" alt="Demo" />,
+
       link: "",
   },
   {
@@ -41,7 +41,7 @@ export const projects = [
     title: "Омниканальные проекты",
     description:
       "Автоматизация бизнес-процессов и построение единой экосистемы онлайн и офлайн точек продаж. Улучшаем клиентский опыт на базе лучших международных практик",
-      image: <img src="/logo.png" alt="Demo" />,
+
     link: "",
   },
   {
@@ -49,7 +49,7 @@ export const projects = [
     title: "Реплатформинг интернет-магазина",
     description:
       "Бесшовный перенос текущего веб-сайта с устаревшей CMS или самописного программного обеспечения на многофункциональную платформу без простоев и потери данных",
-      image: <img src="/logo.png" alt="Demo" />,
+
       link: "",
   },
   {
@@ -57,7 +57,7 @@ export const projects = [
     title: "Мобильные приложения",
     description:
       "Разработка мобильных приложений, адаптивных веб-сайтов и PWA-решений для мобильной коммерции. Увеличиваем конверсию на всех устройствах",
-    image: <img src="/logo.png" alt="Demo" />,
+
     link: "",
   },
   {
@@ -109,7 +109,7 @@ export function HoverEffect({ items }: HoverEffectProps) {
           </h2>
           <p className="mb-4">{item.description}</p>
           {/* Рендеринг изображения */}
-          {item.image && <div className="mb-4">{item.image}</div>}
+
           {/* Рендеринг кнопки */}
           {item.buttonContent && <div className="mt-4">{item.buttonContent}</div>}
         </div>

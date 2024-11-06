@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const FlutterInfo = () => {
     return (
@@ -12,10 +13,12 @@ const FlutterInfo = () => {
                     На Flutter уже работают Alibaba, Philips Hue, Hamilton, Tencent, Grab, Groupon, ГК «Дикси», «Яндекс.Драйв» и другие крупные мировые и российские компании.
                 </p>
             </div>
-            <img
-                src="/flutter-10181843-8492733.png" // Путь к вашему SVG изображению
+            <Image
+                src="/flutter_icon.png" // Путь к вашему SVG изображению
                 alt="Flutter Logo"
-                className="ml-6 w-1/3 h-auto object-contain" // Установлено на 1/3 ширины
+                className="ml-6 w-1/3 h-auto object-contain"
+                width={1000}
+                height={1000}// Установлено на 1/3 ширины
             /> 
         </div>
     );

@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import './Particles.css';
+
 import Modal from '../Modal';
 import { Spotlight } from './spotlight';
 

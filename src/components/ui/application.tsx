@@ -1,6 +1,6 @@
 // components/CorporateAppUsage.tsx
 import React from 'react';
-import './Particles.css';
+
 
 const CorporateAppUsage = () => {
   const sections = [

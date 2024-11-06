@@ -1,37 +1,38 @@
 import Link from "@mui/material/Link";
 import React from "react";
+import {Scale, Store, Lock, Expand, Pyramid, Atom} from "lucide-react";
 
 export function Advantage() {
   const advantages = [
     {
       title: "Все магазины приложений",
       description: "App Store, Google Play, App Gallery, RuStore", 
-      image: "/projects/images.jpeg", // Укажите путь к изображению
+      image: <Store size=''/>, // Укажите путь к изображению
     },
     {
       title: "Фиксированная стоимость",
       description: "Дополнительных расходов нет",
-      image: "/projects/development-cost.jpg", // Укажите путь к изображению
+      image: <Lock size=''/>, // Укажите путь к изображению
     },
     {
       title: "Лицензия на приложение",
       description: "Отдаем код, а не сдаем в аренду",
-      image: "/projects/license-2145143950.png", // Укажите путь к изображению
+      image: <Scale size=''/>, // Укажите путь к изображению
     },
     {
       title: "Масштабируемость",
       description: "Нет ограничений для развития",
-      image: "/projects/images.png", // Укажите путь к изображению
+      image: <Expand size="" />, // Укажите путь к изображению
     },
     {
       title: "Инфраструктура партнерских сервисов",
       description: "1C, Manzana, Sberbank и другие",
-      image: "/projects/png_transparent_computer_servers_computer_network_backup_computer_computer_network_angle_computer-_2_-_1_.png", // Укажите путь к изображению
+      image: <Pyramid size='' />
     },
     {
       title: "Своя экосистема",
       description: "Приложения для сборщиков и доставщиков плюс к основному",
-      image: "/projects/images5.png", // Укажите путь к изображению
+      image: <Atom size='' />, // Укажите путь к изображению
     },
   ];
 
@@ -46,11 +47,7 @@ export function Advantage() {
             key={index}
             className="flex flex-col items-center p-4 border rounded-lg shadow-lg"
           >
-            <img
-              src={advantage.image}
-              alt={advantage.title}
-              className="w-full h-32 object-cover rounded mb-4" // Изображение теперь идет первым
-            />
+            {advantage.image}
             <h3 className="font-bold text-xl mb-2">{advantage.title}</h3>
             <p className="text-center mb-4">{advantage.description}</p>
           </div>

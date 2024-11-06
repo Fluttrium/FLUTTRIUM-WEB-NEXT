@@ -43,7 +43,7 @@ export default function Flutter() {
                     <HeroParallaxDemo/>
                 </div>
                 <NextDevelopmentCard3/>
-                <TimelineDemo2/>
+                <TimelineDemo/>
                 <CostAndTimeline/>
                 <FeedbackForm/>
             </div>

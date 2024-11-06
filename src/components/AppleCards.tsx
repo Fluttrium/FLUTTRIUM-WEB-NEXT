@@ -30,7 +30,7 @@ const DummyContent: React.FC<DummyContentProps> = ({ contentData }) => {
                         alt={content.imageAlt}
                         height={500}
                         width={500}
-                        className=" h-full w-full mx-auto object-contain scale-125"
+                        className=" h-full w-full mx-auto object-cover "
                     />
                 </div>
             ))}
@@ -81,7 +81,7 @@ export function AppleCardsCarouselDemo() {
         {
             category: t("case2.category"),
             title: t("case2.title"),
-            src: "/projects/case3.png",
+            src: "/projects/Realistic.png",
             content: (
                 <DummyContent
                     contentData={[
@@ -98,7 +98,7 @@ export function AppleCardsCarouselDemo() {
         {
             category: t("case1.category"),
             title: t("case1.title"),
-            src: "/projects/case_dob.png",
+            src: "/dobrmock/CartoonLaptop.png",
             content: (
                 <DummyContent
                     contentData={[

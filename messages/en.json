@@ -10,7 +10,8 @@
     "words5": "MVP for your startup",
     "hero_card1": "We will conduct interviews and create technical specifications",
     "hero_card2": "We will develop your product",
-    "hero_card3": "We will provide support and development"
+    "hero_card3": "We will provide support and development",
+    "button": "Leave a request"
   },
   "ProjectCard": {
     "tapeword1": "Implement",

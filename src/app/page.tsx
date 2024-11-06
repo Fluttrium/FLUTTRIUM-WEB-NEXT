@@ -13,6 +13,7 @@ import "@/app/globals.css";
 import {FreeAudit} from "@/components/ui/audit";
 import {useTranslations} from "use-intl";
 import "@/app/globals.css";
+import Link from "next/link";
 
 export default function Home() {
     const t = useTranslations('HomePage');
@@ -49,10 +50,12 @@ export default function Home() {
                 />
 
                 <div className="absolute h-full w-full bg-slate-950">
-                    <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
+                    <div
+                        className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
                 </div>
 
-                <div className="relative z-50 flex flex-row items-center justify-end px-28 md:flex-row md:mx-10 w-full h-full">
+                <div
+                    className="relative z-50 flex flex-row items-center justify-end px-28 md:flex-row md:mx-10 w-full h-full">
                     <div
                         className="hidden left-20 w-1/2 top-80 absolute basis-1/2 pl-14 md:block text-7xl z-50 font-normal text-neutral-600 dark:text-neutral-400 ">
                         {t('hero_1')}&nbsp;{t('hero_2')}
@@ -61,10 +64,12 @@ export default function Home() {
 
                         </div>
                         <div className='absolute -bottom-64 pt-11'>
+                            <Link href="/brief">
                             <button
                                 className="shadow-[0_4px_14px_0_rgb(0,118,255,39%)] hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-[rgba(0,118,255,0.9)] px-8 py-2 bg-[#0070f3] rounded-md text-white font-light transition duration-200 ease-linear">
-                                Стартануть
+                                {t('button')}
                             </button>
+                            </Link>
                         </div>
                     </div>
                     <div className="block md:hidden flex flex-col items-center text-center">
@@ -118,19 +123,19 @@ export default function Home() {
 
 
             <div className="relative z-50 -mt-20">
-                <ProjectsCards />
+                <ProjectsCards/>
             </div>
             <div className="relative z-50 -mt-40">
-                <HeroScrollDemo />
+                <HeroScrollDemo/>
             </div>
             <div className="relative z-50 -mt-40">
-                <TypewriterEffectSmoothDemo />
+                <TypewriterEffectSmoothDemo/>
             </div>
             <div className="relative z-50 -mt-20">
-                <CardHoverEffectDemo />
+                <CardHoverEffectDemo/>
             </div>
-            <AppleCardsCarouselDemo />
-            <SocialContacts />
+            <AppleCardsCarouselDemo/>
+            <SocialContacts/>
 
 
         </main>

@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 
 export function CardHoverEffectDemo7() {
   return (
@@ -26,18 +27,18 @@ interface HoverEffectProps {
 // Обновленный компонент для отраслевых решений с маленькими карточками
 export function IndustrySolutions() {
   const industries = [
-    { title: "Оборудование", image: <img src="" alt="Equipment" /> },
-    { title: "Электроника", image: <img src="" alt="Electronics" /> },
-    { title: "Автомобильная промышленность", image: <img src="" alt="Automotive" /> },
-    { title: "Мода", image: <img src="" alt="Fashion" /> },
-    { title: "Ювелирные изделия", image: <img src="" alt="Jewelry" /> },
-    { title: "Мебель", image: <img src="" alt="Equipment" /> },
-    { title: "Здоровье и красотв", image: <img src="" alt="Electronics" /> },
-    { title: "Разработка ПО", image: <img src="" alt="Automotive" /> },
-    { title: "Ритейл", image: <img src="" alt="Fashion" /> },
-    { title: "FMCG", image: <img src="" alt="Jewelry" /> },
-    { title: "Искусство", image: <img src="" alt="Fashion" /> },
-    { title: "Хоби", image: <img src="" alt="Jewelry" /> },
+    { title: "Оборудование", image: <Image alt='tools' src='/icons/screwdriver.png' width='100' height='100'/> },
+    { title: "Электроника", image: <Image alt='tools' src='/icons/circuit.png' width='100' height='100'/> },
+    { title: "Автомобильная промышленность", image: <Image alt='tools' src='/icons/electric-car.png' width='100' height='100'/>},
+    { title: "Мода", image: <Image alt='tools' src='/icons/fashion.png' width='100' height='100'/> },
+    { title: "Ювелирные изделия", image: <Image alt='tools' src='/icons/jewelry.png' width='100' height='100'/> },
+    { title: "Мебель", image: <Image alt='tools' src='/icons/furnitures.png' width='100' height='100'/> },
+    { title: "Здоровье и красотв", image: <Image alt='tools' src='/icons/healthcare.png' width='100' height='100'/> },
+    { title: "Разработка ПО", image: <Image alt='tools' src='/icons/coding.png' width='100' height='100'/> },
+    { title: "Ритейл", image: <Image alt='tools' src='/icons/store.png' width='100' height='100'/> },
+    { title: "FMCG", image: <Image alt='tools' src='/icons/grocery-cart.png' width='100' height='100'/> },
+    { title: "Искусство", image: <Image alt='tools' src='/icons/img.png' width='100' height='100'/> },
+    { title: "Хоби", image: <Image alt='tools' src='/icons/hobbies.png' width='100' height='100'/> },
     // Добавьте другие направления по мере необходимости...
   ];
   return (
@@ -47,12 +48,12 @@ export function IndustrySolutions() {
         {industries.map((industry, index) => (
           <div
             key={index}
-            className="rounded-lg shadow-md flex flex-col items-center justify-center w-24 h-24 hover:bg-gray-200 transition mb-20"
+            className="rounded-lg shadow-md flex flex-col items-center justify-center w-32 h-32 bg-gray-200 transition mb-16"
           >
             {industry.image && (
-              <div className="flex items-center justify-center mb-1">{industry.image}</div>
+              <div className="flex items-center justify-center object-cover ">{industry.image}</div>
             )}
-            <p className="text-xs text-center">{industry.title}</p>
+            <p className="text-xs text-center text-black">{industry.title}</p>
           </div>
         ))}
       </div>

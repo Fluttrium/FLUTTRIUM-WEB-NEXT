@@ -1,5 +1,5 @@
 import React from "react";
-import './Particles.css'; // Импортируем стили для частиц
+
 
 export function PricingAndTimeline2() {
   return (

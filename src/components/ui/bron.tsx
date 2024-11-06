@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import './Particles.css'; // Импортируйте CSS
+
 
 const BookDemo = () => {
   return (
@@ -37,7 +37,7 @@ const BookDemo = () => {
         </div>
         <div className="w-full md:w-1/2">
           <Image
-            src="/projects/case5.png" // Замените на путь к вашему изображению
+            src="/knifesmock/MacBook14.png" // Замените на путь к вашему изображению
             alt="Mockup телефона"
             width={800} // Ширина изображения
             height={800} // Высота изображения

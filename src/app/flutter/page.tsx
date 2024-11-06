@@ -18,42 +18,48 @@ import { PricingAndTimeline } from "@/components/ui/price";
 import { CardHoverEffectDemo3 } from "@/components/ui/Cards3";
 import { FreeAudit } from "@/components/ui/audit";
 import { FeedbackForm } from "@/components/ui/writeus";
+import Image from "next/image";
 
 export default function Flutter() {
     return (
-        <main className="overflow-hidden">
-            <Navbar />
-            <section className="mp-10 h-auto md:h-screen w-full bg-neutral-950 !overflow-hidden relative flex antialiased">
-                <Spotlight className="absolute z-50" />
-                <div className="absolute h-full w-full bg-slate-950">
-                    <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
-                </div>
-                <div className="flex flex-col items-center justify-center md:flex-row md:mx-10 z-50 px-4 w-full h-full">
-                    <CoverDemo />
-                    <img
-                        src="/projects/case6.png" // Путь к вашему изображению
+        <main className="overflow-hidden relative h-full w-full bg-slate-950">
+            <div
+                className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]">
+            </div>
+
+            <Navbar/>
+            <section
+                className="mp-10 min-h-screen w-full !overflow-hidden relative flex antialiased">
+                <div className="flex flex-row items-center justify-between  z-50 px-4 w-full h-full">
+                    <CoverDemo/>
+                    <Image
+                        src="/taximock/Black-Titanium.png"
                         alt="Описание изображения"
-                        className="ml-4 w-1/2 h-auto object-contain" // Настройте размеры по необходимости
+                        className=" ml-4 w-1/3 h-1/4 my-20 object-contain" // изменено w-1/2 на w-1/3
+                        width={1024}
+                        height={1024}
                     />
+
                 </div>
             </section>
             <div className="relative z-50 -mt-40">
-                <FlutterInfo />
+                <FlutterInfo/>
             </div>
             <div className="relative z-50 -mt-40">
-            <Benefit/>
+                <Benefit/>
             </div>
             <div className="relative z-50 -mt-40">
-            <ExperienceDemo/>
+                <ExperienceDemo/>
             </div>
             <div className="relative z-50 -mt-20">
-            <PricingAndTimeline/>
+                <PricingAndTimeline/>
             </div>
             <div className="relative z-50 -mt-40">
-            <CardHoverEffectDemo3/>
+                <CardHoverEffectDemo3/>
             </div>
             <FreeAudit/>
             <FeedbackForm/>
         </main>
     );
 }
+

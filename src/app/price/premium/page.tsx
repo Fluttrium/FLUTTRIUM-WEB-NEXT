@@ -8,11 +8,11 @@ const PremiumPlan = () => {
     <div className="relative p-4 sm:p-8 flex items-center justify-center min-h-screen bg-black bg-opacity-50 overflow-hidden">
       <div className="ring-container p-1 rounded-3xl relative z-10 shadow-lg animate-float">
         <div className="content-container max-w-5xl mx-auto rounded-3xl p-4 sm:p-8 bg-white bg-opacity-90">
-          <h1 className="text-3xl sm:text-5xl font-bold text-center mb-6 sm:mb-12 text-black">
+          <h1 className="text-3xl sm:text-5xl font-bold  mb-6 sm:mb-12 text-black">
             Премиум план разработки
           </h1>
           <h2 className="text-2xl sm:text-4xl font-semibold mb-4 sm:mb-6 text-center text-black">
-            Что включено:
+            c
           </h2>
           <ul className="list-disc list-inside text-base sm:text-lg mb-4 sm:mb-6 text-gray-800">
             <li>Разработка сложного сайта/приложения (от 10 страниц/экранов)</li>

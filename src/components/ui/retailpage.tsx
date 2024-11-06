@@ -19,10 +19,10 @@ const RetailPage = () => {
       
       <div className="flex flex-col md:flex-row items-center justify-center w-full">
         {/* Левая часть с текстом */}
-        <div className="w-full md:w-1/2">
-          <h1 className="text-6xl font-bold text-center md:text-left mb-12">
+        <div className=" md:w-1/2 flex  flex-col items-center justify-center  w-full">
+          <div className="text-6xl font-bold text-center md:text-left mb-12">
             Розничное приложение для увеличения продаж
-          </h1>
+          </div>
           <FlipWordsDemo2 />
           <button
             onClick={handleOpenModal}
@@ -47,9 +47,9 @@ const RetailPage = () => {
         </div>
 
         {/* Правая часть с изображением */}
-        <div className="hidden md:flex w-1/2 justify-center items-center">
+        <div className="hidden md:flex w-2/3 justify-center items-center">
           <Image
-            src="/projects/case8.png" // Замените на правильный путь к изображению
+            src="/knifesmock/MacBookAir(15 inch).png" // Замените на правильный путь к изображению
             alt="Retail Application"
             width={1200}
             height={1200}

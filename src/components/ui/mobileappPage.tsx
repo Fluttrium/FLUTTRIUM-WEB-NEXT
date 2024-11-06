@@ -2,7 +2,7 @@
 'use client';
 import React, { useState } from 'react';
 import Image from 'next/image';
-import './Particles.css'; // Убедитесь, что файл со стилями для частиц подключен и находится в нужной директории
+ // Убедитесь, что файл со стилями для частиц подключен и находится в нужной директории
 import Modal from '../Modal';
 import { Spotlight } from './spotlight';
 

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import './Particles.css'; // Импортируйте CSS
+
 
 const Licence = () => {
   return (
@@ -20,7 +20,7 @@ const Licence = () => {
         </div>
         <div className="w-full md:w-1/3">
           <Image
-            src="/projects/case5.png" // Замените на путь к вашему изображению
+            src="/logomock/Peeling Off Sticker.png" // Замените на путь к вашему изображению
             alt="Mockup телефона"
             width={800} // Ширина изображения
             height={800} // Высота изображения

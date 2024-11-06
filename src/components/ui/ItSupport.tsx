@@ -2,7 +2,7 @@
 'use client';
 import React, { useState } from 'react';
 import Image from 'next/image';
-import './Particles.css'; // Убедитесь, что файл со стилями для частиц подключен и находится в нужной директории
+ // Убедитесь, что файл со стилями для частиц подключен и находится в нужной директории
 import Modal from '../Modal';
 import { Spotlight } from './spotlight';
 
@@ -21,7 +21,7 @@ const ItsupportPage = () => {
         <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center justify-center w-full z-10">
+      <div className="flex flex-col md:flex-row items-center justify-between w-full z-10">
         {/* Левая часть с текстом */}
         <div className="w-full md:w-1/2">
           <h1 className="text-6xl font-bold text-center md:text-left mb-12">
@@ -56,9 +56,9 @@ const ItsupportPage = () => {
         </div>
 
         {/* Правая часть с изображением */}
-        <div className="hidden md:flex w-1/2 justify-center items-center">
+        <div className="absolute right-0 hidden md:flex w-1/2 justify-center items-center">
           <Image
-            src="/projects/case8.png" // Проверьте, что изображение доступно по этому пути
+            src="/logomock/Boards. Light Board.png" // Проверьте, что изображение доступно по этому пути
             alt="Sales Application"
             width={1200}
             height={1200}

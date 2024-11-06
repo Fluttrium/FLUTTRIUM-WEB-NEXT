@@ -1,11 +1,11 @@
 import React from "react";
-import './Particles.css'; // Импортируем стили для частиц
+
 
 export function PricingAndTimeline() {
   return (
     <div className="relative">
       {/* Летающие микрочастицы */}
-      <div className="particles mt-10"></div>
+
 
       <div className="flex flex-col lg:flex-row px-12 py-20 space-y-8 lg:space-y-0 lg:space-x-12 mb-40 w-full max-w-7xl mx-auto relative z-10">
         {/* Левая колонка: Текст */}

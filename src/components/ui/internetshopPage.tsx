@@ -2,7 +2,7 @@
 'use client';
 import React, { useState } from 'react';
 import Image from 'next/image';
-import './Particles.css'; // Убедитесь, что файл со стилями для частиц подключен и находится в нужной директории
+ // Убедитесь, что файл со стилями для частиц подключен и находится в нужной директории
 import Modal from '../Modal';
 import { Spotlight } from './spotlight';
 
@@ -53,9 +53,9 @@ const InternetShopPage = () => {
         </div>
 
         {/* Правая часть с изображением */}
-        <div className="hidden md:flex w-1/2 justify-center items-center">
+        <div className="hidden md:flex w-4/5 justify-center items-center">
           <Image
-            src="/projects/case8.png" // Проверьте, что изображение доступно по этому пути
+            src="/knifesmock/MacBook14.png" // Проверьте, что изображение доступно по этому пути
             alt="Sales Application"
             width={1200}
             height={1200}

@@ -29,15 +29,18 @@ import { TextForm } from "@/components/ui/textform";
 
 export default function Flutter() {
     return (
-        <main className="overflow-hidden">
+        <main className="-z-50 overflow-hidden relative h-full w-full bg-slate-950">
+            <div
+                className=" -z-50 absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]">
+            </div>
             <div className="relative z-50">
-            <RetailPage/>
+                <RetailPage/>
             </div>
             <div className="relative -mt-40">
-            <Advantage/>
+                <Advantage/>
             </div>
             <div className="relative">
-            <FunctionEx/>
+                <FunctionEx/>
             </div>
             <BookDemo/>
             <Licence/>

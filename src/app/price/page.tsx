@@ -19,9 +19,9 @@ export default function Price() {
                 }}
                 className=" "
             >
-                <div className=' -translate-y-40 flex flex-row space-x-10'>
+                <div className='  -translate-y-40 flex flex-row space-x-10'>
 
-                    <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 flex flex-col justify-center items-center gap-7">
+                    <BackgroundGradient className="rounded-[22px]  max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 flex flex-col justify-center items-center gap-7">
 
                         <p className=" text-2xl  dark:text-neutral-200 text-center">
                             Стандартный план разработки
@@ -44,7 +44,7 @@ export default function Price() {
                         <h3 className="text-base sm:text-xl font-semibold text-center mb-1 sm:mb-2 ">
                             Цена: от 120 000 рублей
                         </h3>
-                        <Link href="/contact">
+                        <Link href="/brief">
                             <button
                                 className="bg-blue-600 text-white text-xs sm:text-sm px-3 sm:px-4 py-1 sm:py-2 rounded-lg shadow-lg transition duration-300 hover:bg-blue-700">
                                 Получить обратную связь
@@ -74,7 +74,7 @@ export default function Price() {
                         <h3 className="text-base sm:text-xl font-semibold text-center mb-1 sm:mb-2 ">
                             Цена: от 300 000 рублей
                         </h3>
-                        <Link href="/contact">
+                        <Link href="/brief">
                             <button
                                 className="bg-blue-600 text-white text-xs sm:text-sm px-3 sm:px-4 py-1 sm:py-2 rounded-lg shadow-lg transition duration-300 hover:bg-blue-700">
                                 Получить обратную связь
@@ -105,7 +105,7 @@ export default function Price() {
                                 удовлетворить ваши уникальные потребности
                             </p>
                         </div>
-                        <Link href="/contact">
+                        <Link href="/brief">
                             <button
                                 className="bg-blue-600 text-white text-xs sm:text-sm px-3 sm:px-4 py-1 sm:py-2 rounded-lg shadow-lg transition duration-300 hover:bg-blue-700">
                                 Получить обратную связь

@@ -33,13 +33,15 @@ const Navbar = ({className}: { className?: string }) => {
         <header
             className="fixed right-0 left-0 top-0 py-4 px-4 bg-black/40 backdrop-blur-lg z-[100] flex items-center border-b-[1px] border-neutral-900 justify-between">
             <aside className="flex items-center gap-2">
-                <Image
-                    src="/logo.png"
-                    width={28} // Уменьшенный размер логотипа для мобильной версии
-                    height={40}
-                    alt="fuzzie logo"
-                    className="shadow-sm"
-                />
+                <Link href="/">
+                    <Image
+                        src="/logo.png"
+                        width={28} // Уменьшенный размер логотипа для мобильной версии
+                        height={40}
+                        alt="fuzzie logo"
+                        className="shadow-sm"
+                    />
+                </Link>
                 <p className="hidden md:block text-4xl font-semibold">Fluttrium</p>
             </aside>
 
@@ -133,43 +135,43 @@ const Navbar = ({className}: { className?: string }) => {
                     <div className="text-sm font-semibold md:text-2xl mr-1 md:mr-2">+7(921)011-27-94</div>
                 )}
                 <DropdownMenu>
-            <DropdownMenuTrigger className="text-3xl">
-                {language === "en" ? "EN" : language === "ru" ? "RU" : "CZ"}
-            </DropdownMenuTrigger>
-            <DropdownMenuContent
-                className="mt-4 flex flex-col bg-black/40 backdrop-blur-lg z-[100] items-center">
-                <DropdownMenuItem
-                    className="text-3xl flex flex-col items-center"
-                    onClick={() => handleChangeLanguage('en')}
-                >
-                    <div className="flex items-center">
+                    <DropdownMenuTrigger className="text-3xl">
+                        {language === "en" ? "EN" : language === "ru" ? "RU" : "CZ"}
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent
+                        className="mt-4 flex flex-col bg-black/40 backdrop-blur-lg z-[100] items-center">
+                        <DropdownMenuItem
+                            className="text-3xl flex flex-col items-center"
+                            onClick={() => handleChangeLanguage('en')}
+                        >
+                            <div className="flex items-center">
 
-                        EN
-                    </div>
-                    {language === "en" && <div className="h-1 bg-white w-full mt-1"></div>}
-                </DropdownMenuItem>
-                <DropdownMenuItem
-                    className="text-3xl flex flex-col items-center"
-                    onClick={() => handleChangeLanguage('ru')}
-                >
-                    <div className="flex items-center">
+                                EN
+                            </div>
+                            {language === "en" && <div className="h-1 bg-white w-full mt-1"></div>}
+                        </DropdownMenuItem>
+                        <DropdownMenuItem
+                            className="text-3xl flex flex-col items-center"
+                            onClick={() => handleChangeLanguage('ru')}
+                        >
+                            <div className="flex items-center">
 
-                        RU
-                    </div>
-                    {language === "ru" && <div className="h-1 bg-white w-full mt-1"></div>}
-                </DropdownMenuItem>
-                <DropdownMenuItem
-                    className="text-3xl flex flex-col items-center"
-                    onClick={() => handleChangeLanguage('cz')}
-                >
-                    <div className="flex items-center">
+                                RU
+                            </div>
+                            {language === "ru" && <div className="h-1 bg-white w-full mt-1"></div>}
+                        </DropdownMenuItem>
+                        <DropdownMenuItem
+                            className="text-3xl flex flex-col items-center"
+                            onClick={() => handleChangeLanguage('cz')}
+                        >
+                            <div className="flex items-center">
 
-                        CZ
-                    </div>
-                    {language === "cz" && <div className="h-1 bg-white w-full mt-1"></div>}
-                </DropdownMenuItem>
-            </DropdownMenuContent>
-        </DropdownMenu>
+                                CZ
+                            </div>
+                            {language === "cz" && <div className="h-1 bg-white w-full mt-1"></div>}
+                        </DropdownMenuItem>
+                    </DropdownMenuContent>
+                </DropdownMenu>
 
                 <Link
                     href="/brief"

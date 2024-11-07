@@ -53,7 +53,22 @@
     "mainNavItm4": "Ceny",
     "mainNavItm5": "Kontakty",
     "mainNavItm6": "Technologie",
-    "navMainButton": "Vyplnit brief"
+    "navMainButton":"Vyplnit brief",
+    "serviceItm1" : "Vývoj webových stránek",
+    "serviceItm2": "Mobilní aplikace",
+    "serviceItm3": "Design UI/UX",
+    "serviceItm4": "Poradenství v oblasti technologií",
+    "serviceItm5": "Podpora a údržba",
+    "title1": "Aplikace v krabicích pro maloobchodní prodej",
+    "description1":"Řešení na klíč pro obchody a řetězce ke správě prodeje, skladu a zákaznické základny.",
+    "title2": "Aplikace pro společnosti",
+    "description2": "Nástroj pro zlepšení interních procesů společnosti, který poskytuje automatizaci obchodních procesů.",
+    "title3": "Online obchod",
+    "description3": "Online prodejní platforma, která vám umožní rychle vytvořit a spravovat váš online obchod.",
+    "title4": "CRM systém",
+    "description4": "Inovativní řešení pro řízení vztahů se zákazníky",
+    "description5" : "Moderní rámec společnosti Google pro vývoj nativních aplikací pro mobilní zařízení",
+    "description6" : "Výkonný framework pro React, který usnadňuje vytváření rychlých a výkonných webových aplikací."
   },
   "MainForm": {
     "FormDisc": "Jak vám můžeme pomoci? Stručně popište žádost o vývoj - spojíme se s vámi během dne.",
@@ -106,5 +121,9 @@
       "description": "Náš nový projekt internetové platformy pro prodej nožů s registrací, online platbou a doručením po celé České republice.",
       "imageAlt": "Maketa internetového obchodu s noži"
     }
+  },
+  "Maintenance" : {
+    "text-1":"Mobilní verze dočasně nedostupná",
+     "text-2": "Provádíme technické práce. Navštivte prosím stránky později nebo je otevřete na svém počítači."
   }
 }

@@ -53,7 +53,24 @@
     "mainNavItm4": "Prices",
     "mainNavItm5": "Contacts",
     "mainNavItm6": "Technologies",
-    "navMainButton": "Fill out the brief"
+    "navMainButton": "Fill out the brief",
+    "serviceItm1" : "Web development",
+    "serviceItm2" : "Mobile applications",
+    "serviceItm3" : "UI/UX design",
+    "serviceItm4" : "Technology counselling",
+    "serviceItm5": "Support and service",
+     "title1" : "Boxed application for retail",
+    "description1": "A turnkey solution for shops and chains to manage sales, warehouse and customer base",
+    "title2" : "Application for corporations",
+    "description2": "A tool for improving the company's internal processes, providing business process automation",
+    "title3": "Online Shop",
+    "description3": "An online sales platform that allows you to quickly create and manage your online shop",
+    "title4": "CRM system",
+    "description4": "Innovative solution for customer relationship management",
+    "description5" : "Google's modern framework for developing native applications on mobile devices",
+    "description6" : "A powerful framework for React that makes it easy to build fast and performant web applications"
+
+
   },
   "MainForm": {
     "FormDisc": "How can we help you? Briefly describe your development request — we will get back to you within a day.",
@@ -106,5 +123,11 @@
       "description": "Our new project is an online platform for selling knives with registration, online payment, and delivery across Russia.",
       "imageAlt": "Online knife store mockup"
     }
-  }
+
+
+  },
+   "Maintenance" : {
+      "text-1": " Mobile version temporarily unavailable",
+     "text-2": "We are carrying out technical work. Please visit the site later or open it on your computer"
+   }
 }

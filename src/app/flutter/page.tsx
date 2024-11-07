@@ -28,20 +28,10 @@ export default function Flutter() {
             </div>
 
             <Navbar/>
-            <section
-                className="mp-10 min-h-screen w-full !overflow-hidden relative flex antialiased">
-                <div className="flex flex-row items-center justify-between  z-50 px-4 w-full h-full">
-                    <CoverDemo/>
-                    <Image
-                        src="/taximock/Black-Titanium.png"
-                        alt="Описание изображения"
-                        className=" ml-4 w-1/3 h-1/4 my-20 object-contain" // изменено w-1/2 на w-1/3
-                        width={1024}
-                        height={1024}
-                    />
+            
+        <CoverDemo />
+    
 
-                </div>
-            </section>
             <div className="relative z-50 -mt-40">
                 <FlutterInfo/>
             </div>

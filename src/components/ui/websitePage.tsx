@@ -1,12 +1,14 @@
 // pages/retail.tsx
 'use client';
 import React, {useState} from 'react';
+import {useTranslations} from "use-intl";
 import Image from 'next/image';
  // Убедитесь, что файл со стилями для частиц подключен и находится в нужной директории
 import Modal from '../Modal';
 import {Spotlight} from './spotlight';
 
 const WebSitePage = () => {
+    const t = useTranslations('Website');
     const [isModalOpen, setModalOpen] = useState(false);
 
     const handleOpenModal = () => setModalOpen(true);
@@ -26,17 +28,16 @@ const WebSitePage = () => {
                 {/* Левая часть с текстом */}
                 <div className="w-full md:w-1/2">
                     <h1 className="text-6xl font-bold text-center md:text-left mb-12">
-                        Разработка сайтов
+                        {t("text-1")}
                     </h1>
                     <p className="text-xl">
-                        Создадим для вас эффективный сайт, который будет корректно работать во всех браузерах и на всех
-                        устройствах
+                        {t("text-2")}
                     </p>
                     <button
                         onClick={handleOpenModal}
                         className="flex items-center px-12 py-4 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-xl mt-12"
                     >
-                        Оставить заявку
+                        {t('button')}
                         <svg
                             className="ml-2 w-8 h-8"
                             xmlns="http://www.w3.org/2000/svg"

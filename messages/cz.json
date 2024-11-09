@@ -125,5 +125,35 @@
   "Maintenance" : {
     "text-1":"Mobilní verze dočasně nedostupná",
      "text-2": "Provádíme technické práce. Navštivte prosím stránky později nebo je otevřete na svém počítači."
+  },
+  "Website": {
+    "text-1": "Vývoj webových stránek",
+    "text-2": "Vytvoříme pro vás efektivní webové stránky, které budou správně fungovat ve všech prohlížečích a na všech zařízeních.\n                        zařízení",
+    "button": "Zanechte žádost",
+    "stage": "Zkoumání projektu",
+    "description": "Podepsání NDA. Prostudujeme zadávací podmínky. Pokud je nemáte, pošleme vám zadání pro tvorbu webových stránek a pomůžeme vám ho vyplnit.",
+    "stage-2": "Začněme prace ",
+    "description-2": "Provádět obchodní zpravodajství. Studujeme technickou dokumentaci. Vypočítáme, kolik času bude potřeba na vývoj a testování. Identifikujeme nepopsané scénáře a úzká místa v zadání.",
+    "stage-3" : "Vývoj frontendu a backendu",
+    "description-3" :"Vytváříme rozvržení, vyvíjíme webové stránky a naplňujeme je obsahem.",
+    "stage-4" : "Testování výrobku",
+    "description-4" : "S pomocí našich inženýrů kontroly kvality, kteří se na projektu podíleli od začátku, stránky testujeme. Vypracujeme testovací dokumentaci. Provádíme konečné úpravy.",
+    "stage-5" : "Poskytujeme vám webové stránky",
+    "description-5" :"Předáme vám staveniště a kompletní balíček projektové dokumentace.",
+    "stage-6" : "Údržba webu",
+    "description-6" : "Po převodu práv k webu jeho historie nekončí. Pokud se v prvních měsících života webu ukáže, kde a co je třeba dokončit nebo předělat, nabízíme dvě možnosti: uzavřít smlouvu o údržbě nebo zahájit novou fázi vývoje.",
+    "h2" : "Etapy práce",
+    "h3" :  "Vytvoření efektivních webových stránek",
+    "p": "Důvěřujte našim profesionálům a získejte kvalitní produkt!",
+    "button-2": "Objednat službu"
+
+
+  },
+  "Writeus" : {
+    "h2" : "Napište nám!",
+    "p" : "Pojďme společně vytvořit uživatelsky přívětivý digitální produkt pro vaše zákazníky!",
+    "button" : "Zanechte žádost",
+    "p2" : "Kliknutím na tlačítko vyjadřujete souhlas se zpracováním osobních údajů a souhlasíte se zásadami ochrany osobních údajů."
+
   }
 }

@@ -129,5 +129,33 @@
    "Maintenance" : {
       "text-1": " Mobile version temporarily unavailable",
      "text-2": "We are carrying out technical work. Please visit the site later or open it on your computer"
-   }
+   },
+   "Website": {
+     "text-1": "Website development",
+     "text-2": "We will create an effective website for you that will work correctly in all browsers and on all devices",
+     "button": "Leave a request",
+     "stage": "Exploring the project",
+     "description": "Sign the NDA. We study the terms of reference. If you don't have one, we send you a website development brief and help you fill it out.",
+     "stage-2": "Let's get started",
+     "description-2": "Conduct business intelligence. We study technical documentation. Calculate how much time will be required for development and testing. Identify undescribed scenarios and bottlenecks in the TOR.",
+     "stage-3" : "Frontend and backend development",
+     "description-3" :"We do the layout, develop the website and populate it with content.",
+     "stage-4" : "Testing the product",
+     "description-4" : "With the help of our QA engineers, who were involved in the project at the start, we test the site. We work out the test documentation. We make final edits.",
+     "stage-5" : "We present to you the website",
+     "description-5" :"We hand you the site and a complete package of project documents.",
+     "stage-6" : "Supporting the site",
+     "description-6" : "Once the rights to the site have been transferred, its history does not end. If the first months of the site's life show where and what needs to be finished or redone, we offer two options: conclude a maintenance contract or start a new phase of development.",
+     "h2" : "Phases of work",
+     "h3" : "Create an effective website",
+     "p": "Trust our professionals and get a quality product!",
+     "button-2": "Order a service"
+   },
+  "Writeus" : {
+    "h2" : "Write to us!",
+    "p" : "Let's make a user-friendly digital product for your customers together!",
+    "button" : "Leave a request",
+    "p2" : "By clicking on the button, you consent to the processing of personal data and agree to the privacy policy."
+
+  }
 }

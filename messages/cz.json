@@ -155,5 +155,36 @@
     "button" : "Zanechte žádost",
     "p2" : "Kliknutím na tlačítko vyjadřujete souhlas se zpracováním osobních údajů a souhlasíte se zásadami ochrany osobních údajů."
 
-  }
+  },
+   "Mobile": {
+     "h1" :  "Vývoj aplikací pro více platforem",
+     "h2" : " Aplikace pro iOS a Android najednou? Pojďme ji vyvinout na Flutteru",
+     "p" :  "  Při vývoji mobilních aplikací pro více platforem můžeme jedním kódem pokrýt dva operační systémy najednou: iOS a Android. Jednak je to výhodné, protože se výrazně optimalizují náklady na vývoj. A za druhé je rychlý - vývoj napříč platformami umožňuje zkrátit dobu potřebnou k vytvoření aplikace o 40 %.",
+     "button" : "Zanechte žádost",
+     "stage": "Zkoumání projektu" ,
+     "description": "Podepíšeme NDA. Prostudujeme vaše zadávací podmínky (TOR), a pokud je nemáte - i to se stává a je to normální - pomůžeme vám je vypracovat. Na začátku druhé fáze máme k dispozici popis základních funkcí mobilní aplikace.",
+     "stage-2": "Odhad rozsahu prací a výběr metodiky",
+     "description-2": "Zvolte metodiku vhodnou pro daný projekt: agilní nebo vodopádovou. Prostudujte technickou dokumentaci. Poté vypočítáme odhadovanou dobu vývoje a testování. Identifikujeme nepopsané scénáře v zadávací dokumentaci. Naplánujte plán postupu.",
+     "stage-3": "Podepsání smlouvy, zahájení práce",
+     "description-3": "Dodržování jasného plánu, práce ve sprintech.",
+     "stage-4": "Navrhování designu aplikace",
+     "description-4": "Vytvoříme mapu obrazovky, grafické prvky a podrobný (statický nebo interaktivní) prototyp s ohledem na možné scénáře použití.",
+     "stage-5": "Schválení designu",
+     "description-5": "Získáme zpětnou vazbu od obchodního analytika a klienta, zapracujeme připomínky a provedeme úpravy.",
+     "stage-6": "Vývoj aplikace",
+     "description-6": "Propojujeme vývojový tým, který píše kód. V této době designér aktivně sleduje práci a kontroluje, jak jsou obrazovky implementovány. Práce probíhá v iteracích - vyvineme část funkcí, otestujeme ji a pokračujeme v práci na zbytku fun",
+     "stage-7": "Testování aplikace a oprava chyb",
+     "description-7": "S pomocí našich inženýrů kontroly kvality, kteří se na projektu podíleli od začátku, stránky testujeme. Vypracujeme testovací dokumentaci. Před uvolněním aplikace provádíme akceptační testování: procházíme obchodní případy aplikace.",
+     "stage-8": "Zveřejnění aplikace v obchodech",
+     "description-8": "Přidejte aplikaci do obchodů s aplikacemi - App Store, Google Play nebo do jiného obchodu podle vlastního výběru. Důležitý bod: aby aplikace prošla hodnocením obchodníků, můžete požádat vývojáře o pomoc při vydání nebo můžete aplikaci připravit a nahrát do obchodu sami.",
+     "stage-9": "Podpora a rozvoj",
+     "description-9": "Jakmile je mobilní aplikace zveřejněna, její příběh nekončí. Pracujeme na nových funkcích, vylepšujeme ji a získáváme zpětnou vazbu od uživatelů.",
+     "stage-10": "Výsledek práce",
+     "description-10": "Hotová, snadno rozšiřitelná a udržovatelná mobilní aplikace publikovaná v App Store/Google Play. Stejně jako zdrojový kód aplikace a její dokumentaci.",
+     "text" : "Fáze práce",
+     "text2": " Vytvoření efektivní aplikace",
+     "text3" :"Důvěřujte našim profesionálům a získejte kvalitní produkt!",
+     "text4" : "  Objednat službu"
+   }
+
 }

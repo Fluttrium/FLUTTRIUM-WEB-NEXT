@@ -157,5 +157,37 @@
     "button" : "Leave a request",
     "p2" : "By clicking on the button, you consent to the processing of personal data and agree to the privacy policy."
 
+  },
+  "Mobile": {
+    "h1" :  "Cross-platform application development",
+    "h2" : " An app for iOS and Android at once? Let's develop it on Flutter",
+    "p" :  "  With cross-platform mobile development, we can cover two operating systems at once with one code: iOS and Android. Firstly, it is profitable, because development costs are significantly optimised. And secondly, it is fast - cross-platform development allows you to reduce the time required to create an application by 40%",
+    "button" : "Leave a request",
+    "stage": "Exploring the project" ,
+    "description": "We sign the NDA. We study your terms of reference (TOR), and if you don't have one - this happens too, and it's normal - we help you draw one up. By the beginning of the second stage, we have a description of the basic functions of the mobile application.",
+    "stage-2": "Estimating the scope of work and selecting a methodology",
+    "description-2": "Select a methodology suitable for the project: Agile or Waterfall. Study the technical documentation. Then we calculate the estimated development and testing time. Identify undescribed scenarios in the ToR. Plan a roadmap.",
+    "stage-3": "Sign the contract, start work",
+    "description-3": "Following a clear roadmap, working in sprints.",
+    "stage-4": "Designing the design of the application",
+    "description-4": "We create a screen map, graphic elements and a detailed (static or interactive) prototype with possible usage scenarios in mind.",
+    "stage-5": "Approve the design",
+    "description-5": "We get feedback from the business analyst and the client, incorporate comments and make edits.",
+    "stage-6": "Developing an application",
+    "description-6": "We connect the development team, which writes the code. At this time, the designer actively monitors the work and checks how the screens are implemented. The work is done in iterations - we develop a part of the functionality, test it, and continue working on the rest of the functions.",
+    "stage-7": "Testing the app and fixing bugs",
+    "description-7": "With the help of our QA engineers, who were involved in the project at the start, we test the site. We work out test documentation. Before releasing the application, we do acceptance testing: we go through the business cases of the application.",
+    "stage-8": "Publish the app to stores",
+    "description-8": "Add the app to the app shops - App Store, Google Play or any other shop of your choice. Important point: in order for the app to pass the review of storers, you can ask developers for help in the release, or you can prepare and upload the app to the shop yourself.",
+    "stage-9": "Supporting and developing",
+    "description-9": "Once a mobile app is published, its story doesn't end. We work on new features, improve it, and get feedback from users.",
+    "stage-10": "Result of work",
+    "description-10": "A ready-made easily extensible and maintainable mobile application published in the App Store/Google Play. As well as the source code of the application and its documentation.",
+    "text" : "Stages of work",
+    "text2": " Create an effective application",
+    "text3" :"Trust our professionals and get a quality product!",
+    "text4" : "  Order a service"
+
   }
+
 }

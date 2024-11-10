@@ -1,19 +1,16 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-
 const BookDemo = () => {
   return (
-    <div className="mt-12 p-8 bg-transparent rounded-3xl shadow-lg w-full">
-        
-         <div className="particles absolute top-0 left-0 w-full h-full pointer-events-none"></div>
-      <h2 className="text-4xl font-bold mb-8 text-center text-white">Забронировать демо</h2>
+    <div className="mt-12 p-8 bg-transparent rounded-3xl shadow-lg">
+      <h2 className="text-6xl font-bold mb-8 text-center text-white">Забронировать демо</h2>
       <div className="flex flex-col md:flex-row items-center justify-center">
-        <div className="flex-1 max-w-md w-full md:w-1/2 mb-8 md:mb-0">
-          <p className="text-lg mb-6 text-white text-center md:text-left">
+        <div className="flex-1 mb-8 md:mb-0 ">
+          <p className="text-4xl mb-6 text-white text-center md:text-left">
             Закажите демо, и менеджер Flutter продемонстрирует вам универсальное приложение в действии.
           </p>
-          <div className="flex justify-center md:justify-start">
+          <div className="flex justify-center">
             <Link href="/flutter">
               <button className="flex items-center px-12 py-4 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-xl">
                 Обсудить проект
@@ -37,7 +34,7 @@ const BookDemo = () => {
         </div>
         <div className="w-full md:w-1/2">
           <Image
-            src="/knifesmock/MacBook14.png" // Замените на путь к вашему изображению
+            src="/iPhone 16 Pro.png" // Замените на путь к вашему изображению
             alt="Mockup телефона"
             width={800} // Ширина изображения
             height={800} // Высота изображения

@@ -1,4 +1,3 @@
-// src/components/ui/retailpage.tsx
 'use client';
 import React, { useState } from 'react';
 import Image from 'next/image';
@@ -13,24 +12,24 @@ const RetailPage = () => {
   const handleCloseModal = () => setModalOpen(false);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen px-20 relative">
-      {/* Убрали эффект частиц */}
+    <div className="flex flex-col items-center justify-center min-h-screen px-6 md:px-20 relative">
+      {/* Spotlight effect */}
       <Spotlight className="absolute z-50 top-0 right-50" fill="white" />
       
       <div className="flex flex-col md:flex-row items-center justify-center w-full">
-        {/* Левая часть с текстом */}
-        <div className=" md:w-1/2 flex  flex-col items-center justify-center  w-full">
-          <div className="text-6xl font-bold text-center md:text-left mb-12">
+        {/* Left section with text */}
+        <div className="md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left pl-6 md:pl-12">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-8 md:mb-12 leading-tight">
             Розничное приложение для увеличения продаж
-          </div>
+          </h1>
           <FlipWordsDemo2 />
           <button
             onClick={handleOpenModal}
-            className="flex items-center px-12 py-4 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-xl mt-12"
+            className="flex items-center px-8 md:px-12 py-4 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-lg md:text-xl mt-8 md:mt-12"
           >
             Запросить Демо
             <svg
-              className="ml-2 w-8 h-8"
+              className="ml-2 w-6 h-6 md:w-8 md:h-8"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -46,7 +45,7 @@ const RetailPage = () => {
           </button>
         </div>
 
-        {/* Правая часть с изображением */}
+        {/* Right section with image */}
         <div className="hidden md:flex w-2/3 justify-center items-center">
           <Image
             src="/knifesmock/MacBookAir(15 inch).png" // Замените на правильный путь к изображению
@@ -58,7 +57,7 @@ const RetailPage = () => {
         </div>
       </div>
 
-      {/* Модальное окно */}
+      {/* Modal */}
       <Modal isOpen={isModalOpen} onClose={handleCloseModal} />
     </div>
   );

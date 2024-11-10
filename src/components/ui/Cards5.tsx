@@ -95,7 +95,7 @@ export function HoverEffect({ items }: HoverEffectProps) {
             <h2 className="text-xl font-bold mb-4">
               {item.number}. {item.title}
             </h2>
-            <p className="text-sm">{item.description}</p>
+            <p className="text-lg">{item.description}</p>
           </div>
         ))}
       </div>

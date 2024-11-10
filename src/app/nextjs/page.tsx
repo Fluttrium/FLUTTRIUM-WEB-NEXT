@@ -39,7 +39,7 @@ export default function Flutter() {
             </div>
 
             {/* Блок с преимуществами, адаптированный для мобильных устройств */}
-            <div className="relative z-50 px-4 md:px-12 lg:px-20">
+            <div className="relative">
                 <Benefit2 />
             </div>
 

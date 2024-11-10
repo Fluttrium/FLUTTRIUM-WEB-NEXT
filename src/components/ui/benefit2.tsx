@@ -1,29 +1,36 @@
 import React from "react";
-import { CardHoverEffectDemo2 } from "./Cards2";
 import { CardHoverEffectDemo4 } from "./Cards4";
 import Image from "next/image";
 
-
 export function Benefit2() {
   return (
-    <div className="flex flex-col md:flex-row w-full items-center justify-center"> 
-      {/* Flex для горизонтального выравнивания изображения и контента */}
-      <div className="md:w-1/2 w-full p-4">
-          <Image
-              src="/dobrmock/CartoonLaptop.png" // Путь к вашему SVG изображению
-              alt="Flutter Logo"
-              className="h-auto object-contain"
-              width='2000'
-              height="2000"// Установлено на 1/3 ширины
-          />
+    <div className="flex flex-col md:flex-row w-full items-center justify-center space-y-6 md:space-y-0 md:space-x-6 p-4">
+      {/* Изображения */}
+      <div className="md:w-2/3 w-full flex flex-col items-center space-y-4">
+        <Image
+          src="/dobrmock/CartoonLaptop.png"
+          alt="Laptop Image"
+          className="w-full h-auto object-contain hidden md:block"  // Hidden on mobile, shown on larger screens
+          width={2000}
+          height={2000}
+        />
+        <Image
+          src="/nextjsmock/MacBook Air (15 inch).png"
+          alt="MacBook Image"
+          className="w-full h-auto object-contain hidden md:block"  // Hidden on mobile, shown on larger screens
+          width={2000}
+          height={2000}
+        />
       </div>
 
-      {/* Flex для заголовка и карточек в колонку */}
-      <div className="md:w-1/2 w-full flex flex-col items-center">
-        <h1 className="text-2xl font-semibold text-black dark:text-white text-center mb-6 px-10">
-        Разработка сайтов на Next подходит для реализации следующих интернет-проектов:
+      {/* Заголовок и карточки */}
+      <div className="md:w-2/3 w-full flex flex-col items-center text-center px-4">
+        <h1 className="text-xl md:text-2xl font-semibold text-black dark:text-white mb-6">
+          Разработка сайтов на Next подходит для реализации следующих интернет-проектов:
         </h1>
-        <CardHoverEffectDemo4 />
+        <div className="overflow-x-auto w-full">
+          <CardHoverEffectDemo4 />
+        </div>
       </div>
     </div>
   );

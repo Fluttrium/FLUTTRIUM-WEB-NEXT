@@ -1,0 +1,30 @@
+name: Sync Fork
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'  # Запускается каждые 10 минут
+  workflow_dispatch:  # Позволяет запускать вручную
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout forked repository
+        uses: actions/checkout@v2
+        with:
+          repository: Fluttrium/FLUTTRIUM-WEB-NEXT  # Замените на ваш форкнутый репозиторий
+          path: original_repo
+          ref: main  # Основная ветка вашего форка
+
+      - name: Sync Fork
+        run: |
+          cd original_repo  # Переход в извлеченный репозиторий
+          git config --global user.name "OkaneKatsuro"  # Ваше имя
+          git config --global user.email "maksimov.roman0604@gmail.com"  # Ваш email
+          git remote add upstream https://github.com/Fluttrium/FLUTTRIUM-WEB-NEXT.git  # Оригинальный репозиторий
+          git fetch upstream
+          git checkout main  # Или master, в зависимости от основной ветки
+          git merge upstream/main  # Или upstream/master
+          git push origin main  # Отправка изменений в ваш форк
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Используйте токен GitHub для аутентификации

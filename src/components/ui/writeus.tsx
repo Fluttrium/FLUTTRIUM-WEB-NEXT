@@ -1,11 +1,13 @@
 'use client'
 import React, { useState } from "react";
+import {useTranslations} from "use-intl";
 
 export function FeedbackForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [description, setDescription] = useState("");
+  const t = useTranslations('Writeus');
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -19,9 +21,9 @@ export function FeedbackForm() {
 
       {/* Main content */}
       <div className="relative z-10">
-        <h2 className="text-4xl font-bold mb-6 text-white">Напишите нам!</h2>
+        <h2 className="text-4xl font-bold mb-6 text-white">{t('h2')}</h2>
         <p className="text-lg mb-4 text-white">
-          Сделаем удобный цифровой продукт для ваших клиентов вместе!
+          {t('p')}
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-4">
@@ -61,12 +63,12 @@ export function FeedbackForm() {
             type="submit"
             className="flex items-center justify-center w-full px-8 py-2 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-sm"
           >
-            Оставить заявку
+            {t("button")}
           </button>
         </form>
 
         <p className="mt-4 text-sm text-white">
-          Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с политикой конфиденциальности.
+          {t('p2')}
         </p>
       </div>
     </div>

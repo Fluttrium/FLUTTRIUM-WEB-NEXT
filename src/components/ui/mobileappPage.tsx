@@ -1,6 +1,7 @@
 // pages/retail.tsx
 'use client';
 import React, { useState } from 'react';
+import {useTranslations} from "use-intl";
 import Image from 'next/image';
  // Убедитесь, что файл со стилями для частиц подключен и находится в нужной директории
 import Modal from '../Modal';
@@ -8,6 +9,7 @@ import { Spotlight } from './spotlight';
 
 const MobileAppPage = () => {
   const [isModalOpen, setModalOpen] = useState(false);
+  const t = useTranslations('Mobile');
 
   const handleOpenModal = () => setModalOpen(true);
   const handleCloseModal = () => setModalOpen(false);
@@ -25,19 +27,19 @@ const MobileAppPage = () => {
         {/* Левая часть с текстом */}
         <div className="w-full md:w-1/2">
           <h1 className="text-6xl font-bold text-center md:text-left mb-12">
-          Кроссплатформенная разработка приложений
+            {t('h1')}
           </h1>
           <h2 className="text-2xl font-bold text-center md:text-left mb-12">
-          Приложение сразу для iOS и Android? Разработаем его на Flutter
+            {t('h2')}
           </h2>
           <p className="text-xl">
-          С помощью кросс-платформенной мобильной разработки мы можем охватить одним кодом сразу две операционные системы: iOS и Android. Это, во-первых, выгодно, ведь денежные затраты на разработку значительно оптимизируются. А во-вторых, это быстро — кроссплатформенная разработка позволяет уменьшить сроки создания приложения на 40%
+            {t('p')}
           </p>
           <button
             onClick={handleOpenModal}
             className="flex items-center px-12 py-4 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-xl mt-12"
           >
-            Оставить заявку
+            {t('button')}
             <svg
               className="ml-2 w-8 h-8"
               xmlns="http://www.w3.org/2000/svg"

@@ -51,39 +51,39 @@ const Navbar = ({className}: { className?: string }) => {
 
                     <MenuItem setActive={setActive} active={active} item={t('mainNavItm1')}>
                         <div className="flex flex-col space-y-4 text-sm">
-                            <HoveredLink href="/web-sites">Разработка веб-сайтов</HoveredLink>
-                            <HoveredLink href="/mobileapp">Мобильные приложения</HoveredLink>
-                            <HoveredLink href="/uiuxdesign">UI/UX дизайн</HoveredLink>
-                            <HoveredLink href="/itconsul">Консультации по технологиям</HoveredLink>
-                            <HoveredLink href="/itsupport">Поддержка и обслуживание</HoveredLink>
+                            <HoveredLink href="/web-sites">{t("serviceItm1")}</HoveredLink>
+                            <HoveredLink href="/mobileapp">{t("serviceItm2")}</HoveredLink>
+                            <HoveredLink href="/uiuxdesign">{t("serviceItm3")}</HoveredLink>
+                            <HoveredLink href="/itconsul">{t("serviceItm4")}</HoveredLink>
+                            <HoveredLink href="/itsupport">{t("serviceItm5")}</HoveredLink>
                         </div>
                     </MenuItem>
                     <HoveredLink href="/flutter">{t("mainNavItm2")}</HoveredLink>
                     <MenuItem setActive={setActive} active={active} item={t('mainNavItm3')}>
                         <div className="text-sm grid grid-cols-2 gap-10 p-4">
                             <ProductItem
-                                title="Коробочное приложение для ритейла"
+                                title=  {t('title1')}
                                 href="/retail"
                                 src="/flutter-10181843-8492733.png"
-                                description="Готовое решение для магазинов и сетей, позволяющее управлять продажами, складом и клиентской базой"
+                                description={t('description1')}
                             />
                             <ProductItem
-                                title="Приложение для корпораций"
+                                title={t('title2')}
                                 href="/corporation"
                                 src="/flutter-10181843-8492733.png"
-                                description="Инструмент для улучшения внутренних процессов компании, обеспечивающий автоматизацию бизнес-процессов"
+                                description= {t('description2')}
                             />
                             <ProductItem
-                                title="Интернет магазин"
+                                title={t('title3')}
                                 href="/internetshop"
                                 src="/flutter-10181843-8492733.png"
-                                description="Платформа для онлайн-продаж, позволяющая быстро создать и управлять интернет-магазином"
+                                description={t('description3')}
                             />
                             <ProductItem
-                                title="CRM система"
+                                title={t('title4')}
                                 href="/crm"
                                 src="/flutter-10181843-8492733.png"
-                                description="Инновационное решение для управления взаимоотношениями с клиентами"
+                                description={t('description4')}
                             />
                         </div>
                     </MenuItem>
@@ -117,13 +117,13 @@ const Navbar = ({className}: { className?: string }) => {
                                 title="Flutter"
                                 href="/flutter"
                                 src="/flutter-10181843-8492733.png"
-                                description="Современный фреймворк от Google для разработки нативных приложений на мобильных устройствах"
+                                description={t('description5')}
                             />
                             <ProductItem
                                 title="Next JS"
                                 href="/nextjs"
                                 src="/projects/nextjs-light.svg"
-                                description="Мощный фреймворк для React, который упрощает создание быстрых и производительных веб-приложений"
+                                description={t('description6')}
                             />
                         </div>
                     </MenuItem>

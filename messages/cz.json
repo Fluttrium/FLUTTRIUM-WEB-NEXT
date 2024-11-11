@@ -53,7 +53,22 @@
     "mainNavItm4": "Ceny",
     "mainNavItm5": "Kontakty",
     "mainNavItm6": "Technologie",
-    "navMainButton": "Vyplnit brief"
+    "navMainButton":"Vyplnit brief",
+    "serviceItm1" : "Vývoj webových stránek",
+    "serviceItm2": "Mobilní aplikace",
+    "serviceItm3": "Design UI/UX",
+    "serviceItm4": "Poradenství v oblasti technologií",
+    "serviceItm5": "Podpora a údržba",
+    "title1": "Aplikace v krabicích pro maloobchodní prodej",
+    "description1":"Řešení na klíč pro obchody a řetězce ke správě prodeje, skladu a zákaznické základny.",
+    "title2": "Aplikace pro společnosti",
+    "description2": "Nástroj pro zlepšení interních procesů společnosti, který poskytuje automatizaci obchodních procesů.",
+    "title3": "Online obchod",
+    "description3": "Online prodejní platforma, která vám umožní rychle vytvořit a spravovat váš online obchod.",
+    "title4": "CRM systém",
+    "description4": "Inovativní řešení pro řízení vztahů se zákazníky",
+    "description5" : "Moderní rámec společnosti Google pro vývoj nativních aplikací pro mobilní zařízení",
+    "description6" : "Výkonný framework pro React, který usnadňuje vytváření rychlých a výkonných webových aplikací."
   },
   "MainForm": {
     "FormDisc": "Jak vám můžeme pomoci? Stručně popište žádost o vývoj - spojíme se s vámi během dne.",
@@ -106,5 +121,70 @@
       "description": "Náš nový projekt internetové platformy pro prodej nožů s registrací, online platbou a doručením po celé České republice.",
       "imageAlt": "Maketa internetového obchodu s noži"
     }
-  }
+  },
+  "Maintenance" : {
+    "text-1":"Mobilní verze dočasně nedostupná",
+     "text-2": "Provádíme technické práce. Navštivte prosím stránky později nebo je otevřete na svém počítači."
+  },
+  "Website": {
+    "text-1": "Vývoj webových stránek",
+    "text-2": "Vytvoříme pro vás efektivní webové stránky, které budou správně fungovat ve všech prohlížečích a na všech zařízeních.\n                        zařízení",
+    "button": "Zanechte žádost",
+    "stage": "Zkoumání projektu",
+    "description": "Podepsání NDA. Prostudujeme zadávací podmínky. Pokud je nemáte, pošleme vám zadání pro tvorbu webových stránek a pomůžeme vám ho vyplnit.",
+    "stage-2": "Začněme prace ",
+    "description-2": "Provádět obchodní zpravodajství. Studujeme technickou dokumentaci. Vypočítáme, kolik času bude potřeba na vývoj a testování. Identifikujeme nepopsané scénáře a úzká místa v zadání.",
+    "stage-3" : "Vývoj frontendu a backendu",
+    "description-3" :"Vytváříme rozvržení, vyvíjíme webové stránky a naplňujeme je obsahem.",
+    "stage-4" : "Testování výrobku",
+    "description-4" : "S pomocí našich inženýrů kontroly kvality, kteří se na projektu podíleli od začátku, stránky testujeme. Vypracujeme testovací dokumentaci. Provádíme konečné úpravy.",
+    "stage-5" : "Poskytujeme vám webové stránky",
+    "description-5" :"Předáme vám staveniště a kompletní balíček projektové dokumentace.",
+    "stage-6" : "Údržba webu",
+    "description-6" : "Po převodu práv k webu jeho historie nekončí. Pokud se v prvních měsících života webu ukáže, kde a co je třeba dokončit nebo předělat, nabízíme dvě možnosti: uzavřít smlouvu o údržbě nebo zahájit novou fázi vývoje.",
+    "h2" : "Etapy práce",
+    "h3" :  "Vytvoření efektivních webových stránek",
+    "p": "Důvěřujte našim profesionálům a získejte kvalitní produkt!",
+    "button-2": "Objednat službu"
+
+
+  },
+  "Writeus" : {
+    "h2" : "Napište nám!",
+    "p" : "Pojďme společně vytvořit uživatelsky přívětivý digitální produkt pro vaše zákazníky!",
+    "button" : "Zanechte žádost",
+    "p2" : "Kliknutím na tlačítko vyjadřujete souhlas se zpracováním osobních údajů a souhlasíte se zásadami ochrany osobních údajů."
+
+  },
+   "Mobile": {
+     "h1" :  "Vývoj aplikací pro více platforem",
+     "h2" : " Aplikace pro iOS a Android najednou? Pojďme ji vyvinout na Flutteru",
+     "p" :  "  Při vývoji mobilních aplikací pro více platforem můžeme jedním kódem pokrýt dva operační systémy najednou: iOS a Android. Jednak je to výhodné, protože se výrazně optimalizují náklady na vývoj. A za druhé je rychlý - vývoj napříč platformami umožňuje zkrátit dobu potřebnou k vytvoření aplikace o 40 %.",
+     "button" : "Zanechte žádost",
+     "stage": "Zkoumání projektu" ,
+     "description": "Podepíšeme NDA. Prostudujeme vaše zadávací podmínky (TOR), a pokud je nemáte - i to se stává a je to normální - pomůžeme vám je vypracovat. Na začátku druhé fáze máme k dispozici popis základních funkcí mobilní aplikace.",
+     "stage-2": "Odhad rozsahu prací a výběr metodiky",
+     "description-2": "Zvolte metodiku vhodnou pro daný projekt: agilní nebo vodopádovou. Prostudujte technickou dokumentaci. Poté vypočítáme odhadovanou dobu vývoje a testování. Identifikujeme nepopsané scénáře v zadávací dokumentaci. Naplánujte plán postupu.",
+     "stage-3": "Podepsání smlouvy, zahájení práce",
+     "description-3": "Dodržování jasného plánu, práce ve sprintech.",
+     "stage-4": "Navrhování designu aplikace",
+     "description-4": "Vytvoříme mapu obrazovky, grafické prvky a podrobný (statický nebo interaktivní) prototyp s ohledem na možné scénáře použití.",
+     "stage-5": "Schválení designu",
+     "description-5": "Získáme zpětnou vazbu od obchodního analytika a klienta, zapracujeme připomínky a provedeme úpravy.",
+     "stage-6": "Vývoj aplikace",
+     "description-6": "Propojujeme vývojový tým, který píše kód. V této době designér aktivně sleduje práci a kontroluje, jak jsou obrazovky implementovány. Práce probíhá v iteracích - vyvineme část funkcí, otestujeme ji a pokračujeme v práci na zbytku fun",
+     "stage-7": "Testování aplikace a oprava chyb",
+     "description-7": "S pomocí našich inženýrů kontroly kvality, kteří se na projektu podíleli od začátku, stránky testujeme. Vypracujeme testovací dokumentaci. Před uvolněním aplikace provádíme akceptační testování: procházíme obchodní případy aplikace.",
+     "stage-8": "Zveřejnění aplikace v obchodech",
+     "description-8": "Přidejte aplikaci do obchodů s aplikacemi - App Store, Google Play nebo do jiného obchodu podle vlastního výběru. Důležitý bod: aby aplikace prošla hodnocením obchodníků, můžete požádat vývojáře o pomoc při vydání nebo můžete aplikaci připravit a nahrát do obchodu sami.",
+     "stage-9": "Podpora a rozvoj",
+     "description-9": "Jakmile je mobilní aplikace zveřejněna, její příběh nekončí. Pracujeme na nových funkcích, vylepšujeme ji a získáváme zpětnou vazbu od uživatelů.",
+     "stage-10": "Výsledek práce",
+     "description-10": "Hotová, snadno rozšiřitelná a udržovatelná mobilní aplikace publikovaná v App Store/Google Play. Stejně jako zdrojový kód aplikace a její dokumentaci.",
+     "text" : "Fáze práce",
+     "text2": " Vytvoření efektivní aplikace",
+     "text3" :"Důvěřujte našim profesionálům a získejte kvalitní produkt!",
+     "text4" : "  Objednat službu"
+   }
+
 }

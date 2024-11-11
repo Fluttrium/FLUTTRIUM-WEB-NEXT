@@ -4,18 +4,18 @@ import Link from 'next/link';
 const BookDemo = () => {
   return (
     <div className="mt-12 p-8 bg-transparent rounded-3xl shadow-lg">
-      <h2 className="text-6xl font-bold mb-8 text-center text-white">Забронировать демо</h2>
-      <div className="flex flex-col md:flex-row items-center justify-center">
-        <div className="flex-1 mb-8 md:mb-0 ">
-          <p className="text-4xl mb-6 text-white text-center md:text-left">
-            Закажите демо, и менеджер Flutter продемонстрирует вам универсальное приложение в действии.
+      <h2 className="text-4xl md:text-6xl font-bold mb-8 text-center text-white">Забронировать демо</h2>
+      <div className="flex flex-col md:flex-row items-center">
+        <div className="flex-1 mb-8 md:mb-0 text-center">
+          <p className="text-2xl md:text-4xl mb-4 text-white"> {/* Уменьшен отступ между текстом и кнопкой */}
+            Закажите демо, и менеджер Flutter продемонстрирует вам универсальное приложение в действии
           </p>
           <div className="flex justify-center">
             <Link href="/flutter">
-              <button className="flex items-center px-12 py-4 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-xl">
-                Обсудить проект
+              <button className="flex items-center px-8 md:px-12 py-3 md:py-4 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-lg md:text-xl">
+                Забронировать демо
                 <svg
-                  className="ml-2 w-8 h-8"
+                  className="ml-2 w-6 h-6 md:w-8 md:h-8"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -32,13 +32,13 @@ const BookDemo = () => {
             </Link>
           </div>
         </div>
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-2/4 flex justify-center md:mt-0"> {/* Убраны отступы сверху */}
           <Image
-            src="/iPhone 16 Pro.png" // Замените на путь к вашему изображению
+            src="/iPhone 16 Pro.png"
             alt="Mockup телефона"
-            width={800} // Ширина изображения
-            height={800} // Высота изображения
-            className="object-contain rounded-lg shadow-lg"
+            width={1000}
+            height={1000}
+            className="object-contain rounded-lg shadow-lg w-full md:w-4/4"
           />
         </div>
       </div>

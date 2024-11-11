@@ -37,13 +37,18 @@ export default function Flutter() {
                 <RetailPage/>
             </div>
             <div className="relative -mt-40">
+                <FunctionEx/>
+            </div>
+            <div className=" overflow-x-auto relative">
                 <Advantage/>
             </div>
             <div className="relative">
-                <FunctionEx/>
-            </div>
             <BookDemo/>
+            </div>
+
+            <div className="relative">
             <Licence/>
+            </div>
             <TextForm/>
         </main>
     );

@@ -14,7 +14,7 @@ export function FunctionEx() {
       title: "Главная страница",
       description:
         "Витрина мобильного магазина. Новости, баннеры и сторис расставляют акценты и направляют внимание пользователей",
-      tags: ["новости", "баннеры","программа лояльности", "каталог акций", "скидки"],
+      tags: ["новости", "баннеры", "программа лояльности", "каталог акций", "скидки"],
       image: "/iPhone 15 (1).png",
     },
     {
@@ -35,14 +35,14 @@ export function FunctionEx() {
       title: "Доставка",
       description:
         "Интеграция с популярными сервисами доставки. Увеличивает скорость обслуживания и помогает автоматизировать процессы",
-      tags: ["СДЭК","Яндекс Доставка","Достависта","Boxbetty"],
+      tags: ["СДЭК", "Яндекс Доставка", "Достависта", "Boxbetty"],
       image: "/iPhone 15 (4).png",
     },
     {
       title: "Административная панель",
       description:
         "Дружелюбная административная панель. Помогает управлять баннерами, push-уведомлениями, СМС и рассылками",
-      tags: ["уведомления", "ассортимент товаров", "баннеры","редактирование"],
+      tags: ["уведомления", "ассортимент товаров", "баннеры", "редактирование"],
       image: "/iPhone 15 (5).png",
     },
   ];
@@ -56,9 +56,7 @@ export function FunctionEx() {
         {advantages.map((advantage, index) => (
           <div
             key={index}
-            className={`flex flex-col items-center p-4 border rounded-2xl shadow-lg w-full ${
-              (index % 4 === 0 || index % 4 === 3) ? "bg-blue-600 text-white shadow-xl" : ""
-            }`}
+            className="flex flex-col items-center p-4 border rounded-2xl shadow-lg w-full transition duration-300 transform hover:shadow-[0px_0px_20px_5px_rgba(0,102,255,0.6)] hover:bg-blue-600 hover:text-white hover:border-blue-500"
           >
             {/* Картинка */}
             <Image
@@ -80,9 +78,7 @@ export function FunctionEx() {
               {advantage.tags.map((tag, tagIndex) => (
                 <span
                   key={tagIndex}
-                  className={`${
-                    index % 4 === 0 || index % 4 === 3 ? "bg-white text-blue-600" : "bg-blue-600 text-white"
-                  } rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2`}
+                  className="border border-gray-400 hover:bg-white hover:text-blue-600 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2 transition duration-300"
                 >
                   {tag}
                 </span>

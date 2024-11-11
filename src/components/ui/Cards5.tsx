@@ -90,7 +90,7 @@ export function HoverEffect({ items }: HoverEffectProps) {
         {items.map((item, index) => (
           <div
             key={index}
-            className="hover:bg-blue-600 hover:text-white transition p-6 border border-gray-200 rounded-lg shadow-lg"
+            className="transition-all duration-300 transform hover:bg-blue-600 hover:text-white hover:border-blue-500 hover:shadow-lg p-6 border border-gray-200 rounded-lg shadow-lg"
           >
             <h2 className="text-xl font-bold mb-4">
               {item.number}. {item.title}
@@ -106,7 +106,7 @@ export function HoverEffect({ items }: HoverEffectProps) {
           {items.map((item, index) => (
             <div
               key={index}
-              className="transition-all duration-300 transform hover:bg-blue-600 hover:text-white p-6 border border-gray-200 rounded-lg shadow-lg flex-shrink-0 w-[220px] h-[350px] flex flex-col"
+              className="transition-all duration-300 transform hover:bg-blue-600 hover:text-white hover:border-blue-500 hover:shadow-lg p-6 border border-gray-200 rounded-lg shadow-lg flex-shrink-0 w-[220px] h-[350px] flex flex-col"
             >
               <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-4">
                 {item.number}. {item.title}

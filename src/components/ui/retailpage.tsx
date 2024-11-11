@@ -15,10 +15,10 @@ const RetailPage = () => {
     <div className="flex flex-col items-center justify-center min-h-screen px-6 md:px-20 relative">
       {/* Spotlight effect */}
       <Spotlight className="absolute z-50 top-0 right-50" fill="white" />
-      
-      <div className="flex flex-col md:flex-row items-center justify-center w-full">
+
+      <div className="flex flex-col md:flex-row items-center justify-center w-full mx-auto">
         {/* Left section with text */}
-        <div className="md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left pl-6 md:pl-12">
+        <div className="md:w-1/2 flex flex-col items-center text-center md:text-left pl-6 md:pl-12">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-8 md:mb-12 leading-tight">
             Розничное приложение для увеличения продаж
           </h1>
@@ -46,9 +46,9 @@ const RetailPage = () => {
         </div>
 
         {/* Right section with image */}
-        <div className="hidden md:flex w-2/3 justify-center items-center">
+        <div className="hidden md:flex w-1/2 justify-center items-center mt-8 md:mt-0">
           <Image
-            src="/knifesmock/MacBookAir(15 inch).png" // Замените на правильный путь к изображению
+            src="/crm/iPhone 15 Pro.png" // Замените на правильный путь к изображению
             alt="Retail Application"
             width={1200}
             height={1200}

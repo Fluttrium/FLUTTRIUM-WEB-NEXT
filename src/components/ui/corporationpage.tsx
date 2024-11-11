@@ -1,10 +1,10 @@
 "use client"
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
 import Modal from '../Modal';
-import {Spotlight} from './spotlight'; // Подключаем компонент Spotlight
+import { Spotlight } from './spotlight'; // Подключаем компонент Spotlight
 
 const CorporatioPage = () => {
     const [isModalOpen, setModalOpen] = useState(false);
@@ -13,7 +13,7 @@ const CorporatioPage = () => {
     const handleCloseModal = () => setModalOpen(false);
 
     return (
-        <section className="flex flex-row  max-w-max justify-center min-h-screen px-5 md:px-20 relative">
+        <section className="flex flex-col md:flex-row max-w-max justify-center min-h-screen px-5 md:px-20 relative pt-20 md:pt-0"> {/* Добавляем отступ сверху для мобильной версии */}
             {/* Фоновый цвет с градиентом */}
             <div className="absolute h-full w-full bg-slate-950">
                 <div
@@ -27,17 +27,17 @@ const CorporatioPage = () => {
             />
 
             <div
-                className="flex flex-col md:flex-row items-center justify-beetwen w-full z-10"> {/* Добавлено z-10 для поднятия над фоном */}
+                className="flex flex-col md:flex-row items-center justify-between w-full z-10"> {/* Добавлено z-10 для поднятия над фоном */}
                 {/* Левая часть с текстом и компонентом */}
-                <div className="w-full md:w-1/2 mb-12 md:mb-0">
-                    <h1 className="text-4xl md:text-6xl font-bold text-center md:text-left mb-6">
+                <div className="w-full md:w-1/2 mb-12 md:mb-0 flex flex-col justify-center items-center md:items-start text-center md:text-left">
+                    <h1 className="text-4xl md:text-6xl font-bold mb-6">
                         Разработка корпоративных приложений
                     </h1>
                     <p className="text-lg md:text-xl">
                         Разработаем корпоративное приложение для оцифровки и ускорения HR-процессов: корпоративного
                         документооборота, оформления больничных и отпусков, обучения и найма сотрудников. Вы получите
                         кастомную систему с интеграцией с мобильными и веб-приложениями, которая работает под
-                        потребности и процессы вашей компании.
+                        потребности и процессы вашей компании
                     </p>
                     {/* Кнопка */}
                     <button
@@ -63,9 +63,8 @@ const CorporatioPage = () => {
                 </div>
 
                 {/* Правая часть с изображением */}
-
             </div>
-            <div className=" absolute  right-0 top-[450px] hidden md:flex w-1/2 justify-center items-center">
+            <div className="absolute right-0 top-[450px] hidden md:flex w-1/2 justify-center items-center">
                 <Image
                     src="/taximock/iPhone-15-Pro2.png" // Путь к вашему изображению
                     alt="Sales Application"
@@ -76,7 +75,7 @@ const CorporatioPage = () => {
             </div>
 
             {/* Модальное окно */}
-            <Modal isOpen={isModalOpen} onClose={handleCloseModal}/>
+            <Modal isOpen={isModalOpen} onClose={handleCloseModal} />
         </section>
     );
 };

@@ -1,6 +1,4 @@
-// components/CorporateAppUsage.tsx
 import React from 'react';
-
 
 const CorporateAppUsage = () => {
   const sections = [
@@ -50,27 +48,29 @@ const CorporateAppUsage = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen px-6 py-8 ">
+    <div className="flex flex-col items-center justify-center min-h-screen px-6 py-8">
       <div className="w-full max-w-6xl">
         <h1 className="text-4xl font-bold text-center mb-10 text-800">
           Области применения корпоративных приложений
         </h1>
-        <div className="flex space-x-4 overflow-x-auto py-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-4">
           {sections.map((section, index) => (
             <div
               key={index}
-              className="bg-white p-6 min-w-[300px] rounded-lg shadow-md border-l-4 border-blue-500 transition duration-200 hover:border-blue-700"
+              className="p-6 min-w-[300px] rounded-lg shadow-md border-l-4 border-blue-500 transition duration-200 hover:border-blue-700 relative hover:shadow-lg hover:shadow-blue-500"
             >
               <h2 className="text-3xl font-semibold text-blue-600 mb-4">
                 {section.title}
               </h2>
-              <ul className="list-disc list-inside text-lg text-gray-600 space-y-2">
+              <ul className="list-disc list-inside text-lg text-white font-bold space-y-2">
                 {section.items.map((item, idx) => (
                   <li key={idx} className="text-lg">
                     {item}
                   </li>
                 ))}
               </ul>
+              {/* Подсветка внизу карточки */}
+              <div className="absolute bottom-0 left-0 w-full h-2 bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 rounded-b-lg"></div>
             </div>
           ))}
         </div>

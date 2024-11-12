@@ -38,16 +38,13 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         <h2 className="text-5xl md:text-6xl mb-6 text-black dark:text-white max-w-4xl">
           Процесс разработки CRM
         </h2>
-        <p className="text-lg md:text-xl dark:text-300 max-w-lg">
+        <p className="text-lg md:text-2xl dark:text-300 max-w-lg">
           Шесть ключевых этапов разработки CRM-системы к созданию эффективного решения для управления клиентами
         </p>
       </div>
 
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
         {/* Added the grid overlay */}
-        <div className="absolute inset-0 bg-slate-950">
-          <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
-        </div>
 
         {data.map((item, index) => (
           <div key={index} className="flex justify-start pt-10 md:pt-40 md:gap-10">
@@ -55,7 +52,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center">
                 <div className="h-4 w-4 rounded-full bg-neutral-200 dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />
               </div>
-              <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-neutral-500 dark:text-neutral-500 ">
+              <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-500 dark:text-500 ">
                 {item.title}
               </h3>
             </div>

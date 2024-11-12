@@ -24,9 +24,9 @@ export function TimelineDemo() {
                         <Image
                             src="/Scenes03.svg"
                             alt="startup template"
-                            width={800}
+                            width={1000}
                             height={1000}
-                            className="rounded-lg object-contain h-full md:h-44 lg:h-60 w-full"
+                            className="rounded-lg object-contain h-full w-full"
                         />
 
                     </div>
@@ -52,9 +52,9 @@ export function TimelineDemo() {
                         <Image
                             src="/Scenes01.svg"
                             alt="startup template"
-                            width={800}
-                            height={1000}
-                            className="rounded-lg object-contain h-full md:h-44 lg:h-60 w-full"
+                            width={100}
+                            height={100}
+                            className="rounded-lg object-contain h-full w-full"
                         />
                     </div>
                 </div>
@@ -82,9 +82,9 @@ export function TimelineDemo() {
                         <Image
                             src="/Scenes08.svg"
                             alt="startup template"
-                            width={800}
-                            height={1000}
-                            className="rounded-lg object-contain h-full md:h-44 lg:h-60 w-full"
+                            width={100}
+                            height={100}
+                            className="rounded-lg object-contain h-full w-full"
                         />
                     </div>
                 </div>
@@ -111,9 +111,9 @@ export function TimelineDemo() {
                         <Image
                             src="/Scenes02.svg"
                             alt="startup template"
-                            width={800}
-                            height={1000}
-                            className="rounded-lg object-contain h-full md:h-44 lg:h-60 w-full"
+                            width={100}
+                            height={100}
+                            className="rounded-lg object-contain h-full w-full"
                         />
                     </div>
                 </div>
@@ -137,9 +137,9 @@ export function TimelineDemo() {
                         <Image
                             src="/Scenes04.svg"
                             alt="startup template"
-                            width={800}
-                            height={1000}
-                            className="rounded-lg object-contain h-full md:h-44 lg:h-60 w-full"
+                            width={500}
+                            height={500}
+                            className="rounded-lg object-contain h-full w-full"
                         />
                     </div>
                 </div>

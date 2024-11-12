@@ -23,23 +23,23 @@ const CostAndTimeline: React.FC = () => {
       <div className="absolute inset-0 bg-slate-950">
         <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
       </div>
-      
+
       {/* Main content */}
       <div className="relative z-10">
-        <h2 className="text-3xl font-bold mb-6 text-center">Стоимость и сроки разработки CRM</h2>
-        <p className="text-xl text-gray-600 mb-6 text-center">
+        <h2 className="text-3xl font-bold mb-6 text-center text-white">Стоимость и сроки разработки CRM</h2>
+        <p className="text-xl text-white mb-6 text-center">
           На стоимость разработки системы влияет объем данных CRM, спектр функциональных возможностей,
-          сложность интеграций и количество поддерживаемых платформ.
+          сложность интеграций и количество поддерживаемых платформ
         </p>
         <div className="flex overflow-x-auto space-x-6 px-4">
           {stages.map((stage, index) => (
             <div
               key={index}
-              className="min-w-[300px] p-6 border rounded-lg flex-shrink-0 bg-white hover:shadow-lg transition-shadow duration-300"
+              className="min-w-[300px] p-6 border-2 border-white rounded-lg flex-shrink-0 hover:shadow-lg transition-shadow duration-300"
             >
-              <h3 className="text-2xl font-semibold mb-3">{stage.title}</h3>
-              <p className="text-xl text-gray-800">Стоимость: <span className="font-medium">{stage.cost}</span></p>
-              <p className="text-xl text-gray-800">Сроки: <span className="font-medium">{stage.duration}</span></p>
+              <h3 className="text-2xl font-semibold mb-3 text-white">{stage.title}</h3>
+              <p className="text-xl text-white">Стоимость: <span className="font-medium">{stage.cost}</span></p>
+              <p className="text-xl text-white">Сроки: <span className="font-medium">{stage.duration}</span></p>
             </div>
           ))}
         </div>

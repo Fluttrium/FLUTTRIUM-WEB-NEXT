@@ -2,15 +2,17 @@ import React from 'react';
 
 const NextDevelopmentCard2 = () => {
   return (
-    <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden p-6 my-20 py-6"> {/* Ограничена максимальная ширина */}
-      <div className="flex flex-row items-center justify-center space-x-6">
-        <div className="text-left">
-          <h3 className="text-2xl font-semibold text-gray-800 w-full">Отправьте запрос, чтобы получить индивидуальное предложение на разработку сайта</h3>
+    <div className="max-w-6xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden p-4 sm:p-6 my-10 sm:my-20 py-6">
+      <div className="flex flex-col sm:flex-row items-center justify-center sm:space-x-6 space-y-4 sm:space-y-0">
+        <div className="text-center sm:text-left">
+          <h3 className="text-lg sm:text-2xl font-semibold text-gray-800">
+            Отправьте запрос, чтобы получить индивидуальное предложение на разработку сайта
+          </h3>
         </div>
-        <button className="flex items-center px-8 py-0.5 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-sm z-30">
+        <button className="flex items-center justify-center px-6 py-1.5 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-xs sm:text-sm rounded-md">
           Заказать
           <svg
-            className="ml-2 w-10 h-10"
+            className="ml-2 w-6 h-6 sm:w-8 sm:h-8"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"

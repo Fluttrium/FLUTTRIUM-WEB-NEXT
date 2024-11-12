@@ -38,11 +38,14 @@ export default function Flutter() {
             </div>
             <Navbar />
             <CorporatioPage/>
+            <div className="relative -mt-40">
+            <TimelineDemo/>
+            </div>
+
            
             <CorporateAppReasons/>
             
             <CorporateAppUsage/>
-            <TimelineDemo/>
             <FeedbackForm/>
         </main>
     );

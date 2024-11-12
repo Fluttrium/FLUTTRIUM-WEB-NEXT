@@ -39,11 +39,13 @@ export default function Flutter() {
             <div className="relative z-10">
                 <Navbar/>
                 <CrmPage/>
-                <div className="relative z-50 -mt-40">
+                <div className="relative -mt-40">
                     <HeroParallaxDemo/>
                 </div>
+                {/* <div className="relative">
                 <NextDevelopmentCard3/>
-                <TimelineDemo/>
+                </div> */}
+                <TimelineDemo2/>
                 <CostAndTimeline/>
                 <FeedbackForm/>
             </div>

@@ -7,7 +7,7 @@ export function CardHoverEffectDemo6() {
     <>
       <div id="service" className="flex justify-center">
         <h1 className="text-4xl font-semibold text-black dark:text-white text-center">
-          <span className="text-xl md:text-[4rem] font-bold mt-1 leading-none block mb-5">
+          <span className="text-2xl md:text-[4rem] font-bold mt-1 leading-none block mb-5">
             Решение для интернет магазинов
           </span>
         </h1>
@@ -25,23 +25,20 @@ export const projects = [
     title: "Интернет-магазин под ключ",
     description:
       "Полный цикл разработки от бизнес-анализа и индивидуального проектирования до интеграции со сложными CRM и ERP-системами. Разработка сайта интернет магазина под ключ на базе Next JS",
-
-      link: "",
+    link: "",
   },
   {
     number: 2,
     title: "Интернет-магазин на готовой платформе",
     description:
       "Быстрый запуск MVP для первых продаж и кастомная разработка сложных проектов на платформе CS-Cart с функциональным движком для быстрого старта и неограниченного роста",
-
-      link: "",
+    link: "",
   },
   {
     number: 3,
     title: "Омниканальные проекты",
     description:
       "Автоматизация бизнес-процессов и построение единой экосистемы онлайн и офлайн точек продаж. Улучшаем клиентский опыт на базе лучших международных практик",
-
     link: "",
   },
   {
@@ -49,15 +46,13 @@ export const projects = [
     title: "Реплатформинг интернет-магазина",
     description:
       "Бесшовный перенос текущего веб-сайта с устаревшей CMS или самописного программного обеспечения на многофункциональную платформу без простоев и потери данных",
-
-      link: "",
+    link: "",
   },
   {
     number: 5,
     title: "Мобильные приложения",
     description:
       "Разработка мобильных приложений, адаптивных веб-сайтов и PWA-решений для мобильной коммерции. Увеличиваем конверсию на всех устройствах",
-
     link: "",
   },
   {
@@ -102,15 +97,12 @@ export function HoverEffect({ items }: HoverEffectProps) {
       {items.map((item, index) => (
         <div
           key={index}
-          className="hover:bg-blue-600 hover:text-white transition p-6 border border-gray-200 rounded-lg shadow-lg"
+          className="p-6 border border-gray-200 rounded-lg shadow-lg hover:bg-blue-600 hover:text-white transition"
         >
           <h2 className="text-xl font-bold mb-4">
             {item.number}. {item.title}
           </h2>
           <p className="mb-4">{item.description}</p>
-          {/* Рендеринг изображения */}
-
-          {/* Рендеринг кнопки */}
           {item.buttonContent && <div className="mt-4">{item.buttonContent}</div>}
         </div>
       ))}

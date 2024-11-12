@@ -49,8 +49,8 @@ const CorporateAppUsage = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-6 py-8">
-      <div className="w-full max-w-6xl">
-        <h1 className="text-4xl font-bold text-center mb-10 text-800">
+      <div className="w-full">
+        <h1 className="text-2xl md:text-6xl font-bold text-center mb-10">
           Области применения корпоративных приложений
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-4">

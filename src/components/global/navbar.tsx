@@ -64,19 +64,19 @@ const Navbar = ({className}: { className?: string }) => {
                             <ProductItem
                                 title=  {t('title1')}
                                 href="/retail"
-                                src="/flutter-10181843-8492733.png"
+                                src="/crm/iPhone 15 Pro.png"
                                 description={t('description1')}
                             />
                             <ProductItem
                                 title={t('title2')}
                                 href="/corporation"
-                                src="/flutter-10181843-8492733.png"
+                                src="/taximock/Black-Titanium.png"
                                 description= {t('description2')}
                             />
                             <ProductItem
                                 title={t('title3')}
                                 href="/internetshop"
-                                src="/flutter-10181843-8492733.png"
+                                src="/knifesmock/MacBookAir(15 inch).png"
                                 description={t('description3')}
                             />
                             <ProductItem

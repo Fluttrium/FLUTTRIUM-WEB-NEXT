@@ -130,61 +130,38 @@ const Navbar = ({className}: { className?: string }) => {
                 </Menu>
             </nav>
 
-            <div className="flex items-center gap-2 md:gap-4">
-                {language === "ru" && (
-                    <div className="text-sm font-semibold md:text-2xl mr-1 md:mr-2">+7(921)011-27-94</div>
-                )}
-                <DropdownMenu>
-                    <DropdownMenuTrigger className="text-3xl">
-                        {language === "en" ? "EN" : language === "ru" ? "RU" : "CZ"}
-                    </DropdownMenuTrigger>
-                    <DropdownMenuContent
-                        className="mt-4 flex flex-col bg-black/40 backdrop-blur-lg z-[100] items-center">
-                        <DropdownMenuItem
-                            className="text-3xl flex flex-col items-center"
-                            onClick={() => handleChangeLanguage('en')}
-                        >
-                            <div className="flex items-center">
+            <div className="flex items-center gap-4 ml-auto">
+  {language === "ru" && (
+    <div className="text-sm font-semibold md:text-2xl mr-1 md:mr-2">+7(921)011-27-94</div>
+  )}
+  <DropdownMenu>
+    <DropdownMenuTrigger className="text-3xl">
+      {language === "en" ? "EN" : language === "ru" ? "RU" : "CZ"}
+    </DropdownMenuTrigger>
+    <DropdownMenuContent className="mt-4 flex flex-col bg-black/40 backdrop-blur-lg z-[100] items-center">
+      <DropdownMenuItem className="text-3xl flex flex-col items-center" onClick={() => handleChangeLanguage('en')}>
+        <div className="flex items-center">EN</div>
+        {language === "en" && <div className="h-1 bg-white w-full mt-1"></div>}
+      </DropdownMenuItem>
+      <DropdownMenuItem className="text-3xl flex flex-col items-center" onClick={() => handleChangeLanguage('ru')}>
+        <div className="flex items-center">RU</div>
+        {language === "ru" && <div className="h-1 bg-white w-full mt-1"></div>}
+      </DropdownMenuItem>
+      <DropdownMenuItem className="text-3xl flex flex-col items-center" onClick={() => handleChangeLanguage('cz')}>
+        <div className="flex items-center">CZ</div>
+        {language === "cz" && <div className="h-1 bg-white w-full mt-1"></div>}
+      </DropdownMenuItem>
+    </DropdownMenuContent>
+  </DropdownMenu>
 
-                                EN
-                            </div>
-                            {language === "en" && <div className="h-1 bg-white w-full mt-1"></div>}
-                        </DropdownMenuItem>
-                        <DropdownMenuItem
-                            className="text-3xl flex flex-col items-center"
-                            onClick={() => handleChangeLanguage('ru')}
-                        >
-                            <div className="flex items-center">
+  <Link href="/brief" className="relative h-8 md:h-12 overflow-hidden rounded-full p-[2px] md:p-[3px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+    <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"/>
+    <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 md:px-6 py-1 md:py-2 text-xs md:text-base font-semibold text-white backdrop-blur-3xl">
+      {t('navMainButton')}
+    </span>
+  </Link>
+</div>
 
-                                RU
-                            </div>
-                            {language === "ru" && <div className="h-1 bg-white w-full mt-1"></div>}
-                        </DropdownMenuItem>
-                        <DropdownMenuItem
-                            className="text-3xl flex flex-col items-center"
-                            onClick={() => handleChangeLanguage('cz')}
-                        >
-                            <div className="flex items-center">
-
-                                CZ
-                            </div>
-                            {language === "cz" && <div className="h-1 bg-white w-full mt-1"></div>}
-                        </DropdownMenuItem>
-                    </DropdownMenuContent>
-                </DropdownMenu>
-
-                <Link
-                    href="/brief"
-                    className="relative h-8 md:h-12 overflow-hidden rounded-full p-[2px] md:p-[3px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
-                >
-                    <span
-                        className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"/>
-                    <span
-                        className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 md:px-6 py-1 md:py-2 text-xs md:text-base font-semibold text-white backdrop-blur-3xl">
-                    {t('navMainButton')}
-                    </span>
-                </Link>
-            </div>
         </header>
     );
 };

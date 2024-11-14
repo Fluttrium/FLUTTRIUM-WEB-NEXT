@@ -9,6 +9,8 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 import { useLanguage } from "@/store";
 import { useRouter } from "next/navigation";
 import { useTranslations } from "use-intl";
+import { MdClose } from "react-icons/md";
+
 
 const Navbar = ({ className }: { className?: string }) => {
   const t = useTranslations('navbar');
@@ -45,51 +47,68 @@ const Navbar = ({ className }: { className?: string }) => {
   </aside>
 
   {/* Бургер-меню для мобильных устройств */}
-  <div className="md:hidden flex items-center">
-    <IconButton onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-white">
-      <FaBars className="text-white text-3xl" />
-    </IconButton>
-  </div>
-
+  <div className="lg:hidden flex items-center">
+  <IconButton onClick={() => setIsMenuOpen(!isMenuOpen)}>
+    {isMenuOpen ? <MdClose className="text-3xl text-white" /> : <FaBars className="text-3xl text-white" />}
+  </IconButton>
+</div>
+ 
   {/* Основное меню для мобильных устройств */}
-  {isMenuOpen && (
-    <div className="absolute left-0 right-0 top-0 mt-16 bg-black/70 backdrop-blur-lg z-[99] flex flex-col items-center p-4">
-      <div className="flex flex-col items-center">
-        <HoveredLink href="/web-sites" className="text-xl md:text-2xl">{t("serviceItm1")}</HoveredLink>
-        <HoveredLink href="/mobileapp" className="text-xl md:text-2xl">{t("serviceItm2")}</HoveredLink>
-        <HoveredLink href="/uiuxdesign" className="text-xl md:text-2xl">{t("serviceItm3")}</HoveredLink>
-        <HoveredLink href="/itconsul" className="text-xl md:text-2xl">{t("serviceItm4")}</HoveredLink>
-        <HoveredLink href="/itsupport" className="text-xl md:text-2xl">{t("serviceItm5")}</HoveredLink>
-        <HoveredLink href="/flutter" className="text-xl md:text-2xl">{t("mainNavItm2")}</HoveredLink>
-        <HoveredLink href="/price" className="text-xl md:text-2xl">{t('mainNavItm4')}</HoveredLink>
-        <HoveredLink href="/brief" className="text-xl md:text-2xl">{t('navMainButton')}</HoveredLink>
-      </div>
-      <div className="flex items-center gap-4 mt-4">
-        <DropdownMenu>
-          <DropdownMenuTrigger className="text-3xl">
-            {language === "en" ? "EN" : language === "ru" ? "RU" : "CZ"}
-          </DropdownMenuTrigger>
-          <DropdownMenuContent className="mt-4 flex flex-col bg-black/40 backdrop-blur-lg z-[100] items-center">
-            <DropdownMenuItem className="text-3xl flex flex-col items-center" onClick={() => handleChangeLanguage('en')}>
-              <div className="flex items-center">EN</div>
-              {language === "en" && <div className="h-1 bg-white w-full mt-1"></div>}
-            </DropdownMenuItem>
-            <DropdownMenuItem className="text-3xl flex flex-col items-center" onClick={() => handleChangeLanguage('ru')}>
-              <div className="flex items-center">RU</div>
-              {language === "ru" && <div className="h-1 bg-white w-full mt-1"></div>}
-            </DropdownMenuItem>
-            <DropdownMenuItem className="text-3xl flex flex-col items-center" onClick={() => handleChangeLanguage('cz')}>
-              <div className="flex items-center">CZ</div>
-              {language === "cz" && <div className="h-1 bg-white w-full mt-1"></div>}
-            </DropdownMenuItem>
-          </DropdownMenuContent>
-        </DropdownMenu>
-      </div>
+{isMenuOpen && (
+  <div className="absolute left-0 right-0 top-0 mt-16 bg-black backdrop-blur-lg z-[99] flex flex-col p-4">
+    <div className="flex flex-col items-start"> {/* Add items-start here */}
+    <HoveredLink href="/web-sites" className="text-xl md:text-2xl text-left hover:text-blue-500">{t("serviceItm1")}</HoveredLink>
+<HoveredLink href="/mobileapp" className="text-xl md:text-2xl text-left hover:text-blue-500">{t("serviceItm2")}</HoveredLink>
+<HoveredLink href="/uiuxdesign" className="text-xl md:text-2xl text-left hover:text-blue-500">{t("serviceItm3")}</HoveredLink>
+<HoveredLink href="/itconsul" className="text-xl md:text-2xl text-left hover:text-blue-500">{t("serviceItm4")}</HoveredLink>
+<HoveredLink href="/itsupport" className="text-xl md:text-2xl text-left hover:text-blue-500">{t("serviceItm5")}</HoveredLink>
+<hr className="my-4 border-t-2 border-gray-600" />
+<HoveredLink href="/retail" className="text-xl md:text-2xl text-left hover:text-blue-500">{t('title1')}</HoveredLink>
+<HoveredLink href="/corporation" className="text-xl md:text-2xl text-left hover:text-blue-500">{t('title2')}</HoveredLink>
+<HoveredLink href="/internetshop" className="text-xl md:text-2xl text-left hover:text-blue-500">{t('title3')}</HoveredLink>
+<HoveredLink href="/crm" className="text-xl md:text-2xl text-left hover:text-blue-500">{t('title4')}</HoveredLink>
+<hr className="my-4 border-t-2 border-gray-600" />
+<HoveredLink href="/flutter" className="text-xl md:text-2xl text-left hover:text-blue-500">{t("mainNavItm2")}</HoveredLink>
+<HoveredLink href="/nextjs" className="text-xl md:text-2xl text-left hover:text-blue-500">{t("mainNavItm7")}</HoveredLink>
+<hr className="my-4 border-t-2 border-gray-600" />
+<Link
+      href="/brief"
+      className="relative h-8 md:h-12 overflow-hidden rounded-full p-[2px] md:p-[3px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
+    >
+      <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"/>
+      <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 md:px-6 py-1 md:py-2 text-xs md:text-base font-semibold text-white backdrop-blur-3xl">
+        {t('navMainButton')}
+      </span>
+    </Link>
     </div>
-  )}
+    <div className="flex items-center gap-4 mt-4">
+      {/* Dropdown menu for language selection */}
+      <DropdownMenu>
+        <DropdownMenuTrigger className="text-3xl">
+          {language === "en" ? "EN" : language === "ru" ? "RU" : "CZ"}
+        </DropdownMenuTrigger>
+        <DropdownMenuContent className="mt-4 flex flex-col bg-black/40 backdrop-blur-lg z-[100] items-center">
+          <DropdownMenuItem className="text-3xl flex flex-col items-center" onClick={() => handleChangeLanguage('en')}>
+            <div className="flex items-center">EN</div>
+            {language === "en" && <div className="h-1 bg-white w-full mt-1"></div>}
+          </DropdownMenuItem>
+          <DropdownMenuItem className="text-3xl flex flex-col items-center" onClick={() => handleChangeLanguage('ru')}>
+            <div className="flex items-center">RU</div>
+            {language === "ru" && <div className="h-1 bg-white w-full mt-1"></div>}
+          </DropdownMenuItem>
+          <DropdownMenuItem className="text-3xl flex flex-col items-center" onClick={() => handleChangeLanguage('cz')}>
+            <div className="flex items-center">CZ</div>
+            {language === "cz" && <div className="h-1 bg-white w-full mt-1"></div>}
+          </DropdownMenuItem>
+        </DropdownMenuContent>
+      </DropdownMenu>
+    </div>
+  </div>
+)}
 
   {/* Десктопное меню */}
-  <nav className="absolute left-[50%] top-[50%] transform translate-x-[-50%] translate-y-[-50%] hidden md:block">
+  <nav className="absolute left-[50%] top-[50%] transform translate-x-[-50%] translate-y-[-50%] hidden xl:block sm:hidden">
+  {/* Десктопное меню */}
     <Menu setActive={setActive}>
       {/* Меню для десктопа */}
       <MenuItem setActive={setActive} active={active} item={t('mainNavItm1')}>

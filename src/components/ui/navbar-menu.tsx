@@ -89,25 +89,26 @@ export const ProductItem = ({
   src: string;
 }) => {
   return (
-    <Link href={href} className="flex space-x-2">
+    <Link href={href} className="flex space-x-2 sm:space-x-4">
       <Image
         src={src}
-        width={140}
-        height={140}
+        width={80} // Размер изображения на мобильных
+        height={80}
         alt={title}
-        className="flex-shrink-0 rounded-md shadow-2xl"
+        className="flex-shrink-0 rounded-md shadow-2xl sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px]"
       />
       <div>
-        <h4 className="text-xl font-bold mb-1 text-black dark:text-white">
+        <h4 className="text-lg font-bold mb-1 text-black dark:text-white sm:text-xl">
           {title}
         </h4>
-        <p className="text-neutral-700 text-sm max-w-[10rem] dark:text-neutral-300">
+        <p className="text-neutral-700 text-xs sm:text-sm max-w-[6rem] sm:max-w-[8rem] md:max-w-[10rem] dark:text-neutral-300">
           {description}
         </p>
       </div>
     </Link>
   );
 };
+
 
 export const HoveredLink = ({ children, ...rest }: any) => {
   return (

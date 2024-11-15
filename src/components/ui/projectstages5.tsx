@@ -36,9 +36,9 @@ export function ProjectStages5() {
   };
 
   return (
-    <div className="relative flex mx-auto px-8 py-16">
+    <div className="relative flex flex-col md:flex-row mx-auto px-8 py-16">
       {/* Основной контент */}
-      <div className="relative w-3/4 pr-8">
+      <div className="relative w-full md:w-3/4 pr-8">
         <h2 className="text-5xl font-semibold mb-10">Этапы работы</h2>
         <div className="space-y-8">
           {stages.map((stage, index) => (
@@ -59,8 +59,8 @@ export function ProjectStages5() {
           ))}
         </div>
       </div>
-      <div className="relative w-1/4">
-        <div className="max-h-96 overflow-y-auto p-6 border border-gray-300 rounded-lg bg-white shadow-lg">
+      <div className="hidden md:block w-full md:w-1/4">
+            <div className="max-h-96 overflow-y-auto p-6 border border-gray-300 rounded-lg bg-white shadow-lg">
           <h3 className="text-2xl font-semibold text-gray-800 mb-4">Создадим эффективное приложение</h3>
           <p className="text-lg text-gray-700 mb-6">
             Доверьтесь нашим профессионалам и получите качественный продукт!

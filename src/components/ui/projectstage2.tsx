@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { useTranslations } from "use-intl";
+import Modal from "../Modal";
 
 // SVG-иконка
 const PlusIcon = () => (
@@ -17,6 +18,10 @@ const PlusIcon = () => (
 );
 
 export function ProjectStages2() {
+    const [isModalOpen, setModalOpen] = useState(false);
+
+    const handleOpenModal = () => setModalOpen(true);
+    const handleCloseModal = () => setModalOpen(false);
     const t = useTranslations('Mobile');
     const [openIndex, setOpenIndex] = useState<number | null>(null);
 
@@ -103,11 +108,29 @@ export function ProjectStages2() {
                     <p className="text-lg text-gray-700 mb-6">
                         {t('text3')}
                     </p>
-                    <button className="w-full py-3 px-6 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200">
-                        {t("text4")}
-                    </button>
+                    <button
+  onClick={handleOpenModal}
+  className="w-full py-3 px-6 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200 flex items-center justify-center"
+>
+  {t("text4")}
+  <svg
+    className="ml-2 w-5 h-5"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M9 5l7 7-7 7"
+    />
+  </svg>
+</button>
                 </div>
             </div>
+            {isModalOpen && <Modal isOpen={isModalOpen} onClose={handleCloseModal} />}
         </div>
     );
 }

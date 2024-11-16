@@ -33,18 +33,24 @@ const Navbar = ({ className }: { className?: string }) => {
 
   return (
     <header className="fixed right-0 left-0 top-0 py-4 px-4 bg-black/40 backdrop-blur-lg z-[100] flex items-center border-b-[1px] border-neutral-900 justify-between">
-  <aside className="flex items-center gap-2">
-    <Link href="/">
-      <Image
-        src="/logo.png"
-        width={28}
-        height={40}
-        alt="fuzzie logo"
-        className="shadow-sm"
-      />
-    </Link>
-    <p className="text-2xl font-semibold text-white md:text-4xl">Fluttrium</p>
-  </aside>
+
+<aside className="flex items-center gap-3">
+  <Link
+    href="/"
+    className="flex items-center gap-2" // Стили для размещения элементов в строку
+  >
+    <Image
+      src="/logo.png"
+      width={28}
+      height={40}
+      alt="fuzzie logo"
+      className="shadow-sm"
+    />
+    <span className="text-2xl font-semibold text-white md:text-4xl">
+      Fluttrium
+    </span>
+  </Link>
+</aside>
 
   {/* Бургер-меню для мобильных устройств */}
   <div className="lg:hidden flex items-center">
@@ -126,7 +132,7 @@ const Navbar = ({ className }: { className?: string }) => {
           <ProductItem title={t('title1')} href="/retail" src="/crm/iPhone 15 Pro.png" description={t('description1')} />
           <ProductItem title={t('title2')} href="/corporation" src="/taximock/Black-Titanium.png" description={t('description2')} />
           <ProductItem title={t('title3')} href="/internetshop" src="/knifesmock/MacBookAir(15 inch).png" description={t('description3')} />
-          <ProductItem title={t('title4')} href="/crm" src="/flutter-10181843-8492733.png" description={t('description4')} />
+          <ProductItem title={t('title4')} href="/crm" src="/Mockup.png" description={t('description4')} />
         </div>
       </MenuItem>
       <HoveredLink href="/price" className="text-2xl md:text-2xl">{t('mainNavItm4')}</HoveredLink>

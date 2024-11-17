@@ -27,12 +27,12 @@ export default function Home() {
         t('words5'),
     ];
     return (
-        <main className="overflow-hidden">
+        <main className="relative overflow-hidden w-full h-full">
+             <div className="absolute h-full w-full">
+                <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
+            </div>
             <Navbar />
             <section className="mp-10 h-auto md:h-screen w-full !overflow-hidden relative flex antialiased">
-            <div className="absolute h-full w-full bg-slate-950">
-                    <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
-                </div>
                 <Spotlight
                     className="absolute z-50 top-0 right-50"
                     fill="white"
@@ -163,7 +163,10 @@ export default function Home() {
             
             <CardHoverEffectDemo />
             <AppleCardsCarouselDemo />
+            <div className="relative z-50">
             <SocialContacts />
+            </div>
+            
         </main>
     );
 }

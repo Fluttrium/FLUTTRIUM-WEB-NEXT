@@ -32,19 +32,21 @@ import { TimelineDemo } from "@/components/ui/steps";
 
 export default function Flutter() {
     return (
-        <main className="-z-50 overflow-hidden relative h-full w-full bg-slate-950">
+        <main className="relative overflow-hidden">
             <div
                 className=" -z-50 absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]">
             </div>
             <Navbar />
-            <CorporatioPage/>
-            <div className="relative -mt-40">
+            <div className="relative z-50 mt-40 md:mt-40 mb-14 sm:px-6 md:px-12 lg:px-20">
+  <Spotlight className="absolute z-50" />
+  <CorporatioPage/>
+</div>    
+            <div className="relative mt-40">
             <TimelineDemo/>
             </div>
-
-           
+            <div className="">
             <CorporateAppReasons/>
-            
+            </div>               
             <CorporateAppUsage/>
             <FeedbackForm/>
         </main>

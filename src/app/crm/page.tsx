@@ -39,8 +39,6 @@ export default function Flutter() {
   <Spotlight className="absolute z-50" />
   <CrmPage/>
 </div>
-           
-        
                 
                 <div className="-mt-40">
                     <HeroParallaxDemo/>

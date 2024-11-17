@@ -24,8 +24,8 @@ export function TimelineDemo() {
                         <Image
                             src="/Scenes03.svg"
                             alt="startup template"
-                            width={1000}
-                            height={1000}
+                            width={100}
+                            height={100}
                             className="rounded-lg object-contain h-full w-full"
                         />
 
@@ -137,14 +137,15 @@ export function TimelineDemo() {
                         <Image
                             src="/Scenes04.svg"
                             alt="startup template"
-                            width={500}
-                            height={500}
+                            width={100}
+                            height={100}
                             className="rounded-lg object-contain h-full w-full"
                         />
                     </div>
                 </div>
             ),
         },
+        
     ];
     return (
         <div className="w-full">

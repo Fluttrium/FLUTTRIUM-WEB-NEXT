@@ -43,9 +43,9 @@ export default function Flutter() {
             <div className=" overflow-x-auto relative">
                 <Advantage/>
             </div>
-            <div className="relative">
+            {/* <div className="relative">
             <BookDemo/>
-            </div>
+            </div> */}
 
             <div className="relative">
             <Licence/>

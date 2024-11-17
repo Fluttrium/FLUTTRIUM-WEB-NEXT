@@ -29,14 +29,14 @@ export default function Home() {
     return (
         <main className="overflow-hidden">
             <Navbar />
-            <section className="mp-10 h-auto md:h-screen w-full bg-neutral-950 !overflow-hidden relative flex antialiased">
+            <section className="mp-10 h-auto md:h-screen w-full !overflow-hidden relative flex antialiased">
+            <div className="absolute h-full w-full bg-slate-950">
+                    <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
+                </div>
                 <Spotlight
                     className="absolute z-50 top-0 right-50"
                     fill="white"
                 />
-                <div className="absolute h-full w-full bg-slate-950">
-                    <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
-                </div>
                 <div className="flex flex-col items-center justify-center md:flex-row md:mx-10 z-50 px-4 w-full h-full mt-12">
                     {/* Элемент для больших экранов */}
                     <div className="hidden left-20 w-1/2 top-80  basis-1/2 pl-14 md:block text-7xl z-50 font-normal text-neutral-600 dark:text-neutral-400">
@@ -154,8 +154,13 @@ export default function Home() {
                 </div>
             </section>
             <ProjectsCards />
+            <div className="relative -mt-40">
             <HeroScrollDemo />
+            </div>
+            <div className="relative -mt-40">
             <TypewriterEffectSmoothDemo />
+            </div>
+            
             <CardHoverEffectDemo />
             <AppleCardsCarouselDemo />
             <SocialContacts />

@@ -14,24 +14,18 @@ const CrmPage = () => {
   const handleCloseModal = () => setModalOpen(false);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen px-20 relative">
-      <Spotlight className="absolute z-50 top-0 right-50" fill="white" />
-      
-      {/* Фон с решеткой */}
-      <div className="absolute inset-0 bg-slate-950">
-        <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
-      </div>
-
+    <div className="w-full rounded-lg shadow-md flex flex-col lg:flex-row items-center lg:items-start space-y-6 lg:space-y-0 lg:space-x-6 px-4 sm:px-6 lg:px-0">
       <div className="flex flex-col md:flex-row items-center justify-center w-full z-10">
         {/* Левая часть с текстом и компонентом */}
-        <div className="w-full md:w-1/2">
-          <h1 className="text-6xl font-bold text-center md:text-left mb-12">
+        <div className="flex-1 w-full text-center lg:text-left">
+          <h1 className="text-4xl sm:text-6xl font-bold mb-6 sm:mb-12">
             Разработка CRM-систем на заказ
           </h1>
           <p className="text-xl">
             Повышает качество работы с клиентами и упрощает работу менеджеров
           </p>
           {/* Кнопка */}
+          <div className="flex justify-center lg:justify-start mt-12">
           <button
             onClick={handleOpenModal}
             className="flex items-center px-12 py-4 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-xl mt-12"
@@ -52,18 +46,19 @@ const CrmPage = () => {
               />
             </svg>
           </button>
+          </div>
         </div>
 
         {/* Правая часть с изображением */}
-        <div className="hidden md:flex w-1/2 justify-center items-center">
-          <Image
-            src="/projects/case8.png" // Путь к вашему изображению
-            alt="Sales Application"
-            width={1200} // Увеличенный размер изображения
-            height={1200} // Увеличенный размер изображения
-            className="rounded-lg shadow-lg object-cover w-full h-auto" // Обеспечиваем адаптивность изображения
-          />
-        </div>
+        <div className="w-full flex justify-center lg:w-2/4 lg:justify-end mt-12 sm:mt-8 lg:mt-0">
+  <Image
+    src="/Midnight.png" // Путь к вашему изображению
+    alt="Sales Application"
+    width={600} // Увеличенный размер изображения
+    height={600} // Увеличенный размер изображения
+    className="w-3/4 md:w-2/3 lg:w-full h-auto object-contain" // Обеспечиваем адаптивность изображения
+  />
+</div>
       </div>
       {isModalOpen && <Modal isOpen={isModalOpen} onClose={handleCloseModal} />}
     </div>

@@ -19,7 +19,8 @@ import { CardHoverEffectDemo3 } from "@/components/ui/Cards3";
 import { FreeAudit } from "@/components/ui/audit";
 import { FeedbackForm } from "@/components/ui/writeus";
 import Image from "next/image";
-import CoverDemo from "@/components/ui/coverDemo";
+import { CoverDemo } from "@/components/ui/coverDemo";
+
 
 export default function Flutter() {
     
@@ -29,11 +30,11 @@ export default function Flutter() {
                 className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]">
             </div>
             <Navbar/>
-            <div className="relative z-50 mt-40 md:mt-40 mb-14 sm:px-6 md:px-12 lg:px-20">
+            <div className="relative z-50 md:mt-0 mt-20 sm:px-12 ">
   <Spotlight className="absolute z-50" />
   <CoverDemo />
 </div> 
-            <div className="flex z-50">
+            <div className="flex z-50 -mt-20 sm:mt-0">
                 <FlutterInfo/>
             </div>
             <div className="relative z-50 mt-10 md:-mt-40">

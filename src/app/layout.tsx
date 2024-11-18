@@ -7,6 +7,7 @@ import {NextIntlClientProvider} from 'next-intl';
 import {useLanguage} from "@/store"; // Импортируйте хранилище
 import {cookies} from 'next/headers';
 import Navbar from "@/components/global/navbar";
+import {ThemSwitcher} from "@/components/global/themswitcher";
 
 const inter = Roboto_Condensed({subsets: ["latin"]});
 
@@ -37,6 +38,7 @@ export default async function RootLayout({
             <NextIntlClientProvider messages={messages}>
                 <Navbar/>
                 {children}
+                <ThemSwitcher/>
             </NextIntlClientProvider>
         </ThemeProvider>
         <Analytics/>

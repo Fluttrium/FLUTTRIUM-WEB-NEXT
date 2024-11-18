@@ -17,7 +17,7 @@ export async function POST(request: Request) {
         }
 
 
-        const {data, error} = await resend.emails.send({
+        const { error} = await resend.emails.send({
             from: 'Форма обратной связи с сайта  <welcom@fluttrium.com>',
             to: ['fluttrium@gmail.com'],
             subject: 'New Feedback Form Submission',

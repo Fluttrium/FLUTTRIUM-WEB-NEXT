@@ -1,7 +1,13 @@
-import React from "react";
+"use client"
+import React, { useState } from "react";
 import { HoverEffect } from "./card-hover-effect";
+import Modal from "../Modal";
 
 export function CardHoverEffectDemo2() {
+  const [isModalOpen, setModalOpen] = useState(false);
+
+  const handleOpenModal = () => setModalOpen(true);
+  const handleCloseModal = () => setModalOpen(false);
   return (
     <>
       <div id="service" className="flex justify-center">
@@ -18,24 +24,32 @@ export function CardHoverEffectDemo2() {
             </div>
           ))}
         </div>
+                <Modal isOpen={isModalOpen} onClose={handleCloseModal} />
       </div>
-      <button className="flex items-center px-8 py-0.5 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-sm z-30 mt-10">
-        Подробнее о Flutter
-        <svg
-          className="ml-2 w-10 h-10"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M9 5l7 7-7 7"
-          />
-        </svg>
-      </button>
+      <div className="flex justify-center lg:justify-start mt-12">
+                    {/* Кнопка */}
+                    <button
+                        onClick={handleOpenModal}
+                        className="flex items-center px-12 py-4 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-xl mt-12"
+                    >
+                        Запросить Демо
+                        <svg
+                            className="ml-2 w-8 h-8"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M9 5l7 7-7 7"
+                            />
+                        </svg>
+                    </button>
+                </div>
+      
     </>
   );
 }

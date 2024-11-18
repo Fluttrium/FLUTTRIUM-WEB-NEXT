@@ -9,7 +9,6 @@ import { FlipWords } from "@/components/ui/flip-words";
 import { GlareCard } from "@/components/ui/glare-card";
 import { Spotlight } from "@/components/ui/spotlight";
 import "@/app/globals.css";
-import { CoverDemo } from "@/components/ui/coverDemo";
 import FlutterInfo from "@/components/ui/blockText";
 import { Benefit } from "@/components/benefit";
 import { StickyScrollRevealDemo } from "@/components/ui/skill";
@@ -41,10 +40,10 @@ export default function Flutter() {
   <Spotlight className="absolute z-50" />
   <CorporatioPage/>
 </div>    
-            <div className="relative mt-40">
+            <div className="mt-40">
             <TimelineDemo/>
             </div>
-            <div className="">
+            <div className="z-50">
             <CorporateAppReasons/>
             </div>               
             <CorporateAppUsage/>

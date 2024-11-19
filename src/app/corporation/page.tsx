@@ -39,7 +39,7 @@ export default function Flutter() {
                 <Spotlight className="absolute z-50"/>
                 <CorporatioPage/>
             </div>
-            <div className="mt-40">
+            <div className="mt-40 flex  ">
                 <TimelineDemo/>
             </div>
 

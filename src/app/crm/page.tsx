@@ -46,7 +46,7 @@ export default function Flutter() {
             {/* <div className="relative">
                 <NextDevelopmentCard3/>
                 </div> */}
-            <div className="lg:mt-20">
+            <div className="lg:mt-20 flex ">
                 <TimelineDemo2/>
             </div>
             <CostAndTimeline/>

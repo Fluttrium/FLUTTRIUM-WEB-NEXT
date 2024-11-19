@@ -37,7 +37,7 @@ export default function Flutter() {
                 <Spotlight className="absolute z-50"/>
                 <RetailPage/>
             </div>
-            <div className="relative -mt-20">
+            <div className="relative ">
                 <FunctionEx/>
             </div>
             <div className=" overflow-x-auto relative">

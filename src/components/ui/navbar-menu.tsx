@@ -95,7 +95,7 @@ export const ProductItem = ({
         width={80} // Размер изображения на мобильных
         height={80}
         alt={title}
-        className="flex-shrink-0 rounded-md shadow-2xl sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px]"
+        className="flex-shrink-0 object-contain rounded-md shadow-2xl sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px]"
       />
       <div>
         <h4 className="text-lg font-bold mb-1 text-black dark:text-white sm:text-xl">

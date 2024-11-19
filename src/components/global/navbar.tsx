@@ -198,6 +198,7 @@ const Navbar = ({className}: { className?: string }) => {
                     </MenuItem>
                 </Menu>
             </nav>
+
             <div className="flex items-center gap-2 md:gap-4 hidden md:flex">
                 {language === "ru" && (
                     <div className="text-sm font-semibold md:text-2xl mr-1 md:mr-2">+7(921)011-27-94</div>
@@ -238,6 +239,7 @@ const Navbar = ({className}: { className?: string }) => {
       </span>
                 </Link>
             </div>
+
         </header>
     );
 };

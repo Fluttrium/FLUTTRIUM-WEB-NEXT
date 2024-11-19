@@ -145,10 +145,10 @@ export function TimelineDemo() {
                 </div>
             ),
         },
-        
+
     ];
     return (
-        <div className="w-full">
+        <div className="w-max">
             <Timeline data={data}/>
         </div>
     );

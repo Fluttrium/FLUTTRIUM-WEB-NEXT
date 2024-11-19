@@ -28,7 +28,7 @@ export default function Home() {
     ];
     return (
         <main className="relative overflow-hidden w-full h-full">
-             <div className="absolute h-full w-full">
+             <div className="absolute h-full w-full -z-10">
                 <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
             </div>
             <Navbar />
@@ -39,8 +39,9 @@ export default function Home() {
                 />
                 <div className="flex flex-col items-center justify-center md:flex-row md:mx-10 z-50 px-4 w-full h-full mt-12">
                     {/* Элемент для больших экранов */}
-                    <div className="hidden left-20 w-1/2 top-80  basis-1/2 pl-14 md:block text-7xl z-50 font-normal text-neutral-600 dark:text-neutral-400">
-                    {t('hero_1')}&nbsp;{t('hero_2')}
+                    <div
+                        className="hidden left-20 w-1/2 top-80  basis-1/2 pl-14 md:block text-7xl z-50 font-normal text-neutral-600 dark:text-neutral-400">
+                        {t('hero_1')}&nbsp;{t('hero_2')}
                         <div className="flex top-full left-0 w-full mt-4">
                             <FlipWords words={words2} />
                         </div>
@@ -53,7 +54,6 @@ export default function Home() {
                             </Link>
                         </div>
                     </div>
-
                     {/* Элемент для маленьких экранов */}
                     <div className="block md:hidden flex flex-col items-center text-center mt-20">
                         <div className="text-4xl z-50 font-normal text-neutral-600 dark:text-neutral-400">
@@ -72,7 +72,6 @@ export default function Home() {
                             </Link>
                         </div>
                     </div>
-
                     {/* Карточки для мобильных экранов */}
                     <div className="flex flex-col justify-center gap-2 mt-10 md:hidden">
                         <div className="flex flex-row justify-center gap-2">
@@ -98,7 +97,6 @@ export default function Home() {
                                 </p>
                             </GlareCard>
                         </div>
-
                         <div className="flex justify-center mt-4">
                             <GlareCard
                                 width="260px"
@@ -112,7 +110,6 @@ export default function Home() {
                             </GlareCard>
                         </div>
                     </div>
-
                     {/* Карточки для больших экранов */}
                     <div className="hidden md:flex flex-col gap-10 ml-6 mt-20">
                         <div className="flex flex-row gap-10">
@@ -160,7 +157,6 @@ export default function Home() {
             <div className="relative -mt-40">
             <TypewriterEffectSmoothDemo />
             </div>
-            
             <CardHoverEffectDemo />
             <AppleCardsCarouselDemo />
             <div className="relative z-50">

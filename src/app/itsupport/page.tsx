@@ -21,10 +21,10 @@ export default function Flutter() {
                 <Spotlight className="absolute z-50"/>
                 <ItsupportPage/>
             </div>
-            <div className="">
+            <div className="relative z-50">
                 <ProjectStages5/>
             </div>
-            <div className="relative z-50">
+            <div className="relative z-40">
                 <FeedbackForm/>
             </div>
         </main>

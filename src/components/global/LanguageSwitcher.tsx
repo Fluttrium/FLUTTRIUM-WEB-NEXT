@@ -16,7 +16,7 @@ const LanguageSwitcher = () => {
 
     useEffect(() => {
         // Устанавливаем язык из localStorage при первом рендере
-        const savedLanguage = localStorage.getItem('language') || 'en';
+        const savedLanguage = localStorage.getItem('language') || 'ru';
         setLanguage(savedLanguage);
     }, [setLanguage]);
 

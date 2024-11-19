@@ -21,7 +21,7 @@ export default async function RootLayout({
                                          }: Readonly<{ children: React.ReactNode }>) {
     // Проверяем язык в куки
     const cookieStore = cookies();
-    const language = cookieStore.get('language')?.value || 'en'; // Устанавливаем значение по умолчанию на 'en'
+    const language = cookieStore.get('language')?.value || 'ru'; // Устанавливаем значение по умолчанию на 'en'
 
     // Импортируем сообщения на основе текущего языка
     const messages = await import(`../../messages/${language}.json`).then(module => module.default);
@@ -38,7 +38,7 @@ export default async function RootLayout({
             <NextIntlClientProvider messages={messages}>
                 <Navbar/>
                 {children}
-                <ThemSwitcher/>
+                {/*<ThemSwitcher/>*/}
             </NextIntlClientProvider>
         </ThemeProvider>
         <Analytics/>

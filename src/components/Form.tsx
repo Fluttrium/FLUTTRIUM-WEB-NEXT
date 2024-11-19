@@ -53,7 +53,7 @@ export function Form() {
       </div>
       <div className="md:w-1/2">
         <div className="max-w-md w-full mx-auto rounded-none p-4 bg-white dark:bg-black my-2">
-          <form className="space-y-11" onSubmit={handleSubmit}>
+          <form className="sm:space-y-11 space-y-3" onSubmit={handleSubmit}>
             <div className="flex flex-col space-y-2 mb-4">
               <LabelInputContainer>
                 <Label htmlFor="firstname">{t("label1")}</Label>

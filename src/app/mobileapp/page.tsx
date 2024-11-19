@@ -45,7 +45,7 @@ export default function Flutter() {
                 <Spotlight className="absolute z-50"/>
                 <MobileAppPage/>
             </div>
-            <div className="md:-mt-20">
+            <div className="mt-20">
                 <ProjectStages2/>
             </div>
             <div className="relative z-50">

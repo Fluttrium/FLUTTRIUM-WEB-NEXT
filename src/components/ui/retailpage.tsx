@@ -13,7 +13,7 @@ const RetailPage = () => {
   const handleCloseModal = () => setModalOpen(false);
 
   return (
-    <div className="w-full rounded-lg shadow-md flex flex-col lg:flex-row items-center lg:items-start space-y-6 lg:space-y-0 lg:space-x-6 px-4 sm:px-6 lg:px-0">
+    <div className="w-full rounded-lg shadow-md  pt-40 flex flex-col lg:flex-row items-center lg:items-start space-y-6 lg:space-y-0 lg:space-x-6 px-4 sm:px-6 lg:px-0">
       {/* Текстовая часть */}
       <div className="flex-1 w-full text-center lg:text-left">
         <h1 className="text-4xl sm:text-6xl font-bold mb-6 sm:mb-12">

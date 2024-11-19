@@ -30,27 +30,30 @@ const reasonsData = [
 
 const CorporateAppReasons = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen px-4 py-8">
-      <div className="max-w-full w-full rounded-3xl shadow-lg p-8">
-        <h1 className="text-5xl font-bold text-center mb-12 text-800">
-          Когда заказывают разработку корпоративных приложений на Android или iOS?
-        </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {reasonsData.map((reason) => (
-            <div
-              key={reason.id}
-              className="p-6 border-2 border-gray-300 rounded-lg shadow-md"
-            >
-              <h2 className="text-4xl font-semibold text-blue-600 mb-2">
-                {reason.id}. {reason.title}
-              </h2>
-              <p className="text-2xl text-700">{reason.description}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-};
 
-export default CorporateAppReasons;
+      <div className=" relative flex flex-col items-center justify-center min-h-screen px-4 py-8">
+
+
+          <div className="max-w-full w-full rounded-3xl shadow-lg p-8">
+            <h1 className="text-5xl font-bold text-center mb-12 text-800">
+              Когда заказывают разработку корпоративных приложений на Android или iOS?
+            </h1>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {reasonsData.map((reason) => (
+                  <div
+                      key={reason.id}
+                      className="p-6 border-2 border-gray-300 rounded-lg shadow-md"
+                  >
+                    <h2 className="text-4xl font-semibold text-blue-600 mb-2">
+                      {reason.id}. {reason.title}
+                    </h2>
+                    <p className="text-2xl text-700">{reason.description}</p>
+                  </div>
+              ))}
+            </div>
+          </div>
+        </div>
+        );
+        };
+
+        export default CorporateAppReasons;

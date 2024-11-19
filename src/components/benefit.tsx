@@ -3,13 +3,13 @@ import { CardHoverEffectDemo2 } from "./ui/Cards2";
 
 export function Benefit() {
   return (
-    <div className="flex flex-col md:flex-row w-full items-center justify-center"> 
+    <div className="flex flex-col md:flex-row w-full items-center justify-center">
       {/* Flex для горизонтального выравнивания изображения и контента */}
       <div className="md:w-1/2 w-full p-4">
         <img
           src="/projects/case7.png" // Путь к вашему изображению
           alt="Case Study Image"
-          className="object-contain w-full h-auto" // Настройте размеры по необходимости
+          className="object-contain w-full h-auto hidden md:block" // Скрыть на мобильных, показать на десктопах
         />
       </div>
 

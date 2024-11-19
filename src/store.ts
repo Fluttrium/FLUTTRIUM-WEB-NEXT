@@ -7,7 +7,7 @@ interface LanguageStore {
 }
 
 export const useLanguage = create<LanguageStore>((set) => ({
-    language: Cookies.get('language') || 'en', // Получаем язык из куки
+    language: Cookies.get('language') || 'ru', // Получаем язык из куки
     setLanguage: (lang: string) => {
         set({ language: lang });
         Cookies.set('language', lang); // Сохраняем язык в куки

@@ -59,7 +59,7 @@ export function Advantage() {
           ))}
         </div>
       </div>
-      <Link href="/flutter">
+      <Link href="/brief">
         <button className="flex items-center px-8 py-3 sm:px-12 sm:py-4 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-lg sm:text-xl mt-8 sm:mt-12">
           Обсудить проект
           <svg

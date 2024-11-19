@@ -9,10 +9,10 @@ export function TimelineDemo() {
             content: (
                 <div>
                     <p className="text-2xl font-normal mb-8">
-                        Изучим потребности клиента и бизнес-цели, собираем требования от всех заинтересованных сторон.
+                        Изучим потребности клиента и бизнес-цели, собираем требования от всех заинтересованных сторон
                     </p>
                     <p className="text-2xl font-normal mb-8">
-                        Разбиваем задачи на итерации, оцениваем рабочую нагрузку и затраты, выявляем возможные риски.
+                        Разбиваем задачи на итерации, оцениваем рабочую нагрузку и затраты, выявляем возможные риски
                     </p>
                     <p className="text-2xl font-normal mb-8">
                         Сделаем карту пути пользователя
@@ -24,8 +24,8 @@ export function TimelineDemo() {
                         <Image
                             src="/Scenes03.svg"
                             alt="startup template"
-                            width={1000}
-                            height={1000}
+                            width={100}
+                            height={100}
                             className="rounded-lg object-contain h-full w-full"
                         />
 
@@ -137,17 +137,18 @@ export function TimelineDemo() {
                         <Image
                             src="/Scenes04.svg"
                             alt="startup template"
-                            width={500}
-                            height={500}
+                            width={100}
+                            height={100}
                             className="rounded-lg object-contain h-full w-full"
                         />
                     </div>
                 </div>
             ),
         },
+
     ];
     return (
-        <div className="w-full">
+        <div className="w-max">
             <Timeline data={data}/>
         </div>
     );

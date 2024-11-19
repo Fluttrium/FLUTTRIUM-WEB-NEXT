@@ -10,14 +10,14 @@ const NextInfo = () => {
     const handleCloseModal = () => setModalOpen(false);
 
     return (
-        <div className="w-full rounded-lg shadow-md flex flex-col lg:flex-row items-center lg:items-start space-y-6 lg:space-y-0 lg:space-x-6">
+        <div className="w-full pt-40 rounded-lg shadow-md flex flex-col lg:flex-row items-center lg:items-start space-y-6 lg:space-y-0 lg:space-x-6">
             {/* Текстовая часть */}
             <div className="flex-1 w-full text-center lg:text-left">
                 <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 lg:mb-8">
                     В каких ситуациях пригодится сайт на фреймворке Next?
                 </h2>
                 <p className="text-lg md:text-xl lg:text-2xl text-white-700 mb-4">
-                    Создание сайтов на Next позволяет заказчику получить современный комфортный в использовании и управлении веб-ресурс, где есть все необходимое для достижения поставленных бизнес-целей.
+                    Создание сайтов на Next позволяет заказчику получить современный комфортный в использовании и управлении веб-ресурс, где есть все необходимое для достижения поставленных бизнес-целей
                 </p>
                 <button
                     onClick={handleOpenModal}

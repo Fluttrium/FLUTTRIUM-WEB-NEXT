@@ -1,11 +1,8 @@
-// pages/retail.tsx
 'use client';
-import React, {useState} from 'react';
-import {useTranslations} from "use-intl";
+import React, { useState } from 'react';
+import { useTranslations } from 'use-intl';
 import Image from 'next/image';
- // Убедитесь, что файл со стилями для частиц подключен и находится в нужной директории
 import Modal from '../Modal';
-import {Spotlight} from './spotlight';
 
 const WebSitePage = () => {
     const t = useTranslations('Website');
@@ -15,60 +12,50 @@ const WebSitePage = () => {
     const handleCloseModal = () => setModalOpen(false);
 
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen px-20 relative">
-            <Spotlight className="absolute z-50 top-0 right-50" fill="white"/>
-
-            {/* Фон с решеткой */}
-            <div className="absolute inset-0 bg-slate-950">
-                <div
-                    className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
+        <div className="w-full rounded-lg shadow-md flex flex-col lg:flex-row items-center lg:items-start space-y-6 lg:space-y-0 lg:space-x-6 px-4 sm:px-6 lg:px-0">
+            {/* Текстовая часть */}
+            <div className="flex-1 w-full text-center lg:text-left">
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 lg:mb-8">
+                    {t('text-1')}
+                </h2>
+                <p className="text-lg sm:text-xl lg:text-2xl text-gray-700 dark:text-white mb-4">
+                    {t('text-2')}
+                </p>
+                <button
+                    onClick={handleOpenModal}
+                    className="flex items-center justify-center mx-auto lg:mx-0 px-8 sm:px-12 py-3 sm:py-4 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-lg sm:text-xl mt-6 lg:mt-12"
+                >
+                    {t('button')}
+                    <svg
+                        className="ml-2 w-6 h-6 sm:w-8 sm:h-8"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                    >
+                        <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M9 5l7 7-7 7"
+                        />
+                    </svg>
+                </button>
             </div>
 
-            <div className="flex flex-col md:flex-row items-center justify-center w-full z-10">
-                {/* Левая часть с текстом */}
-                <div className="w-full md:w-1/2">
-                    <h1 className="text-6xl font-bold text-center md:text-left mb-12">
-                        {t("text-1")}
-                    </h1>
-                    <p className="text-xl">
-                        {t("text-2")}
-                    </p>
-                    <button
-                        onClick={handleOpenModal}
-                        className="flex items-center px-12 py-4 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-xl mt-12"
-                    >
-                        {t('button')}
-                        <svg
-                            className="ml-2 w-8 h-8"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                d="M9 5l7 7-7 7"
-                            />
-                        </svg>
-                    </button>
-                </div>
-
-                {/* Правая часть с изображением */}
-                <div className="hidden md:flex w-1/2 justify-center items-center">
-                    <Image
-                        src="/knifesmock/MacBook14.png" // Проверьте, что изображение доступно по этому пути
-                        alt="Sales Application"
-                        width={1200}
-                        height={1200}
-                        className="rounded-lg shadow-lg object-cover w-full h-auto"
-                    />
-                </div>
+            {/* Изображение */}
+            <div className="w-full flex justify-center lg:w-2/4 lg:justify-end">
+                <Image
+                    src="/knifesmock/MacBook14.png" // Убедитесь, что путь к изображению корректен
+                    alt="Web Application Mockup"
+                    className="w-3/4 sm:w-2/3 lg:w-full h-auto object-contain"
+                    width={1000}
+                    height={1000}
+                />
             </div>
 
             {/* Модальное окно */}
-            {isModalOpen && <Modal isOpen={isModalOpen} onClose={handleCloseModal}/>}
+            {isModalOpen && <Modal isOpen={isModalOpen} onClose={handleCloseModal} />}
         </div>
     );
 };

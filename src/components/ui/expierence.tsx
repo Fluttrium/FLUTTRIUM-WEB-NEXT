@@ -6,7 +6,7 @@ export function ExperienceDemo() {
     <div className="flex flex-col lg:flex-row gap-6 p-10">
       {/* Левая колонка: Наш опыт */}
       <div className="lg:w-1/2">
-        <h2 className="text-4xl font-bold mb-4">Наш опыт</h2>
+        <h2 className="text-4xl font-bold mb-4 text-center text-2xl lg:text-6xl">Наш опыт</h2>
         <ul className="text-2xl space-y-4">
           <li className="flex items-start">
             {/* Иконка Flutter */}
@@ -14,8 +14,8 @@ export function ExperienceDemo() {
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
               y="0px"
-              width="30"  // Измените размер иконки по необходимости
-              height="30"
+              width="40"  // Увеличиваем размер иконки
+              height="40"
               viewBox="0 0 48 48"
               className="mr-2" // Применение отступа справа
             >
@@ -28,11 +28,11 @@ export function ExperienceDemo() {
             Опытная команда Flutter-разработчиков Fluttrium работает с фреймворком с первой beta-версии
           </li>
           <li className="flex items-start">
-            <FaBoxes className=" text-2xl text-purple-500 mr-2" /> {/* Иконка компаний */}
+            <FaBoxes className="text-3xl text-purple-500 mr-2" /> {/* Увеличиваем размер иконки */}
             Мы создаем приложения для крупных компаний в ритейле, страховании и спорте
           </li>
           <li className="flex items-start">
-            <FaMobileAlt className="text-green-500 mr-2" /> {/* Иконка мобильных */}
+            <FaMobileAlt className="text-3xl text-green-500 mr-2" /> {/* Увеличиваем размер иконки */}
             Наши приложения активно развиваются и уже используются пользователями
           </li>
         </ul>

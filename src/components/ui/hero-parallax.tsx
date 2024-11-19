@@ -57,7 +57,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[300vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[270vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -104,11 +104,11 @@ export const HeroParallax = ({
 export const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full left-0 top-0">
-  <h1 className="text-5xl md:text-8xl font-extrabold dark:text-white leading-tight">
+  <h1 className="text-4xl md:text-7xl font-bold dark:text-white">
     Оптимизация <br /> с помощью CRM-систем
   </h1>
-  <p className="max-w-4xl text-lg md:text-2xl mt-8 dark:text-neutral-200 font-medium leading-relaxed">
-    Наши CRM-системы созданы для того, чтобы упрощать управление клиентами, улучшать процессы продаж и укреплять отношения с клиентами. Современная CRM позволяет вашему бизнесу отслеживать лиды, автоматизировать взаимодействие, анализировать данные и персонализировать клиентский сервис — всё в одной платформе. Мы разрабатываем решения под ваши уникальные потребности, которые интегрируются с вашими инструментами и растут вместе с бизнесом. Дайте вашей команде возможность работать эффективнее и быстрее заключать сделки с помощью аналитики и автоматизации.
+  <p className="max-w-2xl text-lg sm:text-xl md:text-2xl mt-8 dark:text-white">
+    Мы разрабатываем решения под ваши уникальные потребности, которые интегрируются с вашими инструментами и растут вместе с бизнесом. Дайте вашей команде возможность работать эффективнее и быстрее заключать сделки с помощью аналитики и автоматизации
   </p>
 </div>
   );

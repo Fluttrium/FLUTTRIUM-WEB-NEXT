@@ -84,6 +84,10 @@ const Navbar = ({className}: { className?: string }) => {
                                      className="text-xl md:text-2xl text-left hover:text-blue-500">{t('title3')}</HoveredLink>
                         <HoveredLink href="/crm"
                                      className="text-xl md:text-2xl text-left hover:text-blue-500">{t('title4')}</HoveredLink>
+                        <HoveredLink href="/crm"
+                                     className="text-xl md:text-2xl text-left hover:text-blue-500">{t('title4')}</HoveredLink>
+                        <HoveredLink href="/crm"
+                                     className="text-xl md:text-2xl text-left hover:text-blue-500">{t('title4')}</HoveredLink>
                         <hr className="my-4 border-t-2 border-gray-600"/>
                         <HoveredLink href="/flutter"
                                      className="text-xl md:text-2xl text-left hover:text-blue-500">{t("mainNavItm2")}</HoveredLink>
@@ -151,7 +155,7 @@ const Navbar = ({className}: { className?: string }) => {
                                          className="text-xl md:text-2xl">{t("serviceItm5")}</HoveredLink>
                         </div>
                     </MenuItem>
-                    <HoveredLink href="/flutter" className="text-2xl md:text-2xl">{t("mainNavItm2")}</HoveredLink>
+                    <HoveredLink href="/studstartap">{t("mainNavItm8")}</HoveredLink>
                     <MenuItem setActive={setActive} active={active} item={t('mainNavItm3')}>
                         <div className="text-sm grid grid-cols-1 gap-4 p-2 sm:grid-cols-2 sm:gap-6 sm:p-4">
                             <ProductItem title={t('title1')} href="/retail" src="/crm/iPhone 15 Pro.png"
@@ -162,6 +166,14 @@ const Navbar = ({className}: { className?: string }) => {
                                          src="/knifesmock/MacBookAir(15 inch).png" description={t('description3')}/>
                             <ProductItem title={t('title4')} href="/crm" src="/Mockup.png"
                                          description={t('description4')}/>
+                                <ProductItem
+                                    title={t('title5')}
+                                    href="/tgbot"
+                                    src="/Black2.png"
+                                    description={t('description7')}
+                                />
+                            <ProductItem title={t('title6')} href="/direct" src="/Direct.png"
+                                         description={t('description8')}/>
                         </div>
                     </MenuItem>
                     <HoveredLink href="/price" className="text-2xl md:text-2xl">{t('mainNavItm4')}</HoveredLink>
@@ -186,7 +198,7 @@ const Navbar = ({className}: { className?: string }) => {
                                     rel="noopener noreferrer" aria-label="Youtube">
                             <FaYoutube className="text-white text-4xl md:text-6xl"/>
                         </IconButton>
-                        <p className="text-sm font-semibold md:text-2xl mr-1 md:mr-2 text-center">+7(921)011-27-94</p>
+                        <p className="text-sm font-semibold md:text-2xl mr-1 md:mr-2 text-center">+7(921)457-00-57</p>
                     </MenuItem>
                     <MenuItem setActive={setActive} active={active} item={t('mainNavItm6')}>
                         <div className="text-sm grid grid-cols-2 gap-10 p-4">
@@ -201,7 +213,7 @@ const Navbar = ({className}: { className?: string }) => {
 
             <div className="flex items-center gap-2 md:gap-4 hidden md:flex">
                 {language === "ru" && (
-                    <div className="text-sm font-semibold md:text-2xl mr-1 md:mr-2">+7(921)011-27-94</div>
+                    <div className="text-sm font-semibold md:text-2xl mr-1 md:mr-2">+7(921)457-00-57</div>
                 )}
                 <DropdownMenu>
                     <DropdownMenuTrigger className="text-3xl">

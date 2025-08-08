@@ -14,6 +14,7 @@ import {FreeAudit} from "@/components/ui/audit";
 import {useTranslations} from "use-intl";
 import "@/app/globals.css";
 import Link from "next/link";
+import PartnerLogos from "@/components/ui/PartnerLogos";
 
 export default function Home() {
     const t = useTranslations('HomePage');
@@ -150,6 +151,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+            <PartnerLogos />
             <ProjectsCards />
             <div className="relative -mt-40">
             <HeroScrollDemo />
@@ -162,7 +164,7 @@ export default function Home() {
             <div className="relative z-50">
             <SocialContacts />
             </div>
-            
+
         </main>
     );
 }

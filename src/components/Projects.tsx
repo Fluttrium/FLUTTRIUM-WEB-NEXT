@@ -54,7 +54,20 @@ export function ProjectsCards() {
                             description: t('titledisc4'),
                             link: 'https://next-knifes.vercel.app',
                             imgSrc: "/projects/knifes.png",
-                        }].map(({title, description, link, imgSrc}, index) => (
+                        },
+                            {
+                                title: t('titlecard5'),
+                                description: t('titledisc5'),
+                                link: '/src/app/tgbot',
+                                imgSrc: "/projects/knifes.png",
+                            },
+                            {
+                                title: t('titlecard6'),
+                                description: t('titledisc6'),
+                                link: 'https://next-knifes.vercel.app',
+                                imgSrc: "/Direct.png",
+                            }
+                            ].map(({title, description, link, imgSrc}, index) => (
                             <CardContainer key={index} className="inter-var mb-6 w-64 h-80">
                                 <CardBody
                                     className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-full rounded-xl p-4 border">
@@ -111,6 +124,16 @@ export function ProjectsCards() {
                             description: t('titledisc4'),
                             link: 'https://next-knifes.vercel.app',
                             imgSrc: "/projects/knifes.png",
+                        },{
+                            title: t('titlecard5'),
+                            description: t('titledisc5'),
+                            link: '/src/app/tgbot',
+                            imgSrc: "/Black.png",
+                        },{
+                            title: t('titlecard6'),
+                            description: t('titledisc6'),
+                            link: '/tgbot',
+                            imgSrc: "/Direct.png",
                         }
                     ].map(({title, description, link, imgSrc}, index) => (
                         <CardContainer key={index} className="inter-var mb-6 w-3/4 h-max">

@@ -51,6 +51,9 @@ export default function Flutter() {
             <div className="relative z-50">
                 <TextForm/>
             </div>
+            <div className="relative z-50">
+                <SocialContacts />
+            </div>
         </main>
 );
 }

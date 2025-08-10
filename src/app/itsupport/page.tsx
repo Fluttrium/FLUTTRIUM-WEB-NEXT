@@ -8,6 +8,7 @@ import {ProjectStages5} from "@/components/ui/projectstages5";
 import ItsupportPage from "@/components/ui/ItSupport";
 import {Spotlight} from "@/components/ui/spotlight";
 import {FeedbackForm} from "@/components/ui/writeus";
+import SocialContacts from "@/components/Contacs";
 
 
 export default function Flutter() {
@@ -26,6 +27,9 @@ export default function Flutter() {
             </div>
             <div className="relative z-40">
                 <FeedbackForm/>
+            </div>
+            <div className="relative z-50">
+                <SocialContacts />
             </div>
         </main>
     );

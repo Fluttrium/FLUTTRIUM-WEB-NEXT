@@ -51,7 +51,7 @@ export default function Flutter() {
             </div>
             <CostAndTimeline/>
             <FeedbackForm/>
-
+            <SocialContacts />
         </main>
     );
 }

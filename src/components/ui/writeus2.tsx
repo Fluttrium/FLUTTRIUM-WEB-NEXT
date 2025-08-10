@@ -56,7 +56,7 @@ export function FeedbackForm2() {
                     />
                     <button
                         type="submit"
-                        className="flex items-center justify-center w-full px-8 py-2 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-sm"
+                        className="flex items-center justify-center w-full px-8 py-2 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-sm rounded-full"
                     >
                         {t("button")}
                     </button>

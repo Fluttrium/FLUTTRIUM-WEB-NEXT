@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import {
     ChevronRight,
     Check,
@@ -21,8 +21,15 @@ import { FeedbackForm2 } from "@/components/ui/writeus2";
 import { animations, colors, components, shadows, textStyles } from "../../../tailwind.config";
 import Footer from "@/components/global/footer";
 import SocialContacts from "@/components/Contacs";
+import Modal from "@/components/Modal";
+import AppleCardsCarouselDemo from "@/components/AppleCards";
 
 const HeroSection = () => {
+    const [isModalOpen, setModalOpen] = useState(false);
+
+    const handleOpenModal = () => setModalOpen(true);
+    const handleCloseModal = () => setModalOpen(false);
+
     return (
         <div className="relative overflow-hidden min-h-screen flex items-center">
             <Spotlight className="absolute z-50 top-0 right-50" fill="white" />
@@ -49,10 +56,14 @@ const HeroSection = () => {
                         </div>
                     </div>
                     <div className="pt-8">
-                        <button className={`px-12 py-4 ${components.button.primary} font-bold rounded-2xl ${animations.transition.normal} ${shadows.glow} ${colors.effects.glowHover} text-lg`}>
+                        <button
+                            onClick={handleOpenModal}
+                            className={`px-12 py-4 ${components.button.primary} font-bold rounded-full ${animations.transition.normal} ${shadows.glow} ${colors.effects.glowHover} text-lg`}
+                        >
                             Обсудить идею
                         </button>
                     </div>
+                    {isModalOpen && <Modal isOpen={isModalOpen} onClose={handleCloseModal} />}
                 </div>
             </div>
         </div>
@@ -60,6 +71,11 @@ const HeroSection = () => {
 };
 
 const SuccessCasesSection = () => {
+    const [isModalOpen, setModalOpen] = useState(false);
+
+    const handleOpenModal = () => setModalOpen(true);
+    const handleCloseModal = () => setModalOpen(false);
+
     const projects = [
         {
             id: "asleep",
@@ -143,11 +159,15 @@ const SuccessCasesSection = () => {
                             <div className={`${textStyles.h3} text-3xl mb-3`}>У вас есть своя идея?</div>
                             <div className={`${textStyles.body2} text-gray-300`}>Мы поможем превратить ее в успешный стартап с грантом 1 млн рублей</div>
                         </div>
-                        <button className={`px-10 py-4 ${components.button.primary} font-bold rounded-2xl ${animations.transition.normal} whitespace-nowrap shadow-lg`}>
+                        <button
+                            onClick={handleOpenModal}
+                            className={`px-10 py-4 ${components.button.primary} font-bold rounded-full ${animations.transition.normal} whitespace-nowrap shadow-lg`}
+                        >
                             Обсудить идею
                         </button>
                     </div>
                 </div>
+                {isModalOpen && <Modal isOpen={isModalOpen} onClose={handleCloseModal} />}
             </div>
         </section>
     );
@@ -182,6 +202,7 @@ const ContactFormSection = () => {
                 </div>
                 <FeedbackForm2 />
             </div>
+            <AppleCardsCarouselDemo />
         </section>
     );
 };

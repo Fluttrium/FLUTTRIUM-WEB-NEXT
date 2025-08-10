@@ -86,10 +86,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
                             required
                         />
                     </div>
-                    <button
-                        type="submit"
-                        className="w-full px-6 py-3 bg-blue-600 text-white rounded-xl font-semibold hover:bg-blue-700 transition-colors duration-200 shadow-lg"
-                    >
+                    <button type="submit" className="w-full px-6 py-3 bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 transition-colors duration-200 shadow-lg">
                         Запросить расчет
                     </button>
                     <p className="text-sm text-gray-400 mt-4 text-center leading-relaxed">

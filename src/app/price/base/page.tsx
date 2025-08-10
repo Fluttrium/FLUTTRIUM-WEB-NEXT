@@ -37,7 +37,7 @@ const BasicPlan = () => {
           </h3>
           <div className="flex justify-center mt-6 sm:mt-8">
             <Link href="/contact">
-              <button className="bg-blue-600 text-white text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4 rounded-lg shadow-lg transition duration-300 hover:bg-blue-700">
+              <button className="bg-blue-600 text-white text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4 rounded-full shadow-lg transition duration-300 hover:bg-blue-700">
                 Получить обратную связь
               </button>
             </Link>

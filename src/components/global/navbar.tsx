@@ -179,7 +179,7 @@ const Navbar = ({className}: { className?: string }) => {
                     <HoveredLink href="/price" className="text-2xl md:text-2xl">{t('mainNavItm4')}</HoveredLink>
                     <MenuItem setActive={setActive} active={active} item={t('mainNavItm5')}>
                         {/* Иконки соцсетей для десктопа */}
-                        <IconButton href="https://t.me/fluttrium_official" target="_blank" rel="noopener noreferrer"
+                        <IconButton href="https://t.me/fluttrium_llc" target="_blank" rel="noopener noreferrer"
                                     aria-label="Telegram">
                             <FaTelegramPlane className="text-white text-4xl md:text-6xl"/>
                         </IconButton>

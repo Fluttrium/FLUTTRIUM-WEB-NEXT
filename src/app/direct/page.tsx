@@ -5,8 +5,15 @@ import {Spotlight} from "@/components/ui/spotlight";
 import {animations, colors, components, shadows, textStyles} from "../../../tailwind.config";
 import {FeedbackForm2} from "@/components/ui/writeus2";
 import SocialContacts from "@/components/Contacs";
+import Modal from "@/components/Modal";
+import AppleCardsCarouselDemo from "@/components/AppleCards";
 
 const HeroSection = () => {
+    const [isModalOpen, setModalOpen] = useState(false);
+
+    const handleOpenModal = () => setModalOpen(true);
+    const handleCloseModal = () => setModalOpen(false);
+
     return (
         <div className="relative overflow-hidden min-h-screen flex items-center">
             {/* Дополнительные эффекты поверх фона */}
@@ -43,10 +50,14 @@ const HeroSection = () => {
                     </div>
 
                     <div className="pt-8">
-                        <button className={`px-12 py-4 ${components.button.primary} font-bold rounded-2xl ${animations.transition.normal} ${shadows.glow} ${colors.effects.glowHover} text-lg`}>
+                        <button
+                            onClick={handleOpenModal}
+                            className={`px-12 py-4 ${components.button.primary} font-bold rounded-2xl ${animations.transition.normal} ${shadows.glow} ${colors.effects.glowHover} text-lg`}
+                        >
                             Хочу на первую страницу в Яндексе
                         </button>
                     </div>
+                    {isModalOpen && <Modal isOpen={isModalOpen} onClose={handleCloseModal} />}
                 </div>
             </div>
         </div>
@@ -55,6 +66,7 @@ const HeroSection = () => {
 // Компонент успешных кейсов с анимациями
 const SuccessCasesSection = () => {
     const [isVisible, setIsVisible] = useState(false);
+    const [isModalOpen, setModalOpen] = useState(false);
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -71,6 +83,9 @@ const SuccessCasesSection = () => {
 
         return () => observer.disconnect();
     }, []);
+
+    const handleOpenModal = () => setModalOpen(true);
+    const handleCloseModal = () => setModalOpen(false);
 
     const projects = [
         {
@@ -182,11 +197,15 @@ const SuccessCasesSection = () => {
                             <div className="text-2xl md:text-3xl font-bold text-white mb-3">Нужно SEO-продвижение?</div>
                             <div className="text-lg text-gray-300">Мы поднимем ваш сайт в ТОП Яндекса и Google, даже в самых конкурентных нишах</div>
                         </div>
-                        <button className="px-10 py-4 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-bold rounded-2xl transition-all duration-300 whitespace-nowrap shadow-lg hover:scale-105 hover:shadow-blue-500/50">
+                        <button
+                            onClick={handleOpenModal}
+                            className="px-10 py-4 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-bold rounded-full transition-all duration-300 whitespace-nowrap shadow-lg hover:scale-105 hover:shadow-blue-500/50"
+                        >
                             Заказать аудит
                         </button>
                     </div>
                 </div>
+                {isModalOpen && <Modal isOpen={isModalOpen} onClose={handleCloseModal} />}
             </div>
         </section>
     );
@@ -389,7 +408,7 @@ const ContactFormSection = () => {
                         Оставьте заявку — запустим SEO и рекламу под ключ с акцентом на ROI и рост продаж
                     </p>
                 </div>
-                        <FeedbackForm2/>
+                <FeedbackForm2/>
             </div>
         </section>
     );
@@ -408,6 +427,7 @@ const TelegramBotLanding = () => {
                 <FeaturesSection />
                 <ProcessSection />
                 <ContactFormSection />
+                <AppleCardsCarouselDemo />
                 <SocialContacts />
             </div>
         </div>

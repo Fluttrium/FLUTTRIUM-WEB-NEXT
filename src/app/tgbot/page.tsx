@@ -66,6 +66,7 @@ const HeroSection = () => {
 const SuccessCasesSection = () => {
     const [isVisible, setIsVisible] = useState(false);
     const [showCase5, setShowCase5] = useState(false);
+    const [isModalOpen, setModalOpen] = useState(false);
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -91,6 +92,9 @@ const SuccessCasesSection = () => {
             portfolioSection.scrollIntoView({ behavior: 'smooth' });
         }
     };
+
+    const handleOpenModal = () => setModalOpen(true);
+    const handleCloseModal = () => setModalOpen(false);
 
     const projects = [
         {
@@ -202,11 +206,15 @@ const SuccessCasesSection = () => {
                             <div className="text-2xl md:text-3xl font-bold text-white mb-3">Нужен корпоративный бот?</div>
                             <div className="text-lg text-gray-300">Автоматизируем обучение ваших сотрудников и повысим их компетенции</div>
                         </div>
-                        <button className="px-10 py-4 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-bold rounded-2xl transition-all duration-300 whitespace-nowrap shadow-lg hover:scale-105 hover:shadow-blue-500/50">
+                        <button
+                            onClick={handleOpenModal}
+                            className="px-10 py-4 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-bold rounded-full transition-all duration-300 whitespace-nowrap shadow-lg hover:scale-105 hover:shadow-blue-500/50"
+                        >
                             Заказать бота
                         </button>
                     </div>
                 </div>
+                {isModalOpen && <Modal isOpen={isModalOpen} onClose={handleCloseModal} />}
             </div>
         </section>
     );
@@ -215,6 +223,7 @@ const SuccessCasesSection = () => {
 // Компонент возможностей ботов
 const FeaturesSection = () => {
     const [isVisible, setIsVisible] = useState(false);
+    const [isModalOpen, setModalOpen] = useState(false);
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -231,6 +240,9 @@ const FeaturesSection = () => {
 
         return () => observer.disconnect();
     }, []);
+
+    const handleOpenModal = () => setModalOpen(true);
+    const handleCloseModal = () => setModalOpen(false);
 
     const features = [
         {
@@ -289,6 +301,7 @@ const FeaturesSection = () => {
                     {features.map((feature, index) => (
                         <div
                             key={index}
+                            onClick={handleOpenModal}
                             className={`p-8 bg-gradient-to-br ${feature.gradient} rounded-3xl border ${feature.border} backdrop-blur-sm hover:scale-105 transition-all duration-500 hover:shadow-2xl cursor-pointer group transform ${
                                 isVisible
                                     ? 'translate-y-0 opacity-100'
@@ -309,6 +322,7 @@ const FeaturesSection = () => {
                         </div>
                     ))}
                 </div>
+                {isModalOpen && <Modal isOpen={isModalOpen} onClose={handleCloseModal} />}
             </div>
         </section>
     );
@@ -317,6 +331,7 @@ const FeaturesSection = () => {
 // Компонент процесса разработки
 const ProcessSection = () => {
     const [isVisible, setIsVisible] = useState(false);
+    const [isModalOpen, setModalOpen] = useState(false);
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -333,6 +348,9 @@ const ProcessSection = () => {
 
         return () => observer.disconnect();
     }, []);
+
+    const handleOpenModal = () => setModalOpen(true);
+    const handleCloseModal = () => setModalOpen(false);
 
     const steps = [
         { step: '01', title: 'Анализ задач', desc: 'Изучаем потребности в обучении', icon: <Target className="w-8 h-8" /> },
@@ -351,7 +369,11 @@ const ProcessSection = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     {steps.map((item, index) => (
-                        <div key={index} className="text-center group">
+                        <div
+                            key={index}
+                            className="text-center group cursor-pointer"
+                            onClick={handleOpenModal}
+                        >
                             <div className="relative mb-8">
                                 <div className={`w-20 h-20 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center text-white font-bold text-2xl mx-auto mb-4 group-hover:scale-110 ${animations.transition.normal} shadow-lg`}>
                                     {item.step}
@@ -368,6 +390,7 @@ const ProcessSection = () => {
                         </div>
                     ))}
                 </div>
+                {isModalOpen && <Modal isOpen={isModalOpen} onClose={handleCloseModal} />}
             </div>
         </section>
     );
@@ -375,8 +398,10 @@ const ProcessSection = () => {
 
 // Компонент формы с анимациями
 const ContactFormSection = () => {
+    const [isModalOpen, setModalOpen] = useState(false);
 
-
+    const handleOpenModal = () => setModalOpen(true);
+    const handleCloseModal = () => setModalOpen(false);
 
     return (
         <section id="contact" className="py-24">

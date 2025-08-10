@@ -88,7 +88,7 @@ export function FeedbackForm() {
                     />
                     <button
                         type="submit"
-                        className="flex items-center justify-center w-full px-8 py-2 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-sm disabled:opacity-50 disabled:cursor-not-allowed"
+                        className="flex items-center justify-center w-full px-8 py-2 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-sm rounded-full disabled:opacity-50 disabled:cursor-not-allowed"
                         disabled={loading}
                     >
                         {loading ? t('loading') : t('button')}

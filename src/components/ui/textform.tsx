@@ -56,7 +56,7 @@ export function TextForm() {
         />
         <button
           type="submit"
-          className="flex items-center justify-center w-full px-8 py-2 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-sm"
+          className="relative inline-flex items-center justify-center w-full px-8 py-3 font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 border-2 border-white rounded-full shadow-lg hover:from-blue-700 hover:to-blue-800 hover:shadow-xl transition-all duration-300 ease-in-out text-sm"
         >
           Оставить заявку
         </button>

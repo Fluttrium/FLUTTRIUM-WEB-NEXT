@@ -23,23 +23,11 @@ const WebSitePage = () => {
                 </p>
                 <button
                     onClick={handleOpenModal}
-                    className="flex items-center justify-center mx-auto lg:mx-0 px-8 sm:px-12 py-3 sm:py-4 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-lg sm:text-xl mt-6 lg:mt-12"
+                    className="relative inline-flex items-center justify-center px-8 sm:px-10 py-3 sm:py-4 font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 border-2 border-white rounded-full shadow-lg hover:from-blue-700 hover:to-blue-800 hover:shadow-xl transition-all duration-300 ease-in-out mx-auto lg:mx-0 mt-6 lg:mt-12"
                 >
-                    {t('button')}
-                    <svg
-                        className="ml-2 w-6 h-6 sm:w-8 sm:h-8"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                    >
-                        <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M9 5l7 7-7 7"
-                        />
-                    </svg>
+                    <span className="flex items-center gap-3 text-lg sm:text-xl">
+                        {t('button')}
+                    </span>
                 </button>
             </div>
 

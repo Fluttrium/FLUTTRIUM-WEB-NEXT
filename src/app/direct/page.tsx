@@ -52,9 +52,9 @@ const HeroSection = () => {
                     <div className="pt-8">
                         <button
                             onClick={handleOpenModal}
-                            className={`px-12 py-4 ${components.button.primary} font-bold rounded-2xl ${animations.transition.normal} ${shadows.glow} ${colors.effects.glowHover} text-lg`}
+                            className="relative inline-flex items-center justify-center px-12 py-4 font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 border-2 border-white rounded-full shadow-lg hover:from-blue-700 hover:to-blue-800 hover:shadow-xl transition-all duration-300 ease-in-out text-lg"
                         >
-                            Хочу на первую страницу в Яндексе
+                            Создать бота
                         </button>
                     </div>
                     {isModalOpen && <Modal isOpen={isModalOpen} onClose={handleCloseModal} />}

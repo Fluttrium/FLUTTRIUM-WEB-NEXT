@@ -45,7 +45,7 @@ export default function Flutter() {
 
                 <CardHoverEffectDemo7/>
 
-                <NextDevelopmentCard2/>
+                {/*<NextDevelopmentCard2/>*/}
             </div>
 
             <div className="z-30 relative">

@@ -40,8 +40,8 @@ const StandardPlan = () => {
                     <div className="flex justify-center mt-2 sm:mt-3">
                         <Link href="/contact">
                             <button
-                                className="bg-blue-600 text-white text-xs sm:text-sm px-3 sm:px-4 py-1 sm:py-2 rounded-lg shadow-lg transition duration-300 hover:bg-blue-700">
-                                Получить обратную связь
+                                className="bg-blue-600 text-white text-xs sm:text-sm px-3 sm:px-4 py-1 sm:py-2 rounded-full shadow-lg transition duration-300 hover:bg-blue-700">
+                                Заказать
                             </button>
                         </Link>
                     </div>

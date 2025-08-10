@@ -9,7 +9,7 @@ const NextDevelopmentCard2 = () => {
             Отправьте запрос, чтобы получить индивидуальное предложение на разработку сайта
           </h3>
         </div>
-        <button className="flex items-center justify-center px-6 py-1.5 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-xs sm:text-sm rounded-md">
+        <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 transition duration-200 text-xs sm:text-sm rounded-full">
           Заказать
           <svg
             className="ml-2 w-6 h-6 sm:w-8 sm:h-8"

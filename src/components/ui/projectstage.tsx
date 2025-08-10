@@ -89,7 +89,7 @@ export function ProjectStages() {
           <p className="text-lg text-gray-700 mb-6">{t("p")}</p>
           <button
   onClick={handleOpenModal}
-  className="w-full py-3 px-6 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200 flex items-center justify-center"
+  className="w-full py-3 px-6 bg-blue-600 text-white font-semibold rounded-full hover:bg-blue-700 transition-colors duration-200 flex items-center justify-center"
 >
   {t("button-2")}
   <svg

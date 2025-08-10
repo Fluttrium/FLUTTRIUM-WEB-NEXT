@@ -97,7 +97,7 @@ export function Form() {
               ></Input>
             </LabelInputContainer>
             <button
-              className="bg-gradient-to-br from-black dark:from-zinc-900 to-neutral-600 dark:to-zinc-900 w-full text-white rounded-md h-10 text-sm font-medium"
+              className="bg-gradient-to-br from-black dark:from-zinc-900 to-neutral-600 dark:to-zinc-900 w-full text-white rounded-full h-10 text-sm font-medium"
               type="submit"
             >
               {t("formButton")} &rarr;

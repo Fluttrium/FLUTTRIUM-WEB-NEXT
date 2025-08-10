@@ -48,9 +48,10 @@ export default function Home() {
                         </div>
                         <div className='flex -bottom-64 pt-11'>
                             <Link href="/brief">
-                                <button
-                                    className="shadow-[0_4px_14px_0_rgb(0,118,255,39%)] hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-[rgba(0,118,255,0.9)] px-8 py-2 bg-[#0070f3] border-2 border-white text-white font-light transition duration-200 ease-linear">
-                                    {t('button')}
+                                <button className="relative inline-flex items-center justify-center px-10 py-4 font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 border-2 border-white rounded-full shadow-lg hover:from-blue-700 hover:to-blue-800 hover:shadow-xl transition-all duration-300 ease-in-out">
+                                    <span className="flex items-center gap-3">
+                                        {t('button')}
+                                    </span>
                                 </button>
                             </Link>
                         </div>
@@ -66,9 +67,10 @@ export default function Home() {
                         {/* Мобильная кнопка */}
                         <div className="mt-12"> {/* Вместо absolute используем mt для отступа */}
                             <Link href="/brief">
-                                <button
-                                    className="shadow-[0_4px_14px_0_rgb(0,118,255,39%)] hover:shadow-[0_6px_20px_rgba(0,118,255,23%)] hover:bg-[rgba(0,118,255,0.9)] px-8 py-2 bg-[#0070f3] border-2 border-white text-white font-light transition duration-200 ease-linear">
-                                    {t('button')}
+                                <button className="relative inline-flex items-center justify-center px-8 py-3 font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 border-2 border-white rounded-full shadow-lg hover:from-blue-700 hover:to-blue-800 hover:shadow-xl transition-all duration-300 ease-in-out">
+                                    <span className="flex items-center gap-2 text-sm">
+                                        {t('button')}
+                                    </span>
                                 </button>
                             </Link>
                         </div>

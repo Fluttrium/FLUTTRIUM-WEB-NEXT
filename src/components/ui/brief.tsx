@@ -206,7 +206,7 @@ export function BriefForm() {
                 <button
                     type="submit"
                     disabled={loading}
-                    className="bg-gradient-to-br from-blue-700 to-blue-500 text-white w-full rounded-lg h-12 font-semibold text-lg shadow-md hover:shadow-lg transition duration-300"
+                    className="bg-gradient-to-br from-blue-700 to-blue-500 text-white w-full rounded-full h-12 font-semibold text-lg shadow-md hover:shadow-lg transition duration-300"
                 >
                     {loading ? "Отправка..." : "Отправить бриф"}
                 </button>

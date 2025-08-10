@@ -47,6 +47,9 @@ export default function Flutter() {
 
             <CorporateAppUsage/>
             <FeedbackForm/>
+            <div className="relative z-50">
+                <SocialContacts />
+            </div>
         </main>
     );
 }

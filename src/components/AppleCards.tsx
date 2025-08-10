@@ -38,14 +38,6 @@ const DummyContent: React.FC<DummyContentProps> = ({ contentData }) => {
                         width={300}
                         className="mx-auto object-cover mt-4"
                     />
-                    <div className="text-center mt-6">
-                        <button
-                            onClick={handleOpenModal}
-                            className="px-8 py-3 bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 transition-colors duration-200 shadow-lg hover:scale-105"
-                        >
-                            Подробнее о проекте
-                        </button>
-                    </div>
                 </div>
             ))}
             {isModalOpen && <Modal isOpen={isModalOpen} onClose={handleCloseModal} />}

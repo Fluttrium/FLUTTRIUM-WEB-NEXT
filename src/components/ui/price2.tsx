@@ -53,7 +53,7 @@ export function PricingAndTimeline2() {
             <p className="text-4xl lg:text-5xl font-bold mb-4">1 месяц</p>
             <p className="text-2xl lg:text-3xl">Средние сроки</p>
             <div className="mt-8">
-              <p className="text-5xl lg:text-6xl font-bold">200 000 рублей</p>
+              <p className="text-5xl lg:text-6xl font-bold">100 000 рублей</p>
               <p className="text-2xl lg:text-3xl">Средняя стоимость</p>
             </div>
           </div>

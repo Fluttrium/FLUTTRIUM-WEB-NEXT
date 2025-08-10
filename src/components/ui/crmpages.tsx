@@ -52,7 +52,7 @@ const CrmPage = () => {
         {/* Правая часть с изображением */}
         <div className="w-full flex justify-center lg:w-2/4 lg:justify-end mt-12 sm:mt-8 lg:mt-0">
   <Image
-    src="/Midnight.png" // Путь к вашему изображению
+    src="/Midnight5.png" // Путь к вашему изображению
     alt="Sales Application"
     width={600} // Увеличенный размер изображения
     height={600} // Увеличенный размер изображения

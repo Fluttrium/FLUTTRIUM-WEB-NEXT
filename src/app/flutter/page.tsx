@@ -43,15 +43,18 @@ export default function Flutter() {
             <div className="relative z-50">
                 <ExperienceDemo/>
             </div>
-            <div className="relative z-50">
-                <PricingAndTimeline/>
-            </div>
+            {/*<div className="relative z-50">*/}
+            {/*    <PricingAndTimeline/>*/}
+            {/*</div>*/}
             <div className="relative z-50 mt-20">
                 <CardHoverEffectDemo3/>
             </div>
             {/* <FreeAudit/> */}
             <div className="relative z-50">
                 <FeedbackForm/>
+            </div>
+            <div className="relative z-50">
+                <SocialContacts />
             </div>
         </main>
     );

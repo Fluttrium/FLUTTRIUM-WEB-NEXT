@@ -15,7 +15,6 @@ export function FeedbackForm() {
         e.preventDefault();
         setLoading(true);
 
-
         try {
             const response = await fetch('/api/form', {
                 method: 'POST',
@@ -26,15 +25,22 @@ export function FeedbackForm() {
             });
 
             if (response.ok) {
-
+                console.log("Форма успешно отправлена!");
+                // Очищаем поля формы
                 setName('');
                 setEmail('');
                 setPhone('');
                 setDescription('');
+                // Показываем уведомление об успехе
+                alert('Спасибо! Ваша заявка отправлена.');
             } else {
                 const errorData = await response.json();
-
+                console.error('Ошибка отправки:', errorData);
+                alert('Произошла ошибка при отправке формы. Попробуйте еще раз.');
             }
+        } catch (error) {
+            console.error('Ошибка сети:', error);
+            alert('Произошла ошибка сети. Проверьте подключение к интернету.');
         } finally {
             setLoading(false);
         }
@@ -46,7 +52,6 @@ export function FeedbackForm() {
             <div className="relative z-10">
                 <h2 className="text-4xl font-bold mb-6 text-white">{t('h2')}</h2>
                 <p className="text-lg mb-4 text-white">{t('p')}</p>
-
 
                 <form onSubmit={handleSubmit} className="space-y-4">
                     <input
@@ -83,7 +88,7 @@ export function FeedbackForm() {
                     />
                     <button
                         type="submit"
-                        className="flex items-center justify-center w-full px-8 py-2 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-sm"
+                        className="flex items-center justify-center w-full px-8 py-2 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-sm disabled:opacity-50 disabled:cursor-not-allowed"
                         disabled={loading}
                     >
                         {loading ? t('loading') : t('button')}

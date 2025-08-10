@@ -136,6 +136,35 @@ export function AppleCardsCarouselDemo() {
             ),
         },
         {
+            category: t("case7.category"),
+            title: t("case7.title"),
+            src: "/Silver-12.png",
+            content: (
+                <DummyContent
+                    contentData={[
+                        {
+                            title: t("case71.title"),
+                            description: t("case11.description"),
+                            imageSrc: "/Silver-12.png",
+                            imageAlt: t("case1.imageAlt"),
+                        },
+                        {
+                            title: t("case72.title"),
+                            description: t("case72.description"),
+                            imageSrc: "/Studio-Display.png",
+                            imageAlt: t("case1.imageAlt"),
+                        },
+                        {
+                            title: t("case73.title"),
+                            description: t("case73.description"),
+                            imageSrc: "/Silver-24.png",
+                            imageAlt: t("case1.imageAlt"),
+                        },
+                    ]}
+                />
+            ),
+        },
+        {
             category: t("case3.category"),
             title: t("case3.title"),
             src: "/projects/case6.png",

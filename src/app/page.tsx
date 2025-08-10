@@ -166,7 +166,6 @@ export default function Home() {
             <div className="relative z-50">
             <SocialContacts />
             </div>
-
         </main>
     );
 }

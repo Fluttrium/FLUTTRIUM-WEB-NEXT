@@ -14,18 +14,17 @@ const PartnerLogos = () => {
     return (
         <div className="w-full">
             {/* Заголовок вне полоски */}
-            <div className="text-center mb-10">
-                <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
-                    Наши партнёры
-                </h2>
-            </div>
-
             {/* Блок со светом и логотипами */}
             <div
                 className="relative bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),
                                  linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)]
                      bg-[size:14px_24px] overflow-hidden py-10"
             >
+                <div className="text-center mb-10">
+                    <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
+                        Наши партнёры
+                    </h2>
+                </div>
                 {/* Горизонтальный свет по центру */}
                 <div className="pointer-events-none absolute top-1/2 left-0 w-full h-28 -translate-y-1/2 z-10">
                     <div className="w-full h-full bg-gradient-to-r from-transparent via-white to-transparent opacity-35 blur-3xl" />

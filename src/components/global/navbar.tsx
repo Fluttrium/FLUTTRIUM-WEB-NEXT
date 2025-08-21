@@ -84,10 +84,10 @@ const Navbar = ({className}: { className?: string }) => {
                                      className="text-xl md:text-2xl text-left hover:text-blue-500">{t('title3')}</HoveredLink>
                         <HoveredLink href="/crm"
                                      className="text-xl md:text-2xl text-left hover:text-blue-500">{t('title4')}</HoveredLink>
-                        <HoveredLink href="/crm"
-                                     className="text-xl md:text-2xl text-left hover:text-blue-500">{t('title4')}</HoveredLink>
-                        <HoveredLink href="/crm"
-                                     className="text-xl md:text-2xl text-left hover:text-blue-500">{t('title4')}</HoveredLink>
+                        <HoveredLink href="/tgbot"
+                                     className="text-xl md:text-2xl text-left hover:text-blue-500">{t('title5')}</HoveredLink>
+                        <HoveredLink href="/direct"
+                                     className="text-xl md:text-2xl text-left hover:text-blue-500">{t('title6')}</HoveredLink>
                         <hr className="my-4 border-t-2 border-gray-600"/>
                         <HoveredLink href="/flutter"
                                      className="text-xl md:text-2xl text-left hover:text-blue-500">{t("mainNavItm2")}</HoveredLink>

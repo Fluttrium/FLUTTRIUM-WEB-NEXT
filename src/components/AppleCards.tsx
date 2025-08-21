@@ -99,7 +99,7 @@ export function AppleCardsCarouselDemo() {
                         {
                             title: t("case53.title"),
                             description: t("case53.description"),
-                            imageSrc: "/Midnight.png",
+                            imageSrc: "/White .png",
                             imageAlt: t("case5.2.imageAlt"),
                         },
                     ]}

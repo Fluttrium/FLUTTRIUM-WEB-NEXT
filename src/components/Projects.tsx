@@ -64,7 +64,7 @@ export function ProjectsCards() {
                             {
                                 title: t('titlecard6'),
                                 description: t('titledisc6'),
-                                link: 'https://next-knifes.vercel.app',
+                                link: 'https://knivesspb.fluttrium.com',
                                 imgSrc: "/Direct.png",
                             }
                             ].map(({title, description, link, imgSrc}, index) => (

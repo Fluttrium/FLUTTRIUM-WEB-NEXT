@@ -54,7 +54,7 @@ const HeroSection = () => {
                             onClick={handleOpenModal}
                             className="relative inline-flex items-center justify-center px-12 py-4 font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 border-2 border-white rounded-full shadow-lg hover:from-blue-700 hover:to-blue-800 hover:shadow-xl transition-all duration-300 ease-in-out text-lg"
                         >
-                            Создать бота
+                            Запросить аудит
                         </button>
                     </div>
                     {isModalOpen && <Modal isOpen={isModalOpen} onClose={handleCloseModal} />}

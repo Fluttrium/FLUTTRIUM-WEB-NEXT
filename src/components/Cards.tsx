@@ -10,32 +10,31 @@ export function CardHoverEffectDemo() {
         {
             title: t('title1'),
             description: t('description1'),
-            link: "",
+
         },
         {
             title: t('title2'),
             description: t('description2'),
-            link: "",
+
         },
         {
             title: t('title3'),
             description: t('description3'),
-            link: "",
+
         },
         {
             title: t('title4'),
             description: t('description4'),
-            link: "",
+
         },
         {
             title: t('title5'),
             description: t('description5'),
-            link: "",
+
         },
         {
             title: t('title6'),
             description: t('description6'),
-            link: "",
         },
     ];
 

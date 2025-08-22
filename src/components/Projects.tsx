@@ -37,7 +37,6 @@ export function ProjectsCards() {
 
                             title: t('titlecard1'),
                             description: t('titledisc1'),
-                            link: 'https://fond-synergy.ru/',
                             imgSrc: "/projects/case3.png",
                         }, {
                             title: t('titlecard2'),
@@ -80,7 +79,7 @@ export function ProjectsCards() {
                                         {description}
                                     </CardItem>
                                     <CardItem translateZ="100" className="w-full mt-2">
-                                        <Link href={link}>
+
                                             <Image
                                                 src={imgSrc}
                                                 height={1000}
@@ -88,7 +87,7 @@ export function ProjectsCards() {
                                                 className="h-40 w-full object-cover object-center rounded-xl group-hover/card:shadow-xl"
                                                 alt="thumbnail"
                                             />
-                                        </Link>
+
                                     </CardItem>
 
                                 </CardBody>
@@ -104,35 +103,35 @@ export function ProjectsCards() {
                         {
                             title: t('titlecard1'),
                             description: t('titledisc1'),
-                            link: 'https://fond-synergy.ru/',
+                            link: '',
                             imgSrc: "/projects/case3.png",
                         },
                         {
                             title: t('titlecard2'),
                             description: t('titledisc2'),
-                            link: 'https://tcdobrynya.ru',
+                            link: '',
                             imgSrc: "/projects/case_dob.png",
                         },
                         {
                             title: t('titlecard3'),
                             description: t('titledisc3'),
-                            link: '#', // Замените на правильную ссылку
+                            link: '', // Замените на правильную ссылку
                             imgSrc: "/projects/case8.png",
                         },
                         {
                             title: t('titlecard4'),
                             description: t('titledisc4'),
-                            link: 'https://next-knifes.vercel.app',
+                            link: 'https://knivesspb.fluttrium.com',
                             imgSrc: "/projects/knifes.png",
                         },{
                             title: t('titlecard5'),
                             description: t('titledisc5'),
-                            link: '/src/app/tgbot',
+                            link: '/tgbot',
                             imgSrc: "/Black.png",
                         },{
                             title: t('titlecard6'),
                             description: t('titledisc6'),
-                            link: '/tgbot',
+                            link: '/direct',
                             imgSrc: "/Direct.png",
                         }
                     ].map(({title, description, link, imgSrc}, index) => (

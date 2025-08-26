@@ -94,13 +94,13 @@ export function AppleCardsCarouselDemo() {
                             title: t("case52.title"),
                             description: t("case52.description"),
                             imageSrc: "/White.png",
-                            imageAlt: t("case5.1.imageAlt"),
+                            imageAlt: t("case52.imageAlt"),
                         },
                         {
                             title: t("case53.title"),
                             description: t("case53.description"),
                             imageSrc: "/White.png",
-                            imageAlt: t("case5.2.imageAlt"),
+                            imageAlt: t("case53.imageAlt"),
                         },
                     ]}
                 />

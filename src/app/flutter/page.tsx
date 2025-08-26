@@ -34,26 +34,26 @@ export default function Flutter() {
                 <Spotlight className="absolute z-50"/>
                 <CoverDemo/>
             </div>
-            <div className="flex z-50 mt-16 md:mt-20 sm:mt-0">
+            <div className="flex z-50 mt-20 md:mt-24 sm:mt-0">
                 <FlutterInfo/>
             </div>
-            <div className="relative z-50 mt-16 md:mt-20">
+            <div className="relative z-50 mt-20 md:mt-24">
                 <Benefit/>
             </div>
-            <div className="relative z-50 mt-16 md:mt-20">
+            <div className="relative z-50 mt-20 md:mt-24">
                 <ExperienceDemo/>
             </div>
             {/*<div className="relative z-50">*/}
             {/*    <PricingAndTimeline/>*/}
             {/*</div>*/}
-            <div className="relative z-50 mt-16 md:mt-20">
+            <div className="relative z-50 mt-20 md:mt-24">
                 <CardHoverEffectDemo3/>
             </div>
             {/* <FreeAudit/> */}
-            <div className="relative z-50 mt-16 md:mt-20">
+            <div className="relative z-50 mt-20 md:mt-24">
                 <FeedbackForm/>
             </div>
-            <div className="relative z-50 mt-16 md:mt-20">
+            <div className="relative z-50 mt-20 md:mt-24">
                 <SocialContacts />
             </div>
         </main>

@@ -3,8 +3,11 @@ import React, { useState } from "react";
 import { Label } from "../ui/label";
 import { Input } from "../ui/input";
 import { cn } from "@/lib/utils";
+import { useRouter } from "next/navigation";
+import { X } from "lucide-react";
 
 export function BriefForm() {
+    const router = useRouter();
     const [file, setFile] = useState<File | null>(null);
     const [formData, setFormData] = useState({
         task: "",
@@ -16,6 +19,10 @@ export function BriefForm() {
         nda: false,
     });
     const [loading, setLoading] = useState(false);
+
+    const handleClose = () => {
+        router.back();
+    };
 
     const handleChange = (
         e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>
@@ -76,7 +83,16 @@ export function BriefForm() {
     };
 
     return (
-        <div className="w-full mx-auto rounded-xl p-10 shadow-lg text-white">
+        <div className="w-full mx-auto rounded-xl p-10 shadow-lg text-white relative">
+            {/* Кнопка закрытия */}
+            <button
+                onClick={handleClose}
+                className="absolute top-4 right-4 p-2 rounded-full bg-gray-800/50 hover:bg-gray-700/50 transition-colors duration-200 text-white hover:text-gray-300"
+                aria-label="Закрыть и вернуться назад"
+            >
+                <X className="w-6 h-6" />
+            </button>
+            
             <h2 className="font-bold text-3xl text-white mb-6 tracking-wide">
                 Заполните бриф
             </h2>

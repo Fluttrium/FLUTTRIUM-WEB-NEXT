@@ -882,5 +882,47 @@
       "description": "Trust our professionals and get a quality product!",
       "cta": "Order consultation"
     }
+  },
+  "PricePage": {
+    "standardPlan": {
+      "title": "Standard Development Plan",
+      "included": "What's included:",
+      "features": [
+        "Multi-page website/application development (up to 10 pages/screens)",
+        "Individual design",
+        "Mobile device adaptation",
+        "SEO optimization",
+        "CRM or other services integration",
+        "3 months support"
+      ],
+      "price": "Price: from 120,000 rubles",
+      "cta": "Leave a request"
+    },
+    "premiumPlan": {
+      "title": "Premium Development Plan",
+      "included": "What's included:",
+      "features": [
+        "Complex website/application development (from 10 pages/screens)",
+        "Fully customized design",
+        "Complete optimization for mobile devices and various platforms",
+        "Integration with external services (payment, analytics, CRM)",
+        "Complete SEO optimization",
+        "6 months technical support"
+      ],
+      "price": "Price: from 300,000 rubles",
+      "cta": "Leave a request"
+    },
+    "customServices": {
+      "title": "Custom Services",
+      "included": "What's included:",
+      "features": [
+        "Application support and updates",
+        "Additional feature development",
+        "Website loading speed optimization",
+        "Design modernization"
+      ],
+      "description": "Flexible approach to each project",
+      "cta": "Leave a request"
+    }
   }
 }

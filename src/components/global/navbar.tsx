@@ -123,11 +123,15 @@ const Navbar = ({className}: { className?: string }) => {
                                          className="text-xl md:text-2xl text-left hover:text-blue-500">{messages.navbar?.title6 || "Direct"}</HoveredLink>
 
                             <hr className="my-4 border-t-2 border-gray-600"/>
-                            <HoveredLink href="/flutter"
-                                         className="text-xl md:text-2xl text-left hover:text-blue-500">{messages.navbar?.mainNavItm2 || "Flutter"}</HoveredLink>
-
+                            
                             <HoveredLink href="/nextjs"
                                          className="text-xl md:text-2xl text-left hover:text-blue-500">{messages.navbar?.mainNavItm7 || "Next.js"}</HoveredLink>
+
+                            <HoveredLink href="/studstartap"
+                                         className="text-xl md:text-2xl text-left hover:text-blue-500">{messages.navbar?.mainNavItm2 || "СтудСтартап"}</HoveredLink>
+
+                            <HoveredLink href="/vitrina"
+                                         className="text-xl md:text-2xl text-left hover:text-blue-500">{messages.navbar?.mainNavItm9 || "Витрина"}</HoveredLink>
 
                             <hr className="my-4 border-t-2 border-gray-600"/>
                             <Link
@@ -141,40 +145,29 @@ const Navbar = ({className}: { className?: string }) => {
                             </Link>
 
                             <hr className="my-4 border-t-2 border-gray-600"/>
-                            <DropdownMenu>
-                                <DropdownMenuTrigger className="text-xl md:text-2xl text-left hover:text-blue-500">
-                                    {language === "en" ? "EN" : language === "ru" ? "RU" : "CZ"}
-                                </DropdownMenuTrigger>
-                                <DropdownMenuContent className="mt-2 bg-black/90 backdrop-blur-xl border border-neutral-700">
-                                    <DropdownMenuItem 
-                                        className="text-lg px-4 py-2 hover:bg-white/10 transition-colors duration-200"
-                                        onClick={() => handleChangeLanguage('en')}
-                                    >
-                                        <div className="flex items-center justify-between w-full">
-                                            <span>EN</span>
-                                            {language === "en" && <div className="h-1 bg-blue-400 w-4 rounded-full"></div>}
-                                        </div>
-                                    </DropdownMenuItem>
-                                    <DropdownMenuItem 
-                                        className="text-lg px-4 py-2 hover:bg-white/10 transition-colors duration-200"
-                                        onClick={() => handleChangeLanguage('ru')}
-                                    >
-                                        <div className="flex items-center justify-between w-full">
-                                            <span>RU</span>
-                                            {language === "ru" && <div className="h-1 bg-blue-400 w-4 rounded-full"></div>}
-                                        </div>
-                                    </DropdownMenuItem>
-                                    <DropdownMenuItem 
-                                        className="text-lg px-4 py-2 hover:bg-white/10 transition-colors duration-200"
-                                        onClick={() => handleChangeLanguage('cz')}
-                                    >
-                                        <div className="flex items-center justify-between w-full">
-                                            <span>CZ</span>
-                                            {language === "cz" && <div className="h-1 bg-blue-400 w-4 rounded-full"></div>}
-                                        </div>
-                                    </DropdownMenuItem>
-                                </DropdownMenuContent>
-                            </DropdownMenu>
+                            <div className="flex items-center gap-3">
+                                <button
+                                    type="button"
+                                    onClick={() => handleChangeLanguage('en')}
+                                    className={`px-3 py-1 rounded-md text-base md:text-lg transition-colors ${language === 'en' ? 'bg-white/20 text-white' : 'bg-white/10 text-neutral-200 hover:bg-white/20'}`}
+                                >
+                                    EN
+                                </button>
+                                <button
+                                    type="button"
+                                    onClick={() => handleChangeLanguage('ru')}
+                                    className={`px-3 py-1 rounded-md text-base md:text-lg transition-colors ${language === 'ru' ? 'bg-white/20 text-white' : 'bg-white/10 text-neutral-200 hover:bg-white/20'}`}
+                                >
+                                    RU
+                                </button>
+                                <button
+                                    type="button"
+                                    onClick={() => handleChangeLanguage('cz')}
+                                    className={`px-3 py-1 rounded-md text-base md:text-lg transition-colors ${language === 'cz' ? 'bg-white/20 text-white' : 'bg-white/10 text-neutral-200 hover:bg-white/20'}`}
+                                >
+                                    CZ
+                                </button>
+                            </div>
                         </div>
                     </div>
                 )}

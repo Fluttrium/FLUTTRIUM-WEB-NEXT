@@ -31,7 +31,7 @@ export default function Nextjs() {
                 className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]">
             </div>
             <Navbar/>
-            <div className="relative z-50 md:mt-0 mt-20 sm:px-12 ">
+            <div className="relative z-50 md:mt-0 mt-10 sm:px-12 ">
                 <Spotlight className="absolute z-50"/>
                 <NextInfo/>
             </div>

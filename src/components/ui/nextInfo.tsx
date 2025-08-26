@@ -16,15 +16,15 @@ const NextInfo = () => {
         <div className="w-full pt-40 rounded-lg shadow-md flex flex-col lg:flex-row items-center lg:items-start space-y-6 lg:space-y-0 lg:space-x-6">
             {/* Текстовая часть */}
             <div className="flex-1 w-full text-center lg:text-left">
-                <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 lg:mb-8">
+                <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4 lg:mb-8">
                     {m?.cover?.title}
                 </h2>
-                <p className="text-lg md:text-xl lg:text-2xl text-white-700 mb-4">
+                <p className="text-xl md:text-2xl lg:text-3xl text-white-700 mb-4">
                     {m?.cover?.subtitle}
                 </p>
                 <button
                     onClick={handleOpenModal}
-                    className="relative inline-flex items-center justify-center px-12 py-4 font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 border-2 border-white rounded-full shadow-lg hover:from-blue-700 hover:to-blue-800 hover:shadow-xl transition-all duration-300 ease-in-out text-xl"
+                    className="relative inline-flex items-center justify-center px-12 py-4 font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 border-2 border-white rounded-full shadow-lg hover:from-blue-700 hover:to-blue-800 hover:shadow-xl transition-all duration-300 ease-in-out text-xl md:text-2xl"
                 >
                     {m?.cover?.cta}
                 </button>

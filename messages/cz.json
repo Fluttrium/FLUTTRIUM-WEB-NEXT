@@ -554,5 +554,47 @@
       "title": "Jste pripraveni promenit napad ve startup?",
       "subtitle": "Povezte nam o svem napadu a ziskate osobni strategii rozvoje"
     }
+  },
+  "PricePage": {
+    "standardPlan": {
+      "title": "Standardní plán vývoje",
+      "included": "Co je zahrnuto:",
+      "features": [
+        "Vývoj vícestránkového webu/aplikace (až 10 stránek/obrazovek)",
+        "Individuální design",
+        "Adaptace pro mobilní zařízení",
+        "SEO optimalizace",
+        "Integrace s CRM nebo jinými službami",
+        "Podpora 3 měsíce"
+      ],
+      "price": "Cena: od 120 000 rublů",
+      "cta": "Zanechat žádost"
+    },
+    "premiumPlan": {
+      "title": "Prémiový plán vývoje",
+      "included": "Co je zahrnuto:",
+      "features": [
+        "Vývoj složitého webu/aplikace (od 10 stránek/obrazovek)",
+        "Plně přizpůsobený design",
+        "Kompletní optimalizace pro mobilní zařízení a různé platformy",
+        "Integrace s externími službami (platby, analytika, CRM)",
+        "Kompletní SEO optimalizace",
+        "6 měsíců technická podpora"
+      ],
+      "price": "Cena: od 300 000 rublů",
+      "cta": "Zanechat žádost"
+    },
+    "customServices": {
+      "title": "Individuální služby",
+      "included": "Co je zahrnuto:",
+      "features": [
+        "Podpora a aktualizace aplikací",
+        "Vývoj dodatečných funkcí",
+        "Optimalizace rychlosti načítání webu",
+        "Modernizace designu"
+      ],
+      "description": "Flexibilní přístup ke každému projektu",
+      "cta": "Zanechat žádost"
+    }
   }
 }

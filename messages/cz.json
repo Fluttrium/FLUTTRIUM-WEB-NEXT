@@ -1,0 +1,558 @@
+{
+  "HomePage": {
+    "title": "Ahoj svete!",
+    "hero_1": "My",
+    "hero_2": "vyvijime",
+    "words1": "mobilni aplikace pro vas byznys",
+    "words2": "webove aplikace",
+    "words3": "profesionalni webove stranky",
+    "words4": "unikatni design",
+    "words5": "MVP pro vas startup",
+    "hero_card1": "Provedeme rozhovor a sestavime TDD",
+    "hero_card2": "Vyvineme vas produkt",
+    "hero_card3": "Zajistime podporu a rozvoj",
+    "button": "Zanechat zadost"
+  },
+  "ProjectCard": {
+    "tapeword1": "Realizujte",
+    "tapeword2": "jakoukoliv",
+    "tapeword3": "vasi",
+    "tapeword4": "myslenku",
+    "tapeword5": "spolecne",
+    "tapeword6": "s",
+    "tapeword7": "firmou",
+    "tapeword8": "FLUTTRIUM",
+    "titlecard1": "Webove stranky pro neziskove organizace",
+    "titlecard2": "Webove stranky pro byznys",
+    "titlecard3": "Aplikace pro korporace",
+    "titlecard4": "Vytvarime platformy pro vas byznys",
+    "titlecard5": "Telegram bot pro optimalizaci procesu",
+    "titlecard6": "SEO optimalizace a reklamni kampan Yandex Direct",
+    "titledisc1": "Podporujeme neziskove organizace v jejich úsili udelat svet lepsim mistem",
+    "titledisc2": "Vyvijime profesionalni a unikatni web, ktery pomuze vasemu byznysu vyniknout mezi konkurenci",
+    "titledisc3": "Vyvijime skalovatelne a spolehlive platformy prizpusobene unikatnim potrebam vaseho byznysu",
+    "titledisc4": "Vyvijime mocna a flexibilni reseni pro e-commerce, poskytujici kompletni sadu nastroju pro efektivni provozovani byznysu",
+    "titledisc5": "Vytvarime Telegram boty pro automatizaci a optimalizaci procesu v korporacich a podnicich",
+    "titledisc6": "Dostaneme vas web na prvni pozice ve vyhledavani Yandex pomoci SEO optimalizace a pripojeni Yandex Direct",
+    "cardButton": "Objednat nyni →"
+  },
+  "formSection": {
+    "formTitle1": "Pracujeme se zakazniky",
+    "formTitle2": "po celem svete"
+  },
+  "beetween": {
+    "title1": "Vytvarime",
+    "title2": "úzasne",
+    "title3": "aplikace",
+    "title4": "na",
+    "title5": "frameworku",
+    "title6": "Flutter",
+    "road": "Cesta ke svobode zacina zde",
+    "button": "kontaktujte nas"
+  },
+  "navbar": {
+    "mainNavItm1": "Sluzby",
+    "mainNavItm2": "Flutter",
+    "mainNavItm3": "Produkty",
+    "mainNavItm4": "Ceny",
+    "mainNavItm5": "Kontakty",
+    "mainNavItm6": "Technologie",
+    "mainNavItm7": "Nextjs",
+    "mainNavItm8": "Startup",
+    "mainNavItm9": "Vitrina",
+    "navMainButton":"Vyplnit brief",
+    "serviceItm1" : "Vyvoj webovych stranek",
+    "serviceItm2": "Mobilni aplikace",
+    "serviceItm3": "Design UI/UX",
+    "serviceItm4": "Poradenstvi v oblasti technologii",
+    "serviceItm5": "Podpora a údrzba",
+    "title1": "Aplikace v krabicich pro maloobchodni prodej",
+    "description1":"Řeseni na klic pro obchody a retezce ke sprave prodeje, skladu a zakaznicke zakladny",
+    "title2": "Aplikace pro spolecnosti",
+    "description2": "Nastroj pro zlepseni internich procesu spolecnosti, ktery poskytuje automatizaci obchodnich procesu",
+    "title3": "Online obchod",
+    "description3": "Online prodejni platforma, ktera vam umozni rychle vytvorit a spravovat vas online obchod",
+    "title4": "CRM system",
+    "description4": "Inovativni reseni pro rizeni vztahu se zakazniky",
+    "description5" : "Moderni ramec spolecnosti Google pro vyvoj nativnich aplikaci pro mobilni zarizeni",
+    "description6" : "Vykonny framework pro React, ktery usnadnuje vytvareni rychlych a vykonnych webovych aplikaci",
+    "title5": "Telegram Bot",
+    "description7": "Optimalizace a automatizace obchodnich procesu ve spolecnosti",
+    "title6": "SEO optimalizace, Yandex Direct",
+    "description8": "Komplexni propagace webu: SEO a reklama v Yandex Direct"
+  },
+  "MainForm": {
+    "FormDisc": "Jak vam muzeme pomoci? Strucne popiste zadost o vyvoj - spojime se s vami behem dne",
+    "label1": "Jmeno",
+    "label2": "Prijmeni",
+    "label3": "E-mail",
+    "label4": "Telefon",
+    "label5": "Povezte nam o sobe a o sve myslence",
+    "formButton": "Odeslat",
+    "placeHold": "Vase myslenka.."
+  },
+  "PartnerLogos": {
+    "title": "Nasi partneri",
+    "subtitle": "Sveruji nam sve projekty a jsou spokojeni s vysledky",
+    "description": "Jsme hrdi na to, ze spolupracujeme s prednimi spolecnostmi a organizacemi a vytvarime inovativni reseni pro jejich byznys"
+  },
+
+  "Modal": {
+    "title": "Mate otazky? Napiste nam!",
+    "name": "Jmeno",
+    "phone": "Telefon",
+    "email": "E-mail",
+    "source": "Zdroj",
+    "required": "Toto pole je povinne",
+    "submit": "Odeslat",
+    "success": "Dekujeme! Vase zadost byla odeslana.",
+    "error": "Pri odesilani formulare doslo k chybe. Zkuste to prosim znovu.",
+    "networkError": "Doslo k chybe site. Zkontrolujte pripojeni k internetu.",
+    "privacy": "Kliknutim na tlacitko souhlasite se zpracovanim osobnich údaju a souhlasite se zasadami ochrany osobnich údaju."
+  },
+  "Sotr": {
+    "How": "Vypravime, jak budeme spolupracovat",
+    "title1": "Plny cyklus vyvoje mobilnich aplikaci",
+    "description1": "Od myslenky k realizaci - zabyvame se vyvojem mobilnich aplikaci pro iOS a Android. Vytvarime intuitivni a vysoce efektivni aplikace, ktere pritahnou uzivatele a pomohou vasemu byznysu dosahnout novych vysin",
+    "title2": "Design, ktery inspiruje",
+    "description2": "Vyvijime unikatni a atraktivni design jak pro mobilni aplikace, tak pro pridruzene webove stranky. Nasim cilem je udelat vasi aplikaci a web vizualne atraktivni a pohodlne pro uzivatele",
+    "title3": "Adaptivni webove stranky pro vasi aplikaci",
+    "description3": "Vytvorte idealni online pritomnost pro vasi mobilni aplikaci. Vyvijime adaptivni webove stranky, ktere budou vypadat skvele na vsech zarizenich a efektivne prezentovat vasi aplikaci",
+    "title4": "Integrace aplikace a webu",
+    "description4": "Zajisťujeme bezproblemovou integraci mezi vasi mobilni aplikaci a webovou strankou. To zahrnuje synchronizaci dat, moznost autorizace pres web a interakci mezi obema platformami",
+    "title5": "Optimalizace a SEO",
+    "description5": "Zvyste viditelnost vasi aplikace ve vyhledavacich s nasimi SEO sluzbami. Optimalizujeme vase stranky pro prilakani ciloveho publika a zajisťujeme lepsi propagaci vasi aplikace na internetu",
+    "title6": "Podpora a analytika",
+    "description6": "Poskytujeme sluzby podpory a aktualizace vasich aplikaci a webovych stranek. Take implementujeme analyticke systemy, abyste mohli sledovat vykon, analyzovat chovani uzivatelu a ziskavat cenne poznatky pro zlepseni vaseho produktu"
+  },
+  "Projects": {
+    "casesTitle": "Nase projekty",
+    "case1": {
+      "category": "Byznys",
+      "title": "Web pro Obchodni Centrum",
+      "description": "Jsme radi, ze vam predstavujeme nas novy projekt - moderni a interaktivni web pro obchodni centrum 'Dobrynya'. V ramci tohoto projektu nas tym pracoval na vytvoreni unikatni online platformy, ktera nejen odrazi styl a atmosferu obchodniho centra, ale take poskytuje pohodlne rozhrani pro jeho navstevniky",
+      "imageAlt": "Maketa Macbook od Aceternity UI"
+    },
+    "case2": {
+      "category": "Neziskove organizace",
+      "title": "Web pro NKO SYNERGIE",
+      "description": "Vyvinuli jsme intuitivní rozhraní a bohatou funkcionalitu, která uživatelům umožňuje snadno získat informace, účastnit se aktivit a interagovat s organizací. Snažili jsme se vytvořit prostor, který nejen odráží hodnoty a poslání „SYNERGIE“, ale také přispívá k hlubšímu zapojení a interakci",
+      "imageAlt": "Maketa projektu pro NKO SYNERGIE"
+    },
+    "case3": {
+      "category": "Aplikace pro korporace",
+      "title": "Korporatni taxi",
+      "description": "Nas novy projekt - korporatni taxi, vyvinute pro zlepseni vnitrni logistiky spolecnosti. Pohodlne rozhrani a vysoka funkcnost",
+      "imageAlt": "Maketa aplikace korporatniho taxi"
+    },
+    "case4": {
+      "category": "Platformy pro vas byznys",
+      "title": "Internetovy obchod s nozi",
+      "description": "Nas novy projekt internetove platformy pro prodej nozu s registraci, online platbou a dorucenim po cele Česke republice",
+      "imageAlt": "Maketa internetoveho obchodu s nozi"
+    },
+    "case41": {
+      "title": "Úkol",
+      "description": "Vytvorit plne funkcni obchodni platformu pro prodej nozu s modernim technologickym stackem, pohodlnym admin panelem, ve kterem muzete spravovat objednavky, vytvaret produkty, kontrolovat stav plateb a bezpecne online platby.",
+      "imageAlt": "Maketa internetoveho obchodu s nozi"
+    },
+    "case42": {
+      "title": "Technicke reseni",
+      "description": "Projekt je postaven na modernim technologickem stacku, ktery zajisťuje vysoky vykon, odolnost vuci zatezi a pohodli dalsi podpory.\nNa frontendu jsme pouzili Next.js 14 s App Router, striktni typovani na TypeScript, stejne jako Tailwind CSS a shadcn/ui pro vytvoreni styloveho a responzivniho rozhrani. Formulare jsou implementovany pres React Hook Form a sprava stavu je resena pomoci Zustand.\nBackend je postaven na NestJS s pouzitim Prisma ORM a databaze PostgreSQL, a pro ukladani souboru je pouzit AWS S3. Bezpecnost je zajistena pres JWT autentifikaci.",
+      "imageAlt": "Maketa internetoveho obchodu s nozi"
+    },
+    "case43": {
+      "title": "Online platba pres YuKassa",
+      "description": "Do platformy je integrovan platebni system YuKassa, ktery podporuje vsechny popularni platebni metody: bankovni karty, SBP, elektronicke penezenky, Apple Pay a Google Pay. Implementovali jsme zabezpecene zpracovani transakci pres HTTPS protokol a pouzili mechanismy overovani plateb pres YuKassa API. System automaticky zpracovava stavy plateb - od 'cekani' do 'úspesne provedeno' - a okamzite notifikuje klienta o vysledku. Diky tomu uzivatel ziska bezproblemovy platebni zazitek a majitel platformy transparentni a spolehlivy system prijimani plateb.",
+      "imageAlt": "Maketa internetoveho obchodu s nozi"
+    },
+    "case5": {
+      "category": "Telegram Bot",
+      "title": "Telegram Bot pro Gazprom Neft",
+      "description": "Inteligentni bot pro skoleni zamestnancu dcerinych spolecnosti. Adaptivni testovaci system, denni kontroly znalosti a detailni analyza efektivity. Implementovano v blocich korporatniho skoleni.",
+      "imageAlt": "Rozhrani vzdelavaciho Telegram Botu"
+    },
+    "case51": {
+      "title": "Cil projektu - denni uceni bez zbytecne kontroly.",
+      "description": "Vytvorili jsme Telegram bota, ktery nahrazuje interni LMS: adaptivni testy, otazky podle kompetenci, uceni bez prihlaseni do prohlizece. Zamestnanec projde 3-5 otazek denne primo v chatu.",
+      "imageAlt": "Rozhrani vzdelavaciho Telegram Botu"
+    },
+    "case52": {
+      "title": "Flexibilita pro oddeleni a role.",
+      "description": "Bot bere v úvahu strukturu organizace: ruzne scenare pro SUOD a korporatni bloky. Manazeri vidi statistiky podle skupin a zamestnanci svuj pokrok. Podpora nekolika smeru v ramci jednoho nastroje",
+      "imageAlt": "Rozhrani vzdelavaciho Telegram Botu"
+    },
+    "case53": {
+      "title": "Vysledky implementace.",
+      "description": "Testovani nyni probiha denne misto 1x rocne. Zbytkove znalosti vzrostly na 98%. HR dostava detailni reporty a kontrolu uceni bez rucni prace.",
+      "imageAlt": "Rozhrani vzdelavaciho Telegram Botu"
+    },
+    "case6": {
+      "category": "SEO a kontextova reklama",
+      "title": "SEO a Yandex.Direct pro VOSVOD",
+      "description": "Nas novy projekt internetove platformy pro prodej nozu s registraci, online platbou a dorucenim po cele Česke republice",
+      "imageAlt": "Maketa internetoveho obchodu s nozi"
+    },
+    "case61": {
+      "title": "Cil: prilakat traffic a zadosti pro GIMS a skoleni",
+      "description": "VOSVOD skoli zachranare a majitele malych plavidel. Propagovali jsme jejich kurzy pres SEO a spousteli reklamni kampane v Yandex.Direct, zamerovali jsme se na horkou poptavku (GIMS, prava na loď, jachting).",
+      "imageAlt": "Maketa internetoveho obchodu s nozi"
+    },
+    "case62": {
+      "title": "SEO: prvni pozice pri vysoke konkurenci",
+      "description": "Optimalizovali jsme stranky, provedli jsme semanticke jadro, napsali jsme texty pro dotazy. Uz za 2 mesice stranky kurzu vysly v top-5 podle regionu, predstihly i federalni stranky.",
+      "imageAlt": "Maketa internetoveho obchodu s nozi"
+    },
+    "case63": {
+      "title": "Kontextova reklama s zamerenim na ROI",
+      "description": "Nastavili jsme Yandex.Direct s CPL do 220 ₽. Vyclenili jsme samostatne kampane pro kazdou kategorii kurzu, s ohledem na sezónnost a chovani cilove skupiny. ROI - 6.3x v prvni fazi.",
+      "imageAlt": "Maketa internetoveho obchodu s nozi"
+    },
+    "case7": {
+      "category": "Medicina a technologie",
+      "title": "Asleep.online - platforma pro zdravy spanek",
+      "description": "Vytvorili jsme inovativni system, ktery kombinuje AI diagnostiku spanku, doporuceni lekaru a vyber reseni - od online konzultaci po kurzy a gadgety."
+    },
+    "case71": {
+      "title": "Personalizovana doporuceni",
+      "description": "Platforma analyzuje odpovedi v bezplatnem pruzkumu, identifikuje mozne poruchy spanku a nabizi osobni plan zlepseni - od zmeny navyku po kontaktovani specialisty.",
+      "imageAlt": "Maketa internetoveho obchodu s nozi"
+    },
+    "case72": {
+      "title": "Pristup k nejlepsim specialistum a produktum",
+      "description": "Sjednotili jsme kliniky, psychology, vyrobce zarizeni a online kurzy pro komplexni reseni problemu se spankem. Uzivatel dostane pouze overene a efektivni nastroje.",
+      "imageAlt": "Maketa internetoveho obchodu s nozi"
+    },
+    "case73": {
+      "title": "AI a medicina v jednom produktu",
+      "description": "Pouzivame algoritmy umele inteligence pro hodnoceni kvality spanku a identifikaci problemu. Data se integruji s gadgety a lekarskymi sluzbami pro maximalni presnost.",
+      "imageAlt": "Maketa internetoveho obchodu s nozi"
+    }
+  },
+  "Maintenance" : {
+    "text-1":"Mobilni verze docasne nedostupna",
+     "text-2": "Provadime technicke prace. Navstivte prosim stranky pozdeji nebo je otevrete na svem pocitaci"
+  },
+  "Website": {
+    "text-1": "Vyvoj webovych stranek",
+    "text-2": "Vytvorime pro vas efektivni webove stranky, ktere budou spravne fungovat ve vsech prohlizecich a na vsech zarizenich.\n                        zarizeni",
+    "button": "Zanechte zadost",
+    "stage": "Zkoumani projektu",
+    "description": "Podepsani NDA. Prostudujeme zadavaci podminky. Pokud je nemate, posleme vam zadani pro tvorbu webovych stranek a pomuzeme vam ho vyplnit",
+    "stage-2": "Zacneme prace ",
+    "description-2": "Provadet obchodni zpravodajstvi. Studujeme technickou dokumentaci. Vypocitame, kolik casu bude potreba na vyvoj a testovani. Identifikujeme nepopsane scenare a úzka mista v zadani",
+    "stage-3" : "Vyvoj frontendu a backendu",
+    "description-3" :"Vytvarime rozvrzeni, vyvijime webove stranky a naplnujeme je obsahem",
+    "stage-4" : "Testovani vyrobku",
+    "description-4" : "S pomoci nasich inzenyru kontroly kvality, kteri se na projektu podileli od zacatku, stranky testujeme. Vypracujeme testovaci dokumentaci. Provadime konecne úpravy",
+    "stage-5" : "Poskytujeme vam webove stranky",
+    "description-5" :"Predame vam staveniste a kompletni balicek projektove dokumentace",
+    "stage-6" : "Údrzba webu",
+    "description-6" : "Po prevodu prav k webu jeho historie nekonci. Pokud se v prvnich mesicich zivota webu ukaze, kde a co je treba dokoncit nebo predelat, nabizime dve moznosti: uzavrit smlouvu o údrzbe nebo zahajit novou fazi vyvoje",
+    "h2" : "Etapy prace",
+    "h3" :  "Vytvoreni efektivnich webovych stranek",
+    "p": "Duverujte nasim profesionalum a ziskejte kvalitni produkt!",
+    "button-2": "Objednat sluzbu"
+
+
+  },
+  "Writeus" : {
+    "h2" : "Napiste nam!",
+    "p" : "Pojďme spolecne vytvorit uzivatelsky privetivy digitalni produkt pro vase zakazniky!",
+    "button" : "Zanechte zadost",
+    "p2" : "Kliknutim na tlacitko vyjadrujete souhlas se zpracovanim osobnich údaju a souhlasite se zasadami ochrany osobnich údaju"
+
+  },
+  "AuditPage": {
+    "title": "Bezplatny expresni audit aplikace",
+    "description": "Audit aplikace je potreba, pokud nefunguje spravne. Uzivatele zanechavaji negativni recenze a nizke hodnoceni — coz skodi hodnoceni a propagaci v obchodech",
+    "bullets": {
+      "negativeComments": "Negativni komentare uzivatelu",
+      "lowRatings": "Nizka hodnoceni v obchodech",
+      "performanceIssues": "Problemy s vykonem"
+    },
+    "cta": "Zanechte zadost",
+    "stages": {
+      "title": "Etapy prace",
+      "items": [
+        { "stage": "Zaciname praci", "description": "Podepisujeme NDA s vami. Zapojime analytiky do vaseho projektu" },
+        { "stage": "Provadime testovani", "description": "Identifikujeme nefunkcni funkcionalitu, vizualni problemy, analyzujeme rizika a zranitelnosti" },
+        { "stage": "Vyhodnocujeme vysledky", "description": "Pripravime zpravu se strategii zlepseni a optimalizace produktu" }
+      ]
+    },
+    "sidebar": {
+      "title": "Vytvorime efektivni aplikaci",
+      "description": "Duverujte nasim profesionalum a ziskejte kvalitni produkt!",
+      "cta": "Objednat konzultaci"
+    }
+  },
+   "Mobile": {
+     "h1" :  "Vyvoj aplikaci pro vice platforem",
+     "h2" : " Aplikace pro iOS a Android najednou? Pojďme ji vyvinout na Flutteru",
+     "p" :  "  Pri vyvoji mobilnich aplikaci pro vice platforem muzeme jednim kódem pokryt dva operacni systemy najednou: iOS a Android. Jednak je to vyhodne, protoze se vyrazne optimalizuji naklady na vyvoj. A za druhe je rychly - vyvoj napric platformami umoznuje zkratit dobu potrebnou k vytvoreni aplikace o 40 %",
+     "button" : "Zanechte zadost",
+     "stage": "Zkoumani projektu" ,
+     "description": "Podepiseme NDA. Prostudujeme vase zadavaci podminky (TOR), a pokud je nemate - i to se stava a je to normalni - pomuzeme vam je vypracovat. Na zacatku druhe faze mame k dispozici popis zakladnich funkci mobilni aplikace",
+     "stage-2": "Odhad rozsahu praci a vyber metodiky",
+     "description-2": "Zvolte metodiku vhodnou pro dany projekt: agilni nebo vodopadovou. Prostudujte technickou dokumentaci. Pote vypocitame odhadovanou dobu vyvoje a testovani. Identifikujeme nepopsane scenare v zadavaci dokumentaci. Naplanujte plan postupu",
+     "stage-3": "Podepsani smlouvy, zahajeni prace",
+     "description-3": "Dodrzovani jasneho planu, prace ve sprintech",
+     "stage-4": "Navrhovani designu aplikace",
+     "description-4": "Vytvorime mapu obrazovky, graficke prvky a podrobny (staticky nebo interaktivni) prototyp s ohledem na mozne scenare pouziti",
+     "stage-5": "Schvaleni designu",
+     "description-5": "Ziskame zpetnou vazbu od obchodniho analytika a klienta, zapracujeme pripominky a provedeme úpravy",
+     "stage-6": "Vyvoj aplikace",
+     "description-6": "Propojujeme vyvojovy tym, ktery pise kód. V teto dobe designer aktivne sleduje praci a kontroluje, jak jsou obrazovky implementovany. Prace probiha v iteracich - vyvineme cast funkci, otestujeme ji a pokracujeme v praci na zbytku fun",
+     "stage-7": "Testovani aplikace a oprava chyb",
+     "description-7": "S pomoci nasich inzenyru kontroly kvality, kteri se na projektu podileli od zacatku, stranky testujeme. Vypracujeme testovaci dokumentaci. Pred uvolnenim aplikace provadime akceptacni testovani: prochazime obchodni pripady aplikace",
+     "stage-8": "Zverejneni aplikace v obchodech",
+     "description-8": "Pridejte aplikaci do obchodu s aplikacemi - App Store, Google Play nebo do jineho obchodu podle vlastniho vyberu. Dulezity bod: aby aplikace prosla hodnocenim obchodniku, muzete pozadat vyvojare o pomoc pri vydani nebo muzete aplikaci pripravit a nahrat do obchodu sami",
+     "stage-9": "Podpora a rozvoj",
+     "description-9": "Jakmile je mobilni aplikace zverejnena, jeji pribeh nekonci. Pracujeme na novych funkcich, vylepsujeme ji a ziskavame zpetnou vazbu od uzivatelu",
+     "stage-10": "Vysledek prace",
+     "description-10": "Hotova, snadno rozsiritelna a udrzovatelna mobilni aplikace publikovana v App Store/Google Play. Stejne jako zdrojovy kód aplikace a jeji dokumentaci",
+     "text" : "Faze prace",
+     "text2": " Vytvoreni efektivni aplikace",
+     "text3" :"Duverujte nasim profesionalum a ziskejte kvalitni produkt!",
+     "text4" : "  Objednat sluzbu"
+   },
+  "DirectPage": {
+    "hero": {
+      "title": "SEO a Yandex Direct — váš web v TOP a tok klientů",
+      "subtitle": "Nastavíme vyhledávací optimalizaci a reklamní kampaně na klíč.",
+      "subtitleHighlight": "Zvýšíme dosah, žádosti a prodeje bez plýtvání rozpočtem",
+      "benefits": {
+        "traffic": "Růst provozu za 3 měsíce",
+        "leads": "Zvýšení žádostí z vyhledávání",
+        "satisfaction": "Klientů spokojeno s výsledkem"
+      },
+      "cta": "Požádat o audit"
+    },
+    "successCases": {
+      "title": "Naše úspěšné projekty",
+      "vosvod": {
+        "title": "Web a automatizace pro Všeruskou společnost pro záchranu na vodě",
+        "subtitle": "Systém řízení provozní činnosti",
+        "description": "Vyvinuli jsme moderní web s integrací Yandex Direct a SEO optimalizací pro maximální přilákání klientů a zlepšení konverze",
+        "direction": "Získání licencí na loď, školení záchrany na vodě a související služby",
+        "developer": "Tým vývojářů Fluttrium",
+        "result": "Přivedli na první místo ve vyhledávání při vysoké konkurenci",
+        "metrics": [
+          "Dostali web na první místo ve vyhledávání Yandex pro klíčové dotazy",
+          "Zvýšili prodeje a konverze",
+          "Optimalizovali reklamní kampaně v Yandex Direct",
+          "Zvýšili povědomí o značce a důvěru"
+        ],
+        "status": "Aktivně používáno",
+        "more": "Více o projektu"
+      },
+      "cta": {
+        "title": "Potřebujete SEO propagaci?",
+        "subtitle": "Zvedneme váš web na TOP Yandex a Google, i v nejkonkurenčnějších výklencích",
+        "button": "Objednat audit"
+      }
+    },
+    "features": {
+      "title": "Naše možnosti v SEO a reklamě",
+      "subtitle": "Přivádíme klienty, ne jen utrácíme rozpočet: nastavujeme SEO a reklamu s důrazem na",
+      "subtitleHighlight1": "návratnost investic (ROI)",
+      "subtitleHighlight2": "náklady na lead (CPL)",
+      "subtitleEnd": "Zvýšíme provoz, žádosti a zisk.",
+      "seo": {
+        "title": "Chytrá SEO propagace",
+        "items": [
+          "Analýza výklenku, konkurentů a tvorba sémantiky",
+          "Optimalizace webu pro TOP Yandex a Google",
+          "Růst pozic — už v prvních 2-3 týdnech",
+          "Podrobné zprávy a kontrola všech změn"
+        ]
+      },
+      "yandex": {
+        "title": "Efektivní Yandex Direct",
+        "items": [
+          "Nastavujeme kampaně, které skutečně přinášejí žádosti",
+          "Důraz na ROI a CPL, ne 'utracený rozpočet'",
+          "Multisegment: horké, teplé, studené klienty",
+          "Neustálá optimalizace nabídek a klíčových slov"
+        ]
+      },
+      "analytics": {
+        "title": "Analytika a růst",
+        "items": [
+          "Hluboký trychtýř: od kliknutí po žádost a prodej",
+          "Integrace CRM: vidíte zdroj každého klienta",
+          "Optimalizace pro obchodní cíle: ne jen provoz, ale zisk",
+          "Automatické zprávy v Telegram, Google Sheets, Notion"
+        ]
+      }
+    },
+    "process": {
+      "title": "Jak to funguje?",
+      "steps": [
+        {
+          "title": "Ponoříme se do byznysu",
+          "desc": "Analyzujeme váš trh, publikum a konkurenty. Identifikujeme růstové body"
+        },
+        {
+          "title": "Spustíme SEO a reklamu",
+          "desc": "Nastavíme SEO optimalizaci a reklamní kampaně v Yandex/Google s důrazem na žádosti"
+        },
+        {
+          "title": "Optimalizujeme podle metrik",
+          "desc": "Snižujeme CPL, zvyšujeme ROI. Testujeme, škálujeme, odstraňujeme zbytečné"
+        },
+        {
+          "title": "Dáváme výsledky v číslech",
+          "desc": "Každý měsíc — zpráva: žádosti, hovory, pozice, ROI. Vše transparentně a k věci"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Chcete stabilní tok klientů?",
+      "subtitle": "Zanechte žádost — spustíme SEO a reklamu na klíč s důrazem na ROI a růst prodejů"
+    }
+  }
+  ,
+  "ITSupportPage": {
+    "title": "Podpora IT sluzeb",
+    "subtitle": "Zajistime neprerusovany provoz sluzeb a pratelskou interakci s uzivateli",
+    "description": "Obnovujeme stabilitu informacnich systemu. Diagnostikujeme a odstranujeme vazne nedostatky v bezpecnosti a odolnosti IT systemu, ktere jiz vedou ke ztratam pro spolecnost. Vytvarime moznosti pro rust byznysu",
+    "cta": "Zanechte zadost",
+    "stages": {
+      "title": "Etapy prace",
+      "items": [
+        { "stage": "Zaciname praci", "description": "Zapojime nase specialisty. Osobni IT manazer a tym seniornich L3 inzenyru navrhuji a implementuji slozite projekty pro dosazeni vasich obchodnich cilu" },
+        { "stage": "Uzavirame smlouvu", "description": "Nejen odstraňujeme problemy, ale take delame prevenci" }
+      ]
+    },
+    "sidebar": {
+      "title": "Vytvorime efektivni aplikaci",
+      "description": "Duverujte nasim profesionalum a ziskejte kvalitni produkt!",
+      "cta": "Objednat konzultaci"
+    }
+  }
+  ,
+  
+  "TgbotPage": {
+    "hero": {
+      "title": "Telegram boti",
+      "titleHighlight": "pro školení",
+      "subtitle": "Automatizujeme firemní školení pomocí Telegram botů.",
+      "subtitleHighlight": "Zvyšujeme kompetence na 98%",
+      "benefits": {
+        "smart": "Chytrí boti",
+        "analytics": "Analytika",
+        "learn247": "Školení 24/7"
+      },
+      "cta": "Vytvořit bota"
+    },
+    "successCases": {
+      "title": "Naše úspěšné projekty",
+      "developerLabel": "Vyvojár:",
+      "statusLabel": "Status:",
+      "directionLabel": "Smer:",
+      "resultLabel": "Vysledek:",
+      "gazprom": {
+        "title": "Firemní školení pro Gazprom Neft",
+        "subtitle": "Systém řízení provozní činnosti",
+        "description": "Přizpůsobená verze bota pro oddělení SUOD s pokročilým systémem otázek a víceúrovňovým hodnocením",
+        "direction": "Provozní činnosti a řízení procesů",
+        "developer": "Tým vývojářů Fluttrium",
+        "result": "Implementováno v korporátních vzdělávacích blocích dceřiných společností",
+        "resultsTitle": "Klíčové výsledky:",
+        "metrics": [
+          "Testování se změnilo z 1x za 2 roky na denní",
+          "Zbytkové znalosti se zvýšily na 98%",
+          "Sledování pokroku v reálném čase",
+          "Aktuální databáze otázek se zpětnou vazbou"
+        ],
+        "status": "Aktivně používáno",
+        "more": "Více o projektu"
+      },
+      "cta": {
+        "title": "Potřebujete firemního bota?",
+        "subtitle": "Automatizujeme školení vašich zaměstnanců a zvýšíme jejich kompetence",
+        "button": "Objednat bota"
+      }
+    },
+    "features": {
+      "title": "Možnosti našich botů",
+      "subtitle": "Kompletní automatizace firemního školení s detailní analytikou",
+      "tests": {
+        "title": "Chytré testy",
+        "items": [
+          "Denní dodávání otázek v malých dávkách",
+          "Různé typy otázek (výběr, vstup, přiřazení)",
+          "Adaptivní obtížnost podle úrovně kompetencí",
+          "Systém zpětné vazby a vysvětlení"
+        ]
+      },
+      "analytics": {
+        "title": "Analytika a reporty",
+        "items": [
+          "Sledování pokroku v reálném čase",
+          "Detailní statistiky podle zaměstnanců",
+          "Analýza dynamiky učení",
+          "Identifikace slabých míst ve znalostech"
+        ]
+      },
+      "hr": {
+        "title": "Automatizace HR",
+        "items": [
+          "Integrace s firemními systémy",
+          "Automatické plánování školení",
+          "Systém certifikace a hodnocení",
+          "Gamifikace procesu učení"
+        ]
+      }
+    },
+    "process": {
+      "title": "Jak to funguje?",
+      "steps": [
+        { "title": "Analýza úkolů", "desc": "Studujeme potřeby školení" },
+        { "title": "Vývoj", "desc": "Vytváříme chytrého bota pro vaše cíle" },
+        { "title": "Testování", "desc": "Testujeme funkčnost na pilotní skupině" },
+        { "title": "Implementace", "desc": "Spouštíme a školíme zaměstnance" }
+      ]
+    },
+    "contact": {
+      "title": "Připraveni automatizovat školení?",
+      "subtitle": "Řekněte nám o vašich potřebách firemního školení"
+    }
+  }
+  ,
+  "StudPage": {
+    "hero": {
+      "title1": "Studentsky",
+      "title2": "Startup",
+      "subtitle": "Promenime vasi myslenku v uspesny startup s",
+      "subtitleHighlight": "grantem 1 mil. rub.",
+      "benefits": {
+        "support": "Podpora myslenky",
+        "dev": "Technicky vyvoj",
+        "guarantee": "100% zaruka"
+      },
+      "cta": "Vytvorit startup"
+    },
+    "success": {
+      "title": "Nase uspesne pripady",
+      "subtitle": "Jiz jsme pomohli studentum ziskat granty a realizovat jejich napady.",
+      "subtitleHighlight": "Nyni jste na rade vy!",
+      "labels": {
+        "direction": "Smer:",
+        "student": "Student:",
+        "result": "Vysledek:",
+        "view": "Zobrazit projekt"
+      }
+    },
+    "ctaBlock": {
+      "title": "Mate vlastni napad?",
+      "subtitle": "Pomuzeme vam jej promenit v uspesny startup s grantem 1 mil. rub.",
+      "button": "Vytvorit startup"
+    },
+    "contact": {
+      "title": "Jste pripraveni promenit napad ve startup?",
+      "subtitle": "Povezte nam o svem napadu a ziskate osobni strategii rozvoje"
+    }
+  }
+}

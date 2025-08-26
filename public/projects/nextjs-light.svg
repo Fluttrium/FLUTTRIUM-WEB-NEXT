@@ -1,0 +1,4 @@
+<svg width="140" height="70" xmlns="http://www.w3.org/2000/svg">
+  <rect width="140" height="70" fill="white"/>
+  <text x="50%" y="50%" text-anchor="middle" fill="black" font-size="24px" font-family="Arial" dy=".3em">Next.js</text>
+</svg>

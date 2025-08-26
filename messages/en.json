@@ -1,0 +1,886 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "hero_1": "We",
+    "hero_2": "develop",
+    "words1": "mobile applications for your business",
+    "words2": "web applications",
+    "words3": "professional websites",
+    "words4": "unique design",
+    "words5": "MVP for your startup",
+    "hero_card1": "We will conduct interviews and create technical specifications",
+    "hero_card2": "We will develop your product",
+    "hero_card3": "We will provide support and development",
+    "button": "Leave a request"
+  },
+  "ProjectCard": {
+    "tapeword1": "Implement",
+    "tapeword2": "any",
+    "tapeword3": "your",
+    "tapeword4": "idea",
+    "tapeword5": "together",
+    "tapeword6": "with",
+    "tapeword7": "the",
+    "tapeword8": "company",
+    "tapeword9": "FLUTTRIUM",
+    "titlecard1": "Websites for Nonprofit Organizations",
+    "titlecard2": "Websites for Business",
+    "titlecard3": "Applications for Corporations",
+    "titlecard4": "We create platforms for your business",
+    "titlecard5": "Telegram bot for process optimization",
+    "titlecard6": "SEO optimization and Yandex Direct advertising campaign",
+    "titledisc1": "We support nonprofit organizations in their efforts to make the world a better place",
+    "titledisc2": "We develop a professional and unique website that helps your business stand out from the competition",
+    "titledisc3": "We create scalable and reliable platforms tailored to the unique needs of your business",
+    "titledisc4": "We develop powerful and flexible solutions for e-commerce, providing a complete set of tools for effective business management",
+    "titledisc5": "We create Telegram bots for automating and optimizing processes in corporations and enterprises",
+    "titledisc6": "We bring your website to the top positions in Yandex search through SEO optimization and Yandex Direct integration",
+    "cardButton": "Order now →"
+  },
+  "formSection": {
+    "formTitle1": "Working with clients",
+    "formTitle2": "around the world"
+  },
+  "beetween": {
+    "title1": "Creating",
+    "title2": "amazing",
+    "title3": "applications",
+    "title4": "on",
+    "title5": "the framework",
+    "title6": "Flutter",
+    "road": "The road to freedom starts here",
+    "button": "contact us"
+  },
+  "navbar": {
+    "mainNavItm1": "Services",
+    "mainNavItm2": "Startup",
+    "mainNavItm3": "Products",
+    "mainNavItm4": "Prices",
+    "mainNavItm5": "Contacts",
+    "mainNavItm6": "Technologies",
+    "mainNavItm7": "Nextjs",
+    "mainNavItm8": "Startup",
+    "mainNavItm9": "Showcase",
+    "navMainButton": "Fill out the brief",
+    "serviceItm1" : "Web development",
+    "serviceItm2" : "Mobile applications",
+    "serviceItm3" : "UI/UX design",
+    "serviceItm4" : "Technology counselling",
+    "serviceItm5": "Support and service",
+     "title1" : "Boxed application for retail",
+    "description1": "A turnkey solution for shops and chains to manage sales, warehouse and customer base",
+    "title2" : "Application for corporations",
+    "description2": "A tool for improving the company's internal processes, providing business process automation",
+    "title3": "Online Shop",
+    "description3": "An online sales platform that allows you to quickly create and manage your online shop",
+    "title4": "CRM system",
+    "description4": "Innovative solution for customer relationship management",
+    "description5" : "Google's modern framework for developing native applications on mobile devices",
+    "description6" : "A powerful framework for React that makes it easy to build fast and performant web applications",
+    "title5": "Telegram Bot",
+    "description7": "Optimization and automation of business processes in the company",
+    "title6": "SEO optimization, Yandex Direct",
+    "description8": "Comprehensive website promotion: SEO and advertising in Yandex Direct"
+
+
+  },
+  "MainForm": {
+    "FormDisc": "How can we help you? Briefly describe your development request — we will get back to you within a day",
+    "label1": "Name",
+    "label2": "Surname",
+    "label3": "Email",
+    "label4": "Phone",
+    "label5": "Tell us about yourself and your idea",
+    "formButton": "Send",
+    "placeHold": "Your idea.."
+  },
+  "PartnerLogos": {
+    "title": "Our Partners",
+    "subtitle": "Trust us with their projects and are satisfied with the results",
+    "description": "We are proud to work with leading companies and organizations, creating innovative solutions for their business"
+  },
+
+
+  "Modal": {
+    "title": "Have questions? Write to us!",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "source": "Source",
+    "required": "This field is required",
+    "submit": "Send",
+    "success": "Thank you! Your application has been sent.",
+    "error": "An error occurred while sending the form. Please try again.",
+    "networkError": "A network error occurred. Please check your internet connection.",
+    "privacy": "By clicking the button, you consent to the processing of personal data and agree to the privacy policy."
+  },
+  "Sotr": {
+    "How": "We explain how we will cooperate",
+    "title1": "Full cycle of mobile application development",
+    "description1": "From idea to implementation — we engage in mobile application development for iOS and Android. We create intuitive and highly effective applications that attract users and help your business reach new heights",
+    "title2": "Design that inspires",
+    "description2": "We develop unique and appealing designs for both mobile applications and accompanying websites. Our goal is to make your application and website visually attractive and user-friendly",
+    "title3": "Responsive websites for your application",
+    "description3": "Create the perfect online presence for your mobile application. We develop responsive websites that look great on all devices and effectively showcase your application",
+    "title4": "Integration of application and website",
+    "description4": "We ensure seamless integration between your mobile application and website. This includes data synchronization, the ability to log in via the website, and interaction between the two platforms",
+    "title5": "Optimization and SEO",
+    "description5": "Increase the visibility of your application in search engines with our SEO services. We optimize your website to attract the target audience and ensure better promotion of your application online",
+    "title6": "Support and analytics",
+    "description6": "We provide support and maintenance services for your applications and websites. We also implement analytics systems so you can track performance, analyze user behavior, and gain valuable insights to improve your product"
+  },
+  "Projects": {
+    "casesTitle": "Our cases",
+    "case1": {
+      "category": "Business",
+      "title": "Website for a Shopping Center",
+      "description": "We are pleased to present our new project — a modern and interactive website for the shopping center 'Dobrynya'. As part of this project, our team worked on creating a unique online platform that not only reflects the style and atmosphere of the shopping center but also provides a convenient interface for its visitors",
+      "imageAlt": "Macbook mockup from Aceternity UI"
+    },
+    "case11": {
+      "category": "Business",
+      "title": "Website for Shopping Center",
+      "description": "We developed a modern and interactive website that conveys the atmosphere and style of the shopping center, and also becomes a convenient digital assistant for its visitors.",
+      "imageAlt": "Macbook mockup from Aceternity UI"
+    },
+    "case12": {
+      "category": "Business",
+      "title": "Functionality",
+      "description": "The website presents detailed information about stores and services located in 'Dobrynya'. Visitors can easily learn about current promotions, discounts and special offers. An interactive floor plan has been implemented, allowing you to quickly find the right store or recreation area. To increase audience engagement, we introduced a news and events section where announcements of upcoming events are published. Responsive design ensures comfortable use on smartphones, tablets and computers.",
+      "imageAlt": "Macbook mockup from Aceternity UI"
+    },
+    "case13": {
+      "title": "Admin Panel",
+      "description": "A separate admin panel was created, with the help of which shopping center employees can independently update store data, edit promotions and add news without contacting developers.",
+      "imageAlt": "Macbook mockup from Aceternity UI"
+    },
+    "case2": {
+      "category": "Nonprofit Organizations",
+      "title": "Website for NGO SYNERGY",
+      "description": "We developed an intuitive interface and rich functionality that allows users to easily access information, participate in activities, and interact with the organization. We aimed to create a space that not only reflects the values and mission of 'SYNERGY' but also fosters deeper engagement and interaction",
+      "imageAlt": "Project mockup for NGO SYNERGY"
+    },
+    "case21": {
+      "title": "Website for NGO SYNERGY",
+      "description": "We created a modern and convenient web resource that helps the organization effectively communicate its mission and values to the audience.\nThe interface is designed so that any visitor - whether a volunteer, partner or person seeking help - can quickly find the necessary information and engage in the organization's activities.",
+      "imageAlt": "Project mockup for NGO SYNERGY"
+    },
+    "case22": {
+      "title": "Functionality",
+      "description": "The website includes sections with current news and events where users can always be aware of the organization's plans and events. The ability to register and participate in online activities has been implemented, which allows attracting new volunteers and project participants. For convenient communication, we added integration with feedback forms and newsletter subscription so that users can receive important information directly to their email. All functionality is available on any device thanks to responsive design, which ensures comfortable interaction with the site both on computers and smartphones.",
+      "imageAlt": "Project mockup for NGO SYNERGY"
+    },
+    "case23": {
+      "category": "Nonprofit Organizations",
+      "title": "Admin Panel",
+      "description": "A separate convenient admin panel was developed, which allows NGO employees to independently manage content: publish news, update information about events, process applications and monitor user activity statistics.",
+      "imageAlt": "Project mockup for NGO SYNERGY"
+    },
+    "case3": {
+      "category": "Corporate Applications",
+      "title": "Corporate Taxi",
+      "description": "Our new project — a corporate taxi designed to improve the internal logistics of the company. A user-friendly interface and high functionality",
+      "imageAlt": "Corporate taxi application mockup"
+    },
+    "case31": {
+      "category": "Corporate Applications",
+      "title": "Corporate Taxi",
+      "description": "We developed a mobile application for corporate taxi that allows employees to quickly and conveniently get home after work. The service works on the principle of 'like in Yandex.Taxi', but adapted to the internal tasks of the company.\n\nIn the application, the employee specifies the address and time of car delivery, after which they immediately see information about the assigned driver and arrival time. The driver receives the order, confirms it and sees the optimal route on the map. The dispatcher controls the movement of cars in real time and reassigns trips if necessary.\n\nFor communication between the employee and driver, a built-in chat is implemented, and automatic order distribution, real-time geolocation and analytics allow reducing waiting time and optimizing fleet usage.",
+      "imageAlt": "Corporate taxi application mockup"
+    },
+    "case4": {
+      "category": "Platforms for Your Business",
+      "title": "Online Knife Store",
+      "description": "Our new project is an online platform for selling knives with registration, online payment, and delivery across Russia",
+      "imageAlt": "Online knife store mockup"
+    },
+    "case41": {
+      "title": "Task",
+      "description": "Create a full-featured trading platform for selling knives with modern technology stack, convenient admin panel for managing orders, creating products, controlling payment status and secure online payments.",
+      "imageAlt": "Online knife store mockup"
+    },
+    "case42": {
+      "title": "Technical Solution",
+      "description": "The project is built on a modern technology stack that ensures high performance, load resistance and ease of further support.\nOn the frontend, we used Next.js 14 with App Router, strict TypeScript typing, as well as Tailwind CSS and shadcn/ui to create a stylish and responsive interface. Forms are implemented through React Hook Form, and state management is handled with Zustand.\nThe backend is built on NestJS using Prisma ORM and PostgreSQL database, and AWS S3 is used for file storage. Security is ensured through JWT authentication.",
+      "imageAlt": "Online knife store mockup"
+    },
+    "case43": {
+      "title": "Online Payment through YuKassa",
+      "description": "The YuKassa payment system is integrated into the platform, which supports all popular payment methods: bank cards, SBP, e-wallets, Apple Pay and Google Pay. We implemented secure transaction processing via HTTPS protocol and used payment verification mechanisms through the YuKassa API. The system automatically processes payment statuses - from 'pending' to 'successfully completed' - and instantly notifies the client of the result. Thanks to this, the user gets a seamless payment experience, and the platform owner gets a transparent and reliable payment acceptance system.",
+      "imageAlt": "Online knife store mockup"
+    },
+    "case5": {
+      "category": "Telegram Bot",
+      "title": "Telegram Bot for Gazprom Neft",
+      "description": "Intelligent bot for training employees of subsidiaries. Adaptive testing system, daily knowledge checks and detailed effectiveness analytics. Implemented in corporate training blocks.",
+      "imageAlt": "Educational Telegram Bot Interface"
+    },
+    "case51": {
+      "title": "Project goal - daily learning without unnecessary control.",
+      "description": "We created a Telegram bot that replaces the internal LMS: adaptive tests, competency-based questions, learning without browser access. An employee completes 3-5 questions per day directly in the chat.",
+      "imageAlt": "Educational Telegram Bot Interface"
+    },
+    "case52": {
+      "title": "Flexibility for departments and roles.",
+      "description": "The bot takes into account the organization's structure: different scenarios for SUOD and corporate blocks. Managers see statistics by groups, and employees see their progress. Support for multiple directions within one tool",
+      "imageAlt": "Educational Telegram Bot Interface"
+    },
+    "case53": {
+      "title": "Implementation Results.",
+      "description": "Testing now takes place daily instead of once a year. Residual knowledge increased to 98%. HR receives detailed reports and learning control without manual work.",
+      "imageAlt": "Educational Telegram Bot Interface"
+    },
+    "case6": {
+      "category": "SEO and Contextual Advertising",
+      "title": "SEO and Yandex.Direct for VOSVOD",
+      "description": "Our new project is an online platform for selling knives with registration, online payment and delivery across Russia",
+      "imageAlt": "Online knife store mockup"
+    },
+    "case61": {
+      "title": "Goal: attract traffic and applications for GIMS and training",
+      "description": "VOSVOD trains rescuers and owners of small vessels. We promoted their courses through SEO and launched advertising campaigns in Yandex.Direct, focusing on hot demand (GIMS, boat license, yachting).",
+      "imageAlt": "Online knife store mockup"
+    },
+    "case62": {
+      "title": "SEO: top positions with high competition",
+      "description": "We optimized pages, conducted semantic core, wrote texts for queries. Already after 2 months, course pages reached the top-5 in regions, surpassing even federal sites.",
+      "imageAlt": "Online knife store mockup"
+    },
+    "case63": {
+      "title": "Contextual advertising with focus on ROI",
+      "description": "We set up Yandex.Direct with CPL up to 220 ₽. We allocated separate campaigns for each category of courses, taking into account seasonality and target audience behavior. ROI - 6.3x at the first stage.",
+      "imageAlt": "Online knife store mockup"
+    },
+    "case7": {
+      "category": "Medicine and Technology",
+      "title": "Asleep.online - platform for healthy sleep",
+      "description": "We created an innovative system that combines AI sleep diagnostics, doctor recommendations and solution selection - from online consultations to courses and gadgets."
+    },
+    "case71": {
+      "title": "Personalized recommendations",
+      "description": "The platform analyzes responses in a free survey, identifies possible sleep disorders and offers a personal improvement plan - from changing habits to contacting a specialist.",
+      "imageAlt": "Online knife store mockup"
+    },
+    "case72": {
+      "title": "Access to the best specialists and products",
+      "description": "We united clinics, psychologists, equipment manufacturers and online courses for comprehensive sleep problem solving. The user receives only proven and effective tools.",
+      "imageAlt": "Online knife store mockup"
+    },
+    "case73": {
+      "title": "AI and medicine in one product",
+      "description": "We use artificial intelligence algorithms to assess sleep quality and identify problems. Data is integrated with gadgets and medical services for maximum accuracy.",
+      "imageAlt": "Online knife store mockup"
+    }
+
+
+  },
+   "Maintenance" : {
+      "text-1": " Mobile version temporarily unavailable",
+     "text-2": "We are carrying out technical work. Please visit the site later or open it on your computer"
+   },
+   "Website": {
+     "text-1": "Website development",
+     "text-2": "We will create an effective website for you that will work correctly in all browsers and on all devices",
+     "button": "Leave a request",
+     "stage": "Exploring the project",
+     "description": "Sign the NDA. We study the terms of reference. If you don't have one, we send you a website development brief and help you fill it out",
+     "stage-2": "Let's get started",
+     "description-2": "Conduct business intelligence. We study technical documentation. Calculate how much time will be required for development and testing. Identify undescribed scenarios and bottlenecks in the TOR",
+     "stage-3" : "Frontend and backend development",
+     "description-3" :"We do the layout, develop the website and populate it with content",
+     "stage-4" : "Testing the product",
+     "description-4" : "With the help of our QA engineers, who were involved in the project at the start, we test the site. We work out the test documentation. We make final edits",
+     "stage-5" : "We present to you the website",
+     "description-5" :"We hand you the site and a complete package of project documents",
+     "stage-6" : "Supporting the site",
+     "description-6" : "Once the rights to the site have been transferred, its history does not end. If the first months of the site's life show where and what needs to be finished or redone, we offer two options: conclude a maintenance contract or start a new phase of development",
+     "h2" : "Phases of work",
+     "h3" : "Create an effective website",
+     "p": "Trust our professionals and get a quality product!",
+     "button-2": "Order a service"
+   },
+  "Writeus" : {
+    "h2" : "Write to us!",
+    "p" : "Let's make a user-friendly digital product for your customers together!",
+    "button" : "Leave a request",
+    "p2" : "By clicking on the button, you consent to the processing of personal data and agree to the privacy policy"
+
+  },
+  "Mobile": {
+    "h1" :  "Cross-platform application development",
+    "h2" : " An app for iOS and Android at once? Let's develop it on Flutter",
+    "p" :  "  With cross-platform mobile development, we can cover two operating systems at once with one code: iOS and Android. Firstly, it is profitable, because development costs are significantly optimised. And secondly, it is fast - cross-platform development allows you to reduce the time required to create an application by 40%",
+    "button" : "Leave a request",
+    "stage": "Exploring the project" ,
+    "description": "We sign the NDA. We study your terms of reference (TOR), and if you don't have one - this happens too, and it's normal - we help you draw one up. By the beginning of the second stage, we have a description of the basic functions of the mobile application",
+    "stage-2": "Estimating the scope of work and selecting a methodology",
+    "description-2": "Select a methodology suitable for the project: Agile or Waterfall. Study the technical documentation. Then we calculate the estimated development and testing time. Identify undescribed scenarios in the ToR. Plan a roadmap",
+    "stage-3": "Sign the contract, start work",
+    "description-3": "Following a clear roadmap, working in sprints",
+    "stage-4": "Designing the design of the application",
+    "description-4": "We create a screen map, graphic elements and a detailed (static or interactive) prototype with possible usage scenarios in mind",
+    "stage-5": "Approve the design",
+    "description-5": "We get feedback from the business analyst and the client, incorporate comments and make edits",
+    "stage-6": "Developing an application",
+    "description-6": "We connect the development team, which writes the code. At this time, the designer actively monitors the work and checks how the screens are implemented. The work is done in iterations - we develop a part of the functionality, test it, and continue working on the rest of the functions",
+    "stage-7": "Testing the app and fixing bugs",
+    "description-7": "With the help of our QA engineers, who were involved in the project at the start, we test the site. We work out test documentation. Before releasing the application, we do acceptance testing: we go through the business cases of the application",
+    "stage-8": "Publish the app to stores",
+    "description-8": "Add the app to the app shops - App Store, Google Play or any other shop of your choice. Important point: in order for the app to pass the review of storers, you can ask developers for help in the release, or you can prepare and upload the app to the shop yourself",
+    "stage-9": "Supporting and developing",
+    "description-9": "Once a mobile app is published, its story doesn't end. We work on new features, improve it, and get feedback from users",
+    "stage-10": "Result of work",
+    "description-10": "A ready-made easily extensible and maintainable mobile application published in the App Store/Google Play. As well as the source code of the application and its documentation",
+    "text" : "Stages of work",
+    "text2": " Create an effective application",
+    "text3" :"Trust our professionals and get a quality product!",
+    "text4" : "  Order a service"
+
+  },
+  "DirectPage": {
+    "hero": {
+      "title": "SEO and Yandex Direct — your site in TOP and flow of clients",
+      "subtitle": "We will set up search engine optimization and advertising campaigns turnkey.",
+      "subtitleHighlight": "We will increase reach, leads and sales without draining the budget",
+      "benefits": {
+        "traffic": "Traffic growth in 3 months",
+        "leads": "Increase in search leads",
+        "satisfaction": "Clients satisfied with the result"
+      },
+      "cta": "Request audit"
+    },
+    "successCases": {
+      "title": "Our successful projects",
+      "vosvod": {
+        "title": "Website and automation for All-Russian Society for Water Rescue",
+        "subtitle": "Operational activity management system",
+        "description": "We developed a modern website with Yandex Direct integration and SEO optimization for maximum customer attraction and conversion improvement",
+        "direction": "Obtaining boat licenses, water rescue training and related services",
+        "developer": "Fluttrium development team",
+        "result": "Raised to first place in search with high competition",
+        "metrics": [
+          "Brought the site to first place in Yandex search for key queries",
+          "Increased sales and conversions",
+          "Optimized advertising campaigns in Yandex Direct",
+          "Increased brand awareness and trust"
+        ],
+        "status": "Actively used",
+        "more": "More about the project"
+      },
+      "cta": {
+        "title": "Need SEO promotion?",
+        "subtitle": "We will raise your site to the TOP of Yandex and Google, even in the most competitive niches",
+        "button": "Order audit"
+      }
+    },
+    "features": {
+      "title": "Our capabilities in SEO and advertising",
+      "subtitle": "We bring clients, not just spend budget: we set up SEO and advertising with focus on",
+      "subtitleHighlight1": "return on investment (ROI)",
+      "subtitleHighlight2": "cost per lead (CPL)",
+      "subtitleEnd": "We will increase traffic, leads and profit.",
+      "seo": {
+        "title": "Smart SEO promotion",
+        "items": [
+          "Analysis of niche, competitors and formation of semantics",
+          "Website optimization for Yandex and Google top",
+          "Position growth — already in the first 2-3 weeks",
+          "Detailed reports and control of all changes"
+        ]
+      },
+      "yandex": {
+        "title": "Effective Yandex Direct",
+        "items": [
+          "We set up campaigns that really bring leads",
+          "Focus on ROI and CPL, not 'spent budget'",
+          "Multi-segment: hot, warm, cold clients",
+          "Constant optimization of bids and keywords"
+        ]
+      },
+      "analytics": {
+        "title": "Analytics and growth",
+        "items": [
+          "Deep funnel: from click to lead and sale",
+          "CRM integration: you see the source of each client",
+          "Optimization for business goals: not just traffic, but profit",
+          "Automatic reports in Telegram, Google Sheets, Notion"
+        ]
+      }
+    },
+    "process": {
+      "title": "How does it work?",
+      "steps": [
+        {
+          "title": "We dive into business",
+          "desc": "We analyze your market, audience and competitors. We identify growth points"
+        },
+        {
+          "title": "We launch SEO and advertising",
+          "desc": "We set up SEO optimization and advertising campaigns in Yandex/Google with focus on leads"
+        },
+        {
+          "title": "We optimize by metrics",
+          "desc": "We reduce CPL, increase ROI. We test, scale, remove unnecessary"
+        },
+        {
+          "title": "We give results in numbers",
+          "desc": "Every month — report: leads, calls, positions, ROI. Everything is transparent and to the point"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Want a stable flow of clients?",
+      "subtitle": "Leave a request — we will launch SEO and advertising turnkey with focus on ROI and sales growth"
+    }
+  }
+  ,
+  "TgbotPage": {
+    "hero": {
+      "title": "Telegram bots",
+      "titleHighlight": "for training",
+      "subtitle": "We automate corporate training with Telegram bots.",
+      "subtitleHighlight": "We increase competencies to 98%",
+      "benefits": {
+        "smart": "Smart bots",
+        "analytics": "Analytics",
+        "learn247": "24/7 training"
+      },
+      "cta": "Create a bot"
+    },
+    "successCases": {
+      "title": "Our successful projects",
+      "developerLabel": "Developer:",
+      "statusLabel": "Status:",
+      "directionLabel": "Direction:",
+      "resultLabel": "Result:",
+      "gazprom": {
+        "title": "Corporate training for Gazprom Neft",
+        "subtitle": "Operational activity management system",
+        "description": "An adapted version of the bot for the SUOD unit with an advanced question system and multi-level assessment",
+        "direction": "Operational activities and process management",
+        "developer": "Fluttrium development team",
+        "result": "Implemented in corporate training blocks of subsidiaries",
+        "resultsTitle": "Key results:",
+        "metrics": [
+          "Testing changed from once every 2 years to daily",
+          "Residual knowledge increased to 98%",
+          "Real-time progress tracking",
+          "Up-to-date question base with feedback"
+        ],
+        "status": "Actively used",
+        "more": "More about the project"
+      },
+      "cta": {
+        "title": "Need a corporate bot?",
+        "subtitle": "We will automate your employees' training and increase their competencies",
+        "button": "Order a bot"
+      }
+    },
+    "features": {
+      "title": "Capabilities of our bots",
+      "subtitle": "Full automation of corporate training with detailed analytics",
+      "tests": {
+        "title": "Smart tests",
+        "items": [
+          "Daily delivery of questions in small portions",
+          "Different types of questions (choice, input, matching)",
+          "Adaptive difficulty by competency level",
+          "Feedback and explanations system"
+        ]
+      },
+      "analytics": {
+        "title": "Analytics and reports",
+        "items": [
+          "Real-time progress tracking",
+          "Detailed statistics by employees",
+          "Learning dynamics analysis",
+          "Identifying weak knowledge areas"
+        ]
+      },
+      "hr": {
+        "title": "HR automation",
+        "items": [
+          "Integration with corporate systems",
+          "Automatic training planning",
+          "Certification and assessment system",
+          "Gamification of the learning process"
+        ]
+      }
+    },
+    "process": {
+      "title": "How does it work?",
+      "steps": [
+        { "title": "Task analysis", "desc": "We study training needs" },
+        { "title": "Development", "desc": "We create a smart bot for your goals" },
+        { "title": "Testing", "desc": "We test functionality on a pilot group" },
+        { "title": "Implementation", "desc": "We launch and train employees" }
+      ]
+    },
+    "contact": {
+      "title": "Ready to automate training?",
+      "subtitle": "Tell us about your corporate training needs"
+    }
+  }
+  ,
+  "StudPage": {
+    "hero": {
+      "title1": "Student",
+      "title2": "Startup",
+      "subtitle": "We turn your idea into a successful startup with",
+      "subtitleHighlight": "a 1M rubles grant",
+      "benefits": {
+        "support": "Idea support",
+        "dev": "Tech development",
+        "guarantee": "100% guarantee"
+      },
+      "cta": "Create a startup"
+    },
+    "success": {
+      "title": "Our successful cases",
+      "subtitle": "We have already helped students receive grants and realize their ideas.",
+      "subtitleHighlight": "Now it's your turn!",
+      "labels": {
+        "direction": "Direction:",
+        "student": "Student:",
+        "result": "Result:",
+        "view": "View project"
+      }
+    },
+    "ctaBlock": {
+      "title": "Do you have your own idea?",
+      "subtitle": "We will help turn it into a successful startup with a 1M rubles grant",
+      "button": "Create a startup"
+    },
+    "contact": {
+      "title": "Ready to turn an idea into a startup?",
+      "subtitle": "Tell us about your idea and get a personal development strategy"
+    }
+  },
+  "VitrinaPage": {
+    "title": "Business Showcase",
+    "subtitle": "Ready Business \"Knives SPB\"",
+    "description": "Fully ready online knife store with mobile app, online payment and delivery, AI assistant for knife selection that will replace a manager. Ready to launch in 24 hours!",
+    "sections": {
+      "webstore": {
+        "title": "Online Store",
+        "badge": "Web Version",
+        "features": {
+          "title": "Features:",
+          "responsive": "Responsive design for all devices",
+          "seo": "SEO optimization for search engines",
+          "integration": "Integration with 1C and CRM systems",
+          "orders": "Order management system",
+          "multilang": "Multilingual (RU/EN)",
+          "payment": "Online payment (cards, e-wallets)",
+          "delivery": "Delivery system with tracking",
+          "ai": "AI assistant for knife selection"
+        }
+      },
+      "mobile": {
+        "title": "Mobile Application",
+        "badge": "iOS & Android",
+        "features": {
+          "title": "Functions:",
+          "notifications": "Push notifications about discounts",
+          "offline": "Offline catalog browsing mode",
+          "biometric": "Biometric authentication",
+          "qr": "QR code scanner",
+          "location": "Geolocation for delivery"
+        }
+      },
+      "social": {
+        "title": "Social Networks",
+        "features": {
+          "title": "Developed audience:",
+          "telegram": "Telegram channel",
+          "instagram": "Instagram profile",
+          "vk": "VK group",
+          "content": "Ready content plan for 6 months",
+          "automation": "Automatic posts and newsletters"
+        }
+      },
+      "technical": {
+        "title": "Technical Specifications",
+        "frontend": "Frontend:",
+        "backend": "Backend:",
+        "database": "Database:",
+        "mobile": "Mobile app:",
+        "hosting": "Hosting:",
+        "frontend_value": "React.js + TypeScript",
+        "backend_value": "Node.js + Express",
+        "database_value": "PostgreSQL",
+        "mobile_value": "React Native",
+        "hosting_value": "AWS/VPS included"
+      },
+      "marketing": {
+        "title": "Marketing Tools",
+        "analytics": "Google Analytics integration",
+        "email": "Email newsletters (Mailchimp)",
+        "seo": "SEO optimization",
+        "social": "Social networks (VK, Telegram, Instagram)",
+        "ads": "Contextual advertising (Google Ads, Yandex.Direct)"
+      },
+      "services": {
+        "title": "What's included in the package",
+        "domain": "Domain and hosting for 1 year",
+        "ssl": "SSL certificate",
+        "support": "Technical support for 3 months",
+        "training": "System operation training"
+      },
+      "video": {
+        "title": "Platform Video Review"
+      }
+    },
+    "cta": {
+      "button": "Get Consultation",
+      "note": "* Price includes all listed services and components"
+    }
+  },
+  "FlutterPage": {
+    "cover": {
+      "title": "We build mobile apps\nwith Flutter",
+      "cta": "Send request",
+      "imageAlt": "Mobile app preview"
+    },
+    "blockText": {
+      "title": "What is Flutter?",
+      "p1": "Flutter is a cross-platform app development technology. Developed and maintained by Google and constantly updated. Flutter allows building apps for two OSes at once using a single codebase. For users, a Flutter app feels native. For business — many advantages.",
+      "p2": "Flutter is used by Alibaba, Philips Hue, Hamilton, Tencent, Grab, Groupon, DIXY Group, Yandex.Drive and other major global and Russian companies"
+    },
+    "benefit": {
+      "title": "Benefits of building apps with Flutter for business"
+    },
+    "benefits": {
+      "cost": {
+        "title": "Lower cost",
+        "description": "Budget savings of 30% to 50% on average. You don't pay for two separate projects as with native solutions"
+      },
+      "speed": {
+        "title": "Higher speed",
+        "description": "Reduced time to market. One Flutter developer can handle tasks of two native developers in the same timeframe"
+      },
+      "performance": {
+        "title": "Performance",
+        "description": "Users won't notice the difference from native - Flutter apps work fast and efficiently"
+      },
+      "functionality": {
+        "title": "Functionality",
+        "description": "Flutter apps are built for retail, banking, insurance and other businesses without limitations"
+      }
+    },
+    "demoButton": "Request Demo",
+    "feedback": {
+      "title": "Write to us",
+      "subtitle": "Tell us about your project and we'll get back to you soon",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "phone": "+7",
+        "description": "Project description",
+        "submit": "Send",
+        "sending": "Sending..."
+      },
+      "privacy": "By clicking the button, you agree to the privacy policy",
+      "success": "Thank you! Your request has been sent.",
+      "error": "An error occurred while sending the form. Please try again.",
+      "networkError": "A network error occurred. Check your internet connection."
+    },
+    "experience": {
+      "title": "Our experience",
+      "item1": "Fluttrium's experienced Flutter team has worked with the framework since the first beta",
+      "item2": "We build apps for large companies in retail, insurance and sports",
+      "item3": "Our apps are actively evolving and already used by users",
+      "videoFallback": "Your browser does not support video playback."
+    },
+    "process": {
+      "title": "How we will work",
+      "items": [
+        { "number": 1, "title": "Discussion", "description": "We sign an NDA. Ask questions, learn details about the future app and the business goals behind it" },
+        { "number": 2, "title": "Technical specification", "description": "We study your spec, and if not present — help prepare it" },
+        { "number": 3, "title": "Prototype", "description": "We create a clickable prototype of the app" },
+        { "number": 4, "title": "Design", "description": "We craft a stylish design aligned with your brand or create a new one" },
+        { "number": 5, "title": "Development", "description": "We bring prototypes to life. Work in iterations, demo intermediate results" },
+        { "number": 6, "title": "Testing", "description": "We thoroughly test the product so it works for every user" },
+        { "number": 7, "title": "Publishing", "description": "We prepare the app for release. Publish to the stores" },
+        { "number": 8, "title": "Handover", "description": "We transfer the source code and rights" },
+        { "number": 9, "title": "Support", "description": "We ensure stable operation after launch. Build new features" }
+      ]
+    }
+  },
+  "NextjsPage": {
+    "cover": {
+      "title": "When is a Next.js framework website useful?",
+      "subtitle": "Building websites with Next allows customers to get a modern, comfortable web resource that's easy to use and manage, with everything needed to achieve their business goals",
+      "cta": "Request Demo",
+      "imageAlt": "Mac Studio"
+    },
+    "benefits": {
+      "title": "Next.js website development is suitable for implementing the following internet projects:"
+    },
+    "projects": [
+      {
+        "title": "E-commerce websites",
+        "description": "Development of modern and functional e-commerce websites to increase sales and buyer convenience. We create platforms with adaptive design, payment system integration and analytics, as well as support for user scenarios for better brand interaction"
+      },
+      {
+        "title": "Online stores",
+        "description": "Creation of online stores with intuitive interface, optimized for shopping convenience and product management. We offer payment system integration, analytics tools and adaptive design to attract and retain customers"
+      },
+      {
+        "title": "Internet portals",
+        "description": "Development of internet portals for informing and interacting with a wide audience. We create functional platforms with convenient navigation, multimedia content support, social media integration and scalability for any tasks"
+      },
+      {
+        "title": "Media resources",
+        "description": "Creation of media resources for publishing and distributing content. We develop platforms with optimized management system, adaptive design, analytics integration and tools for attracting and retaining audience"
+      },
+      {
+        "title": "Online forums",
+        "description": "Creation of online forums for active communication and information exchange between users. We implement convenient moderation features, multimedia publishing capabilities, as well as notification and search systems to maintain interest and activity on the platform"
+      }
+    ],
+    "development": {
+      "title": "Next.js development from 20,000 ₽",
+      "cta": "Order"
+    },
+    "pricing": {
+      "title": "Need an accurate cost estimate?",
+      "subtitle": "Send us your requirements, and our specialists will calculate the final project price. You'll get a complete work plan including timelines and development costs",
+      "cta": "Send Requirements",
+      "timeline": {
+        "title": "1 month",
+        "subtitle": "Average timeline"
+      },
+      "cost": {
+        "title": "100,000 rubles",
+        "subtitle": "Average cost"
+      }
+    },
+    "process": {
+      "title": "How we will work",
+      "items": [
+        {
+          "number": 1,
+          "title": "Requirements Development",
+          "description": "We write detailed technical requirements (TR) including website functionality, additional options and development prospects. This is a key document used by all specialists throughout development"
+        },
+        {
+          "number": 2,
+          "title": "Interface Design",
+          "description": "We design UX/UI interface using the Next.js framework. All design elements are oriented towards the target audience, allowing us to create a convenient and attractive interface for users"
+        },
+        {
+          "number": 3,
+          "title": "Custom Design Preparation",
+          "description": "We create original design that matches the client's corporate style. Attention to detail and individual solutions allow us to create a unique website style that advantageously distinguishes the project from competitors"
+        },
+        {
+          "number": 4,
+          "title": "Programming Component Development",
+          "description": "After preparing the design, we proceed with development. We use Next.js to create efficient and functional websites with optimized code and scalability capabilities"
+        },
+        {
+          "number": 5,
+          "title": "Mobile Device Adaptation",
+          "description": "We optimize the website for mobile devices so it remains functional and fast on any screen, ensuring excellent user experience on phones and tablets"
+        },
+        {
+          "number": 6,
+          "title": "Website Testing",
+          "description": "We conduct thorough testing of all website elements: from functionality to usability. We fix all identified errors to ensure stable website operation"
+        },
+        {
+          "number": 7,
+          "title": "Project Launch and Promotion",
+          "description": "We launch the project and work on its promotion. We develop a marketing strategy that helps attract the target audience and increase website traffic. We provide technical support and project development"
+        }
+      ]
+    }
+  },
+  "UiuxdesignPage": {
+    "cover": {
+      "title": "Mobile app and website design",
+      "subtitle": "We design effective interfaces",
+      "description": "We develop interactive interface layouts. This is needed if you have a product idea and want to see a functional UX prototype that solves your business tasks.",
+      "cta": "Send request",
+      "imageAlt": "UI Design"
+    },
+    "stages": {
+      "title": "Work stages",
+      "items": [
+        {
+          "stage": "We start working",
+          "description": "We connect the team: project manager (PM), designer and business analyst."
+        },
+        {
+          "stage": "We define requirements",
+          "description": "PM together with business analyst and designer clarify your wishes for project functionality and compile a list of their priority levels."
+        },
+        {
+          "stage": "We select scenarios",
+          "description": "Together with you, we determine from 5 to 7 most likely scenarios for using the application."
+        },
+        {
+          "stage": "We create layouts",
+          "description": "Based on your wishes, the designer creates wireframes, develops the style of the future application, creates screens in Figma and an interactive prototype, prepares all layouts for transfer to the developer. The analyst checks the layouts for compliance with requirements."
+        },
+        {
+          "stage": "We approve layouts",
+          "description": "We coordinate layouts with you. We make edits (up to three iterations)."
+        },
+        {
+          "stage": "We complete the work",
+          "description": "We present you with an interactive prototype in Figma."
+        }
+      ]
+    },
+    "sidebar": {
+      "title": "We will create an effective application",
+      "description": "Trust our professionals and get a quality product!",
+      "cta": "Order consultation"
+    }
+  }
+  ,
+  "AuditPage": {
+    "title": "Free express app audit",
+    "description": "An app audit is needed if it works incorrectly. Users leave negative reviews and low ratings — which harms store rankings and promotion",
+    "bullets": {
+      "negativeComments": "Negative user reviews",
+      "lowRatings": "Low ratings in stores",
+      "performanceIssues": "Performance issues"
+    },
+    "cta": "Leave a request",
+    "stages": {
+      "title": "Work stages",
+      "items": [
+        { "stage": "We get started", "description": "We sign an NDA with you. We embed analysts into your project" },
+        { "stage": "We perform testing", "description": "We identify faulty functionality, visual issues, analyze risks and vulnerabilities" },
+        { "stage": "We summarize results", "description": "We compile a report with a strategy to improve and optimize the product" }
+      ]
+    },
+    "sidebar": {
+      "title": "We will create an effective application",
+      "description": "Trust our professionals and get a quality product!",
+      "cta": "Order consultation"
+    }
+  }
+  ,
+  "ITSupportPage": {
+    "title": "IT Services Support",
+    "subtitle": "We ensure uninterrupted service operation and friendly user interaction",
+    "description": "We restore the stability of information systems. We diagnose and eliminate serious security and resilience vulnerabilities in IT systems that already lead to company losses. We create opportunities for business growth",
+    "cta": "Leave a request",
+    "stages": {
+      "title": "Work stages",
+      "items": [
+        { "stage": "We get started", "description": "We onboard our specialists. A personal IT manager and a team of senior L3 engineers design and implement complex projects to achieve your business goals" },
+        { "stage": "We sign the contract", "description": "We not only fix issues but also do prevention" }
+      ]
+    },
+    "sidebar": {
+      "title": "We will create an effective application",
+      "description": "Trust our professionals and get a quality product!",
+      "cta": "Order consultation"
+    }
+  }
+}

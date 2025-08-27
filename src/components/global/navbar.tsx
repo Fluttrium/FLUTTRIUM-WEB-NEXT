@@ -133,7 +133,7 @@ const Navbar = ({className}: { className?: string }) => {
 
                             <HoveredLink href="/tgbot"
                                          onClick={closeMenu}
-                                         className="text-xl md:text-2xl text-left hover:text-blue-500">{messages.navbar?.title5 || "Telegram боты"}</HoveredLink>
+                                         className="text-xl md:text-2xl text-left hover:text-blue-500">{messages.navbar?.title5 || "@fluttriumchannel боты"}</HoveredLink>
 
                             <HoveredLink href="/direct"
                                          onClick={closeMenu}
@@ -256,8 +256,8 @@ const Navbar = ({className}: { className?: string }) => {
                         
                         <MenuItem setActive={setActive} active={active} item={messages.navbar?.mainNavItm5 || "Контакты"}>
                             <div className="flex items-center gap-4 p-4">
-                                <IconButton href="https://t.me/fluttrium_llc" target="_blank" rel="noopener noreferrer"
-                                            aria-label="Telegram" className="hover:scale-110 transition-transform duration-200">
+                                <IconButton href="https://t.me/fluttriumchannel" target="_blank" rel="noopener noreferrer"
+                                            aria-label="@fluttriumchannel" className="hover:scale-110 transition-transform duration-200">
                                     <FaTelegramPlane className="text-white text-3xl xl:text-4xl"/>
                                 </IconButton>
                                 <IconButton href="https://www.tiktok.com/@fluttrium" target="_blank" rel="noopener noreferrer"

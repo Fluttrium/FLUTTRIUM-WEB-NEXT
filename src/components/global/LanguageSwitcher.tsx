@@ -22,9 +22,10 @@ const LanguageSwitcher = () => {
 
     return (
         <select value={language} onChange={handleChangeLanguage} className="text-white bg-black rounded-md p-2">
-            <option value="en">English</option>
             <option value="ru">Русский</option>
-            {/* Добавьте другие языки при необходимости */}
+            <option value="en">English</option>
+            <option value="de">Deutsch</option>
+            <option value="cz">Čeština</option>
         </select>
     );
 };

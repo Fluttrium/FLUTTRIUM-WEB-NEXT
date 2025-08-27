@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import { useTranslations } from "@/hooks/useTranslations";
 
 export function CardHoverEffectDemo7() {
   return (
@@ -14,43 +15,42 @@ export function CardHoverEffectDemo7() {
   );
 }
 
-type ProjectItem = {
-  title: string;
-  image?: JSX.Element;
-};
-
 export function IndustrySolutions() {
-  const industries = [
-    { title: "Оборудование", image: <Image alt='tools' src='/icons/screwdriver.png' width='100' height='100'/> },
-    { title: "Электроника", image: <Image alt='tools' src='/icons/circuit.png' width='100' height='100'/> },
-    { title: "Автомобильная промышленность", image: <Image alt='tools' src='/icons/electric-car.png' width='100' height='100'/>},
-    { title: "Мода", image: <Image alt='tools' src='/icons/fashion.png' width='100' height='100'/> },
-    { title: "Ювелирные изделия", image: <Image alt='tools' src='/icons/jewelry.png' width='100' height='100'/> },
-    { title: "Мебель", image: <Image alt='tools' src='/icons/furnitures.png' width='100' height='100'/> },
-    { title: "Здоровье и красота", image: <Image alt='tools' src='/icons/healthcare.png' width='100' height='100'/> },
-    { title: "Разработка ПО", image: <Image alt='tools' src='/icons/coding.png' width='100' height='100'/> },
-    { title: "Ритейл", image: <Image alt='tools' src='/icons/store.png' width='100' height='100'/> },
-    { title: "FMCG", image: <Image alt='tools' src='/icons/grocery-cart.png' width='100' height='100'/> },
-    { title: "Искусство", image: <Image alt='tools' src='/icons/img.png' width='100' height='100'/> },
-    { title: "Хобби", image: <Image alt='tools' src='/icons/hobbies.png' width='100' height='100'/> },
+  const { messages } = useTranslations();
+  const t: any = (messages as any).IndustrySolutions;
+  const items: any[] = Array.isArray(t?.items) ? t.items : [];
+
+  const icons: JSX.Element[] = [
+    <Image key="0" alt='tools' src='/icons/screwdriver.png' width={100} height={100}/>,
+    <Image key="1" alt='circuit' src='/icons/circuit.png' width={100} height={100}/>,
+    <Image key="2" alt='car' src='/icons/electric-car.png' width={100} height={100}/>,
+    <Image key="3" alt='fashion' src='/icons/fashion.png' width={100} height={100}/>,
+    <Image key="4" alt='jewelry' src='/icons/jewelry.png' width={100} height={100}/>,
+    <Image key="5" alt='furniture' src='/icons/furnitures.png' width={100} height={100}/>,
+    <Image key="6" alt='healthcare' src='/icons/healthcare.png' width={100} height={100}/>,
+    <Image key="7" alt='coding' src='/icons/coding.png' width={100} height={100}/>,
+    <Image key="8" alt='store' src='/icons/store.png' width={100} height={100}/>,
+    <Image key="9" alt='grocery' src='/icons/grocery-cart.png' width={100} height={100}/>,
+    <Image key="10" alt='art' src='/icons/img.png' width={100} height={100}/>,
+    <Image key="11" alt='hobbies' src='/icons/hobbies.png' width={100} height={100}/>,
   ];
 
   return (
-    <div className="text-center px-4">
-      <h2 className="text-3xl font-semibold mb-10 md:mb-20">Отраслевые решения</h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-        {industries.map((industry, index) => (
+    <div className="text-center px-2 sm:px-4">
+      <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-6 sm:mb-8 md:mb-10 lg:mb-20 leading-tight break-words">{t?.title || ""}</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 sm:gap-4">
+        {items.map((industry, index) => (
           <div
             key={index}
-            className="rounded-lg shadow-md flex flex-col items-center justify-center w-full h-30 sm:h-32 md:h-40 bg-gray-200 transition-transform duration-300 transform hover:scale-105"
+            className="rounded-lg shadow-md flex flex-col items-center justify-center w-full h-24 sm:h-28 md:h-32 lg:h-40 bg-gray-200 transition-transform duration-300 transform hover:scale-105 p-1 sm:p-2"
           >
-            {industry.image && (
-              <div className="flex items-center justify-center object-cover mb-2">{industry.image}</div>
+            {icons[index] && (
+              <div className="flex items-center justify-center object-cover mb-1 sm:mb-2">{icons[index]}</div>
             )}
-            <p className="text-xs text-center text-black">{industry.title}</p>
+            <p className="text-xs sm:text-sm text-center text-black leading-tight break-words px-1">{industry.title}</p>
           </div>
         ))}
       </div>
     </div>
-  );  
+  );
 }

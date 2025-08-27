@@ -37,7 +37,9 @@ export default async function RootLayout({
         >
             <NextIntlClientProvider messages={messages}>
                 <Navbar/>
-                {children}
+                <main className="pt-20 md:pt-0 lg:pt-0">
+                    {children}
+                </main>
                 {/*<ThemSwitcher/>*/}
             </NextIntlClientProvider>
         </ThemeProvider>

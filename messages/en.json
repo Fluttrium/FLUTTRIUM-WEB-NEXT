@@ -924,5 +924,342 @@
       "description": "Flexible approach to each project",
       "cta": "Leave a request"
     }
+  },
+  "CorporationPage": {
+    "title": "Corporate application development",
+    "subtitle": "Digitizing HR processes: document flow, leave, training, hiring",
+    "cta": "Request Demo",
+    "imageAlt": "Corporate application"
+  },
+  "CrmPage": {
+    "title": "Custom CRM System Development",
+    "subtitle": "Improves customer service quality and simplifies manager work",
+    "cta": "Submit Application",
+    "imageAlt": "CRM interface",
+    "feedback": {
+      "title": "Submit CRM Development Request",
+      "subtitle": "Fill out the form and we will contact you to discuss the project",
+      "form": {
+        "name": "Your name",
+        "email": "Email",
+        "phone": "Phone",
+        "description": "CRM project description",
+        "submit": "Submit request",
+        "sending": "Sending..."
+      },
+      "success": "Thank you! Your CRM development request has been sent.",
+      "error": "An error occurred while sending the form. Please try again.",
+      "networkError": "A network error occurred. Check your internet connection.",
+      "privacy": "By submitting the form, you agree to the privacy policy"
+    }
+  },
+  "CrmCostTimeline": {
+    "mainTitle": "CRM Development Cost and Timeline",
+    "mainDescription": "The cost of system development is influenced by CRM data volume, functional capabilities scope, integration complexity and number of supported platforms",
+    "costLabel": "Cost",
+    "durationLabel": "Timeline",
+    "stages": [
+      { "title": "Functional Requirements", "cost": "from 10k RUB", "duration": "0.5-1 week" },
+      { "title": "Business Analysis", "cost": "from 40k RUB", "duration": "1-2 weeks" },
+      { "title": "Design + Technical Spec", "cost": "from 70k RUB", "duration": "1-3 weeks" },
+      { "title": "Design/Layout", "cost": "from 30k RUB", "duration": "0.5-3 weeks" },
+      { "title": "Development/Coding", "cost": "from 350k RUB", "duration": "5-16 weeks" },
+      { "title": "Development and Support", "cost": "from 60 hours", "duration": "from 2000 RUB/hour" }
+    ]
+  },
+  "RetailPage": {
+    "title": "Retail application to increase sales",
+    "cta": "Request Demo",
+    "imageAlt": "Retail application"
+  },
+  "InternetShopPage": {
+    "title": "Turnkey online store development",
+    "subtitle": "Modern and user-friendly web and mobile online stores focused on attracting and retaining customers with extensive customization options for specific businesses",
+    "cta": "Leave a request",
+    "imageAlt": "Online store"
+  },
+  "CorporationReasons": {
+    "title": "When do companies order corporate apps for Android or iOS?",
+    "items": [
+      { "title": "Too many routine operations", "description": "The HR Director seeks to reduce operational costs and time spent on paperwork" },
+      { "title": "Employees don't meet KPIs", "description": "The admin department head wants to control employee performance and increase motivation" },
+      { "title": "All documentation is on paper", "description": "The finance services director plans to make company reporting more transparent" },
+      { "title": "The company has 50+ retail points", "description": "The customer service director wants to improve customer experience and reviews via standards control" }
+    ]
+  },
+  "CorporationUsage": {
+    "title": "Corporate app use cases",
+    "sections": [
+      {
+        "title": "Automation of production and business processes",
+        "items": [
+          "Digitizing document management",
+          "Dashboards, online reports and checklists",
+          "KPI achievement statistics",
+          "Standards control at employee and department levels"
+        ]
+      },
+      {
+        "title": "Improving internal company communication",
+        "items": [
+          "Corporate messengers and news feeds",
+          "Information portals and internal social networks",
+          "Knowledge bases available to the whole company",
+          "Online surveys for feedback"
+        ]
+      },
+      {
+        "title": "Automation of retail internal processes",
+        "items": [
+          "Merchandising control, planograms and showcase checks",
+          "Inventory, product movement, stock control",
+          "Faster order/return processing, printing receipts and barcodes"
+        ]
+      },
+      {
+        "title": "Improving customer service quality",
+        "items": [
+          "Check availability and discounts from a smartphone",
+          "Loyalty program outside the checkout",
+          "Order pickup, returns, payment via personal smartphone",
+          "Increase average check via KPIs, dashboards and cashier ratings"
+        ]
+      },
+      {
+        "title": "HR optimization",
+        "items": [
+          "Loyalty systems, training gamification",
+          "Leaderboards and internal stores for work achievements",
+          "HR process acceleration up to 80%"
+        ]
+      }
+    ]
+  },
+  "RetailLicence": {
+    "title": "Growth without limits",
+    "subtitle": "The universal app architecture allows scaling each component horizontally and vertically",
+    "imageAlt": "Phone mockup"
+  },
+  "RetailBookDemo": {
+    "title": "Book a demo",
+    "subtitle": "Request a demo and a Flutter manager will showcase the universal app in action",
+    "cta": "Book a demo",
+    "imageAlt": "Phone mockup"
+  },
+  "RetailPricing": {
+    "title": "Timeline and cost",
+    "description": "The estimate depends on the project, scope, technologies and approaches. We will provide a detailed estimate after a brief or an intro call",
+    "cta": "Request Demo",
+    "timeline": { "title": "4 months", "subtitle": "Average timeline" },
+    "cost": { "title": "3M rubles", "subtitle": "Average cost" }
+  },
+  "RetailFunctions": {
+    "title": "Features",
+    "items": [
+      {
+        "title": "Registration and user profile",
+        "description": "Simple and secure registration by phone number. A profile that stores demographics and customer preferences",
+        "tags": ["authentication", "order history", "receipts", "bonuses"],
+        "image": "/iPhone 15.png"
+      },
+      {
+        "title": "Home screen",
+        "description": "Mobile store showcase. News, banners and stories draw attention and guide users",
+        "tags": ["news", "banners", "loyalty program", "promo catalog", "discounts"],
+        "image": "/iPhone 15 (1).png"
+      },
+      {
+        "title": "Catalog and product card",
+        "description": "Informative catalog with category filters, sorting and 'Add to cart'. Attractive product cards with reviews and full details",
+        "tags": ["product list", "delivery address", "price", "CloudPayments", "Sberbank"],
+        "image": "/iPhone 15 (2).png"
+      },
+      {
+        "title": "Cart and checkout",
+        "description": "The key function of the app. Collects important user data, helps reduce drop-offs and increase conversion",
+        "tags": ["product list", "delivery address", "support"],
+        "image": "/iPhone 15 (3).png"
+      },
+      {
+        "title": "Delivery",
+        "description": "Integration with popular delivery services. Increases service speed and helps automate processes",
+        "tags": ["CDEK", "Yandex Delivery", "Dostavista", "Boxberry"],
+        "image": "/iPhone 15 (4).png"
+      },
+      {
+        "title": "Admin panel",
+        "description": "User-friendly admin panel. Helps manage banners, push notifications, SMS and newsletters",
+        "tags": ["notifications", "assortment", "banners", "editing"],
+        "image": "/iPhone 15 (5).png"
+      }
+    ]
+  },
+  "RetailFlip": {
+    "words": ["Rent", "Food", "Flowers", "Clothes"]
+  },
+  "RetailAdvantages": {
+    "title": "Advantages",
+    "cta": "Discuss the project",
+    "items": [
+      { "title": "All app stores", "description": "App Store, Google Play, App Gallery, RuStore" },
+      { "title": "Fixed cost", "description": "No additional expenses" },
+      { "title": "App license", "description": "We transfer code, not rent" },
+      { "title": "Scalability", "description": "No limits for growth" },
+      { "title": "Partner services infrastructure", "description": "1C, Manzana, Sberbank and others" },
+      { "title": "Own ecosystem", "description": "Apps for pickers and couriers along with the main one" }
+    ]
+  },
+  "RetailTimeline": {
+    "title": "Corporate application development process",
+    "subtitle": "We have built the process of developing custom mobile apps and corporate services so that the company regularly sees interim results and can adjust them. This way our clients get exactly the product they need",
+    "items": [
+      {
+        "title": "Preparation",
+        "paragraphs": [
+          "We study client needs and business goals, gather requirements from stakeholders",
+          "Split tasks into iterations, estimate workload and risks",
+          "Create a user journey map",
+          "Analyze competitors and target audience profile"
+        ],
+        "image": { "src": "/Scenes03.svg", "alt": "Preparation stage" }
+      },
+      {
+        "title": "Design",
+        "paragraphs": [
+          "Design the technical architecture of the web application",
+          "Thought-through user scenarios and functional blocks",
+          "Iteratively improve prototypes for better UX"
+        ],
+        "image": { "src": "/Scenes01.svg", "alt": "Design stage" }
+      },
+      {
+        "title": "Development",
+        "paragraphs": [
+          "Choose a technology stack for the project (React, Next.js, Flutter Web)",
+          "Build the architecture and information model",
+          "Implement and document functionality"
+        ],
+        "image": { "src": "/Scenes08.svg", "alt": "Development stage" }
+      },
+      {
+        "title": "Testing",
+        "paragraphs": [
+          "Manual and automated testing of all features",
+          "Save up to 80% time with automation",
+          "Cross-browser and responsive checks"
+        ],
+        "image": { "src": "/Scenes02.svg", "alt": "Testing stage" }
+      },
+      {
+        "title": "Release & support",
+        "paragraphs": [
+          "Internal audit of code, design and architecture",
+          "Help with store publication (App Store, Google Play, etc.)",
+          "Further development under SLA or in-house"
+        ],
+        "image": { "src": "/Scenes04.svg", "alt": "Release stage" }
+      }
+    ]
+  },
+  "InternetShopCards": {
+    "title": "E-commerce Solutions",
+    "items": [
+      { "number": 1, "title": "Turnkey Online Store", "description": "Full development cycle from business analysis and custom design to integration with complex CRM and ERP systems. Development of an online store based on Next JS" },
+      { "number": 2, "title": "Online Store on Ready Platform", "description": "Quick MVP launch for first sales and custom development of complex projects on the CS-Cart platform with a functional engine for quick start and unlimited growth" },
+      { "number": 3, "title": "Omnichannel Projects", "description": "Business process automation and building a unified ecosystem of online and offline points of sale. We improve customer experience based on best international practices" },
+      { "number": 4, "title": "E-commerce Replatforming", "description": "Seamless migration of the current website from an outdated CMS or custom software to a multifunctional platform without downtime or data loss" },
+      { "number": 5, "title": "Mobile Applications", "description": "Development of mobile applications, responsive websites, and PWA solutions for mobile commerce. We increase conversion on all devices" },
+      { "number": 6, "title": "Still have questions?", "description": "Want to create an online store? We'll analyze your business idea or existing website during a free consultation!", "buttonText": "Contact Us" }
+    ]
+  },
+  "IndustrySolutions": {
+    "title": "Industry Solutions",
+    "items": [
+      { "title": "Equipment" },
+      { "title": "Electronics" },
+      { "title": "Automotive" },
+      { "title": "Fashion" },
+      { "title": "Jewelry" },
+      { "title": "Furniture" },
+      { "title": "Health & Beauty" },
+      { "title": "Software Development" },
+      { "title": "Retail" },
+      { "title": "FMCG" },
+      { "title": "Art" },
+      { "title": "Hobbies" }
+    ]
+  },
+  "FAQ": {
+    "title": "FAQ about online store development",
+    "items": [
+      { "question": "What functionality should an online store have?", "answer": "Catalog management, order processing, payments and delivery, and user account management." },
+      { "question": "How long does it take to develop from scratch?", "answer": "On average 2–6 months depending on project complexity." },
+      { "question": "How much does development cost?", "answer": "Depends on scope and tech; typically from 500,000 to 3,000,000 RUB equivalent." },
+      { "question": "What technologies do you use?", "answer": "Next.js, React, Node.js, PostgreSQL/MongoDB, integrations with payments and logistics." },
+      { "question": "Can you integrate with ERP/CRM?", "answer": "Yes, we integrate with ERP and CRM for data sync and process automation." }
+    ]
+  },
+  "CrmParallax": {
+    "headerTitle": "Optimization with CRM Systems",
+    "headerDescription": "We develop solutions tailored to your unique needs that integrate with your tools and grow with your business. Give your team the ability to work more efficiently and close deals faster with analytics and automation",
+    "products": [
+      { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
+      { "title": "Real Estate List", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
+      { "title": "Real Estate List", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
+      { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
+      { "title": "CRM Funnel", "link": "", "thumbnail": "/crm/CRMВоронка.png" },
+      { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
+      { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
+      { "title": "Document Storage", "link": "", "thumbnail": "/crm/Хранилизе документов.png" },
+      { "title": "Dashboard", "link": "", "thumbnail": "/crm/Dashboard.png" },
+      { "title": "Real Estate", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
+      { "title": "Dashboard", "link": "", "thumbnail": "/crm/Dashboard.png" },
+      { "title": "CRM Funnel", "link": "", "thumbnail": "/crm/CRMВоронка.png" },
+      { "title": "Rent Objects", "link": "", "thumbnail": "/crm/Объкты аренды.png" },
+      { "title": "Real Estate", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
+      { "title": "CRM Funnel", "link": "", "thumbnail": "/crm/CRMВоронка.png" }
+    ]
+  },
+  "CrmTimeline": {
+    "mainTitle": "CRM Development Process",
+    "mainDescription": "Six key stages of CRM system development to create an effective customer management solution",
+    "items": [
+      {
+        "title": "Requirements Gathering",
+        "description": "Functional requirements describe the necessary user and system functionality, contain information about required masters and algorithms for automatic operations",
+        "image": "/crm/trebovaniaIT.png",
+        "imageAlt": "Requirements Gathering"
+      },
+      {
+        "title": "Technical Specification",
+        "description": "The prototype shows the interface and interactions of future CRM elements. The technical specification describes how and what the system will perform",
+        "image": "/crm/kto_pishet_tz.jpg",
+        "imageAlt": "Technical Specification"
+      },
+      {
+        "title": "Design",
+        "description": "Based on the client's decision, the design of the entire system or only sections available to clients is drawn",
+        "image": "/design.jpeg",
+        "imageAlt": "Design"
+      },
+      {
+        "title": "Sprint Breakdown",
+        "description": "Sprint breakdown. Backlog is a list of all functions that will be implemented in the project. Sprints are development stages containing part of the functions implemented within the stage",
+        "image": "/crm/1-15.jpg.webp",
+        "imageAlt": "Sprint Breakdown"
+      },
+      {
+        "title": "Sprint Development",
+        "description": "Performed in 6 steps: ✅ Block planning; ✅ Programming block tasks; ✅ Testing and debugging; ✅ Block release; ✅ Analysis of development organization quality in the block; ✅ Backlog update, adjustment of future blocks.",
+        "image": "/crm/sprint.png",
+        "imageAlt": "Sprint Development"
+      },
+      {
+        "title": "Technical Support",
+        "description": "Effective support helps users quickly resolve emerging issues, minimizing downtime and maintaining high performance",
+        "image": "/crm/Scrum-Master-I.jpg.webp",
+        "imageAlt": "Technical Support"
+      }
+    ]
   }
 }

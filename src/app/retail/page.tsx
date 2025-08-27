@@ -2,7 +2,6 @@ import AppleCardsCarouselDemo from "@/components/AppleCards";
 import {CardHoverEffectDemo} from "@/components/Cards";
 import SocialContacts from "@/components/Contacs";
 import {HeroScrollDemo} from "@/components/ContainerScroll";
-import Navbar from "@/components/global/navbar";
 import {ProjectsCards} from "@/components/Projects";
 import {TypewriterEffectSmoothDemo} from "@/components/Tehnology";
 import {FlipWords} from "@/components/ui/flip-words";
@@ -32,8 +31,7 @@ export default function Flutter() {
             <div
                 className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]">
             </div>
-            <Navbar/>
-            <div className="relative z-50 sm:px-12 ">
+            <div className="relative z-50 pt-0 md:mt-24 lg:mt-48 sm:px-12 ">
                 <Spotlight className="absolute z-50"/>
                 <RetailPage/>
             </div>

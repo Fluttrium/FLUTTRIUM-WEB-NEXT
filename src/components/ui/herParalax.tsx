@@ -1,89 +1,90 @@
 "use client";
 import React from "react";
 import { HeroParallax } from "../ui/hero-parallax";
+import { useTranslations } from "@/hooks/useTranslations";
 
 export function HeroParallaxDemo() {
+  const { messages } = useTranslations();
+  const t: any = (messages as any).CrmParallax;
+  const items: any[] = Array.isArray(t?.products) ? t.products : products;
   return (
-  
-
-      <HeroParallax products={products} />
-  
+      <HeroParallax products={items} />
   );
 }
 
 export const products = [
   {
-    title: "Moonbeam",
+    title: "Widget",
     link: "",
     thumbnail: "/FlatsGrindWidget.png",
   },
   {
-    title: "Cursor",
+    title: "Real Estate List",
     link: "",
     thumbnail: "/projects/Список недвижимости.png",
   },
   {
-    title: "Rogue",
+    title: "Real Estate List",
     link: "",
     thumbnail: "/projects/Список недвижимости.png",
   },
   {
-    title: "Editorially",
+    title: "Widget",
     link: "",
     thumbnail: "/FlatsGrindWidget.png",
   },
   {
-    title: "Editrix AI",
+    title: "CRM Funnel",
     link: "",
     thumbnail: "/crm/CRMВоронка.png",
   },
   {
-    title: "Pixel Perfect",
+    title: "Widget",
     link: "",
     thumbnail: "/FlatsGrindWidget.png",
   },
   {
-    title: "Algochurn",
+    title: "Widget",
     link: "",
     thumbnail: "/FlatsGrindWidget.png",
   },
   {
-    title: "Aceternity UI",
+    title: "Documents",
     link: "",
     thumbnail: "/crm/Хранилизе документов.png",
   },
   {
-    title: "Tailwind Master Kit",
+    title: "Dashboard",
     link: "",
     thumbnail: "/crm/Dashboard.png",
   },
   {
-    title: "SmartBridge",
+    title: "Real Estate",
     link: "",
     thumbnail: "/projects/Список недвижимости.png",
   },
   {
-    title: "Renderwork Studio",
+    title: "Dashboard",
     link: "",
     thumbnail: "/crm/Dashboard.png",
   },
   {
-    title: "Creme Digital",
+    title: "CRM Funnel",
     link: "",
     thumbnail: "/crm/CRMВоронка.png",
   },
   {
-    title: "Golden Bells Academy",
+    title: "Rent Objects",
     link: "",
     thumbnail: "/crm/Объкты аренды.png",
   },
   {
-    title: "Invoker Labs",
+    title: "Real Estate",
     link: "",
     thumbnail: "/projects/Список недвижимости.png",
   },
   {
-    title: "E Free Invoice",
+    title: "CRM Funnel",
     link: "",
     thumbnail: "/crm/CRMВоронка.png",
   },

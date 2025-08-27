@@ -10,11 +10,12 @@ import {useLanguage} from "@/store";
 import {useRouter} from "next/navigation";
 import {useTranslations} from "@/hooks/useTranslations";
 import {MdClose} from "react-icons/md";
+import Cookies from "js-cookie";
 
 const Navbar = ({className}: { className?: string }) => {
     const { messages } = useTranslations();
     const [active, setActive] = useState<string | null>(null);
-    const {language, setLanguage} = useLanguage();
+    const {language, setLanguage, detectLanguageByIP} = useLanguage();
     const router = useRouter();
     const [isClient, setIsClient] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,13 +24,18 @@ const Navbar = ({className}: { className?: string }) => {
     useEffect(() => {
         setIsClient(true);
         
+        // Автоматически определяем язык по региону при загрузке
+        if (typeof window !== 'undefined' && !Cookies.get('language')) {
+            detectLanguageByIP();
+        }
+        
         const handleScroll = () => {
             setIsScrolled(window.scrollY > 10);
         };
         
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
+    }, [detectLanguageByIP]);
 
     const handleChangeLanguage = (value: string) => {
         setLanguage(value);
@@ -89,53 +95,71 @@ const Navbar = ({className}: { className?: string }) => {
 
                         <div className="flex flex-col items-start"> {/* Add items-start here */}
                             <HoveredLink href="/web-sites"
+                                         onClick={closeMenu}
                                          className="text-xl md:text-2xl text-left hover:text-blue-500">{messages.navbar?.serviceItm1 || "Веб-сайты"}</HoveredLink>
 
                             <HoveredLink href="/mobileapp"
+                                         onClick={closeMenu}
                                          className="text-xl md:text-2xl text-left hover:text-blue-500">{messages.navbar?.serviceItm2 || "Мобильные приложения"}</HoveredLink>
 
                             <HoveredLink href="/uiuxdesign"
+                                         onClick={closeMenu}
                                          className="text-xl md:text-2xl text-left hover:text-blue-500">{messages.navbar?.serviceItm3 || "UI/UX дизайн"}</HoveredLink>
 
                             <HoveredLink href="/itconsul"
+                                         onClick={closeMenu}
                                          className="text-xl md:text-2xl text-left hover:text-blue-500">{messages.navbar?.serviceItm4 || "IT консалтинг"}</HoveredLink>
 
                             <HoveredLink href="/itsupport"
+                                         onClick={closeMenu}
                                          className="text-xl md:text-2xl text-left hover:text-blue-500">{messages.navbar?.serviceItm5 || "IT поддержка"}</HoveredLink>
 
                             <hr className="my-4 border-t-2 border-gray-600"/>
                             <HoveredLink href="/retail"
+                                         onClick={closeMenu}
                                          className="text-xl md:text-2xl text-left hover:text-blue-500">{messages.navbar?.title1 || "Ритейл"}</HoveredLink>
 
                             <HoveredLink href="/corporation"
+                                         onClick={closeMenu}
                                          className="text-xl md:text-2xl text-left hover:text-blue-500">{messages.navbar?.title2 || "Корпорации"}</HoveredLink>
 
                             <HoveredLink href="/internetshop"
+                                         onClick={closeMenu}
                                          className="text-xl md:text-2xl text-left hover:text-blue-500">{messages.navbar?.title3 || "Интернет-магазины"}</HoveredLink>
 
                             <HoveredLink href="/crm"
+                                         onClick={closeMenu}
                                          className="text-xl md:text-2xl text-left hover:text-blue-500">{messages.navbar?.title4 || "CRM системы"}</HoveredLink>
 
                             <HoveredLink href="/tgbot"
+                                         onClick={closeMenu}
                                          className="text-xl md:text-2xl text-left hover:text-blue-500">{messages.navbar?.title5 || "Telegram боты"}</HoveredLink>
 
                             <HoveredLink href="/direct"
+                                         onClick={closeMenu}
                                          className="text-xl md:text-2xl text-left hover:text-blue-500">{messages.navbar?.title6 || "Direct"}</HoveredLink>
 
                             <hr className="my-4 border-t-2 border-gray-600"/>
                             
+                            <HoveredLink href="/flutter"
+                                         onClick={closeMenu}
+                                         className="text-xl md:text-2xl text-left hover:text-blue-500">{"Flutter"}</HoveredLink>
                             <HoveredLink href="/nextjs"
+                                         onClick={closeMenu}
                                          className="text-xl md:text-2xl text-left hover:text-blue-500">{messages.navbar?.mainNavItm7 || "Next.js"}</HoveredLink>
 
                             <HoveredLink href="/studstartap"
+                                         onClick={closeMenu}
                                          className="text-xl md:text-2xl text-left hover:text-blue-500">{messages.navbar?.mainNavItm2 || "СтудСтартап"}</HoveredLink>
 
                             <HoveredLink href="/vitrina"
+                                         onClick={closeMenu}
                                          className="text-xl md:text-2xl text-left hover:text-blue-500">{messages.navbar?.mainNavItm9 || "Витрина"}</HoveredLink>
 
                             <hr className="my-4 border-t-2 border-gray-600"/>
                             <Link
                                 href="/brief"
+                                onClick={closeMenu}
                                 className="relative h-8 md:h-12 overflow-hidden rounded-full p-[2px] md:p-[3px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
                             >
                                 <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"/>
@@ -148,24 +172,31 @@ const Navbar = ({className}: { className?: string }) => {
                             <div className="flex items-center gap-3">
                                 <button
                                     type="button"
-                                    onClick={() => handleChangeLanguage('en')}
+                                    onClick={() => { handleChangeLanguage('en'); closeMenu(); }}
                                     className={`px-3 py-1 rounded-md text-base md:text-lg transition-colors ${language === 'en' ? 'bg-white/20 text-white' : 'bg-white/10 text-neutral-200 hover:bg-white/20'}`}
                                 >
                                     EN
                                 </button>
                                 <button
                                     type="button"
-                                    onClick={() => handleChangeLanguage('ru')}
+                                    onClick={() => { handleChangeLanguage('ru'); closeMenu(); }}
                                     className={`px-3 py-1 rounded-md text-base md:text-lg transition-colors ${language === 'ru' ? 'bg-white/20 text-white' : 'bg-white/10 text-neutral-200 hover:bg-white/20'}`}
                                 >
                                     RU
                                 </button>
                                 <button
                                     type="button"
-                                    onClick={() => handleChangeLanguage('cz')}
+                                    onClick={() => { handleChangeLanguage('cz'); closeMenu(); }}
                                     className={`px-3 py-1 rounded-md text-base md:text-lg transition-colors ${language === 'cz' ? 'bg-white/20 text-white' : 'bg-white/10 text-neutral-200 hover:bg-white/20'}`}
                                 >
                                     CZ
+                                </button>
+                                <button
+                                    type="button"
+                                    onClick={() => { handleChangeLanguage('de'); closeMenu(); }}
+                                    className={`px-3 py-1 rounded-md text-base md:text-lg transition-colors ${language === 'de' ? 'bg-white/20 text-white' : 'bg-white/10 text-neutral-200 hover:bg-white/20'}`}
+                                >
+                                    DE
                                 </button>
                             </div>
                         </div>
@@ -266,7 +297,7 @@ const Navbar = ({className}: { className?: string }) => {
                 <div className="hidden md:flex items-center gap-4 flex-shrink-0">
                     <DropdownMenu>
                         <DropdownMenuTrigger className="text-lg xl:text-xl px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors duration-200">
-                            {language === "en" ? "EN" : language === "ru" ? "RU" : "CZ"}
+                            {language === "en" ? "EN" : language === "ru" ? "RU" : language === "cz" ? "CZ" : language === "de" ? "DE" : "RU"}
                         </DropdownMenuTrigger>
                         <DropdownMenuContent className="mt-2 bg-black/90 backdrop-blur-xl border border-neutral-700">
                             <DropdownMenuItem 
@@ -294,6 +325,15 @@ const Navbar = ({className}: { className?: string }) => {
                                 <div className="flex items-center justify-between w-full">
                                     <span>CZ</span>
                                     {language === "cz" && <div className="h-1 bg-blue-400 w-4 rounded-full"></div>}
+                                </div>
+                            </DropdownMenuItem>
+                            <DropdownMenuItem 
+                                className="text-lg px-4 py-2 hover:bg-white/10 transition-colors duration-200"
+                                onClick={() => handleChangeLanguage('de')}
+                            >
+                                <div className="flex items-center justify-between w-full">
+                                    <span>DE</span>
+                                    {language === "de" && <div className="h-1 bg-blue-400 w-4 rounded-full"></div>}
                                 </div>
                             </DropdownMenuItem>
                         </DropdownMenuContent>

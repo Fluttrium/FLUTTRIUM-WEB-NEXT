@@ -18,7 +18,6 @@ export function ProjectsCards() {
         {text: t('tapeword5')},
         {text: t('tapeword6')},
         {text: t('tapeword7')},
-        {text: t('tapeword8')},
         {text: t('tapeword9'), className: "text-blue-500 dark:text-blue-500"},
     ];
 

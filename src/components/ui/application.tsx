@@ -1,7 +1,11 @@
+'use client';
 import React from 'react';
+import { useTranslations } from '@/hooks/useTranslations';
 
 const CorporateAppUsage = () => {
-  const sections = [
+  const { messages } = useTranslations();
+  const t: any = (messages as any).CorporationUsage;
+  const sections = (t?.sections as any[]) || [
     {
       title: 'Автоматизация производственных и бизнес-процессов',
       items: [
@@ -51,7 +55,7 @@ const CorporateAppUsage = () => {
     <div className="flex flex-col items-center justify-center min-h-screen px-6 py-8">
       <div className="w-full">
         <h1 className="text-2xl md:text-6xl font-bold text-center mb-10">
-          Области применения корпоративных приложений
+          {t?.title || 'Области применения корпоративных приложений'}
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-4">
           {sections.map((section, index) => (
@@ -63,7 +67,7 @@ const CorporateAppUsage = () => {
                 {section.title}
               </h2>
               <ul className="list-disc list-inside text-lg text-white font-bold space-y-2">
-                {section.items.map((item, idx) => (
+                {section.items.map((item: string, idx: number) => (
                   <li key={idx} className="text-lg">
                     {item}
                   </li>

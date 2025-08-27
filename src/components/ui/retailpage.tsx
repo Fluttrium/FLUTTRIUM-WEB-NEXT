@@ -3,12 +3,13 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 // Убедитесь, что файл со стилями для частиц подключен и находится в нужной директории
 import Modal from '../Modal';
-import { useTranslations } from 'next-intl';
+import { useTranslations } from '@/hooks/useTranslations';
 import { FlipWordsDemo2 } from './flipword';
 
 const RetailPage = () => {
   const [isModalOpen, setModalOpen] = useState(false);
-  const t = useTranslations('Mobile'); // Замени на ITconsul при переводе
+  const { messages } = useTranslations();
+  const t: any = (messages as any).RetailPage;
   const handleOpenModal = () => setModalOpen(true);
   const handleCloseModal = () => setModalOpen(false);
 
@@ -17,7 +18,7 @@ const RetailPage = () => {
       {/* Текстовая часть */}
       <div className="flex-1 w-full text-center lg:text-left">
         <h1 className="text-4xl sm:text-6xl font-bold mb-6 sm:mb-12">
-        Розничное приложение для увеличения продаж
+        {t?.title}
         </h1>
         <FlipWordsDemo2 />
         <div className="flex justify-center lg:justify-start mt-12">
@@ -25,7 +26,7 @@ const RetailPage = () => {
             onClick={handleOpenModal}
             className="relative inline-flex items-center justify-center px-12 py-4 font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 border-2 border-white rounded-full shadow-lg hover:from-blue-700 hover:to-blue-800 hover:shadow-xl transition-all duration-300 ease-in-out text-xl"
           >
-            Запросить Демо
+            {t?.cta}
           </button>
         </div>
       </div>
@@ -34,7 +35,7 @@ const RetailPage = () => {
       <div className="w-full flex justify-center lg:w-2/4 lg:justify-end">
         <Image
           src="/crm/iPhone 15 Pro.png" // Убедитесь, что путь к изображению корректен.
-          alt="UI Design"
+          alt={t?.imageAlt || "Retail application"}
           className="w-3/4 md:w-2/3 lg:w-full h-auto object-contain"
           width={1000}
           height={1000}

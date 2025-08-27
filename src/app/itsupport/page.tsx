@@ -1,4 +1,3 @@
-import Navbar from "@/components/global/navbar";
 import "@/app/globals.css";
 import {FAQ} from "@/components/ui/faq";
 import {TextForm} from "@/components/ui/textform";
@@ -17,8 +16,7 @@ export default function Flutter() {
             <div
                 className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]">
             </div>
-            <Navbar/>
-            <div className="relative z-50 md:mt-0 pt-60 sm:px-12 ">
+            <div className="relative z-50 md:mt-0 pt-24 md:pt-28 lg:pt-32 sm:px-12 ">
                 <Spotlight className="absolute z-50"/>
                 <ItsupportPage/>
             </div>

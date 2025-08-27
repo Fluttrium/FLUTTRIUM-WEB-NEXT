@@ -6,9 +6,12 @@ import Image from 'next/image';
 
 import Modal from '../Modal';
 import { Spotlight } from './spotlight';
+import { useTranslations } from '@/hooks/useTranslations';
 
 const CrmPage = () => {
   const [isModalOpen, setModalOpen] = useState(false);
+  const { messages } = useTranslations();
+  const t: any = (messages as any).CrmPage;
 
   const handleOpenModal = () => setModalOpen(true);
   const handleCloseModal = () => setModalOpen(false);
@@ -19,10 +22,10 @@ const CrmPage = () => {
         {/* Левая часть с текстом и компонентом */}
         <div className="flex-1 w-full text-center lg:text-left">
           <h1 className="text-4xl sm:text-6xl font-bold mb-6 sm:mb-12">
-            Разработка CRM-систем на заказ
+            {t?.title}
           </h1>
           <p className="text-xl">
-            Повышает качество работы с клиентами и упрощает работу менеджеров
+            {t?.subtitle}
           </p>
           {/* Кнопка */}
           <div className="flex justify-center lg:justify-start mt-12">
@@ -30,7 +33,7 @@ const CrmPage = () => {
             onClick={handleOpenModal}
             className="relative inline-flex items-center justify-center px-12 py-4 font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 border-2 border-white rounded-full shadow-lg hover:from-blue-700 hover:to-blue-800 hover:shadow-xl transition-all duration-300 ease-in-out text-xl"
           >
-            Оставить заявку
+            {t?.cta}
           </button>
           </div>
         </div>
@@ -39,7 +42,7 @@ const CrmPage = () => {
         <div className="w-full flex justify-center lg:w-2/4 lg:justify-end mt-12 sm:mt-8 lg:mt-0">
   <Image
     src="/Midnight5.png" // Путь к вашему изображению
-    alt="Sales Application"
+    alt={t?.imageAlt || "CRM interface"}
     width={600} // Увеличенный размер изображения
     height={600} // Увеличенный размер изображения
     className="w-3/4 md:w-2/3 lg:w-full h-auto object-contain" // Обеспечиваем адаптивность изображения

@@ -3,9 +3,12 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Modal from '../Modal';
 import { Spotlight } from './spotlight';
+import { useTranslations } from '@/hooks/useTranslations';
 
 const InternetShopPage = () => {
   const [isModalOpen, setModalOpen] = useState(false);
+  const { messages } = useTranslations();
+  const t: any = (messages as any).InternetShopPage;
 
   const handleOpenModal = () => setModalOpen(true);
   const handleCloseModal = () => setModalOpen(false);
@@ -24,17 +27,17 @@ const InternetShopPage = () => {
         {/* Левая часть с текстом */}
         <div className="w-full md:w-1/2 text-center md:text-left mb-8 md:mb-0">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 md:mb-12">
-            Разработка интернет-магазина под ключ
+            {t?.title}
           </h1>
           <p className="text-lg md:text-xl">
-            Современные и удобные веб и мобильные интернет-магазины, ориентированные на привлечение и удержание клиентов с широкими возможностями адаптации под конкретный бизнес
+            {t?.subtitle}
           </p>
           <div className="flex justify-center md:justify-start mt-8 md:mt-12">
             <button
               onClick={handleOpenModal}
               className="relative inline-flex items-center justify-center px-8 md:px-12 py-3 md:py-4 font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 border-2 border-white rounded-full shadow-lg hover:from-blue-700 hover:to-blue-800 hover:shadow-xl transition-all duration-300 ease-in-out text-lg md:text-xl"
             >
-              Оставить заявку
+              {t?.cta}
             </button>
           </div>
         </div>
@@ -43,7 +46,7 @@ const InternetShopPage = () => {
         <div className="w-full md:w-4/5 flex justify-center mt-8 md:mt-0">
           <Image
             src="/knifesmock/MacBook14.png"
-            alt="Sales Application"
+            alt={t?.imageAlt || "Online store"}
             width={1200}
             height={1200}
             className="rounded-lg shadow-lg object-cover w-full h-auto max-w-sm md:max-w-full"

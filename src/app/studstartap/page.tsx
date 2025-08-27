@@ -155,22 +155,6 @@ const SuccessCasesSection = () => {
                         </div>
                     ))}
                 </div>
-
-                <div className="text-center">
-                    <div className={`inline-flex items-center gap-6 p-8 ${colors.gradients.card} rounded-3xl border border-blue-500/30 ${colors.effects.backdrop}`}>
-                        <div className="text-left">
-                            <div className={`${textStyles.h3} text-3xl mb-3`}>У вас есть своя идея?</div>
-                            <div className={`${textStyles.body2} text-gray-300`}>Мы поможем превратить ее в успешный стартап с грантом 1 млн рублей</div>
-                        </div>
-                        <button
-                            onClick={handleOpenModal}
-                            className={`px-10 py-4 ${components.button.primary} font-bold rounded-full ${animations.transition.normal} whitespace-nowrap shadow-lg`}
-                        >
-                            Создать стартап
-                        </button>
-                    </div>
-                </div>
-                {isModalOpen && <Modal isOpen={isModalOpen} onClose={handleCloseModal} />}
             </div>
         </section>
     );

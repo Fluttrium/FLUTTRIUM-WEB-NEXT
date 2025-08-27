@@ -1,8 +1,12 @@
+'use client';
 import React from "react";
 import { FlipWords } from "../ui/flip-words";
+import { useTranslations } from "@/hooks/useTranslations";
 
 export function FlipWordsDemo2() {
-  const words = ["Аренда", "Еда", "Цветы", "Одежда"];
+  const { messages } = useTranslations();
+  const t: any = (messages as any).RetailFlip;
+  const words: string[] = Array.isArray(t?.words) ? t.words : [];
 
   return (
     <div className="flex justify-start items-center px-4">

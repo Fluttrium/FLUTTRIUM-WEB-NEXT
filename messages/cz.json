@@ -22,6 +22,7 @@
     "tapeword6": "s",
     "tapeword7": "firmou",
     "tapeword8": "FLUTTRIUM",
+    "tapeword9": "FLUTTRIUM",
     "titlecard1": "Webove stranky pro neziskove organizace",
     "titlecard2": "Webove stranky pro byznys",
     "titlecard3": "Aplikace pro korporace",
@@ -136,7 +137,7 @@
     "case2": {
       "category": "Neziskove organizace",
       "title": "Web pro NKO SYNERGIE",
-      "description": "Vyvinuli jsme intuitivní rozhraní a bohatou funkcionalitu, která uživatelům umožňuje snadno získat informace, účastnit se aktivit a interagovat s organizací. Snažili jsme se vytvořit prostor, který nejen odráží hodnoty a poslání „SYNERGIE“, ale také přispívá k hlubšímu zapojení a interakci",
+      "description": "Vyvinuli jsme intuitivní rozhraní a bohatou funkcionalitu, která uživatelům umožňuje snadno získat informace, účastnit se aktivit a interagovat s organizací. Snažili jsme se vytvořit prostor, který nejen odráží hodnoty a poslání \"SYNERGIE\", ale také přispívá k hlubšímu zapojení a interakci",
       "imageAlt": "Maketa projektu pro NKO SYNERGIE"
     },
     "case3": {
@@ -596,5 +597,324 @@
       "description": "Flexibilní přístup ke každému projektu",
       "cta": "Zanechat žádost"
     }
+  },
+  "CrmPage": {
+    "title": "Vývoj CRM systémů na zakázku",
+    "subtitle": "Zlepšuje kvalitu práce se zákazníky a zjednodušuje práci manažerů",
+    "cta": "Podat žádost",
+    "imageAlt": "CRM rozhraní",
+    "feedback": {
+      "title": "Podat žádost o vývoj CRM",
+      "subtitle": "Vyplňte formulář a my vás kontaktujeme k projednání projektu",
+      "form": {
+        "name": "Vaše jméno",
+        "email": "Email",
+        "phone": "Telefon",
+        "description": "Popis CRM projektu",
+        "submit": "Odeslat žádost",
+        "sending": "Odesílání..."
+      },
+      "success": "Děkujeme! Vaše žádost o vývoj CRM byla odeslána.",
+      "error": "Při odesílání formuláře došlo k chybě. Zkuste to prosím znovu.",
+      "networkError": "Došlo k síťové chybě. Zkontrolujte připojení k internetu.",
+      "privacy": "Odesláním formuláře souhlasíte se zásadami ochrany osobních údajů"
+    }
+  },
+  "RetailPage": {
+    "title": "Maloobchodní aplikace pro zvýšení prodeje",
+    "cta": "Požádat o demo",
+    "imageAlt": "Maloobchodní aplikace"
+  },
+  "InternetShopPage": {
+    "title": "Vývoj internetového obchodu na klíč",
+    "subtitle": "Moderní a pohodlné webové a mobilní internetové obchody zaměřené na přilákání a udržení zákazníků s širokými možnostmi přizpůsobení pro konkrétní podnikání",
+    "cta": "Zanechat žádost",
+    "imageAlt": "Internetový obchod"
+  },
+  "CorporationPage": {
+    "title": "Vývoj korporátních aplikací",
+    "subtitle": "Digitalizace HR procesů: dokumentace, dovolené, školení, nábor",
+    "cta": "Požádat o demo",
+    "imageAlt": "Korporátní aplikace"
+  },
+  "CorporationReasons": {
+    "title": "Kdy si firmy objednávají korporátní aplikace pro Android nebo iOS?",
+    "items": [
+      { "title": "Příliš mnoho rutinních operací", "description": "HR ředitel hledá možnost snížit provozní náklady a čas na papírování" },
+      { "title": "Zaměstnanci nedosahují KPI", "description": "Vedoucí admin oddělení chce kontrolovat výkon zaměstnanců a zvýšit motivaci" },
+      { "title": "Veškerá dokumentace je na papíře", "description": "Ředitel finančních služeb plánuje zprůhlednit firemní reporty" },
+      { "title": "Společnost má 50+ prodejen", "description": "Ředitel zákaznického servisu chce zlepšit zákaznickou zkušenost kontrolou standardů" }
+    ]
+  },
+  "CorporationUsage": {
+    "title": "Oblasti použití korporátních aplikací",
+    "sections": [
+      {
+        "title": "Automatizace výrobních a obchodních procesů",
+        "items": [
+          "Digitalizace správy dokumentů",
+          "Dashboardy, online reporty a checklisty",
+          "Statistiky plnění KPI",
+          "Kontrola standardů na úrovni zaměstnanců a oddělení"
+        ]
+      },
+      {
+        "title": "Zlepšení interní komunikace ve firmě",
+        "items": [
+          "Korporátní messengery a zpravodajské kanály",
+          "Informační portály a interní sociální sítě",
+          "Znalostní báze dostupné celé firmě",
+          "Online průzkumy pro zpětnou vazbu"
+        ]
+      },
+      {
+        "title": "Automatizace interních procesů retailu",
+        "items": [
+          "Kontrola merchandisingu, plány vystavení a kontrola vitrín",
+          "Inventarizace, přesuny zboží, kontrola zásob",
+          "Zrychlení zpracování objednávek/vratek, tisk účtenek a čárových kódů"
+        ]
+      },
+      {
+        "title": "Zvyšování kvality zákaznického servisu",
+        "items": [
+          "Kontrola dostupnosti a slev ze smartphonu",
+          "Práce s věrnostním programem mimo pokladnu",
+          "Vydávání objednávek, vratky, platby přes osobní smartphone",
+          "Růst průměrné útraty díky KPI, dashboardům a hodnocení pokladních"
+        ]
+      },
+      {
+        "title": "Optimalizace práce HR",
+        "items": [
+          "Systémy loajality, gamifikace školení",
+          "Žebříčky a interní obchody za pracovní úspěchy",
+          "Zrychlení práce HR až o 80%"
+        ]
+      }
+    ]
+  },
+  "RetailFunctions": {
+    "title": "Funkce",
+    "items": [
+      {
+        "title": "Registrace a uživatelský profil",
+        "description": "Jednoduchá a bezpečná registrace pomocí telefonního čísla. Profil ukládá demografii a preference zákazníků",
+        "tags": ["autentizace", "historie objednávek", "účtenky", "bonusy"],
+        "image": "/iPhone 15.png"
+      },
+      {
+        "title": "Domovská stránka",
+        "description": "Vitrína mobilního obchodu. Novinky, bannery a stories přitahují pozornost a vedou uživatele",
+        "tags": ["novinky", "bannery", "věrnostní program", "katalog akcí", "slevy"],
+        "image": "/iPhone 15 (1).png"
+      },
+      {
+        "title": "Katalog a karta produktu",
+        "description": "Informativní katalog s filtry podle kategorií, tříděním a tlačítkem 'Do košíku'. Atraktivní karty produktů s recenzemi a kompletními informacemi",
+        "tags": ["seznam produktů", "doručovací adresa", "cena", "CloudPayments", "Sberbank"],
+        "image": "/iPhone 15 (2).png"
+      },
+      {
+        "title": "Košík a objednávka",
+        "description": "Klíčová funkce aplikace. Sbírá důležitá uživatelská data, pomáhá snížit odchody a zvýšit konverzi",
+        "tags": ["seznam produktů", "doručovací adresa", "podpora"],
+        "image": "/iPhone 15 (3).png"
+      },
+      {
+        "title": "Doručení",
+        "description": "Integrace s populárními doručovacími službami. Zvyšuje rychlost obsluhy a pomáhá automatizovat procesy",
+        "tags": ["CDEK", "Yandex Delivery", "Dostavista", "Boxberry"],
+        "image": "/iPhone 15 (4).png"
+      },
+      {
+        "title": "Administrátorský panel",
+        "description": "Přátelský administrátorský panel. Pomáhá spravovat bannery, push notifikace, SMS a newslettery",
+        "tags": ["notifikace", "sortiment", "bannery", "editace"],
+        "image": "/iPhone 15 (5).png"
+      }
+    ]
+  },
+  "RetailFlip": {
+    "words": ["Pronájem", "Jídlo", "Květiny", "Oblečení"]
+  },
+  "RetailAdvantages": {
+    "title": "Výhody",
+    "cta": "Probrat projekt",
+    "items": [
+      { "title": "Všechny obchody s aplikacemi", "description": "App Store, Google Play, App Gallery, RuStore" },
+      { "title": "Fixní cena", "description": "Žádné dodatečné náklady" },
+      { "title": "Licence na aplikaci", "description": "Předáváme kód, nepronajímáme" },
+      { "title": "Škálovatelnost", "description": "Žádná omezení pro rozvoj" },
+      { "title": "Infrastruktura partnerských služeb", "description": "1C, Manzana, Sberbank a další" },
+      { "title": "Vlastní ekosystém", "description": "Aplikace pro sběrače a doručovatele k hlavní aplikaci" }
+    ]
+  },
+  "RetailTimeline": {
+    "title": "Proces vývoje korporátních aplikací",
+    "subtitle": "Nastavili jsme proces vývoje custom mobilních aplikací a korporátních služeb tak, aby firma pravidelně viděla průběžné výsledky a mohla je upravovat. Díky tomu naši klienti dostávají přesně ten produkt, který potřebují",
+    "items": [
+      {
+        "title": "Příprava",
+        "paragraphs": [
+          "Zkoumáme potřeby klienta a obchodní cíle, sbíráme požadavky od stakeholderů",
+          "Rozdělíme úkoly do iterací, odhadneme zátěž a rizika",
+          "Vytvoříme mapu uživatelské cesty",
+          "Analyzujeme konkurenci a cílové publikum"
+        ],
+        "image": { "src": "/Scenes03.svg", "alt": "Fáze přípravy" }
+      },
+      {
+        "title": "Design",
+        "paragraphs": [
+          "Navrhneme technickou architekturu webové aplikace",
+          "Promyšlené uživatelské scénáře a funkční bloky",
+          "Iterativně zlepšíme prototypy pro lepší UX"
+        ],
+        "image": { "src": "/Scenes01.svg", "alt": "Fáze designu" }
+      },
+      {
+        "title": "Vývoj",
+        "paragraphs": [
+          "Zvolíme technologický stack (React, Next.js, Flutter Web)",
+          "Vytvoříme architekturu a informační model",
+          "Implementujeme a zdokumentujeme funkcionalitu"
+        ],
+        "image": { "src": "/Scenes08.svg", "alt": "Fáze vývoje" }
+      },
+      {
+        "title": "Testování",
+        "paragraphs": [
+          "Manuální a automatizované testování všech funkcí",
+          "Ušetříme až 80 % času díky automatizaci",
+          "Kontrola responzivity a kompatibility napříč prohlížeči"
+        ],
+        "image": { "src": "/Scenes02.svg", "alt": "Fáze testování" }
+      },
+      {
+        "title": "Release a podpora",
+        "paragraphs": [
+          "Interní audit kódu, designu a architektury",
+          "Pomůžeme s publikací do storů (App Store, Google Play, atd.)",
+          "Další rozvoj podle SLA nebo in-house"
+        ],
+        "image": { "src": "/Scenes04.svg", "alt": "Fáze releasu" }
+      }
+    ]
+  },
+  "InternetShopCards": {
+    "title": "Řešení pro internetové obchody",
+    "items": [
+      { "number": 1, "title": "Internetový obchod na klíč", "description": "Plný cyklus vývoje od obchodní analýzy a individuálního návrhu po integraci se složitými CRM a ERP systémy. Vývoj internetového obchodu na bázi Next JS" },
+      { "number": 2, "title": "Internetový obchod na hotové platformě", "description": "Rychlé spuštění MVP pro první prodeje a custom vývoj složitých projektů na platformě CS-Cart s funkčním enginem pro rychlý start a neomezený růst" },
+      { "number": 3, "title": "Omnichannel projekty", "description": "Automatizace obchodních procesů a budování jednotného ekosystému online a offline prodejních míst. Zlepšujeme zákaznickou zkušenost na základě nejlepších mezinárodních praktik" },
+      { "number": 4, "title": "Replatforming internetového obchodu", "description": "Bezproblémový převod stávajícího webu ze zastaralé CMS nebo vlastního softwaru na multifunkční platformu bez výpadků a ztráty dat" },
+      { "number": 5, "title": "Mobilní aplikace", "description": "Vývoj mobilních aplikací, responzivních webů a PWA řešení pro mobilní obchod. Zvyšujeme konverzi na všech zařízeních" },
+      { "number": 6, "title": "Zůstaly otázky?", "description": "Chcete objednat vytvoření internetového obchodu? Probereme vaši obchodní myšlenku nebo stávající web na bezplatné konzultaci!", "buttonText": "Kontaktujte nás" }
+    ]
+  },
+  "IndustrySolutions": {
+    "title": "Oborová řešení",
+    "items": [
+      { "title": "Zařízení" },
+      { "title": "Elektronika" },
+      { "title": "Automotive" },
+      { "title": "Móda" },
+      { "title": "Šperky" },
+      { "title": "Nábytek" },
+      { "title": "Zdraví a krása" },
+      { "title": "Vývoj softwaru" },
+      { "title": "Retail" },
+      { "title": "FMCG" },
+      { "title": "Umění" },
+      { "title": "Koníčky" }
+    ]
+  },
+  "FAQ": {
+    "title": "FAQ o vývoji internetových obchodů",
+    "items": [
+      { "question": "Jaké funkce má mít e‑shop?", "answer": "Správa katalogu, zpracování objednávek, platby a doručení, správa uživatelských účtů." },
+      { "question": "Jak dlouho trvá vývoj od nuly?", "answer": "Průměrně 2–6 měsíců podle složitosti projektu." },
+      { "question": "Kolik stojí vývoj e‑shopu?", "answer": "Závisí na rozsahu a technologiích; obvykle od 500 000 do 3 000 000 RUB v přepočtu." },
+      { "question": "Jaké technologie používáte?", "answer": "Next.js, React, Node.js, PostgreSQL/MongoDB, integrace plateb a logistiky." },
+      { "question": "Integrace s ERP/CRM?", "answer": "Ano, integrujeme s ERP a CRM pro synchronizaci dat a automatizaci procesů." }
+    ]
+  },
+  "CrmParallax": {
+    "headerTitle": "Optimalizace pomocí CRM systémů",
+    "headerDescription": "Vytváříme řešení šitá na míru vašim jedinečným potřebám, která se integrují s vašimi nástroji a rostou s vaším podnikáním. Dejte svému týmu možnost pracovat efektivněji a uzavírat obchody rychleji pomocí analýzy a automatizace",
+    "products": [
+      { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
+      { "title": "Seznam nemovitostí", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
+      { "title": "Seznam nemovitostí", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
+      { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
+      { "title": "CRM trychtýř", "link": "", "thumbnail": "/crm/CRMВоронка.png" },
+      { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
+      { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
+      { "title": "Úložiště dokumentů", "link": "", "thumbnail": "/crm/Хранилизе документов.png" },
+      { "title": "Dashboard", "link": "", "thumbnail": "/crm/Dashboard.png" },
+      { "title": "Nemovitosti", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
+      { "title": "Dashboard", "link": "", "thumbnail": "/crm/Dashboard.png" },
+      { "title": "CRM trychtýř", "link": "", "thumbnail": "/crm/CRMВоронка.png" },
+      { "title": "Pronajaté objekty", "link": "", "thumbnail": "/crm/Объкты аренды.png" },
+      { "title": "Nemovitosti", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
+      { "title": "CRM trychtýř", "link": "", "thumbnail": "/crm/CRMВоронка.png" }
+    ]
+  },
+  "CrmTimeline": {
+    "mainTitle": "Proces vývoje CRM",
+    "mainDescription": "Šest klíčových etap vývoje CRM systému k vytvoření efektivního řešení pro správu zákazníků",
+    "items": [
+      {
+        "title": "Sbírání požadavků",
+        "description": "Funkční požadavky popisují potřebnou uživatelskou a systémovou funkcionalitu, obsahují informace o požadovaných mistrech a algoritmech pro automatické operace",
+        "image": "/crm/trebovaniaIT.png",
+        "imageAlt": "Sbírání požadavků"
+      },
+      {
+        "title": "Technická specifikace",
+        "description": "Prototyp ukazuje rozhraní a interakce budoucích CRM prvků. Technická specifikace popisuje, jak a co bude systém provádět",
+        "image": "/crm/kto_pishet_tz.jpg",
+        "imageAlt": "Technická specifikace"
+      },
+      {
+        "title": "Design",
+        "description": "Na základě rozhodnutí zákazníka se kreslí design celého systému nebo pouze sekcí dostupných klientům",
+        "image": "/design.jpeg",
+        "imageAlt": "Design"
+      },
+      {
+        "title": "Rozdělení do sprintů",
+        "description": "Rozdělení do sprintů. Backlog je seznam všech funkcí, které budou v projektu implementovány. Sprinty jsou vývojové fáze obsahující část funkcí implementovaných v rámci fáze",
+        "image": "/crm/1-15.jpg.webp",
+        "imageAlt": "Rozdělení do sprintů"
+      },
+      {
+        "title": "Vývoj ve sprintech",
+        "description": "Provádí se v 6 krocích: ✅ Plánování bloku; ✅ Programování úkolů bloku; ✅ Testování a ladění; ✅ Uvolnění bloku; ✅ Analýza kvality organizace vývoje v bloku; ✅ Aktualizace backlogu, úprava budoucích bloků.",
+        "image": "/crm/sprint.png",
+        "imageAlt": "Vývoj ve sprintech"
+      },
+      {
+        "title": "Technická podpora",
+        "description": "Efektivní podpora pomáhá uživatelům rychle řešit vzniklé problémy, minimalizuje prostoje a udržuje vysoký výkon",
+        "image": "/crm/Scrum-Master-I.jpg.webp",
+        "imageAlt": "Technická podpora"
+      }
+    ]
+  },
+  "CrmCostTimeline": {
+    "mainTitle": "Náklady a časový harmonogram vývoje CRM",
+    "mainDescription": "Na náklady vývoje systému má vliv objem dat CRM, rozsah funkčních možností, složitost integrací a počet podporovaných platforem",
+    "costLabel": "Náklady",
+    "durationLabel": "Časový harmonogram",
+    "stages": [
+      { "title": "Funkční požadavky", "cost": "od 10 tis. RUB", "duration": "0.5-1 týden" },
+      { "title": "Business analýza", "cost": "od 40 tis. RUB", "duration": "1-2 týdny" },
+      { "title": "Návrh + TS", "cost": "od 70 tis. RUB", "duration": "1-3 týdny" },
+      { "title": "Design/Layout", "cost": "od 30 tis. RUB", "duration": "0.5-3 týdny" },
+      { "title": "Vývoj/Kódování", "cost": "od 350 tis. RUB", "duration": "5-16 týdnů" },
+      { "title": "Vývoj a podpora", "cost": "od 60 hodin", "duration": "od 2000 RUB/hod" }
+    ]
   }
 }

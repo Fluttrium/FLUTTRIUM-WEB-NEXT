@@ -1,6 +1,7 @@
 "use client";
 
 import React, {useState} from "react";
+import { useTranslations } from "@/hooks/useTranslations";
 
 // SVG-иконка
 const PlusIcon = () => (
@@ -16,53 +17,32 @@ const PlusIcon = () => (
     </svg>
 );
 
-const faqs = [
-    {
-        question: "Какой функционал должен присутствовать в интернет-магазине?",
-        answer: "В интернет-магазине должен быть реализован функционал для управления каталогом товаров, обработки заказов, системы оплаты и доставки, а также возможность управления пользовательскими аккаунтами."
-    },
-    {
-        question: "Сколько времени занимает разработка и создание интернет-магазина с нуля?",
-        answer: "Время разработки интернет-магазина зависит от сложности проекта. В среднем, создание интернет-магазина с нуля может занять от 2 до 6 месяцев."
-    },
-    {
-        question: "Сколько стоит разработка интернет-магазина?",
-        answer: "Стоимость разработки интернет-магазина варьируется в зависимости от функционала и технологий. Обычно цена составляет от 500,000 до 3,000,000 рублей."
-    },
-    {
-        question: "Какие технологии вы используете для разработки интернет-магазинов?",
-        answer: "Мы используем современные технологии, такие как Next.js, React, Node.js, а также различные базы данных, такие как MongoDB и PostgreSQL."
-    },
-    {
-        question: "Мы используем определенные ERP и CRM-системы. Вы сможете синхронизировать магазин с ними?",
-        answer: "Да, мы можем интегрировать ваш интернет-магазин с ERP и CRM-системами для синхронизации данных и автоматизации процессов."
-    }
-];
-
 export function FAQ() {
     const [openIndex, setOpenIndex] = useState<number | null>(null);
+    const { messages } = useTranslations();
+    const t: any = (messages as any).FAQ;
+    const items: any[] = Array.isArray(t?.items) ? t.items : [];
 
     const toggleStage = (index: number) => {
         setOpenIndex(openIndex === index ? null : index);
     };
 
-
     return (
-        <div className="max-w-4xl mx-auto px-4 py-8">
-            <h2 className="text-3xl font-semibold mb-5 text-center">FAQ о разработке интернет-магазинов</h2>
-            <div className="space-y-4">
-                {faqs.map((stage, index) => (
+        <div className="max-w-4xl mx-auto px-2 sm:px-4 py-4 sm:py-8">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 sm:mb-5 text-center leading-tight break-words">{t?.title || ""}</h2>
+            <div className="space-y-3 sm:space-y-4">
+                {items.map((stage, index) => (
                     <div key={index} className="border border-gray-300 rounded-lg overflow-hidden">
                         <button
-                            className="flex items-center w-full text-left p-8 rounded-lg transition-colors duration-200 ease-in-out hover:text-blue-600"
+                            className="flex items-center w-full text-left p-4 sm:p-6 md:p-8 rounded-lg transition-colors duration-200 ease-in-out hover:text-blue-600"
                             onClick={() => toggleStage(index)}
                         >
                             <PlusIcon />
-                            <h3 className="text-2xl font-medium">{stage.question}</h3>
+                            <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-medium leading-tight break-words">{stage.question}</h3>
                         </button>
                         {openIndex === index && (
-                            <div className="p-8 border-t border-gray-300">
-                                <p className="text-lg">{stage.answer}</p>
+                            <div className="p-4 sm:p-6 md:p-8 border-t border-gray-300">
+                                <p className="text-sm sm:text-base md:text-lg leading-relaxed break-words">{stage.answer}</p>
                             </div>
                         )}
                     </div>

@@ -1,34 +1,19 @@
+'use client';
 // pages/CorporateAppReasons.tsx
 import React from 'react';
+import { useTranslations } from '@/hooks/useTranslations';
 
-const reasonsData = [
-  {
-    id: 1,
-    title: 'Много рутинных операций' ,
-    description:
-      'Директор по персоналу ищет возможность снизить операционные расходы и сократить время на заполнение бумажных документов',
-  },
-  {
-    id: 2,
-    title: 'Сотрудники не достигают KPI в работе',
-    description:
-      'Руководитель административно-хозяйственного отдела хочет понять, как проконтролировать эффективность работы сотрудников и повысить их мотивацию',
-  },
-  {
-    id: 3,
-    title: 'Вся документация на бумаге',
-    description:
-      'Директор департамента управления финансовыми сервисами планирует сделать отчётность в компании более прозрачной',
-  },
-  {
-    id: 4,
-    title: 'В компании более 50 точек продаж',
-    description:
-      'Директор по клиентскому сервису хочет улучшить опыт клиентов и отзывы о компании с помощью контроля соблюдения стандартов работы',
-  },
+const reasonsDataFallback = [
+  { id: 1, title: 'Много рутинных операций', description: 'Директор по персоналу ищет возможность снизить операционные расходы и сократить время на заполнение бумажных документов' },
+  { id: 2, title: 'Сотрудники не достигают KPI в работе', description: 'Руководитель административно-хозяйственного отдела хочет понять, как проконтролировать эффективность работы сотрудников и повысить их мотивацию' },
+  { id: 3, title: 'Вся документация на бумаге', description: 'Директор департамента управления финансовыми сервисами планирует сделать отчётность в компании более прозрачной' },
+  { id: 4, title: 'В компании более 50 точек продаж', description: 'Директор по клиентскому сервису хочет улучшить опыт клиентов и отзывы о компании с помощью контроля соблюдения стандартов работы' },
 ];
 
 const CorporateAppReasons = () => {
+  const { messages } = useTranslations();
+  const t: any = (messages as any).CorporationReasons;
+  const reasonsData = (t?.items as any[])?.map((item: any, idx: number) => ({ id: idx + 1, title: item.title, description: item.description })) || reasonsDataFallback;
   return (
 
       <div className=" relative flex flex-col items-center justify-center min-h-screen px-4 py-8">
@@ -36,7 +21,7 @@ const CorporateAppReasons = () => {
 
           <div className="max-w-full w-full rounded-3xl shadow-lg p-8">
             <h1 className="text-5xl font-bold text-center mb-12 text-800">
-              Когда заказывают разработку корпоративных приложений на Android или iOS?
+              {t?.title || 'Когда заказывают разработку корпоративных приложений на Android или iOS?'}
             </h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {reasonsData.map((reason) => (

@@ -6,6 +6,7 @@ import {
   motion,
 } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
+import { useTranslations } from "@/hooks/useTranslations";
 
 interface TimelineEntry {
   title: string;
@@ -13,6 +14,9 @@ interface TimelineEntry {
 }
 
 export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
+  const { messages } = useTranslations();
+  const t: any = (messages as any).CrmTimeline;
+  
   const ref = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState(0);
@@ -36,10 +40,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     <div className="w-full font-sans md:px-10" ref={containerRef}>
       <div className="max-w-7xl mx-auto mb-12 px-6 md:px-10 lg:px-12">
         <h2 className="text-5xl md:text-6xl mb-6 text-black dark:text-white max-w-4xl">
-          Процесс разработки CRM
+          {t?.mainTitle || "Процесс разработки CRM"}
         </h2>
         <p className="text-lg md:text-2xl dark:text-300 max-w-lg">
-          Шесть ключевых этапов разработки CRM-системы к созданию эффективного решения для управления клиентами
+          {t?.mainDescription || "Шесть ключевых этапов разработки CRM-системы к созданию эффективного решения для управления клиентами"}
         </p>
       </div>
 

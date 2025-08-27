@@ -1,0 +1,1434 @@
+{
+    "HomePage": {
+      "title": "Hallo Welt!",
+      "hero_1": "Wir",
+      "hero_2": "entwickeln",
+      "words1": "mobile Anwendungen",
+      "words2": "Web-Anwendungen",
+      "words3": "professionelle Websites",
+      "words4": "einzigartiges Design",
+      "words5": "MVP für Ihr Startup",
+      "hero_card1": "Wir führen Interviews durch und erstellen Spezifikationen",
+      "hero_card2": "Wir entwickeln Ihr Produkt",
+      "hero_card3": "Wir sorgen für Support und Weiterentwicklung",
+      "button": "Anfrage stellen"
+    },
+    "ProjectCard": {
+      "tapeword1": "Verwirklichen Sie",
+      "tapeword2": "jede",
+      "tapeword3": "Ihre",
+      "tapeword4": "Idee",
+      "tapeword5": "zusammen",
+      "tapeword6": "mit",
+      "tapeword7": "dem Unternehmen",
+      "tapeword8": "FLUTTRIUM",
+      "tapeword9": "FLUTTRIUM",
+      "titlecard1": "Websites für gemeinnützige Organisationen",
+      "titlecard2": "Websites für Unternehmen",
+      "titlecard3": "Anwendungen für Konzerne",
+      "titlecard4": "Wir erstellen Plattformen für Ihr Unternehmen",
+      "titlecard5": "Telegram-Bot zur Prozessoptimierung",
+      "titlecard6": "SEO-Optimierung und Werbekampagne Yandex Direct",
+      "titledisc1": "Wir unterstützen gemeinnützige Organisationen in ihrem Bestreben, die Welt zu verbessern",
+      "titledisc2": "Wir entwickeln eine professionelle und einzigartige Website, die Ihrem Unternehmen hilft, sich von der Konkurrenz abzuheben",
+      "titledisc3": "Wir entwickeln skalierbare und zuverlässige Plattformen, die an die einzigartigen Bedürfnisse Ihres Unternehmens angepasst sind",
+      "titledisc4": "Wir entwickeln leistungsstarke und flexible E-Commerce-Lösungen und bieten ein vollständiges Set an Tools für eine effiziente Geschäftsführung",
+      "titledisc5": "Wir erstellen Telegram-Bots zur Automatisierung und Optimierung von Prozessen in Konzernen und Unternehmen",
+      "titledisc6": "Wir bringen die Website auf die ersten Positionen in der Yandex-Suche durch SEO-Optimierung und die Anbindung von Yandex Direct",
+      "cardButton": "Jetzt bestellen →"
+    },
+    "formSection": {
+      "formTitle1": "Wir arbeiten mit Kunden",
+      "formTitle2": "auf der ganzen Welt"
+    },
+    "beetween": {
+      "title1": "Wir erstellen",
+      "title2": "beeindruckende",
+      "title3": "Anwendungen",
+      "title4": "mit dem",
+      "title5": "Framework",
+      "title6": "Flutter",
+      "road": "Der Weg zur Freiheit beginnt hier",
+      "button": "Kontakt aufnehmen"
+    },
+    "navbar": {
+      "mainNavItm1": "Dienstleistungen",
+      "mainNavItm2": "Studenten-Startup",
+      "mainNavItm3": "Produkte",
+      "mainNavItm4": "Preise",
+      "mainNavItm5": "Kontakte",
+      "mainNavItm6": "Technologien",
+      "mainNavItm7": "Nextjs",
+      "mainNavItm8": "Studenten-Startup",
+      "mainNavItm9": "Schaufenster",
+  
+      "navMainButton": "Brief ausfüllen",
+      "serviceItm1": "Websites entwickeln",
+      "serviceItm2": "Mobile Anwendungen",
+      "serviceItm3": "UI/UX Design",
+      "serviceItm4": "Technologieberatung",
+      "serviceItm5": "Support und Wartung",
+      "title1": "Box-Anwendung für Einzelhandel",
+      "description1": "Fertige Lösung für Geschäfte und Netzwerke, die es ermöglicht, Verkäufe, Lager und Kundendatenbank zu verwalten",
+      "title2": "Anwendung für Unternehmen",
+      "description2": "Instrument zur Verbesserung der internen Prozesse des Unternehmens, das die Automatisierung von Geschäftsprozessen gewährleistet",
+      "title3": "Online-Shop",
+      "description3": "Plattform für Online-Verkäufe, die es ermöglicht, schnell einen Online-Shop zu erstellen und zu verwalten",
+      "title4": "CRM-System",
+      "description4": "Innovative Lösung für das Management von Kundenbeziehungen",
+      "description5": "Modernes Framework von Google für die Entwicklung nativer Anwendungen auf mobilen Geräten",
+      "description6": "Leistungsstarkes Framework für React, das die Erstellung schneller und leistungsfähiger Web-Anwendungen vereinfacht",
+      "title5": "Telegram Bot",
+      "description7": "Optimierung und Automatisierung von Geschäftsprozessen im Unternehmen",
+      "title6": "SEO-Optimierung, Yandex Direct",
+      "description8": "Umfassende Website-Promotion: SEO und Werbung in Yandex Direct"
+    },
+    "MainForm": {
+      "FormDisc": "Wie können wir Ihnen helfen? Beschreiben Sie kurz Ihre Entwicklungsanfrage — wir werden uns innerhalb eines Tages bei Ihnen melden",
+      "label1": "Vorname",
+      "label2": "Nachname",
+      "label3": "E-Mail",
+      "label4": "Telefon",
+      "label5": "Erzählen Sie uns von sich und Ihrer Idee",
+      "formButton": "Senden",
+      "placeHold": "Ihre Idee.."
+    },
+    "PartnerLogos": {
+      "title": "Unsere Partner",
+      "subtitle": "Vertrauen uns ihre Projekte an und sind mit dem Ergebnis zufrieden",
+      "description": "Wir sind stolz darauf, mit führenden Unternehmen und Organisationen zu arbeiten und innovative Lösungen für ihre Geschäfte zu schaffen"
+    },
+    "Sotr": {
+      "How": "Wir erzählen, wie wir zusammenarbeiten werden",
+      "title1": "Vollständiger Entwicklungszyklus für mobile Anwendungen",
+      "description1": "Von der Idee bis zur Umsetzung — wir beschäftigen uns mit der Entwicklung mobiler Anwendungen für iOS und Android. Wir erstellen intuitiv verständliche und hocheffiziente Anwendungen, die Benutzer anziehen und Ihrem Geschäft helfen, neue Höhen zu erreichen",
+      "title2": "Design, das inspiriert",
+      "description2": "Wir entwickeln einzigartiges und ansprechendes Design sowohl für mobile Anwendungen als auch für begleitende Websites. Unser Ziel ist es, Ihre Anwendung und Website visuell ansprechend und benutzerfreundlich zu gestalten",
+      "title3": "Responsive Websites für Ihre Anwendung",
+      "description3": "Erstellen Sie eine perfekte Online-Präsenz für Ihre mobile Anwendung. Wir entwickeln responsive Websites, die auf allen Geräten großartig aussehen und Ihre Anwendung effektiv präsentieren",
+      "title4": "Integration von Anwendung und Website",
+      "description4": "Wir gewährleisten eine nahtlose Integration zwischen Ihrer mobilen Anwendung und Website. Dies umfasst Datensynchronisation, die Möglichkeit der Autorisierung über die Website und Interaktion zwischen beiden Plattformen",
+      "title5": "Optimierung und SEO",
+      "description5": "Steigern Sie die Sichtbarkeit Ihrer Anwendung in Suchmaschinen mit unseren SEO-Dienstleistungen. Wir optimieren Ihre Website für die Gewinnung der Zielgruppe und gewährleisten eine bessere Promotion Ihrer Anwendung im Internet",
+      "title6": "Support und Analytik",
+      "description6": "Wir bieten Dienstleistungen für Support und Updates Ihrer Anwendungen und Websites. Außerdem implementieren wir Analysesysteme, damit Sie die Leistung verfolgen, das Benutzerverhalten analysieren und wertvolle Einblicke zur Verbesserung Ihres Produkts erhalten können"
+    },
+    "Projects": {
+      "casesTitle": "Unsere Fallstudien",
+      "case1": {
+        "category": "Geschäft",
+        "title": "Website für ein Einkaufszentrum",
+        "description": "Wir freuen uns, unser neues Projekt vorzustellen — eine moderne und interaktive Website für das Einkaufszentrum 'Dobrynya'. Im Rahmen dieses Projekts arbeitete unser Team an der Schaffung einer einzigartigen Online-Plattform, die nicht nur den Stil und die Atmosphäre des Einkaufszentrums widerspiegelt, sondern auch eine benutzerfreundliche Oberfläche für seine Besucher bietet",
+        "imageAlt": "Macbook-Mockup von Aceternity UI"
+      },
+      "case11": {
+        "category": "Geschäft",
+        "title": "Website für ein Einkaufszentrum",
+        "description": "Wir haben eine moderne und interaktive Website entwickelt, die die Atmosphäre und den Stil des Einkaufszentrums vermittelt und zu einem benutzerfreundlichen digitalen Assistenten für seine Besucher wird.",
+        "imageAlt": "Macbook-Mockup von Aceternity UI"
+      },
+      "case12": {
+        "title": "Funktionalität",
+        "description": "Die Website bietet detaillierte Informationen über Geschäfte und Dienstleistungen, die sich in 'Dobrynya' befinden. Besucher können leicht über aktuelle Aktionen, Rabatte und Sonderangebote erfahren. Ein interaktiver Etagenplan wurde implementiert, der es ermöglicht, schnell das gewünschte Geschäft oder Erholungsgebiet zu finden. Um das Publikum zu engagieren, haben wir einen Nachrichten- und Veranstaltungsbereich eingeführt, wo Ankündigungen bevorstehender Ereignisse veröffentlicht werden. Das responsive Design gewährleistet eine komfortable Nutzung der Website auf Smartphones, Tablets und Computern.",
+        "imageAlt": "Macbook-Mockup von Aceternity UI"
+      },
+      "case13": {
+        "title": "Admin-Panel",
+        "description": "Ein separates Admin-Panel wurde erstellt, mit dem Mitarbeiter des Einkaufszentrums selbstständig Daten über Geschäfte aktualisieren, Aktionen bearbeiten und Nachrichten hinzufügen können, ohne sich an Entwickler zu wenden.",
+        "imageAlt": "Macbook-Mockup von Aceternity UI"
+      },
+      "case2": {
+        "category": "Nichtkommerzielle Organisationen",
+        "title": "Website für die NRO SYNERGY",
+        "description": "Wir haben eine intuitiv verständliche Oberfläche und reiche Funktionalität entwickelt, die es Benutzern ermöglicht, leicht Informationen zu erhalten, an Aktivitäten teilzunehmen und mit der Organisation zu interagieren. Wir strebten danach, einen Raum zu schaffen, der nicht nur die Werte und Mission von 'SYNERGY' widerspiegelt, sondern auch zu tieferer Beteiligung und Interaktion beiträgt",
+        "imageAlt": "Mockup des Projekts für die NRO SYNERGY"
+      },
+      "case21": {
+        "title": "Website für die NRO SYNERGY",
+        "description": "Wir haben eine moderne und benutzerfreundliche Web-Ressource geschaffen, die der Organisation hilft, ihre Mission und Werte effektiv an das Publikum zu vermitteln.\nDie Oberfläche ist so entwickelt, dass jeder Besucher — ob Freiwilliger, Partner oder jemand, der Hilfe sucht — schnell die benötigten Informationen finden und sich in die Aktivitäten der Organisation einbringen kann.",
+        "imageAlt": "Mockup des Projekts für die NRO SYNERGY"
+      },
+      "case22": {
+        "title": "Funktionalität",
+        "description": "Die Website umfasst Bereiche mit aktuellen Nachrichten und Veranstaltungen, wo Benutzer immer über Pläne und Ereignisse der Organisation informiert sein können. Die Möglichkeit zur Registrierung und Teilnahme an Online-Aktivitäten wurde implementiert, was es ermöglicht, neue Freiwillige und Projektteilnehmer zu gewinnen. Für eine bequeme Kommunikation haben wir die Integration mit Feedback-Formularen und Newsletter-Anmeldung hinzugefügt, damit Benutzer wichtige Informationen direkt per E-Mail erhalten können. Alle Funktionen sind auf jedem Gerät verfügbar dank des responsiven Designs, das eine komfortable Interaktion mit der Website sowohl auf Computern als auch auf Smartphones gewährleistet.",
+        "imageAlt": "Mockup des Projekts für die NRO SYNERGY"
+      },
+      "case23": {
+        "category": "Nichtkommerzielle Organisationen",
+        "title": "Admin-Panel",
+        "description": "Ein separates benutzerfreundliches Admin-Panel wurde entwickelt, das es Mitarbeitern der NRO ermöglicht, Inhalte selbstständig zu verwalten: Nachrichten veröffentlichen, Informationen über Veranstaltungen aktualisieren, Anträge bearbeiten und die Statistik der Benutzeraktivität verfolgen.",
+        "imageAlt": "Mockup des Projekts für die NRO SYNERGY"
+      },
+      "case3": {
+        "category": "Anwendungen für Unternehmen",
+        "title": "Unternehmens-Taxi",
+        "description": "Unser neues Projekt — ein Unternehmens-Taxi, entwickelt zur Verbesserung der internen Logistik des Unternehmens. Benutzerfreundliche Oberfläche und hohe Funktionalität",
+        "imageAlt": "Mockup der Unternehmens-Taxi-Anwendung"
+      },
+      "case31": {
+        "category": "Anwendungen für Unternehmen",
+        "title": "Unternehmens-Taxi",
+        "description": "Wir haben eine mobile Anwendung für Unternehmens-Taxis entwickelt, die es Mitarbeitern ermöglicht, nach der Arbeit schnell und bequem nach Hause zu gelangen. Der Service funktioniert nach dem Prinzip 'wie in Yandex.Taxi', ist aber an die internen Aufgaben des Unternehmens angepasst.\n\nIn der Anwendung gibt der Mitarbeiter die Adresse und Zeit der Fahrzeugbereitstellung an, woraufhin er sofort Informationen über den zugewiesenen Fahrer und die Ankunftszeit sieht. Der Fahrer erhält die Bestellung, bestätigt sie und sieht die optimale Route auf der Karte. Der Dispatcher kontrolliert in Echtzeit die Bewegung der Fahrzeuge und weist bei Bedarf Fahrten neu zu.\n\nFür die Kommunikation zwischen Mitarbeiter und Fahrer wurde ein integrierter Chat implementiert, und die automatische Auftragsverteilung, Echtzeit-Geolokation und Analytik ermöglichen es, die Wartezeit zu verkürzen und die Nutzung der Fahrzeugflotte zu optimieren.",
+        "imageAlt": "Mockup der Unternehmens-Taxi-Anwendung"
+      },
+      "case4": {
+        "category": "Plattformen für Ihr Geschäft",
+        "title": "Online-Shop für Messer",
+        "description": "Unser neues Projekt einer Online-Plattform für den Verkauf von Messern mit Registrierung, Online-Zahlung und Lieferung in ganz Russland. Filterung für bequeme Suche und Kategorien hinzugefügt. Bequemes Admin-Panel, das es ermöglicht, Waren zu verwalten, zu zählen, wie viel auf Lager übrig ist. Bestellungen zu bestätigen und zu stornieren. Rückgaben zu machen",
+        "imageAlt": "Mockup des Online-Shops für Messer"
+      },
+      "case41": {
+        "title": "Aufgabe",
+        "description": "Eine vollwertige Handelsplattform für den Verkauf von Messern mit modernem Technologie-Stack, bequemem Admin-Panel, in dem Bestellungen verwaltet, Waren erstellt, der Zahlungsstatus kontrolliert und sichere Online-Zahlungen durchgeführt werden können.",
+        "imageAlt": "Mockup des Online-Shops für Messer"
+      },
+      "case42": {
+        "title": "Technische Lösung",
+        "description": "Das Projekt wurde mit einem modernen Technologie-Stack umgesetzt, der hohe Arbeitsgeschwindigkeit, Belastungsbeständigkeit und Bequemlichkeit der weiteren Unterstützung gewährleistet.\nFür das Frontend verwendeten wir Next.js 14 mit App Router, strenge Typisierung auf TypeScript sowie Tailwind CSS und shadcn/ui für die Erstellung einer stilvollen und responsiven Oberfläche. Formulare wurden über React Hook Form implementiert, und die Zustandsverwaltung erfolgt über Zustand.\nDas Backend wurde auf NestJS mit Prisma ORM und PostgreSQL-Datenbank aufgebaut, und für die Dateispeicherung wurde AWS S3 verwendet. Die Sicherheit wird über JWT-Authentifizierung gewährleistet.",
+        "imageAlt": "Mockup des Online-Shops für Messer"
+      },
+      "case43": {
+        "title": "Online-Zahlung über YuKassa",
+        "description": "Das YuKassa-Zahlungssystem ist in die Plattform integriert, das alle beliebten Zahlungsmethoden unterstützt: Bankkarten, SBP, elektronische Geldbörsen, Apple Pay und Google Pay. Wir haben eine sichere Transaktionsverarbeitung über HTTPS-Protokoll implementiert und Mechanismen zur Zahlungsverifizierung über die YuKassa-API verwendet. Das System verarbeitet automatisch Zahlungsstatus — von 'Warten' bis 'Erfolgreich ausgeführt' — und benachrichtigt den Kunden sofort über das Ergebnis. Dadurch erhält der Benutzer eine nahtlose Zahlungserfahrung, und der Plattformbesitzer — ein transparentes und zuverlässiges System zur Zahlungsannahme.",
+        "imageAlt": "Mockup des Online-Shops für Messer"
+      },
+      "case5": {
+        "category": "Telegram-Bot",
+        "title": "Telegram-Bot für Gazprom Neft",
+        "description": "Intelligenter Bot für die Schulung von Mitarbeitern von Tochtergesellschaften. Adaptives Testsystem, tägliche Wissensprüfungen und detaillierte Effektivitätsanalytik. In Blöcken der Unternehmensschulung implementiert.",
+        "imageAlt": "Oberfläche des lernenden Telegram-Bots"
+      },
+      "case51": {
+        "title": "Ziel des Projekts — tägliches Lernen ohne übermäßige Kontrolle.",
+        "description": "Wir haben einen Telegram-Bot erstellt, der das interne LMS ersetzt: adaptive Tests, Fragen nach Kompetenzen, Lernen ohne Browser-Anmeldung. Der Mitarbeiter absolviert 3-5 Fragen pro Tag direkt im Chat.",
+        "imageAlt": "Oberfläche des lernenden Telegram-Bots"
+      },
+      "case52": {
+        "title": "Flexibilität für Abteilungen und Rollen.",
+        "description": "Der Bot berücksichtigt die Struktur der Organisation: verschiedene Szenarien für SUOD und Unternehmensblöcke. Manager sehen Statistiken nach Gruppen, und Mitarbeiter — ihren Fortschritt. Unterstützung mehrerer Richtungen innerhalb eines Instruments",
+        "imageAlt": "Oberfläche des lernenden Telegram-Bots"
+      },
+      "case53": {
+        "title": "Implementierungsergebnisse.",
+        "description": "Tests werden jetzt täglich statt einmal im Jahr durchgeführt. Das Restwissen stieg auf 98%. HR erhält detaillierte Berichte und Kontrolle über das Lernen ohne manuelle Arbeit.",
+        "imageAlt": "Oberfläche des lernenden Telegram-Bots"
+      },
+      "case6": {
+        "category": "SEO und kontextuelle Werbung",
+        "title": "SEO und Yandex.Direct für VOSVOD",
+        "description": "Unser neues Projekt einer Online-Plattform für den Verkauf von Messern mit Registrierung, Online-Zahlung und Lieferung in ganz Russland",
+        "imageAlt": "Mockup des Online-Shops für Messer"
+      },
+      "case61": {
+        "title": "Ziel: Verkehr und Anträge für GIMS und Schulung gewinnen",
+        "description": "VOSVOD schult Rettungskräfte und Besitzer von Kleinbooten. Wir haben ihre Kurse über SEO beworben und Werbekampagnen in Yandex.Direct gestartet, wobei wir uns auf heiße Nachfrage konzentrierten (GIMS, Bootsführerschein, Yachting).",
+        "imageAlt": "Mockup des Online-Shops für Messer"
+      },
+      "case62": {
+        "category": "SEO: erste Positionen bei hohem Wettbewerb",
+        "title": "SEO: erste Positionen bei hohem Wettbewerb",
+        "description": "Wir haben Seiten optimiert, ein semantisches Kern durchgeführt, Texte nach Anfragen geschrieben. Bereits nach 2 Monaten kamen die Kursseiten in die Top-5 nach Regionen und überholten sogar föderale Websites.",
+        "imageAlt": "Mockup des Online-Shops für Messer"
+      },
+      "case63": {
+        "category": "Kontextuelle Werbung mit Fokus auf ROI",
+        "title": "Kontextuelle Werbung mit Fokus auf ROI",
+        "description": "Wir haben Yandex.Direct mit CPL bis 220 ₽ konfiguriert. Separate Kampagnen für jede Kurskategorie ausgewählt, wobei Saisonalität und Verhalten der Zielgruppe berücksichtigt wurden. ROI — 6,3x in der ersten Phase.",
+        "imageAlt": "Mockup des Online-Shops für Messer"
+      },
+      "case7": {
+        "category": "Medizin und Technologie",
+        "title": "Asleep.online — Plattform für gesunden Schlaf",
+        "description": "Wir haben ein innovatives System geschaffen, das KI-Schlafdiagnostik, Empfehlungen von Ärzten und Auswahl von Lösungen vereint — von Online-Beratungen bis zu Kursen und Gadgets."
+      },
+      "case71": {
+        "title": "Personalisierte Empfehlungen",
+        "description": "Die Plattform analysiert Antworten in der kostenlosen Umfrage, identifiziert mögliche Schlafstörungen und schlägt einen persönlichen Verbesserungsplan vor — von der Änderung von Gewohnheiten bis zur Konsultation eines Spezialisten.",
+        "imageAlt": "Mockup des Online-Shops für Messer"
+      },
+      "case72": {
+        "category": "SEO: erste Positionen bei hohem Wettbewerb",
+        "title": "Zugang zu den besten Spezialisten und Produkten",
+        "description": "Wir haben Kliniken, Psychologen, Hersteller von Ausrüstung und Online-Kurse für eine umfassende Lösung von Schlafproblemen vereint. Der Benutzer erhält nur bewährte und effektive Instrumente.",
+        "imageAlt": "Mockup des Online-Shops für Messer"
+      },
+      "case73": {
+        "category": "Kontextuelle Werbung mit Fokus auf ROI",
+        "title": "KI und Medizin in einem Produkt",
+        "description": "Wir verwenden Algorithmen der künstlichen Intelligenz zur Bewertung der Schlafqualität und Identifizierung von Problemen. Daten werden mit Gadgets und medizinischen Dienstleistungen für maximale Genauigkeit integriert.",
+        "imageAlt": "Mockup des Online-Shops für Messer"
+      }
+    },
+    "Maintenance": {
+      "text-1": "Mobile Version vorübergehend nicht verfügbar",
+      "text-2": "Wir führen technische Arbeiten durch. Bitte besuchen Sie die Website später oder öffnen Sie sie auf dem Computer"
+    },
+    "Website": {
+      "text-1": "Website-Entwicklung",
+      "text-2": "Wir erstellen eine effektive Website für Sie, die in allen Browsern und auf allen Geräten korrekt funktioniert",
+      "button": "Anfrage stellen",
+      "stage": "Projekt studieren",
+      "description": "Wir unterzeichnen NDA. Wir studieren die technische Spezifikation (TS). Falls es keine gibt, senden wir Ihnen ein Brief zur Website-Entwicklung und helfen beim Ausfüllen",
+      "stage-2": "Arbeit beginnen",
+      "description-2": "Wir führen Geschäftsanalytik durch. Studieren technische Dokumentation. Berechnen, wie viel Zeit für Entwicklung und Testing benötigt wird. Identifizieren unbeschriebene Szenarien und Engpässe im TS",
+      "stage-3": "Frontend- und Backend-Entwicklung",
+      "description-3": "Wir erstellen Layout, entwickeln die Website und füllen sie mit Inhalten",
+      "stage-4": "Produkt testen",
+      "description-4": "Mit Hilfe unserer QA-Ingenieure, die von Projektbeginn an eingebunden sind, testen wir die Website. Arbeiten Testdokumentation durch. Nehmen finale Korrekturen vor",
+      "stage-5": "Website übergeben",
+      "description-5": "Wir übergeben Ihnen die Website und das vollständige Paket der Projektdokumente",
+      "stage-6": "Website unterstützen",
+      "description-6": "Nach der Rechtsübertragung der Website endet ihre Geschichte nicht. Wenn die ersten Lebensmonate der Website zeigen, wo und was nachgebessert oder überarbeitet werden muss, bieten wir zwei Optionen: Wir schließen einen Betreuungsvertrag ab oder starten eine neue Entwicklungsphase",
+      "h2": "Arbeitsphasen",
+      "h3": "Wir erstellen eine effektive Website",
+      "p": "Vertrauen Sie unseren Profis und erhalten Sie ein qualitatives Produkt!",
+      "button-2": "Beratung bestellen"
+    },
+    "Writeus": {
+      "h2": "Schreiben Sie uns!",
+      "p": "Wir erstellen gemeinsam ein benutzerfreundliches digitales Produkt für Ihre Kunden!",
+      "button": "Anfrage stellen",
+      "p2": "Durch Klicken auf die Schaltfläche stimmen Sie der Verarbeitung personenbezogener Daten zu und akzeptieren die Datenschutzrichtlinie"
+    },
+    "Modal": {
+      "title": "Haben Sie Fragen? Schreiben Sie uns!",
+      "name": "Name",
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "source": "Quelle",
+      "required": "Feld ist erforderlich",
+      "submit": "Senden",
+      "success": "Vielen Dank! Ihre Anfrage wurde gesendet.",
+      "error": "Beim Senden des Formulars ist ein Fehler aufgetreten. Versuchen Sie es erneut.",
+      "networkError": "Ein Netzwerkfehler ist aufgetreten. Überprüfen Sie Ihre Internetverbindung.",
+      "privacy": "Durch Klicken auf die Schaltfläche stimmen Sie der Verarbeitung personenbezogener Daten zu und akzeptieren die Datenschutzrichtlinie."
+    },
+    "Mobile": {
+      "h1": "Cross-Platform App-Entwicklung",
+      "h2": "App für iOS und Android gleichzeitig? Wir entwickeln sie mit Flutter",
+      "p": "Mit Hilfe der Cross-Platform-Mobilentwicklung können wir mit einem Code zwei Betriebssysteme gleichzeitig abdecken: iOS und Android",
+      "button": "Anfrage stellen",
+      "stage": "Projekt studieren",
+      "description": "Wir unterzeichnen NDA. Studieren Ihre technische Spezifikation (TS), und falls es keine gibt — das kommt vor und ist normal — helfen wir Ihnen beim Ausfüllen",
+      "stage-2": "Arbeit beginnen",
+      "description-2": "Wir führen Geschäftsanalytik durch. Studieren technische Dokumentation. Berechnen, wie viel Zeit für Entwicklung und Testing benötigt wird. Identifizieren unbeschriebene Szenarien und Engpässe im TS",
+      "stage-3": "Frontend- und Backend-Entwicklung",
+      "description-3": "Wir erstellen Layout, entwickeln die Website und füllen sie mit Inhalten",
+      "stage-4": "Produkt testen",
+      "description-4": "Mit Hilfe unserer QA-Ingenieure, die von Projektbeginn an eingebunden sind, testen wir die Website. Arbeiten Testdokumentation durch. Nehmen finale Korrekturen vor",
+      "stage-5": "Website übergeben",
+      "description-5": "Wir übergeben Ihnen die Website und das vollständige Paket der Projektdokumente",
+      "stage-6": "Website unterstützen"
+    },
+    "FlutterPage": {
+      "title": "Flutter-Entwicklung",
+      "subtitle": "Wir entwickeln mobile Anwendungen mit Flutter für iOS und Android",
+      "cta": "Anfrage stellen",
+      "imageAlt": "Flutter App Interface",
+      "feedback": {
+        "title": "Anfrage für Flutter-Entwicklung",
+        "subtitle": "Füllen Sie das Formular aus und wir kontaktieren Sie zur Projektbesprechung",
+        "form": {
+          "name": "Ihr Name",
+          "email": "E-Mail",
+          "phone": "Telefon",
+          "description": "Projektbeschreibung",
+          "submit": "Anfrage stellen",
+          "sending": "Wird gesendet..."
+        },
+        "success": "Vielen Dank! Ihre Anfrage wurde erfolgreich gesendet.",
+        "error": "Beim Senden des Formulars ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+        "networkError": "Ein Netzwerkfehler ist aufgetreten. Überprüfen Sie Ihre Internetverbindung.",
+        "privacy": "Durch das Absenden des Formulars stimmen Sie der Datenschutzerklärung zu"
+      }
+    },
+    "RetailPage": {
+      "title": "Retail-Anwendung zur Umsatzsteigerung",
+      "subtitle": "Wir entwickeln mobile Anwendungen für Einzelhändler, die den Verkauf steigern und die Kundenbindung verbessern",
+      "cta": "Anfrage stellen",
+      "imageAlt": "Retail App Interface",
+      "feedback": {
+        "title": "Anfrage für Retail-App-Entwicklung",
+        "subtitle": "Füllen Sie das Formular aus und wir kontaktieren Sie zur Projektbesprechung",
+        "form": {
+          "name": "Ihr Name",
+          "email": "E-Mail",
+          "phone": "Telefon",
+          "description": "Projektbeschreibung",
+          "submit": "Anfrage stellen",
+          "sending": "Wird gesendet..."
+        },
+        "success": "Vielen Dank! Ihre Anfrage wurde erfolgreich gesendet.",
+        "error": "Beim Senden des Formulars ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+        "networkError": "Ein Netzwerkfehler ist aufgetreten. Überprüfen Sie Ihre Internetverbindung.",
+        "privacy": "Durch das Absenden des Formulars stimmen Sie der Datenschutzerklärung zu"
+      }
+    },
+    "RetailTimeline": {
+      "title": "Prozess der Retail-App-Entwicklung",
+      "subtitle": "Sechs Schlüsselphasen zur Erstellung einer effektiven Verkaufsanwendung",
+      "items": [
+        {
+          "title": "Anforderungsanalyse",
+          "description": "Wir analysieren Ihre Geschäftsprozesse und definieren die Funktionalität der Anwendung"
+        },
+        {
+          "title": "Design und Prototyping",
+          "description": "Erstellung von UI/UX-Designs und interaktiven Prototypen"
+        },
+        {
+          "title": "Entwicklung",
+          "description": "Programmierung der Anwendung mit modernen Technologien"
+        },
+        {
+          "title": "Testing",
+          "description": "Umfassende Tests für Funktionalität und Benutzerfreundlichkeit"
+        },
+        {
+          "title": "Deployment",
+          "description": "Veröffentlichung im App Store und Google Play"
+        },
+        {
+          "title": "Support",
+          "description": "Laufende Wartung und Aktualisierungen"
+        }
+      ]
+    },
+    "InternetShopCards": {
+      "title": "Lösungen für Online-Shops",
+      "items": [
+        {
+          "title": "E-Commerce-Entwicklung",
+          "description": "Vollständige Online-Shop-Lösungen mit Zahlungsabwicklung",
+          "image": "/projects/Список недвижимости.png",
+          "buttonText": "Mehr erfahren"
+        },
+        {
+          "title": "Mobile Apps",
+          "description": "Native mobile Anwendungen für iOS und Android",
+          "image": "/projects/Список недвижимости.png",
+          "buttonText": "Mehr erfahren"
+        },
+        {
+          "title": "API-Integration",
+          "description": "Integration mit externen Diensten und Zahlungssystemen",
+          "image": "/projects/Список недвижимости.png",
+          "buttonText": "Mehr erfahren"
+        }
+      ]
+    },
+    "IndustrySolutions": {
+      "title": "Branchenlösungen",
+      "items": [
+        {
+          "title": "Einzelhandel",
+          "description": "Lösungen für Geschäfte und E-Commerce",
+          "image": "/projects/Список недвижимости.png"
+        },
+        {
+          "title": "Finanzen",
+          "description": "Banking- und Fintech-Anwendungen",
+          "image": "/projects/Список недвижимости.png"
+        },
+        {
+          "title": "Gesundheitswesen",
+          "description": "Medizinische Anwendungen und Telemedizin",
+          "image": "/projects/Список недвижимости.png"
+        },
+        {
+          "title": "Bildung",
+          "description": "Lernplattformen und Bildungs-Apps",
+          "image": "/projects/Список недвижимости.png"
+        }
+      ]
+    },
+    "FAQ": {
+      "title": "FAQ zur Online-Shop-Entwicklung",
+      "items": [
+        { "question": "Welche Funktionen sollte ein Online-Shop haben?", "answer": "Ein Online-Shop sollte Katalogverwaltung, Bestellverarbeitung, Zahlungen und Lieferung sowie Benutzerkontenverwaltung haben." },
+        { "question": "Wie lange dauert die Entwicklung von Grund auf?", "answer": "Durchschnittlich 2–6 Monate je nach Projektkomplexität." },
+        { "question": "Was kostet die Entwicklung eines Online-Shops?", "answer": "Die Kosten hängen von der Funktionalität und den Technologien ab und betragen normalerweise 500.000 bis 3.000.000 Rubel." },
+        { "question": "Welche Technologien verwenden Sie?", "answer": "Next.js, React, Node.js, PostgreSQL/MongoDB, Integrationen mit Zahlungen und Logistik." },
+        { "question": "Sind ERP/CRM-Integrationen möglich?", "answer": "Ja, wir integrieren mit ERP und CRM für Datensynchronisation und Prozessautomatisierung." }
+      ]
+    },
+    "CrmPage": {
+      "title": "Maßgeschneiderte CRM-Systementwicklung",
+      "subtitle": "Verbessert die Qualität der Kundenbetreuung und vereinfacht die Arbeit der Manager",
+      "cta": "Anfrage stellen",
+      "imageAlt": "CRM-Interface",
+      "feedback": {
+        "title": "Anfrage für CRM-Entwicklung",
+        "subtitle": "Füllen Sie das Formular aus und wir kontaktieren Sie zur Projektbesprechung",
+        "form": {
+          "name": "Ihr Name",
+          "email": "E-Mail",
+          "phone": "Telefon",
+          "description": "CRM-Projektbeschreibung",
+          "submit": "Anfrage stellen",
+          "sending": "Wird gesendet..."
+        },
+        "success": "Vielen Dank! Ihre CRM-Entwicklungsanfrage wurde gesendet.",
+        "error": "Beim Senden des Formulars ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+        "networkError": "Ein Netzwerkfehler ist aufgetreten. Überprüfen Sie Ihre Internetverbindung.",
+        "privacy": "Durch das Absenden des Formulars stimmen Sie der Datenschutzerklärung zu"
+      }
+    },
+    "CrmCostTimeline": {
+      "mainTitle": "Kosten und Zeitplan für CRM-Entwicklung",
+      "mainDescription": "Die Entwicklungskosten werden von CRM-Datenvolumen, Funktionsumfang, Integrationskomplexität und Anzahl der unterstützten Plattformen beeinflusst",
+      "costLabel": "Kosten",
+      "durationLabel": "Zeitplan",
+      "stages": [
+        { "title": "Funktionale Anforderungen", "cost": "ab 10.000 RUB", "duration": "0,5-1 Woche" },
+        { "title": "Business-Analyse", "cost": "ab 40.000 RUB", "duration": "1-2 Wochen" },
+        { "title": "Design + Technische Spezifikation", "cost": "ab 70.000 RUB", "duration": "1-3 Wochen" },
+        { "title": "Design/Layout", "cost": "ab 30.000 RUB", "duration": "0,5-3 Wochen" },
+        { "title": "Entwicklung/Programmierung", "cost": "ab 350.000 RUB", "duration": "5-16 Wochen" },
+        { "title": "Entwicklung und Support", "cost": "ab 60 Stunden", "duration": "ab 2000 RUB/Stunde" }
+      ]
+    },
+    "CrmTimeline": {
+      "mainTitle": "CRM-Entwicklungsprozess",
+      "mainDescription": "Sechs Schlüsselphasen der CRM-Systementwicklung zur Erstellung einer effektiven Kundenverwaltungslösung",
+      "items": [
+        {
+          "title": "Anforderungssammlung",
+          "description": "Funktionale Anforderungen beschreiben die notwendige Benutzer- und Systemfunktionalität, enthalten Informationen über erforderliche Meister und Algorithmen für automatische Operationen",
+          "image": "/crm/trebovaniaIT.png",
+          "imageAlt": "Anforderungssammlung"
+        },
+        {
+          "title": "TS-Erstellung",
+          "description": "Der Prototyp zeigt die Benutzeroberfläche und Interaktionen zukünftiger CRM-Elemente. Die technische Spezifikation beschreibt, wie und was das System ausführen wird",
+          "image": "/crm/kto_pishet_tz.jpg",
+          "imageAlt": "TS-Erstellung"
+        },
+        {
+          "title": "Design",
+          "description": "Basierend auf der Entscheidung des Kunden wird das Design des gesamten Systems oder nur der für Kunden verfügbaren Bereiche gezeichnet",
+          "image": "/design.jpeg",
+          "imageAlt": "Design"
+        },
+        {
+          "title": "Sprint-Aufteilung",
+          "description": "Sprint-Aufteilung. Backlog ist eine Liste aller Funktionen, die im Projekt implementiert werden. Sprints sind Entwicklungsphasen, die einen Teil der in der Phase implementierten Funktionen enthalten",
+          "image": "/crm/1-15.jpg.webp",
+          "imageAlt": "Sprint-Aufteilung"
+        },
+        {
+          "title": "Sprint-Entwicklung",
+          "description": "Wird in 6 Schritten durchgeführt: ✅ Blockplanung; ✅ Programmierung der Blockaufgaben; ✅ Tests und Debugging; ✅ Blockfreigabe; ✅ Analyse der Entwicklungsorganisationsqualität im Block; ✅ Backlog-Update, Anpassung zukünftiger Blöcke.",
+          "image": "/crm/sprint.png",
+          "imageAlt": "Sprint-Entwicklung"
+        },
+        {
+          "title": "Technischer Support",
+          "description": "Effektiver Support hilft Benutzern, auftretende Probleme schnell zu lösen, minimiert Ausfallzeiten und hält hohe Leistung aufrecht",
+          "image": "/crm/Scrum-Master-I.jpg.webp",
+          "imageAlt": "Technischer Support"
+        }
+      ]
+    },
+    "CrmParallax": {
+      "headerTitle": "Optimierung mit CRM-Systemen",
+      "headerDescription": "Wir entwickeln maßgeschneiderte Lösungen, die sich in Ihre Tools integrieren und mit Ihrem Unternehmen wachsen. Geben Sie Ihrem Team die Möglichkeit, effizienter zu arbeiten und Geschäfte schneller abzuschließen mit Analysen und Automatisierung",
+      "products": [
+        { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
+        { "title": "Immobilienliste", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
+        { "title": "Immobilienliste", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
+        { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
+        { "title": "CRM-Trichter", "link": "", "thumbnail": "/crm/CRMВоронка.png" },
+        { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
+        { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
+        { "title": "Dokumentenspeicher", "link": "", "thumbnail": "/crm/Хранилизе документов.png" },
+        { "title": "Dashboard", "link": "", "thumbnail": "/crm/Dashboard.png" },
+        { "title": "Immobilien", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
+        { "title": "Dashboard", "link": "", "thumbnail": "/crm/Dashboard.png" },
+        { "title": "CRM-Trichter", "link": "", "thumbnail": "/crm/CRMВоронка.png" },
+        { "title": "Mietobjekte", "link": "", "thumbnail": "/crm/Объкты аренды.png" },
+        { "title": "Immobilien", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
+        { "title": "CRM-Trichter", "link": "", "thumbnail": "/crm/CRMВоронка.png" }
+      ]
+    },
+    "NextjsPage": {
+      "cover": {
+        "title": "In welchen Situationen ist eine Website mit dem Next-Framework nützlich?",
+        "subtitle": "Die Erstellung von Websites mit Next ermöglicht es dem Kunden, eine moderne, komfortable und einfach zu verwaltende Web-Ressource zu erhalten, die alles Notwendige für die Erreichung der gesetzten Geschäftsziele enthält",
+        "cta": "Demo anfordern",
+        "imageAlt": "Mac Studio"
+      },
+      "benefits": {
+        "title": "Die Entwicklung von Websites mit Next eignet sich für die Umsetzung der folgenden Internet-Projekte:"
+      },
+      "projects": [
+        {
+          "title": "E-Commerce-Websites",
+          "description": "Entwicklung moderner und funktionaler E-Commerce-Websites zur Steigerung der Verkäufe und des Komforts der Käufer. Wir erstellen Plattformen mit responsivem Design, Integration von Zahlungssystemen und Analytics sowie Unterstützung für Benutzerszenarien für bessere Interaktion mit der Marke"
+        },
+        {
+          "title": "Online-Shops",
+          "description": "Erstellung von Online-Shops mit intuitiver Benutzeroberfläche, optimiert für den Komfort beim Einkaufen und der Verwaltung von Waren. Wir bieten Integration mit Zahlungssystemen, Tools für Analytics und responsives Design zur Gewinnung und Bindung von Kunden"
+        },
+        {
+          "title": "Internet-Portale",
+          "description": "Entwicklung von Internet-Portalen zur Information und Interaktion mit einem breiten Publikum. Wir erstellen funktionale Plattformen mit bequemer Navigation, Unterstützung für Multimedia-Inhalte, Integration mit sozialen Netzwerken und Skalierungsmöglichkeiten für alle Aufgaben"
+        },
+        {
+          "title": "Medien-Ressourcen",
+          "description": "Erstellung von Medien-Ressourcen zur Veröffentlichung und Verbreitung von Inhalten. Wir entwickeln Plattformen mit optimiertem Content-Management-System, responsivem Design, Integration von Analytics und Tools zur Gewinnung und Bindung der Zielgruppe"
+        },
+        {
+          "title": "Online-Foren",
+          "description": "Erstellung von Online-Foren für aktive Kommunikation und Informationsaustausch zwischen Benutzern. Wir implementieren bequeme Funktionen für Moderation, Möglichkeiten für die Veröffentlichung von Multimedia sowie ein Benachrichtigungs- und Suchsystem zur Aufrechterhaltung des Interesses und der Aktivität auf der Plattform"
+        }
+      ],
+      "development": {
+        "title": "Entwicklung mit Next ab 20.000 ₽",
+        "cta": "Bestellen"
+      },
+      "pricing": {
+        "title": "Benötigen Sie eine genaue Kostenberechnung?",
+        "subtitle": "Senden Sie die technische Spezifikation, und unsere Spezialisten berechnen den endgültigen Projektpreis. Sie erhalten einen fertigen Arbeitsplan einschließlich Zeitplan und Entwicklungskosten",
+        "cta": "TS senden",
+        "timeline": {
+          "title": "1 Monat",
+          "subtitle": "Durchschnittliche Fristen"
+        },
+        "cost": {
+          "title": "100.000 Rubel",
+          "subtitle": "Durchschnittliche Kosten"
+        }
+      },
+      "process": {
+        "title": "Wie wir arbeiten werden",
+        "items": [
+          {
+            "number": 1,
+            "title": "TS-Entwicklung",
+            "description": "Wir schreiben eine detaillierte technische Spezifikation (TS), die die Funktionalität der Website, zusätzliche Optionen und Entwicklungsperspektiven umfasst. Dies ist ein Schlüsseldokument, das alle Spezialisten während der gesamten Entwicklung verwenden"
+          },
+          {
+            "number": 2,
+            "title": "Interface-Design",
+            "description": "Wir entwerfen das UX/UI-Interface mit dem JS-Framework Next. Alle Design-Elemente sind auf die Zielgruppe ausgerichtet, was es ermöglicht, eine bequeme und attraktive Benutzeroberfläche für Benutzer zu schaffen"
+          },
+          {
+            "number": 3,
+            "title": "Vorbereitung des Original-Designs",
+            "description": "Wir erstellen ein originelles Design, das dem Corporate Style des Kunden entspricht. Aufmerksamkeit für Details und individuelle Lösungen ermöglichen es, einen einzigartigen Stil der Website zu schaffen, der das Projekt vorteilhaft von der Konkurrenz abhebt"
+          },
+          {
+            "number": 4,
+            "title": "Entwicklung der Software-Komponente",
+            "description": "Nach der Vorbereitung des Designs beginnen wir mit der Entwicklung. Wir verwenden Next.js zur Erstellung effektiver und funktionaler Websites mit optimiertem Code und Skalierungsmöglichkeiten"
+          },
+          {
+            "number": 5,
+            "title": "Anpassung für mobile Geräte",
+            "description": "Wir optimieren die Website für mobile Geräte, damit sie auf allen Bildschirmen funktional und schnell bleibt und eine ausgezeichnete Benutzererfahrung auf Telefonen und Tablets bietet"
+          },
+          {
+            "number": 6,
+            "title": "Website-Tests",
+            "description": "Wir führen gründliche Tests aller Website-Elemente durch: von der Funktionalität bis zur Benutzerfreundlichkeit. Wir beheben alle identifizierten Fehler, um einen stabilen Betrieb der Website zu gewährleisten"
+          },
+          {
+            "number": 7,
+            "title": "Projektstart und -förderung",
+            "description": "Wir starten das Projekt und beschäftigen uns mit seiner Förderung. Wir entwickeln eine Marketing-Strategie, die hilft, die Zielgruppe anzuziehen und den Traffic auf der Website zu erhöhen. Wir bieten technischen Support und Projektentwicklung"
+          }
+        ]
+      }
+    },
+    "UiuxdesignPage": {
+      "cover": {
+        "title": "Design von mobilen Anwendungen und Websites",
+        "subtitle": "Wir entwerfen effektive Interfaces",
+        "description": "Wir entwickeln ein Layout des interaktiven Interfaces. Dies wird benötigt, wenn Sie eine Produktidee haben und ein funktionales UX-Layout sehen möchten, das Ihre Geschäftsaufgaben löst.",
+        "cta": "Anfrage stellen",
+        "imageAlt": "UI Design"
+      },
+      "stages": {
+        "title": "Arbeitsphasen",
+        "items": [
+          {
+            "stage": "Arbeit beginnen",
+            "description": "Wir verbinden das Team: Projektmanager (PM), Designer und Business-Analytiker."
+          },
+          {
+            "stage": "Anforderungen definieren",
+            "description": "PM zusammen mit Business-Analytiker und Designer klären Ihre Wünsche zur Projektfunktionalität und erstellen eine Liste ihrer Prioritätsgrade."
+          },
+          {
+            "stage": "Szenarien auswählen",
+            "description": "Gemeinsam mit Ihnen definieren wir 5 bis 7 der wahrscheinlichsten Nutzungsszenarien der Anwendung."
+          },
+          {
+            "stage": "Layouts erstellen",
+            "description": "Basierend auf Ihren Wünschen erstellt der Designer Wireframes, entwickelt den Stil der zukünftigen Anwendung, erstellt Bildschirme in Figma und einen interaktiven Prototyp, bereitet alle Layouts für die Übergabe an den Entwickler vor. Der Analytiker überprüft die Layouts auf Übereinstimmung mit den Anforderungen."
+          },
+          {
+            "stage": "Layouts genehmigen",
+            "description": "Wir stimmen die Layouts mit Ihnen ab. Wir machen Korrekturen (bis zu drei Iterationen)."
+          },
+          {
+            "stage": "Arbeit abschließen",
+            "description": "Wir präsentieren Ihnen den interaktiven Prototyp in Figma."
+          }
+        ]
+      },
+      "sidebar": {
+        "title": "Wir erstellen eine effektive Anwendung",
+        "description": "Vertrauen Sie unseren Profis und erhalten Sie ein qualitativ hochwertiges Produkt!",
+        "cta": "Beratung bestellen"
+      }
+    },
+    "AuditPage": {
+      "title": "IT-Audit",
+      "description": "Wir analysieren und bewerten Ihr IT-Produkt, sagen Ihnen, was gut ist und was korrigiert werden sollte.\n\nWir analysieren gründlich das IT-Produkt: vom UI/UX-Design bis zur Stabilität der Software-Lösung unter verschiedenen Stressfaktoren.",
+      "bullets": {
+        "negativeComments": "Negative Benutzerkommentare",
+        "lowRatings": "Niedrige Bewertungen in Stores",
+        "performanceIssues": "Leistungsprobleme"
+      },
+      "cta": "Anfrage stellen",
+      "stages": {
+        "title": "Arbeitsphasen",
+        "items": [
+          { "stage": "Arbeit beginnen", "description": "Wir unterschreiben mit Ihnen NDA. Wir integrieren Analytiker in Ihr Projekt" },
+          { "stage": "Tests durchführen", "description": "Wir identifizieren fehlerhafte Funktionalität, visuelle Probleme im Betrieb, analysieren Risiken und Schwachstellen" },
+          { "stage": "Ergebnisse zusammenfassen", "description": "Wir erstellen einen Bericht, in dem wir eine Strategie zur Verbesserung und Optimierung der Produktarbeit vorschlagen" }
+        ]
+      },
+      "sidebar": {
+        "title": "Wir erstellen eine effektive Anwendung",
+        "description": "Vertrauen Sie unseren Profis und erhalten Sie ein qualitativ hochwertiges Produkt!",
+        "cta": "Beratung bestellen"
+      }
+    },
+    "ITSupportPage": {
+      "title": "IT-Service-Support",
+      "subtitle": "Wir gewährleisten einen unterbrechungsfreien Betrieb der Dienste und freundliche Interaktion mit Benutzern",
+      "description": "Wir stellen die Stabilität der Informationssysteme wieder her. Wir diagnostizieren und beheben ernsthafte Sicherheitslücken und Ausfallschwachstellen im IT-System, die bereits zu Verlusten für das Unternehmen führen. Wir schaffen Möglichkeiten für die Geschäftsentwicklung",
+      "cta": "Anfrage stellen",
+      "stages": {
+        "title": "Arbeitsphasen",
+        "items": [
+          { "stage": "Arbeit beginnen", "description": "Wir integrieren unsere Spezialisten. Ein persönlicher IT-Manager und ein Team hochklassiger Ingenieure der dritten Linie entwickeln und implementieren komplexe Projekte zur Erreichung Ihrer Geschäftsziele" },
+          { "stage": "Vertrag abschließen", "description": "Wir beheben nicht nur, sondern beschäftigen uns auch mit der Prävention" }
+        ]
+      },
+      "sidebar": {
+        "title": "Wir erstellen eine effektive Anwendung",
+        "description": "Vertrauen Sie unseren Profis und erhalten Sie ein qualitativ hochwertiges Produkt!",
+        "cta": "Beratung bestellen"
+      }
+    },
+    "PricePage": {
+      "standardPlan": {
+        "title": "Standard-Entwicklungsplan",
+        "included": "Was enthalten ist:",
+        "features": [
+          "Entwicklung einer mehrseitigen Website/Anwendung (bis zu 10 Seiten/Bildschirme)",
+          "Individuelles Design",
+          "Anpassung für mobile Geräte",
+          "SEO-Optimierung",
+          "Integration mit CRM oder anderen Diensten",
+          "Support 3 Monate"
+        ],
+        "price": "Preis: ab 120.000 Rubel",
+        "cta": "Anfrage stellen"
+      },
+      "premiumPlan": {
+        "title": "Premium-Entwicklungsplan",
+        "included": "Was enthalten ist:",
+        "features": [
+          "Entwicklung einer komplexen Website/Anwendung (ab 10 Seiten/Bildschirme)",
+          "Vollständig kundenspezifisches Design",
+          "Vollständige Optimierung für mobile Geräte und verschiedene Plattformen",
+          "Integration mit externen Diensten (Zahlung, Analytics, CRM)",
+          "Vollständige SEO-Optimierung",
+          "Technischer Support 6 Monate"
+        ],
+        "price": "Preis: ab 300.000 Rubel",
+        "cta": "Anfrage stellen"
+      },
+      "customServices": {
+        "title": "Individuelle Dienstleistungen",
+        "included": "Was enthalten ist:",
+        "features": [
+          "Support und Updates von Anwendungen",
+          "Entwicklung zusätzlicher Funktionen",
+          "Optimierung der Website-Ladegeschwindigkeit",
+          "Design-Modernisierung"
+        ],
+        "description": "Flexibler Ansatz für jedes Projekt",
+        "cta": "Anfrage stellen"
+      }
+    },
+    "CorporationReasons": {
+      "title": "Wann bestellt man die Entwicklung von Korporationsanwendungen für Android oder iOS?",
+      "items": [
+        { "title": "Viele Routine-Operationen", "description": "Der Personalchef sucht nach Möglichkeiten, die Betriebskosten zu senken und die Zeit für das Ausfüllen von Papierdokumenten zu verkürzen" },
+        { "title": "Mitarbeiter erreichen keine KPIs in der Arbeit", "description": "Der Leiter der Verwaltungsabteilung möchte verstehen, wie er die Effektivität der Mitarbeiter kontrollieren und ihre Motivation steigern kann" },
+        { "title": "Alle Dokumentation ist auf Papier", "description": "Der Direktor der Abteilung für Finanzdienstleistungsmanagement plant, die Berichterstattung im Unternehmen transparenter zu gestalten" },
+        { "title": "Das Unternehmen hat mehr als 50 Verkaufsstellen", "description": "Der Direktor für Kundenservice möchte die Kundenexperien und Bewertungen des Unternehmens durch Kontrolle der Einhaltung von Arbeitsstandards verbessern" }
+      ]
+    },
+    "CorporationUsage": {
+      "title": "Anwendungsbereiche von Korporationsanwendungen",
+      "sections": [
+        {
+          "title": "Automatisierung von Produktions- und Geschäftsprozessen",
+          "items": [
+            "Übertragung des Dokumentenverkehrs in digitales Format",
+            "Dashboards, Online-Berichte und Checklisten",
+            "Statistik der Leistungsindikatoren",
+            "Kontrolle der Einhaltung von Standards auf Mitarbeiter- und Abteilungsebene"
+          ]
+        },
+        {
+          "title": "Verbesserung der Kommunikationsqualität innerhalb des Unternehmens",
+          "items": [
+            "Korporations-Messenger und Newsfeeds",
+            "Informationsportale und interne soziale Netzwerke",
+            "Wissensdatenbanken, die dem gesamten Unternehmen zur Verfügung stehen",
+            "Online-Umfragen für Feedback"
+          ]
+        },
+        {
+          "title": "Automatisierung interner Prozesse von Handelsunternehmen",
+          "items": [
+            "Kontrolle des Merchandisings, Auslagepläne und Überprüfung der Schaufenster",
+            "Inventur, Warenbewegung, Kontrolle der Bestände",
+            "Beschleunigung der Auftrags- und Rückgabeverarbeitung, Druck von Quittungen und Barcodes"
+          ]
+        },
+        {
+          "title": "Verbesserung der Kundenservicequalität",
+          "items": [
+            "Überprüfung der Verfügbarkeit und Rabatte auf Waren vom Smartphone aus",
+            "Arbeit mit dem Treueprogramm außerhalb der Kasse",
+            "Auftragsausgabe, Rückgaben, Zahlung über das persönliche Smartphone",
+            "Erhöhung des Rechnungsbetrags durch Einführung von KPIs, Dashboards und Kassierer-Rankings"
+          ]
+        },
+        {
+          "title": "Optimierung der HR-Arbeit",
+          "items": [
+            "Loyalitätssysteme, Gamifizierung des Lernens",
+            "Leaderboards und interne Shops für Arbeitsleistungen",
+            "Beschleunigung der HR-Arbeit um bis zu 80%"
+          ]
+        }
+      ]
+    },
+    "StudPage": {
+      "hero": {
+        "title1": "Studentischer",
+        "title2": "Startup",
+        "subtitle": "Wir verwandeln Ihre Idee in ein erfolgreiches Startup mit einem",
+        "subtitleHighlight": "Zuschuss von 1 Million Rubel",
+        "benefits": {
+          "support": "Ideenunterstützung",
+          "dev": "Technische Entwicklung",
+          "guarantee": "100% Garantie"
+        },
+        "cta": "Startup erstellen"
+      },
+      "success": {
+        "title": "Unsere erfolgreichen Fallstudien",
+        "subtitle": "Wir haben bereits Studenten geholfen, Zuschüsse zu erhalten und ihre Ideen umzusetzen.",
+        "subtitleHighlight": "Jetzt sind Sie an der Reihe!",
+        "labels": {
+          "direction": "Richtung:",
+          "student": "Student:",
+          "result": "Ergebnis:",
+          "view": "Projekt ansehen"
+        }
+      },
+      "ctaBlock": {
+        "title": "Haben Sie Ihre eigene Idee?",
+        "subtitle": "Wir helfen Ihnen dabei, sie in ein erfolgreiches Startup mit einem Zuschuss von 1 Million Rubel zu verwandeln",
+        "button": "Startup erstellen"
+      },
+      "contact": {
+        "title": "Bereit, Ihre Idee in ein Startup zu verwandeln?",
+        "subtitle": "Erzählen Sie von Ihrer Idee und erhalten Sie eine persönliche Entwicklungsstrategie"
+      }
+    },
+    "VitrinaPage": {
+      "title": "Schaufenster für fertiges Geschäft",
+      "subtitle": "Fertiges Geschäft \"Messer SPB\"",
+      "description": "Vollständig fertiger Online-Shop für Messer mit mobiler Anwendung, Online-Zahlung und Lieferung, KI-Assistent für die Messerauswahl, der den Manager ersetzt. Bereit für den Start in 24 Stunden!",
+      "sections": {
+        "webstore": {
+          "title": "Online-Shop",
+          "badge": "Web-Version",
+          "features": {
+            "title": "Möglichkeiten:",
+            "responsive": "Responsives Design für alle Geräte",
+            "seo": "SEO-Optimierung für Suchmaschinen",
+            "integration": "Integration mit 1C und CRM-Systemen",
+            "orders": "Auftragsverwaltungssystem",
+            "multilang": "Mehrsprachigkeit (RU/EN)",
+            "payment": "Online-Zahlung (Karten, elektronische Geldbörsen)",
+            "delivery": "Lieferungssystem mit Tracking",
+            "ai": "KI-Assistent für die Messerauswahl"
+          }
+        },
+        "mobile": {
+          "title": "Mobile Anwendung",
+          "badge": "iOS & Android",
+          "features": {
+            "title": "Funktionen:",
+            "notifications": "Push-Benachrichtigungen über Rabatte",
+            "offline": "Offline-Modus für Katalogansicht",
+            "biometric": "Biometrische Autorisierung",
+            "qr": "QR-Code-Scanner",
+            "location": "Geolokation für Lieferung"
+          }
+        },
+        "social": {
+          "title": "Soziale Netzwerke",
+          "features": {
+            "title": "Entwickelte Zielgruppe:",
+            "telegram": "Telegram-Kanal",
+            "instagram": "Instagram-Profil",
+            "vk": "VK-Gruppe",
+            "content": "Fertiger Content-Plan für 6 Monate",
+            "automation": "Automatische Posts und Newsletter"
+          }
+        },
+        "technical": {
+          "title": "Technische Spezifikationen",
+          "frontend": "Frontend:",
+          "backend": "Backend:",
+          "database": "Datenbank:",
+          "mobile": "Mobile Anwendung:",
+          "hosting": "Hosting:",
+          "frontend_value": "React.js + TypeScript",
+          "backend_value": "Node.js + Express",
+          "database_value": "PostgreSQL",
+          "mobile_value": "React Native",
+          "hosting_value": "AWS/VPS inklusive"
+        },
+        "marketing": {
+          "title": "Marketing-Tools",
+          "analytics": "Google Analytics Integration",
+          "email": "E-Mail-Newsletter (Mailchimp)",
+          "seo": "SEO-Optimierung",
+          "social": "Soziale Netzwerke (VK, Telegram, Instagram)",
+          "ads": "Kontextuelle Werbung (Google Ads, Yandex.Direct)"
+        },
+        "services": {
+          "title": "Was im Paket enthalten ist",
+          "domain": "Domain und Hosting für 1 Jahr",
+          "ssl": "SSL-Zertifikat",
+          "support": "Technischer Support 3 Monate",
+          "training": "Schulung für die Arbeit mit dem System"
+        },
+        "video": {
+          "title": "Video-Übersicht der Plattform"
+        }
+      },
+      "cta": {
+        "button": "Beratung erhalten",
+        "note": "* Der Preis umfasst alle aufgeführten Dienstleistungen und Komponenten"
+      }
+    },
+    "CorporationPage": {
+      "title": "Entwicklung von Unternehmensanwendungen",
+      "subtitle": "Digitalisierung von HR-Prozessen: Dokumentenverwaltung, Urlaub, Schulung, Einstellung",
+      "cta": "Demo anfordern",
+      "imageAlt": "Unternehmensanwendung"
+    },
+    "InternetShopPage": {
+      "title": "Entwicklung von Online-Shops unter Schlüssel",
+      "subtitle": "Moderne und benutzerfreundliche Web- und Mobile-Online-Shops, die darauf ausgerichtet sind, Kunden zu gewinnen und zu binden, mit umfangreichen Anpassungsmöglichkeiten für spezifische Geschäfte",
+      "cta": "Anfrage hinterlassen",
+      "imageAlt": "Online-Shop"
+    },
+    "FlutterPage": {
+      "cover": {
+        "title": "Wir entwickeln mobile Anwendungen\nauf Flutter",
+        "cta": "Anfrage hinterlassen",
+        "imageAlt": "Vorschau der mobilen Anwendung"
+      },
+      "blockText": {
+        "title": "Was ist Flutter?",
+        "p1": "Flutter ist eine Technologie für die plattformübergreifende Anwendungsentwicklung. Entwickelt und unterstützt von Google und wird ständig aktualisiert. Flutter ermöglicht es, eine Anwendung sofort für zwei Betriebssysteme zu schreiben, indem ein Code verwendet wird. Für Benutzer unterscheidet sich eine Flutter-Anwendung nicht von einer nativen. Und für das Geschäft gibt es viele Vorteile.",
+        "p2": "Auf Flutter arbeiten bereits Alibaba, Philips Hue, Hamilton, Tencent, Grab, Groupon, GC \"Dixie\", \"Yandex.Drive\" und andere große weltweite und russische Unternehmen"
+      },
+      "benefit": {
+        "title": "Vorteile der Flutter-Anwendungsentwicklung für das Geschäft"
+      },
+      "benefits": {
+        "cost": {
+          "title": "Niedrigere Kosten",
+          "description": "Budgeteinsparungen durchschnittlich 30% bis 50%. Sie zahlen nicht für zwei separate Projekte, wie bei der Verwendung nativer Lösungen"
+        },
+        "speed": {
+          "title": "Höhere Geschwindigkeit",
+          "description": "Reduzierung der Markteinführungszeiten. Ein Flutter-Entwickler kann die Aufgaben von zwei nativen in der gleichen Zeit erledigen"
+        },
+        "performance": {
+          "title": "Leistung",
+          "description": "Benutzer werden keinen Unterschied zu nativen bemerken - Flutter-Anwendungen arbeiten schnell und effizient"
+        },
+        "functionality": {
+          "title": "Funktionalität",
+          "description": "Flutter-Anwendungen werden für Einzelhandel, Banken, Versicherungen und andere Geschäfte ohne Einschränkungen erstellt"
+        }
+      },
+      "demoButton": "Demo anfordern",
+      "feedback": {
+        "title": "Schreiben Sie uns",
+        "subtitle": "Erzählen Sie von Ihrem Projekt und wir werden uns in Kürze mit Ihnen in Verbindung setzen",
+        "form": {
+          "name": "Name",
+          "email": "Email",
+          "phone": "+7",
+          "description": "Projektbeschreibung",
+          "submit": "Senden",
+          "sending": "Wird gesendet..."
+        },
+        "privacy": "Durch Klicken auf die Schaltfläche stimmen Sie der Datenschutzrichtlinie zu",
+        "success": "Vielen Dank! Ihre Anfrage wurde gesendet.",
+        "error": "Beim Senden des Formulars ist ein Fehler aufgetreten. Versuchen Sie es noch einmal.",
+        "networkError": "Ein Netzwerkfehler ist aufgetreten. Überprüfen Sie Ihre Internetverbindung."
+      },
+      "experience": {
+        "title": "Unsere Erfahrung",
+        "item1": "Das erfahrene Team von Flutter-Entwicklern Fluttrium arbeitet seit der ersten Beta-Version mit dem Framework",
+        "item2": "Wir erstellen Anwendungen für große Unternehmen im Einzelhandel, in der Versicherung und im Sport",
+        "item3": "Unsere Anwendungen entwickeln sich aktiv weiter und werden bereits von Benutzern genutzt",
+        "videoFallback": "Ihr Browser unterstützt keine Videowiedergabe."
+      },
+      "process": {
+        "title": "Wie wir arbeiten werden",
+        "items": [
+          { "number": 1, "title": "Diskussion", "description": "Wir unterzeichnen eine NDA. Wir stellen Fragen, erfahren Details über die zukünftige Anwendung und die Geschäftsziele ihrer Erstellung" },
+          { "number": 2, "title": "Technische Aufgabe", "description": "Wir studieren Ihre technische Aufgabe, und wenn Sie keine haben - helfen wir bei der Vorbereitung" },
+          { "number": 3, "title": "Prototyp", "description": "Wir erstellen ein Layout der Anwendung mit klickbaren Interface-Elementen" },
+          { "number": 4, "title": "Design", "description": "Wir denken über ein stilvolles Design im Stil Ihrer Marke nach oder erstellen ein neues" },
+          { "number": 5, "title": "Entwicklung", "description": "Wir verwirklichen Prototypen in der Realität. Wir arbeiten iterativ und demonstrieren Zwischenergebnisse" },
+          { "number": 6, "title": "Tests", "description": "Wir überprüfen das Produkt gründlich, damit die Anwendung bei jedem Benutzer funktioniert" },
+          { "number": 7, "title": "Veröffentlichung", "description": "Wir bereiten die mobile Anwendung für die Veröffentlichung vor. Wir veröffentlichen in den Stores" },
+          { "number": 8, "title": "Rechteübertragung", "description": "Wir geben den Quellcode und die Entwicklungsrechte weiter" },
+          { "number": 9, "title": "Support", "description": "Wir gewährleisten die ordnungsgemäße Funktionsweise der mobilen Anwendung nach ihrem Start. Wir entwickeln neue Features" }
+        ]
+      }
+    },
+    "RetailLicence": {
+      "title": "Entwicklung ohne Einschränkungen",
+      "subtitle": "Die Architektur der universellen Anwendung ermöglicht es, jede ihrer Komponenten horizontal und vertikal zu skalieren",
+      "imageAlt": "Telefon-Mockup"
+    },
+    "RetailBookDemo": {
+      "title": "Demo buchen",
+      "subtitle": "Bestellen Sie eine Demo, und der Flutter-Manager wird Ihnen die universelle Anwendung in Aktion demonstrieren",
+      "cta": "Demo buchen",
+      "imageAlt": "Telefon-Mockup"
+    },
+    "RetailPricing": {
+      "title": "Zeitplan und Kosten",
+      "description": "Die Bewertung hängt vom Projekt, dem Arbeitsumfang, den verwendeten Technologien und Ansätzen ab. Eine detailliertere Bewertung geben wir nach dem Briefing oder Anruf",
+      "cta": "Demo anfordern",
+      "timeline": { "title": "4 Monate", "subtitle": "Durchschnittliche Fristen" },
+      "cost": { "title": "3 Millionen Rubel", "subtitle": "Durchschnittliche Kosten" }
+    },
+    "RetailFunctions": {
+      "title": "Funktionen",
+      "items": [
+        {
+          "title": "Registrierung und Benutzerprofil",
+          "description": "Einfache und sichere Registrierung über Telefonnummer. Profil, das demografische Merkmale und persönliche Präferenzen der Käufer speichert",
+          "tags": ["Authentifizierung", "Bestellverlauf", "Quittungen", "Boni"],
+          "image": "/iPhone 15.png"
+        },
+        {
+          "title": "Hauptseite",
+          "description": "Schaufenster des mobilen Shops. Nachrichten, Banner und Stories setzen Akzente und lenken die Aufmerksamkeit der Benutzer",
+          "tags": ["Nachrichten", "Banner", "Treueprogramm", "Aktionskatalog", "Rabatte"],
+          "image": "/iPhone 15 (1).png"
+        },
+        {
+          "title": "Katalog und Produktkarte",
+          "description": "Informativer Katalog mit Filtern nach Kategorien, Sortierung und 'In den Warenkorb'-Button. Attraktive Produktkarten mit Bewertungen und vollständigen Informationen",
+          "tags": ["Produktliste", "Lieferadresse", "Kosten", "CloudPayments", "Sberbank"],
+          "image": "/iPhone 15 (2).png"
+        },
+        {
+          "title": "Warenkorb und Bestellung",
+          "description": "Schlüsselfunktion der Anwendung. Sammelt wichtige Daten über den Benutzer, hilft, die Anzahl der Abbrüche zu reduzieren und die Konversion zu erhöhen",
+          "tags": ["Produktliste", "Lieferadresse", "Support"],
+          "image": "/iPhone 15 (3).png"
+        },
+        {
+          "title": "Lieferung",
+          "description": "Integration mit beliebten Lieferdiensten. Erhöht die Servicegeschwindigkeit und hilft, Prozesse zu automatisieren",
+          "tags": ["CDEK", "Yandex Lieferung", "Deliverista", "Boxberry"],
+          "image": "/iPhone 15 (4).png"
+        },
+        {
+          "title": "Administratives Panel",
+          "description": "Benutzerfreundliches administratives Panel. Hilft bei der Verwaltung von Bannern, Push-Benachrichtigungen, SMS und Newslettern",
+          "tags": ["Benachrichtigungen", "Warensortiment", "Banner", "Bearbeitung"],
+          "image": "/iPhone 15 (5).png"
+        }
+      ]
+    },
+    "RetailFlip": {
+      "words": ["Miete", "Essen", "Blumen", "Kleidung"]
+    },
+    "RetailAdvantages": {
+      "title": "Vorteile",
+      "cta": "Projekt besprechen",
+      "items": [
+        { "title": "Alle App-Stores", "description": "App Store, Google Play, App Gallery, RuStore" },
+        { "title": "Feste Kosten", "description": "Keine zusätzlichen Ausgaben" },
+        { "title": "Lizenz für die Anwendung", "description": "Wir geben den Code, nicht vermieten" },
+        { "title": "Skalierbarkeit", "description": "Keine Einschränkungen für die Entwicklung" },
+        { "title": "Infrastruktur von Partnerdiensten", "description": "1C, Manzana, Sberbank und andere" },
+        { "title": "Eigene Ökosystem", "description": "Anwendungen für Sammler und Lieferanten plus zur Hauptanwendung" }
+      ]
+    },
+    "RetailTimeline": {
+      "title": "Entwicklungsprozess für Korporationsanwendungen",
+      "subtitle": "Wir haben den Entwicklungsprozess für maßgeschneiderte Telefonanwendungen und Korporationsdienste so aufgebaut, dass das Unternehmen regelmäßig Zwischenergebnisse sieht und diese korrigieren kann. So erhalten unsere Kunden genau das Produkt, das sie brauchen",
+      "items": [
+        {
+          "title": "Vorbereitung",
+          "paragraphs": [
+            "Wir studieren die Kundenbedürfnisse und Geschäftsziele, sammeln Anforderungen von allen Beteiligten",
+            "Wir teilen Aufgaben in Iterationen auf, bewerten Arbeitslast und Risiken",
+            "Wir erstellen eine Benutzerreisekarte",
+            "Wir analysieren Konkurrenten und das Zielgruppenprofil"
+          ],
+          "image": { "src": "/Scenes03.svg", "alt": "Vorbereitungsphase" }
+        },
+        {
+          "title": "Design",
+          "paragraphs": [
+            "Wir entwerfen das technische Design der Web-Anwendung",
+            "Durchdachte Benutzerszenarien und Funktionsblöcke",
+            "Wir verbessern Prototypen iterativ für besseren UX"
+          ],
+          "image": { "src": "/Scenes01.svg", "alt": "Designphase" }
+        },
+        {
+          "title": "Entwicklung",
+          "paragraphs": [
+            "Wir wählen den Technologie-Stack für das Projekt (React, Next.js, Flutter Web)",
+            "Wir erstellen Architektur und Informationsmodell",
+            "Wir implementieren und beschreiben die Funktionalität"
+          ],
+          "image": { "src": "/Scenes08.svg", "alt": "Entwicklungsphase" }
+        },
+        {
+          "title": "Testing",
+          "paragraphs": [
+            "Manuelle und automatische Tests aller Funktionen",
+            "Wir sparen bis zu 80% Zeit durch Automatisierung",
+            "Cross-Browser-Kompatibilität und Responsivität"
+          ],
+          "image": { "src": "/Scenes02.svg", "alt": "Testphase" }
+        },
+        {
+          "title": "Release und Support",
+          "paragraphs": [
+            "Interne Code-, Design- und Architekturaudits",
+            "Hilfe bei der Veröffentlichung in Stores (App Store, Google Play und andere)",
+            "Weiterentwicklung nach SLA oder Inhouse"
+          ],
+          "image": { "src": "/Scenes04.svg", "alt": "Release- und Supportphase" }
+        }
+      ]
+    },
+    "InternetShopCards": {
+      "title": "Lösung für Online-Shops",
+      "items": [
+        { "number": 1, "title": "Online-Shop unter Schlüssel", "description": "Vollständiger Entwicklungszyklus von der Business-Analyse und individuellen Planung bis zur Integration mit komplexen CRM- und ERP-Systemen. Entwicklung eines Online-Shops unter Schlüssel auf Basis von Next JS" },
+        { "number": 2, "title": "Online-Shop auf fertiger Plattform", "description": "Schneller MVP-Start für erste Verkäufe und maßgeschneiderte Entwicklung komplexer Projekte auf der CS-Cart-Plattform mit funktionalem Motor für schnellen Start und unbegrenztes Wachstum" },
+        { "number": 3, "title": "Omnichannel-Projekte", "description": "Automatisierung von Geschäftsprozessen und Aufbau eines einheitlichen Ökosystems für Online- und Offline-Verkaufsstellen. Wir verbessern die Kundenerfahrung auf Basis der besten internationalen Praktiken" },
+        { "number": 4, "title": "Replatforming des Online-Shops", "description": "Nahtlose Übertragung der aktuellen Website von veralteter CMS oder selbstgeschriebener Software auf eine multifunktionale Plattform ohne Ausfallzeiten und Datenverlust" },
+        { "number": 5, "title": "Mobile Anwendungen", "description": "Entwicklung mobiler Anwendungen, responsiver Websites und PWA-Lösungen für mobile Kommerz. Wir erhöhen die Konversion auf allen Geräten" },
+        { "number": 6, "title": "Haben Sie noch Fragen?", "description": "Möchten Sie die Erstellung eines Online-Shops bestellen? Wir analysieren Ihre Geschäftsidee oder bestehende Website in einer kostenlosen Beratung!", "buttonText": "Kontaktieren Sie uns" }
+      ]
+    },
+    "IndustrySolutions": {
+      "title": "Branchenlösungen",
+      "items": [
+        { "title": "Ausrüstung" },
+        { "title": "Elektronik" },
+        { "title": "Automobilindustrie" },
+        { "title": "Mode" },
+        { "title": "Schmuck" },
+        { "title": "Möbel" },
+        { "title": "Gesundheit und Schönheit" },
+        { "title": "Software-Entwicklung" },
+        { "title": "Einzelhandel" },
+        { "title": "FMCG" },
+        { "title": "Kunst" },
+        { "title": "Hobbys" }
+      ]
+    },
+    "FAQ": {
+      "title": "FAQ zur Online-Shop-Entwicklung",
+      "items": [
+        { "question": "Welche Funktionalität sollte in einem Online-Shop vorhanden sein?", "answer": "Ein Online-Shop sollte Funktionalität für Produktkatalog, Auftragsverarbeitung, Zahlungen und Lieferung sowie Benutzerkontenverwaltung haben." },
+        { "question": "Wie lange dauert die Entwicklung eines Online-Shops von Grund auf?", "answer": "Durchschnittlich 2–6 Monate je nach Projektkomplexität." },
+        { "question": "Was kostet die Entwicklung eines Online-Shops?", "answer": "Die Kosten hängen von der Funktionalität und den Technologien ab und betragen normalerweise 500.000 bis 3.000.000 Rubel." },
+        { "question": "Welche Technologien verwenden Sie?", "answer": "Next.js, React, Node.js, PostgreSQL/MongoDB, Integrationen mit Zahlungen und Logistik." },
+        { "question": "Sind ERP/CRM-Integrationen möglich?", "answer": "Ja, wir integrieren mit ERP und CRM für Datensynchronisation und Prozessautomatisierung." }
+      ]
+    },
+    "CrmParallax": {
+      "headerTitle": "Optimierung mit CRM-Systemen",
+      "headerDescription": "Wir entwickeln Lösungen für Ihre einzigartigen Bedürfnisse, die sich in Ihre Tools integrieren und mit dem Geschäft wachsen. Geben Sie Ihrem Team die Möglichkeit, effizienter zu arbeiten und Geschäfte schneller abzuschließen mit Analytics und Automatisierung",
+      "products": [
+        { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
+        { "title": "Immobilienliste", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
+        { "title": "Immobilienliste", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
+        { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
+        { "title": "CRM-Trichter", "link": "", "thumbnail": "/crm/CRMВоронка.png" },
+        { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
+        { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
+        { "title": "Dokumentenspeicher", "link": "", "thumbnail": "/crm/Хранилизе документов.png" },
+        { "title": "Dashboard", "link": "", "thumbnail": "/crm/Dashboard.png" },
+        { "title": "Immobilienliste", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
+        { "title": "Dashboard", "link": "", "thumbnail": "/crm/Dashboard.png" },
+        { "title": "CRM-Trichter", "link": "", "thumbnail": "/crm/CRMВоронка.png" },
+        { "title": "Mietobjekte", "link": "", "thumbnail": "/crm/Объкты аренды.png" },
+        { "title": "Immobilienliste", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
+        { "title": "CRM-Trichter", "link": "", "thumbnail": "/crm/CRMВоронка.png" }
+      ]
+    },
+    "CrmTimeline": {
+      "mainTitle": "CRM-Entwicklungsprozess",
+      "mainDescription": "Sechs Schlüsselphasen der CRM-Systementwicklung zur Erstellung einer effektiven Kundenverwaltungslösung",
+      "items": [
+        {
+          "title": "Anforderungssammlung",
+          "description": "Funktionale Anforderungen beschreiben die notwendige Benutzer- und Systemfunktionalität, enthalten Informationen über erforderliche Meister und Algorithmen für automatische Operationen",
+          "image": "/crm/trebovaniaIT.png",
+          "imageAlt": "Anforderungssammlung"
+        },
+        {
+          "title": "TS-Erstellung",
+          "description": "Der Prototyp zeigt die Benutzeroberfläche und Interaktionen zukünftiger CRM-Elemente. Die technische Spezifikation beschreibt, wie und was das System ausführen wird",
+          "image": "/crm/kto_pishet_tz.jpg",
+          "imageAlt": "TS-Erstellung"
+        },
+        {
+          "title": "Design",
+          "description": "Basierend auf der Entscheidung des Kunden wird das Design des gesamten Systems oder nur der für Kunden verfügbaren Bereiche gezeichnet",
+          "image": "/design.jpeg",
+          "imageAlt": "Design"
+        },
+        {
+          "title": "Sprint-Aufteilung",
+          "description": "Sprint-Aufteilung. Backlog ist eine Liste aller Funktionen, die im Projekt implementiert werden. Sprints sind Entwicklungsphasen, die einen Teil der in der Phase implementierten Funktionen enthalten",
+          "image": "/crm/1-15.jpg.webp",
+          "imageAlt": "Sprint-Aufteilung"
+        },
+        {
+          "title": "Sprint-Entwicklung",
+          "description": "Wird in 6 Schritten durchgeführt: ✅ Blockplanung; ✅ Programmierung der Blockaufgaben; ✅ Tests und Debugging; ✅ Blockfreigabe; ✅ Analyse der Entwicklungsorganisationsqualität im Block; ✅ Backlog-Update, Anpassung zukünftiger Blöcke.",
+          "image": "/crm/sprint.png",
+          "imageAlt": "Sprint-Entwicklung"
+        },
+        {
+          "title": "Technischer Support",
+          "description": "Effektiver Support hilft Benutzern, auftretende Probleme schnell zu lösen, minimiert Ausfallzeiten und hält hohe Leistung aufrecht",
+          "image": "/crm/Scrum-Master-I.jpg.webp",
+          "imageAlt": "Technischer Support"
+        }
+      ]
+    },
+    "DirectPage": {
+      "hero": {
+        "title": "SEO und Yandex Direct — Ihre Website in den TOP und Kundenstrom",
+        "subtitle": "Wir richten Suchmaschinenoptimierung und Werbekampagnen unter einem Schlüssel ein.",
+        "subtitleHighlight": "Wir erhöhen Reichweite, Anfragen und Verkäufe ohne Budgetverschwendung",
+        "benefits": {
+          "traffic": "Trafficwachstum in 3 Monaten",
+          "leads": "Erhöhung der Suchanfragen",
+          "satisfaction": "Kunden sind mit dem Ergebnis zufrieden"
+        },
+        "cta": "Audit anfordern"
+      },
+      "successCases": {
+        "title": "Unsere erfolgreichen Projekte",
+        "vosvod": {
+          "title": "Website und Automatisierung für die Allrussische Gesellschaft zur Rettung auf dem Wasser",
+          "subtitle": "System zur Verwaltung der operativen Tätigkeit",
+          "description": "Wir haben eine moderne Website mit Integration von Yandex Direct und SEO-Optimierung für maximale Kundenakquise und Conversion-Steigerung entwickelt",
+          "direction": "Erhaltung von Bootsrechten, Ausbildung in Wasserrettung und damit verbundene Dienstleistungen",
+          "developer": "Entwicklungsteam Fluttrium",
+          "result": "Wir haben uns bei hohem Wettbewerb auf den ersten Platz in der Suche gebracht",
+          "metrics": [
+            "Wir haben die Website auf den ersten Platz in der Yandex-Suche nach Schlüsselabfragen gebracht",
+            "Wir haben Verkäufe und Konversionen gesteigert",
+            "Wir haben Werbekampagnen in Yandex Direct optimiert",
+            "Wir haben Markenbekanntheit und Vertrauen gesteigert"
+          ],
+          "status": "Wird aktiv genutzt",
+          "more": "Mehr über das Projekt"
+        },
+        "cta": {
+          "title": "Brauchen Sie SEO-Promotion?",
+          "subtitle": "Wir bringen Ihre Website in die TOP von Yandex und Google, auch in den wettbewerbsintensivsten Nischen",
+          "button": "Audit bestellen"
+        }
+      },
+      "features": {
+        "title": "Unsere Möglichkeiten in SEO und Werbung",
+        "subtitle": "Wir bringen Kunden, anstatt nur Budget zu verschwenden: Wir richten SEO und Werbung mit Fokus auf ein",
+        "subtitleHighlight1": "Rentabilität (ROI)",
+        "subtitleHighlight2": "Kosten pro Anfrage (CPL)",
+        "subtitleEnd": "Wir erhöhen Traffic, Anfragen und Gewinn.",
+        "seo": {
+          "title": "Intelligente SEO-Promotion",
+          "items": [
+            "Analyse der Nische, Wettbewerber und Bildung der Semantik",
+            "Website-Optimierung für TOP Yandex und Google",
+            "Wachstum der Positionen — bereits in den ersten 2–3 Wochen",
+            "Detaillierte Berichte und Kontrolle aller Änderungen"
+          ]
+        },
+        "yandex": {
+          "title": "Effektiver Yandex Direct",
+          "items": [
+            "Wir richten Kampagnen ein, die wirklich Anfragen bringen",
+            "Fokus auf ROI und CPL, nicht auf 'ausgegebenes Budget'",
+            "Multisegment: heiße, warme, kalte Kunden",
+            "Konstante Optimierung von Geboten und Schlüsselwörtern"
+          ]
+        },
+        "analytics": {
+          "title": "Analytik und Wachstum",
+          "items": [
+            "Tiefe Trichter: vom Klick bis zur Anfrage und zum Verkauf",
+            "Integration mit CRM: Sie sehen die Quelle jedes Kunden",
+            "Optimierung nach Geschäftszielen: nicht nur Traffic, sondern Gewinn",
+            "Automatische Berichte in Telegram, Google Sheets, Notion"
+          ]
+        }
+      },
+      "process": {
+        "title": "Wie funktioniert das?",
+        "steps": [
+          {
+            "title": "Wir tauchen in das Geschäft ein",
+            "desc": "Wir analysieren Ihren Markt, Ihr Publikum und Ihre Wettbewerber. Wir identifizieren Wachstumspunkte"
+          },
+          {
+            "title": "Wir starten SEO und Werbung",
+            "desc": "Wir richten SEO-Optimierung und Werbekampagnen in Yandex/Google mit Fokus auf Anfragen ein"
+          },
+          {
+            "title": "Wir optimieren nach Metriken",
+            "desc": "Wir senken CPL, erhöhen ROI. Wir testen, skalieren, entfernen Überflüssiges"
+          },
+          {
+            "title": "Wir geben das Ergebnis in Zahlen",
+            "desc": "Jeden Monat — Bericht: Anfragen, Anrufe, Positionen, ROI. Alles transparent und sachlich"
+          }
+        ]
+      },
+      "contact": {
+        "title": "Möchten Sie einen stabilen Kundenstrom?",
+        "subtitle": "Hinterlassen Sie eine Anfrage — wir starten SEO und Werbung unter einem Schlüssel mit Fokus auf ROI und Umsatzwachstum"
+      }
+    },
+    "TgbotPage": {
+      "hero": {
+        "title": "Telegram-Bots",
+        "titleHighlight": "für Ausbildung",
+        "subtitle": "Wir automatisieren Unternehmensausbildung mit Telegram-Bots.",
+        "subtitleHighlight": "Wir steigern Kompetenzen um 98%",
+        "benefits": {
+          "smart": "Intelligente Bots",
+          "analytics": "Analytik",
+          "learn247": "24/7 Ausbildung"
+        },
+        "cta": "Bot erstellen"
+      },
+      "successCases": {
+        "title": "Unsere erfolgreichen Projekte",
+        "developerLabel": "Entwickler:",
+        "statusLabel": "Status:",
+        "directionLabel": "Richtung:",
+        "resultLabel": "Ergebnis:",
+        "gazprom": {
+          "title": "Unternehmensausbildung Gazprom Neft",
+          "subtitle": "System zur Verwaltung der operativen Tätigkeit",
+          "description": "Angepasste Bot-Version für die SUDD-Abteilung mit erweiterter Fragensystem und mehrstufiger Bewertung",
+          "direction": "Operative Tätigkeit und Prozessverwaltung",
+          "developer": "Entwicklungsteam Fluttrium",
+          "result": "In den CS-Blöcken der Tochtergesellschaften implementiert",
+          "resultsTitle": "Schlüsselergebnisse:",
+          "metrics": [
+            "Tests haben sich von 1 Mal in 2 Jahren auf täglich geändert",
+            "Restwissen stieg auf 98%",
+            "Echtzeitverfolgung des Fortschritts",
+            "Aktuelle Fragendatenbank mit Feedback"
+          ],
+          "status": "Wird aktiv genutzt",
+          "more": "Mehr über das Projekt"
+        },
+        "cta": {
+          "title": "Brauchen Sie einen Unternehmensbot?",
+          "subtitle": "Wir automatisieren die Ausbildung Ihrer Mitarbeiter und steigern ihre Kompetenzen",
+          "button": "Bot bestellen"
+        }
+      },
+      "features": {
+        "title": "Möglichkeiten unserer Bots",
+        "subtitle": "Vollständige Automatisierung der Unternehmensausbildung mit detaillierter Analytik",
+        "tests": {
+          "title": "Intelligente Tests",
+          "items": [
+            "Tägliche Bereitstellung von Fragen in kleinen Portionen",
+            "Verschiedene Fragetypen (Auswahl, Eingabe, Zuordnung)",
+            "Adaptive Komplexität nach Kompetenzniveau",
+            "Feedback- und Erklärungssystem"
+          ]
+        },
+        "analytics": {
+          "title": "Analytik und Berichte",
+          "items": [
+            "Echtzeitverfolgung des Fortschritts",
+            "Detaillierte Statistiken nach Mitarbeitern",
+            "Analyse der Lernentwicklung",
+            "Identifizierung von Wissenslücken"
+          ]
+        },
+        "hr": {
+          "title": "HR-Automatisierung",
+          "items": [
+            "Integration mit Unternehmenssystemen",
+            "Automatische Lernplanung",
+            "Zertifizierungs- und Bewertungssystem",
+            "Gamifizierung des Lernprozesses"
+          ]
+        }
+      },
+      "process": {
+        "title": "Wie funktioniert das?",
+        "steps": [
+          { "title": "Aufgabenanalyse", "desc": "Wir studieren Ausbildungsbedürfnisse" },
+          { "title": "Entwicklung", "desc": "Wir erstellen einen intelligenten Bot für Ihre Ziele" },
+          { "title": "Tests", "desc": "Wir testen Funktionalität an einer Pilotgruppe" },
+          { "title": "Implementierung", "desc": "Wir starten und bilden Mitarbeiter aus" }
+        ]
+      },
+      "contact": {
+        "title": "Bereit, Ausbildung zu automatisieren?",
+        "subtitle": "Erzählen Sie uns von Ihren Bedürfnissen in der Unternehmensausbildung"
+      }
+    }
+  }

@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Image from "next/image";
 import {
     ChevronRight,
     Check,
@@ -45,15 +46,12 @@ const HeroSection = () => {
                     </p>
                     <div className="flex flex-wrap justify-center gap-6 text-lg text-white-400 pt-8">
                         <div className="flex items-center gap-3 bg-green-500/10 px-4 py-2 rounded-full border border-green-500/20">
-                            <Check className="w-5 h-5 text-green-400" />
                             <span>{messages.StudPage?.hero?.benefits?.support || 'Поддержка идеи'}</span>
                         </div>
                         <div className="flex items-center gap-3 bg-blue-500/10 px-4 py-2 rounded-full border border-blue-500/20">
-                            <Check className="w-5 h-5 text-blue-400" />
                             <span>{messages.StudPage?.hero?.benefits?.dev || 'Техразработка'}</span>
                         </div>
                         <div className="flex items-center gap-3 bg-purple-500/10 px-4 py-2 rounded-full border border-purple-500/20">
-                            <Check className="w-5 h-5 text-purple-400" />
                             <span>{messages.StudPage?.hero?.benefits?.guarantee || '100% гарантия'}</span>
                         </div>
                     </div>
@@ -91,20 +89,36 @@ const SuccessCasesSection = () => {
             link: "https://asleep.online",
             gradient: "from-blue-500 to-purple-500",
             borderColor: "border-blue-500",
-            hoverColor: "hover:border-blue-400"
+            hoverColor: "hover:border-blue-400",
+            backgroundImage: "/asleep_case1.png"
         },
         {
             id: "crm",
-            title: "CRM PropertyTech",
-            subtitle: "CRM для недвижимости",
+            title: "RentFlow",
+            subtitle: "SaaS-платформа для недвижимости",
             description: "Умная CRM-система с ИИ для торговых центров и недвижимости",
             direction: "Цифровые технологии",
             student: "СПбПУ Петра Великого",
             result: "5 клиентов на старте",
-            link: "#",
+            link: "https://www.rentflow.tech",
             gradient: "from-purple-500 to-pink-500",
             borderColor: "border-purple-500",
-            hoverColor: "hover:border-purple-400"
+            hoverColor: "hover:border-purple-400",
+            backgroundImage: "/RentFlow.png"
+        },
+        {
+            id: "ruesvertes",
+            title: "RUES VERTES",
+            subtitle: "Сообщество дизайнеров и молодых предпринимателей",
+            description: "Сообщество дизайнеров и молодых предпринимателей с уникальным мировоззрением, выражающих свои ценности через стиль одежды. Пространство для тех, кто творит и вдохновляет",
+            direction: "Мода и дизайн",
+            student: "Высшая школа экономики",
+            result: "Разработан сайт для сообщества дизайнеров и молодых предпринимателей",
+            link: "https://ruesvertes.ru",
+            gradient: "from-pink-500 to-red-500",
+            borderColor: "border-pink-500",
+            hoverColor: "hover:border-pink-400",
+            backgroundImage: "/ruesvertes.png"
         }
     ];
 
@@ -122,39 +136,78 @@ const SuccessCasesSection = () => {
                     {projects.map((project) => (
                         <div
                             key={project.id}
-                            className={`group p-8 rounded-3xl border ${project.borderColor}/30 bg-gray-800/30 ${project.hoverColor} ${animations.transition.normal} cursor-pointer ${colors.effects.backdrop} ${animations.hover.scale} hover:shadow-[0_0_30px_rgba(59,130,246,0.2)]`}
+                            className={`group p-8 rounded-3xl border border-gray-500/30 ${project.backgroundImage ? "" : "bg-gray-800/30"} hover:border-gray-400 ${animations.transition.normal} cursor-pointer ${colors.effects.backdrop} hover:shadow-[0_0_30px_rgba(100,100,100,0.2)] relative overflow-hidden`}
                         >
-                            <div className="flex items-start justify-between mb-6">
-                                <div>
-                                    <h3 className={`${textStyles.h3} mb-1`}>{project.title}</h3>
-                                    <div className="text-green-400 font-medium">✅ Грант получен • 1 млн ₽</div>
+                            {project.backgroundImage && (
+                                <div className="absolute inset-0 -z-10">
+                                    <Image
+                                        src={project.backgroundImage}
+                                        alt={project.title}
+                                        fill
+                                        className="object-cover rounded-3xl"
+                                        priority
+                                        sizes="(max-width: 768px) 100vw, 50vw"
+                                    />
+                                    <div className="absolute inset-0 bg-gradient-to-br from-black/90 via-black/80 to-black/90 rounded-3xl"></div>
                                 </div>
-                                <ArrowRight className={`w-6 h-6 text-gray-400 group-hover:text-blue-400 ${animations.transition.normal}`} />
+                            )}
+                            <div className="relative z-10">
+                                <div className="flex items-start justify-between mb-6">
+                                    <div className="flex-1">
+                                        <h3 className={`${textStyles.h3} mb-2 ${project.backgroundImage ? "text-white drop-shadow-lg" : ""}`}>{project.title}</h3>
+                                        <div className={`inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-semibold ${project.backgroundImage ? "bg-green-500/20 text-green-300 border border-green-400/30" : "text-green-400"}`}>
+                                            <span>Грант получен • 1 млн ₽</span>
+                                        </div>
+                                    </div>
+                                    <ArrowRight className={`w-6 h-6 flex-shrink-0 ${project.backgroundImage ? "text-white/80" : "text-gray-400"} group-hover:text-blue-400 ${animations.transition.normal}`} />
+                                </div>
+                                
+                                <p className={`${textStyles.body2} ${project.backgroundImage ? "text-gray-50 leading-relaxed mb-6" : "text-gray-300 mb-4 leading-relaxed"}`}>{project.description}</p>
+                                
+                                <div className={`mb-6 text-sm font-semibold ${project.backgroundImage ? "text-blue-400" : "text-blue-400"}`}>
+                                    <span className="text-gray-400">{messages.StudPage?.success?.labels?.direction || 'Направление:'}</span> {project.direction}
+                                </div>
+                                
+                                <div className="grid grid-cols-2 gap-4 mb-6">
+                                    <div className={`p-4 rounded-xl ${project.backgroundImage ? "bg-white/5 backdrop-blur-md border border-white/10" : "bg-gray-800/30"}`}>
+                                        <div className={`text-xs uppercase tracking-wide mb-2 ${project.backgroundImage ? "text-gray-300" : "text-gray-400"}`}>{messages.StudPage?.success?.labels?.student || 'Студент:'}</div>
+                                        <div className={`font-semibold ${project.backgroundImage ? "text-white" : "text-white"}`}>{project.student}</div>
+                                    </div>
+                                    <div className={`p-4 rounded-xl ${project.backgroundImage ? "bg-white/5 backdrop-blur-md border border-white/10" : "bg-gray-800/30"}`}>
+                                        <div className={`text-xs uppercase tracking-wide mb-2 ${project.backgroundImage ? "text-gray-300" : "text-gray-400"}`}>{messages.StudPage?.success?.labels?.result || 'Результат:'}</div>
+                                        <div className={`font-semibold ${project.backgroundImage ? "text-white" : "text-white"}`}>{project.result}</div>
+                                    </div>
+                                </div>
+                                
+                                <a
+                                    href={project.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className={`inline-flex items-center gap-2 px-4 py-2 rounded-lg font-medium transition-all ${project.backgroundImage ? "text-blue-400 hover:text-blue-300 hover:bg-blue-500/10" : "text-blue-400 group-hover:text-blue-300"} ${animations.transition.normal}`}
+                                >
+                                    <span>{messages.StudPage?.success?.labels?.view || 'Смотреть проект'}</span>
+                                    <ArrowRight className="w-4 h-4" />
+                                </a>
                             </div>
-                            <p className={`${textStyles.body2} text-gray-300 mb-4 leading-relaxed`}>{project.description}</p>
-                            <div className="text-blue-400 mb-6 font-medium">{messages.StudPage?.success?.labels?.direction || 'Направление:'} {project.direction}</div>
-                            <div className="grid grid-cols-2 gap-6 text-sm mb-6">
-                                <div className="p-4 bg-gray-700/30 rounded-lg">
-                                    <div className="text-gray-400 mb-1">{messages.StudPage?.success?.labels?.student || 'Студент:'}</div>
-                                    <div className="text-white font-medium">{project.student}</div>
-                                </div>
-                                <div className="p-4 bg-gray-700/30 rounded-lg">
-                                    <div className="text-gray-400 mb-1">{messages.StudPage?.success?.labels?.result || 'Результат:'}</div>
-                                    <div className="text-white font-medium">{project.result}</div>
-                                </div>
-                            </div>
-                            <a
-                                href={project.link}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className={`flex items-center gap-2 text-blue-400 group-hover:text-blue-300 ${animations.transition.normal}`}
-                            >
-                                <span>{messages.StudPage?.success?.labels?.view || 'Смотреть проект'}</span>
-                                <ArrowRight className="w-4 h-4" />
-                            </a>
                         </div>
                     ))}
                 </div>
+
+                <div className="text-center">
+                    <div className={`inline-flex items-center gap-6 p-8 ${colors.gradients.card} rounded-3xl border border-blue-500/30 ${colors.effects.backdrop}`}>
+                        <div className="text-left">
+                            <div className={`${textStyles.h3} text-3xl mb-3`}>У вас есть своя идея?</div>
+                            <div className={`${textStyles.body2} text-gray-300`}>Мы поможем превратить ее в успешный стартап с грантом 1 млн рублей</div>
+                        </div>
+                        <button
+                            onClick={handleOpenModal}
+                            className={`px-10 py-4 ${components.button.primary} font-bold rounded-full ${animations.transition.normal} whitespace-nowrap shadow-lg`}
+                        >
+                            Создать стартап
+                        </button>
+                    </div>
+                </div>
+                {isModalOpen && <Modal isOpen={isModalOpen} onClose={handleCloseModal} />}
             </div>
         </section>
     );
@@ -196,3 +249,4 @@ const ContactFormSection = () => {
 };
 
 export default StudentStartupLanding;
+

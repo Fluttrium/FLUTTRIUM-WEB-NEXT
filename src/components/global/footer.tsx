@@ -52,7 +52,7 @@ const Footer = (props: Props) => {
           </span>
         </Link>
         <div className="text-white">
-          <p>Телефон: +7 (921) 457 00 57</p>
+          <p>Телефон: <a href="tel:+74994901183">+7 (499) 490 11 83</a></p>
           <p>Email: fluttrium.com</p>
         </div>
       </aside>

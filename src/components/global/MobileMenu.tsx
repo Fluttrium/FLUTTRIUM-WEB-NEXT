@@ -1,7 +1,7 @@
 "use client"
 import { useState } from "react";
 import Link from "next/link";
-import { FaTelegramPlane, FaTiktok, FaGithub, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaTelegramPlane, FaGithub, FaInstagram, FaYoutube } from "react-icons/fa";
 
 // Типы для подменю
 interface SubMenuItem {
@@ -62,9 +62,6 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ menuItems, toggleMenu }) => {
         <div className="flex justify-between gap-4">
           <Link href="https://t.me/fluttriumchannel" target="_blank">
             <FaTelegramPlane className="text-white text-2xl" />
-          </Link>
-          <Link href="https://www.tiktok.com/@fluttrium" target="_blank">
-            <FaTiktok className="text-white text-2xl" />
           </Link>
           <Link href="https://github.com/orgs/Fluttrium" target="_blank">
             <FaGithub className="text-white text-2xl" />

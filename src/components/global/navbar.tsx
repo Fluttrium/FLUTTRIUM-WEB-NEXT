@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import {HoveredLink, Menu, MenuItem, ProductItem} from "../ui/navbar-menu";
 import {IconButton} from "@mui/material";
-import {FaGithub, FaInstagram, FaTelegramPlane, FaTiktok, FaYoutube, FaBars} from "react-icons/fa";
+import {FaGithub, FaInstagram, FaTelegramPlane, FaYoutube, FaBars} from "react-icons/fa";
 import {DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger} from "@/components/ui/dropdown-menu";
 import {useLanguage} from "@/store";
 import {useRouter} from "next/navigation";
@@ -260,10 +260,6 @@ const Navbar = ({className}: { className?: string }) => {
                                             aria-label="@fluttriumchannel" className="hover:scale-110 transition-transform duration-200">
                                     <FaTelegramPlane className="text-white text-3xl xl:text-4xl"/>
                                 </IconButton>
-                                <IconButton href="https://www.tiktok.com/@fluttrium" target="_blank" rel="noopener noreferrer"
-                                            aria-label="TikTok" className="hover:scale-110 transition-transform duration-200">
-                                    <FaTiktok className="text-white text-3xl xl:text-4xl"/>
-                                </IconButton>
                                 <IconButton href="https://github.com/orgs/Fluttrium" target="_blank" rel="noopener noreferrer"
                                             aria-label="GitHub" className="hover:scale-110 transition-transform duration-200">
                                     <FaGithub className="text-white text-3xl xl:text-4xl"/>
@@ -276,9 +272,9 @@ const Navbar = ({className}: { className?: string }) => {
                                             rel="noopener noreferrer" aria-label="Youtube" className="hover:scale-110 transition-transform duration-200">
                                     <FaYoutube className="text-white text-3xl xl:text-4xl"/>
                                 </IconButton>
-                                <p className="text-lg xl:text-xl font-semibold text-white">
-                                    +7(921)457-00-57
-                                </p>
+                                <a href="tel:+74994901183" className="text-lg xl:text-xl font-semibold text-white">
+                                    +7(499)490-11-83
+                                </a>
                             </div>
                         </MenuItem>
                         

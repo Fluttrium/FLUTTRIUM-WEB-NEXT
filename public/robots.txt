@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://fluttrium.ru
+Host: https://fluttrium.com
 
 # Sitemaps
-Sitemap: https://fluttrium.ru/sitemap.xml
+Sitemap: https://fluttrium.com/sitemap.xml

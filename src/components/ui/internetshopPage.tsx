@@ -1,9 +1,9 @@
-'use client';
-import React, { useState } from 'react';
-import Image from 'next/image';
-import Modal from '../Modal';
-import { Spotlight } from './spotlight';
-import { useTranslations } from '@/hooks/useTranslations';
+"use client";
+import Image from "next/image";
+import { useState } from "react";
+import { useTranslations } from "@/hooks/useTranslations";
+import Modal from "../Modal";
+import { Spotlight } from "./spotlight";
 
 const InternetShopPage = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -16,7 +16,7 @@ const InternetShopPage = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-6 md:px-20 relative">
       <Spotlight className="absolute z-50 top-0 right-50" fill="white" />
-      
+
       {/* Фон с решеткой, скрытый на мобильных */}
       <div className="absolute inset-0 bg-slate-950 hidden sm:block">
         <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
@@ -29,9 +29,7 @@ const InternetShopPage = () => {
           <h1 className="text-4xl md:text-6xl font-bold mb-6 md:mb-12">
             {t?.title}
           </h1>
-          <p className="text-lg md:text-xl">
-            {t?.subtitle}
-          </p>
+          <p className="text-lg md:text-xl">{t?.subtitle}</p>
           <div className="flex justify-center md:justify-start mt-8 md:mt-12">
             <button
               onClick={handleOpenModal}

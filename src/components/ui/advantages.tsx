@@ -1,7 +1,6 @@
-'use client';
+"use client";
 import Link from "@mui/material/Link";
-import React from "react";
-import { Scale, Store, Lock, Expand, Pyramid, Atom } from "lucide-react";
+import { Atom, Expand, Lock, Pyramid, Scale, Store } from "lucide-react";
 import { useTranslations } from "@/hooks/useTranslations";
 
 export function Advantage() {

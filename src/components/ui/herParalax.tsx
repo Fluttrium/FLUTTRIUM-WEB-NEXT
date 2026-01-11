@@ -1,15 +1,12 @@
 "use client";
-import React from "react";
-import { HeroParallax } from "../ui/hero-parallax";
 import { useTranslations } from "@/hooks/useTranslations";
+import { HeroParallax } from "../ui/hero-parallax";
 
 export function HeroParallaxDemo() {
   const { messages } = useTranslations();
   const t: any = (messages as any).CrmParallax;
   const items: any[] = Array.isArray(t?.products) ? t.products : products;
-  return (
-      <HeroParallax products={items} />
-  );
+  return <HeroParallax products={items} />;
 }
 
 export const products = [

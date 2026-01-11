@@ -1,7 +1,5 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import "./globals.css";
+import Image from "next/image";
+import Link from "next/link";
 
 const PremiumPlan = () => {
   return (
@@ -15,9 +13,13 @@ const PremiumPlan = () => {
             c
           </h2>
           <ul className="list-disc list-inside text-base sm:text-lg mb-4 sm:mb-6 text-gray-800">
-            <li>Разработка сложного сайта/приложения (от 10 страниц/экранов)</li>
+            <li>
+              Разработка сложного сайта/приложения (от 10 страниц/экранов)
+            </li>
             <li>Полностью кастомизированный дизайн</li>
-            <li>Полная оптимизация под мобильные устройства и различные платформы</li>
+            <li>
+              Полная оптимизация под мобильные устройства и различные платформы
+            </li>
             <li>Интеграция с внешними сервисами (оплата, аналитика, CRM)</li>
             <li>Полная SEO оптимизация</li>
             <li>Техническая поддержка 6 месяцев</li>
@@ -33,8 +35,8 @@ const PremiumPlan = () => {
               <Image
                 src="/projects/case8.png" // Замените на путь к вашему изображению
                 alt="Пример премиум дизайна"
-                width={500} 
-                height={300} 
+                width={500}
+                height={300}
                 className="rounded-lg shadow-md w-full sm:w-auto"
               />
             </div>

@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { useTranslations } from "@/hooks/useTranslations";
 
 export function CardHoverEffectDemo3() {
@@ -23,31 +22,31 @@ export function CardHoverEffectDemo3() {
 }
 
 type ProjectItem = {
-    number: number;
-    title: string;
-    description: string;
-    link?: string; // Поле link можно сделать опциональным, если оно не обязательно
-  };
-  
-  interface HoverEffectProps {
-    items: ProjectItem[];
-  }
-  
-  export function HoverEffect({ items }: HoverEffectProps) {
-    return (
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {items.map((item, index) => (
-          <div
-            key={index}
-            className="hover:bg-blue-600 hover:text-white transition p-6 border border-gray-200 rounded-lg shadow-lg"
-          >
-            {/* Добавляем номер перед заголовком */}
-            <h2 className="text-xl font-bold mb-4">
-              {item.number}. {item.title}
-            </h2>
-            <p>{item.description}</p>
-          </div>
-        ))}
-      </div>
-    );
-  }
+  number: number;
+  title: string;
+  description: string;
+  link?: string; // Поле link можно сделать опциональным, если оно не обязательно
+};
+
+interface HoverEffectProps {
+  items: ProjectItem[];
+}
+
+export function HoverEffect({ items }: HoverEffectProps) {
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {items.map((item, index) => (
+        <div
+          key={index}
+          className="hover:bg-blue-600 hover:text-white transition p-6 border border-gray-200 rounded-lg shadow-lg"
+        >
+          {/* Добавляем номер перед заголовком */}
+          <h2 className="text-xl font-bold mb-4">
+            {item.number}. {item.title}
+          </h2>
+          <p>{item.description}</p>
+        </div>
+      ))}
+    </div>
+  );
+}

@@ -1,11 +1,10 @@
-'use client'
-import React from "react";
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 
 type Props = {};
 
-const Footer = (props: Props) => {
+const Footer = (_props: Props) => {
   return (
     <footer className="py-4 px-4 bg-black/40 backdrop-blur-lg flex items-center border-t-[1px] border-neutral-900 justify-between">
       <aside className="flex items-center gap-[2px]">
@@ -52,7 +51,9 @@ const Footer = (props: Props) => {
           </span>
         </Link>
         <div className="text-white">
-          <p>Телефон: <a href="tel:+74994901183">+7 (499) 490 11 83</a></p>
+          <p>
+            Телефон: <a href="tel:+74994901183">+7 (499) 490 11 83</a>
+          </p>
           <p>Email: fluttrium.com</p>
         </div>
       </aside>

@@ -62,27 +62,25 @@
     "mainNavItm8": "Startup",
     "mainNavItm9": "Showcase",
     "navMainButton": "Fill out the brief",
-    "serviceItm1" : "Web development",
-    "serviceItm2" : "Mobile applications",
-    "serviceItm3" : "UI/UX design",
-    "serviceItm4" : "Technology counselling",
+    "serviceItm1": "Web development",
+    "serviceItm2": "Mobile applications",
+    "serviceItm3": "UI/UX design",
+    "serviceItm4": "Technology counselling",
     "serviceItm5": "Support and service",
-     "title1" : "Boxed application for retail",
+    "title1": "Boxed application for retail",
     "description1": "A turnkey solution for shops and chains to manage sales, warehouse and customer base",
-    "title2" : "Application for corporations",
+    "title2": "Application for corporations",
     "description2": "A tool for improving the company's internal processes, providing business process automation",
     "title3": "Online Shop",
     "description3": "An online sales platform that allows you to quickly create and manage your online shop",
     "title4": "CRM system",
     "description4": "Innovative solution for customer relationship management",
-    "description5" : "Google's modern framework for developing native applications on mobile devices",
-    "description6" : "A powerful framework for React that makes it easy to build fast and performant web applications",
+    "description5": "Google's modern framework for developing native applications on mobile devices",
+    "description6": "A powerful framework for React that makes it easy to build fast and performant web applications",
     "title5": "Telegram Bot",
     "description7": "Optimization and automation of business processes in the company",
     "title6": "SEO optimization, Yandex Direct",
     "description8": "Comprehensive website promotion: SEO and advertising in Yandex Direct"
-
-
   },
   "MainForm": {
     "FormDisc": "How can we help you? Briefly describe your development request — we will get back to you within a day",
@@ -99,7 +97,6 @@
     "subtitle": "Trust us with their projects and are satisfied with the results",
     "description": "We are proud to work with leading companies and organizations, creating innovative solutions for their business"
   },
-
 
   "Modal": {
     "title": "Have questions? Write to us!",
@@ -271,47 +268,44 @@
       "description": "We use artificial intelligence algorithms to assess sleep quality and identify problems. Data is integrated with gadgets and medical services for maximum accuracy.",
       "imageAlt": "Online knife store mockup"
     }
-
-
   },
-   "Maintenance" : {
-      "text-1": " Mobile version temporarily unavailable",
-     "text-2": "We are carrying out technical work. Please visit the site later or open it on your computer"
-   },
-   "Website": {
-     "text-1": "Website development",
-     "text-2": "We will create an effective website for you that will work correctly in all browsers and on all devices",
-     "button": "Leave a request",
-     "stage": "Exploring the project",
-     "description": "Sign the NDA. We study the terms of reference. If you don't have one, we send you a website development brief and help you fill it out",
-     "stage-2": "Let's get started",
-     "description-2": "Conduct business intelligence. We study technical documentation. Calculate how much time will be required for development and testing. Identify undescribed scenarios and bottlenecks in the TOR",
-     "stage-3" : "Frontend and backend development",
-     "description-3" :"We do the layout, develop the website and populate it with content",
-     "stage-4" : "Testing the product",
-     "description-4" : "With the help of our QA engineers, who were involved in the project at the start, we test the site. We work out the test documentation. We make final edits",
-     "stage-5" : "We present to you the website",
-     "description-5" :"We hand you the site and a complete package of project documents",
-     "stage-6" : "Supporting the site",
-     "description-6" : "Once the rights to the site have been transferred, its history does not end. If the first months of the site's life show where and what needs to be finished or redone, we offer two options: conclude a maintenance contract or start a new phase of development",
-     "h2" : "Phases of work",
-     "h3" : "Create an effective website",
-     "p": "Trust our professionals and get a quality product!",
-     "button-2": "Order a service"
-   },
-  "Writeus" : {
-    "h2" : "Write to us!",
-    "p" : "Let's make a user-friendly digital product for your customers together!",
-    "button" : "Leave a request",
-    "p2" : "By clicking on the button, you consent to the processing of personal data and agree to the privacy policy"
-
+  "Maintenance": {
+    "text-1": " Mobile version temporarily unavailable",
+    "text-2": "We are carrying out technical work. Please visit the site later or open it on your computer"
+  },
+  "Website": {
+    "text-1": "Website development",
+    "text-2": "We will create an effective website for you that will work correctly in all browsers and on all devices",
+    "button": "Leave a request",
+    "stage": "Exploring the project",
+    "description": "Sign the NDA. We study the terms of reference. If you don't have one, we send you a website development brief and help you fill it out",
+    "stage-2": "Let's get started",
+    "description-2": "Conduct business intelligence. We study technical documentation. Calculate how much time will be required for development and testing. Identify undescribed scenarios and bottlenecks in the TOR",
+    "stage-3": "Frontend and backend development",
+    "description-3": "We do the layout, develop the website and populate it with content",
+    "stage-4": "Testing the product",
+    "description-4": "With the help of our QA engineers, who were involved in the project at the start, we test the site. We work out the test documentation. We make final edits",
+    "stage-5": "We present to you the website",
+    "description-5": "We hand you the site and a complete package of project documents",
+    "stage-6": "Supporting the site",
+    "description-6": "Once the rights to the site have been transferred, its history does not end. If the first months of the site's life show where and what needs to be finished or redone, we offer two options: conclude a maintenance contract or start a new phase of development",
+    "h2": "Phases of work",
+    "h3": "Create an effective website",
+    "p": "Trust our professionals and get a quality product!",
+    "button-2": "Order a service"
+  },
+  "Writeus": {
+    "h2": "Write to us!",
+    "p": "Let's make a user-friendly digital product for your customers together!",
+    "button": "Leave a request",
+    "p2": "By clicking on the button, you consent to the processing of personal data and agree to the privacy policy"
   },
   "Mobile": {
-    "h1" :  "Cross-platform application development",
-    "h2" : " An app for iOS and Android at once? Let's develop it on Flutter",
-    "p" :  "  With cross-platform mobile development, we can cover two operating systems at once with one code: iOS and Android. Firstly, it is profitable, because development costs are significantly optimised. And secondly, it is fast - cross-platform development allows you to reduce the time required to create an application by 40%",
-    "button" : "Leave a request",
-    "stage": "Exploring the project" ,
+    "h1": "Cross-platform application development",
+    "h2": " An app for iOS and Android at once? Let's develop it on Flutter",
+    "p": "  With cross-platform mobile development, we can cover two operating systems at once with one code: iOS and Android. Firstly, it is profitable, because development costs are significantly optimised. And secondly, it is fast - cross-platform development allows you to reduce the time required to create an application by 40%",
+    "button": "Leave a request",
+    "stage": "Exploring the project",
     "description": "We sign the NDA. We study your terms of reference (TOR), and if you don't have one - this happens too, and it's normal - we help you draw one up. By the beginning of the second stage, we have a description of the basic functions of the mobile application",
     "stage-2": "Estimating the scope of work and selecting a methodology",
     "description-2": "Select a methodology suitable for the project: Agile or Waterfall. Study the technical documentation. Then we calculate the estimated development and testing time. Identify undescribed scenarios in the ToR. Plan a roadmap",
@@ -331,11 +325,10 @@
     "description-9": "Once a mobile app is published, its story doesn't end. We work on new features, improve it, and get feedback from users",
     "stage-10": "Result of work",
     "description-10": "A ready-made easily extensible and maintainable mobile application published in the App Store/Google Play. As well as the source code of the application and its documentation",
-    "text" : "Stages of work",
+    "text": "Stages of work",
     "text2": " Create an effective application",
-    "text3" :"Trust our professionals and get a quality product!",
-    "text4" : "  Order a service"
-
+    "text3": "Trust our professionals and get a quality product!",
+    "text4": "  Order a service"
   },
   "DirectPage": {
     "hero": {
@@ -432,8 +425,7 @@
       "title": "Want a stable flow of clients?",
       "subtitle": "Leave a request — we will launch SEO and advertising turnkey with focus on ROI and sales growth"
     }
-  }
-  ,
+  },
   "TgbotPage": {
     "hero": {
       "title": "Telegram bots",
@@ -511,8 +503,14 @@
       "title": "How does it work?",
       "steps": [
         { "title": "Task analysis", "desc": "We study training needs" },
-        { "title": "Development", "desc": "We create a smart bot for your goals" },
-        { "title": "Testing", "desc": "We test functionality on a pilot group" },
+        {
+          "title": "Development",
+          "desc": "We create a smart bot for your goals"
+        },
+        {
+          "title": "Testing",
+          "desc": "We test functionality on a pilot group"
+        },
         { "title": "Implementation", "desc": "We launch and train employees" }
       ]
     },
@@ -520,8 +518,7 @@
       "title": "Ready to automate training?",
       "subtitle": "Tell us about your corporate training needs"
     }
-  }
-  ,
+  },
   "StudPage": {
     "hero": {
       "title1": "Student",
@@ -695,15 +692,51 @@
     "process": {
       "title": "How we will work",
       "items": [
-        { "number": 1, "title": "Discussion", "description": "We sign an NDA. Ask questions, learn details about the future app and the business goals behind it" },
-        { "number": 2, "title": "Technical specification", "description": "We study your spec, and if not present — help prepare it" },
-        { "number": 3, "title": "Prototype", "description": "We create a clickable prototype of the app" },
-        { "number": 4, "title": "Design", "description": "We craft a stylish design aligned with your brand or create a new one" },
-        { "number": 5, "title": "Development", "description": "We bring prototypes to life. Work in iterations, demo intermediate results" },
-        { "number": 6, "title": "Testing", "description": "We thoroughly test the product so it works for every user" },
-        { "number": 7, "title": "Publishing", "description": "We prepare the app for release. Publish to the stores" },
-        { "number": 8, "title": "Handover", "description": "We transfer the source code and rights" },
-        { "number": 9, "title": "Support", "description": "We ensure stable operation after launch. Build new features" }
+        {
+          "number": 1,
+          "title": "Discussion",
+          "description": "We sign an NDA. Ask questions, learn details about the future app and the business goals behind it"
+        },
+        {
+          "number": 2,
+          "title": "Technical specification",
+          "description": "We study your spec, and if not present — help prepare it"
+        },
+        {
+          "number": 3,
+          "title": "Prototype",
+          "description": "We create a clickable prototype of the app"
+        },
+        {
+          "number": 4,
+          "title": "Design",
+          "description": "We craft a stylish design aligned with your brand or create a new one"
+        },
+        {
+          "number": 5,
+          "title": "Development",
+          "description": "We bring prototypes to life. Work in iterations, demo intermediate results"
+        },
+        {
+          "number": 6,
+          "title": "Testing",
+          "description": "We thoroughly test the product so it works for every user"
+        },
+        {
+          "number": 7,
+          "title": "Publishing",
+          "description": "We prepare the app for release. Publish to the stores"
+        },
+        {
+          "number": 8,
+          "title": "Handover",
+          "description": "We transfer the source code and rights"
+        },
+        {
+          "number": 9,
+          "title": "Support",
+          "description": "We ensure stable operation after launch. Build new features"
+        }
       ]
     }
   },
@@ -839,8 +872,7 @@
       "description": "Trust our professionals and get a quality product!",
       "cta": "Order consultation"
     }
-  }
-  ,
+  },
   "AuditPage": {
     "title": "Free express app audit",
     "description": "An app audit is needed if it works incorrectly. Users leave negative reviews and low ratings — which harms store rankings and promotion",
@@ -853,9 +885,18 @@
     "stages": {
       "title": "Work stages",
       "items": [
-        { "stage": "We get started", "description": "We sign an NDA with you. We embed analysts into your project" },
-        { "stage": "We perform testing", "description": "We identify faulty functionality, visual issues, analyze risks and vulnerabilities" },
-        { "stage": "We summarize results", "description": "We compile a report with a strategy to improve and optimize the product" }
+        {
+          "stage": "We get started",
+          "description": "We sign an NDA with you. We embed analysts into your project"
+        },
+        {
+          "stage": "We perform testing",
+          "description": "We identify faulty functionality, visual issues, analyze risks and vulnerabilities"
+        },
+        {
+          "stage": "We summarize results",
+          "description": "We compile a report with a strategy to improve and optimize the product"
+        }
       ]
     },
     "sidebar": {
@@ -863,8 +904,7 @@
       "description": "Trust our professionals and get a quality product!",
       "cta": "Order consultation"
     }
-  }
-  ,
+  },
   "ITSupportPage": {
     "title": "IT Services Support",
     "subtitle": "We ensure uninterrupted service operation and friendly user interaction",
@@ -873,8 +913,14 @@
     "stages": {
       "title": "Work stages",
       "items": [
-        { "stage": "We get started", "description": "We onboard our specialists. A personal IT manager and a team of senior L3 engineers design and implement complex projects to achieve your business goals" },
-        { "stage": "We sign the contract", "description": "We not only fix issues but also do prevention" }
+        {
+          "stage": "We get started",
+          "description": "We onboard our specialists. A personal IT manager and a team of senior L3 engineers design and implement complex projects to achieve your business goals"
+        },
+        {
+          "stage": "We sign the contract",
+          "description": "We not only fix issues but also do prevention"
+        }
       ]
     },
     "sidebar": {
@@ -959,12 +1005,36 @@
     "costLabel": "Cost",
     "durationLabel": "Timeline",
     "stages": [
-      { "title": "Functional Requirements", "cost": "from 10k RUB", "duration": "0.5-1 week" },
-      { "title": "Business Analysis", "cost": "from 40k RUB", "duration": "1-2 weeks" },
-      { "title": "Design + Technical Spec", "cost": "from 70k RUB", "duration": "1-3 weeks" },
-      { "title": "Design/Layout", "cost": "from 30k RUB", "duration": "0.5-3 weeks" },
-      { "title": "Development/Coding", "cost": "from 350k RUB", "duration": "5-16 weeks" },
-      { "title": "Development and Support", "cost": "from 60 hours", "duration": "from 2000 RUB/hour" }
+      {
+        "title": "Functional Requirements",
+        "cost": "from 10k RUB",
+        "duration": "0.5-1 week"
+      },
+      {
+        "title": "Business Analysis",
+        "cost": "from 40k RUB",
+        "duration": "1-2 weeks"
+      },
+      {
+        "title": "Design + Technical Spec",
+        "cost": "from 70k RUB",
+        "duration": "1-3 weeks"
+      },
+      {
+        "title": "Design/Layout",
+        "cost": "from 30k RUB",
+        "duration": "0.5-3 weeks"
+      },
+      {
+        "title": "Development/Coding",
+        "cost": "from 350k RUB",
+        "duration": "5-16 weeks"
+      },
+      {
+        "title": "Development and Support",
+        "cost": "from 60 hours",
+        "duration": "from 2000 RUB/hour"
+      }
     ]
   },
   "RetailPage": {
@@ -981,10 +1051,22 @@
   "CorporationReasons": {
     "title": "When do companies order corporate apps for Android or iOS?",
     "items": [
-      { "title": "Too many routine operations", "description": "The HR Director seeks to reduce operational costs and time spent on paperwork" },
-      { "title": "Employees don't meet KPIs", "description": "The admin department head wants to control employee performance and increase motivation" },
-      { "title": "All documentation is on paper", "description": "The finance services director plans to make company reporting more transparent" },
-      { "title": "The company has 50+ retail points", "description": "The customer service director wants to improve customer experience and reviews via standards control" }
+      {
+        "title": "Too many routine operations",
+        "description": "The HR Director seeks to reduce operational costs and time spent on paperwork"
+      },
+      {
+        "title": "Employees don't meet KPIs",
+        "description": "The admin department head wants to control employee performance and increase motivation"
+      },
+      {
+        "title": "All documentation is on paper",
+        "description": "The finance services director plans to make company reporting more transparent"
+      },
+      {
+        "title": "The company has 50+ retail points",
+        "description": "The customer service director wants to improve customer experience and reviews via standards control"
+      }
     ]
   },
   "CorporationUsage": {
@@ -1065,13 +1147,25 @@
       {
         "title": "Home screen",
         "description": "Mobile store showcase. News, banners and stories draw attention and guide users",
-        "tags": ["news", "banners", "loyalty program", "promo catalog", "discounts"],
+        "tags": [
+          "news",
+          "banners",
+          "loyalty program",
+          "promo catalog",
+          "discounts"
+        ],
         "image": "/iPhone 15 (1).png"
       },
       {
         "title": "Catalog and product card",
         "description": "Informative catalog with category filters, sorting and 'Add to cart'. Attractive product cards with reviews and full details",
-        "tags": ["product list", "delivery address", "price", "CloudPayments", "Sberbank"],
+        "tags": [
+          "product list",
+          "delivery address",
+          "price",
+          "CloudPayments",
+          "Sberbank"
+        ],
         "image": "/iPhone 15 (2).png"
       },
       {
@@ -1101,12 +1195,21 @@
     "title": "Advantages",
     "cta": "Discuss the project",
     "items": [
-      { "title": "All app stores", "description": "App Store, Google Play, App Gallery, RuStore" },
+      {
+        "title": "All app stores",
+        "description": "App Store, Google Play, App Gallery, RuStore"
+      },
       { "title": "Fixed cost", "description": "No additional expenses" },
       { "title": "App license", "description": "We transfer code, not rent" },
       { "title": "Scalability", "description": "No limits for growth" },
-      { "title": "Partner services infrastructure", "description": "1C, Manzana, Sberbank and others" },
-      { "title": "Own ecosystem", "description": "Apps for pickers and couriers along with the main one" }
+      {
+        "title": "Partner services infrastructure",
+        "description": "1C, Manzana, Sberbank and others"
+      },
+      {
+        "title": "Own ecosystem",
+        "description": "Apps for pickers and couriers along with the main one"
+      }
     ]
   },
   "RetailTimeline": {
@@ -1164,12 +1267,37 @@
   "InternetShopCards": {
     "title": "E-commerce Solutions",
     "items": [
-      { "number": 1, "title": "Turnkey Online Store", "description": "Full development cycle from business analysis and custom design to integration with complex CRM and ERP systems. Development of an online store based on Next JS" },
-      { "number": 2, "title": "Online Store on Ready Platform", "description": "Quick MVP launch for first sales and custom development of complex projects on the CS-Cart platform with a functional engine for quick start and unlimited growth" },
-      { "number": 3, "title": "Omnichannel Projects", "description": "Business process automation and building a unified ecosystem of online and offline points of sale. We improve customer experience based on best international practices" },
-      { "number": 4, "title": "E-commerce Replatforming", "description": "Seamless migration of the current website from an outdated CMS or custom software to a multifunctional platform without downtime or data loss" },
-      { "number": 5, "title": "Mobile Applications", "description": "Development of mobile applications, responsive websites, and PWA solutions for mobile commerce. We increase conversion on all devices" },
-      { "number": 6, "title": "Still have questions?", "description": "Want to create an online store? We'll analyze your business idea or existing website during a free consultation!", "buttonText": "Contact Us" }
+      {
+        "number": 1,
+        "title": "Turnkey Online Store",
+        "description": "Full development cycle from business analysis and custom design to integration with complex CRM and ERP systems. Development of an online store based on Next JS"
+      },
+      {
+        "number": 2,
+        "title": "Online Store on Ready Platform",
+        "description": "Quick MVP launch for first sales and custom development of complex projects on the CS-Cart platform with a functional engine for quick start and unlimited growth"
+      },
+      {
+        "number": 3,
+        "title": "Omnichannel Projects",
+        "description": "Business process automation and building a unified ecosystem of online and offline points of sale. We improve customer experience based on best international practices"
+      },
+      {
+        "number": 4,
+        "title": "E-commerce Replatforming",
+        "description": "Seamless migration of the current website from an outdated CMS or custom software to a multifunctional platform without downtime or data loss"
+      },
+      {
+        "number": 5,
+        "title": "Mobile Applications",
+        "description": "Development of mobile applications, responsive websites, and PWA solutions for mobile commerce. We increase conversion on all devices"
+      },
+      {
+        "number": 6,
+        "title": "Still have questions?",
+        "description": "Want to create an online store? We'll analyze your business idea or existing website during a free consultation!",
+        "buttonText": "Contact Us"
+      }
     ]
   },
   "IndustrySolutions": {
@@ -1192,11 +1320,26 @@
   "FAQ": {
     "title": "FAQ about online store development",
     "items": [
-      { "question": "What functionality should an online store have?", "answer": "Catalog management, order processing, payments and delivery, and user account management." },
-      { "question": "How long does it take to develop from scratch?", "answer": "On average 2–6 months depending on project complexity." },
-      { "question": "How much does development cost?", "answer": "Depends on scope and tech; typically from 500,000 to 3,000,000 RUB equivalent." },
-      { "question": "What technologies do you use?", "answer": "Next.js, React, Node.js, PostgreSQL/MongoDB, integrations with payments and logistics." },
-      { "question": "Can you integrate with ERP/CRM?", "answer": "Yes, we integrate with ERP and CRM for data sync and process automation." }
+      {
+        "question": "What functionality should an online store have?",
+        "answer": "Catalog management, order processing, payments and delivery, and user account management."
+      },
+      {
+        "question": "How long does it take to develop from scratch?",
+        "answer": "On average 2–6 months depending on project complexity."
+      },
+      {
+        "question": "How much does development cost?",
+        "answer": "Depends on scope and tech; typically from 500,000 to 3,000,000 RUB equivalent."
+      },
+      {
+        "question": "What technologies do you use?",
+        "answer": "Next.js, React, Node.js, PostgreSQL/MongoDB, integrations with payments and logistics."
+      },
+      {
+        "question": "Can you integrate with ERP/CRM?",
+        "answer": "Yes, we integrate with ERP and CRM for data sync and process automation."
+      }
     ]
   },
   "CrmParallax": {
@@ -1204,19 +1347,43 @@
     "headerDescription": "We develop solutions tailored to your unique needs that integrate with your tools and grow with your business. Give your team the ability to work more efficiently and close deals faster with analytics and automation",
     "products": [
       { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
-      { "title": "Real Estate List", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
-      { "title": "Real Estate List", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
+      {
+        "title": "Real Estate List",
+        "link": "",
+        "thumbnail": "/projects/Список недвижимости.png"
+      },
+      {
+        "title": "Real Estate List",
+        "link": "",
+        "thumbnail": "/projects/Список недвижимости.png"
+      },
       { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
       { "title": "CRM Funnel", "link": "", "thumbnail": "/crm/CRMВоронка.png" },
       { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
       { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
-      { "title": "Document Storage", "link": "", "thumbnail": "/crm/Хранилизе документов.png" },
+      {
+        "title": "Document Storage",
+        "link": "",
+        "thumbnail": "/crm/Хранилизе документов.png"
+      },
       { "title": "Dashboard", "link": "", "thumbnail": "/crm/Dashboard.png" },
-      { "title": "Real Estate", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
+      {
+        "title": "Real Estate",
+        "link": "",
+        "thumbnail": "/projects/Список недвижимости.png"
+      },
       { "title": "Dashboard", "link": "", "thumbnail": "/crm/Dashboard.png" },
       { "title": "CRM Funnel", "link": "", "thumbnail": "/crm/CRMВоронка.png" },
-      { "title": "Rent Objects", "link": "", "thumbnail": "/crm/Объкты аренды.png" },
-      { "title": "Real Estate", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
+      {
+        "title": "Rent Objects",
+        "link": "",
+        "thumbnail": "/crm/Объкты аренды.png"
+      },
+      {
+        "title": "Real Estate",
+        "link": "",
+        "thumbnail": "/projects/Список недвижимости.png"
+      },
       { "title": "CRM Funnel", "link": "", "thumbnail": "/crm/CRMВоронка.png" }
     ]
   },

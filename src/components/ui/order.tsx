@@ -1,44 +1,65 @@
-'use client';
-// pages/CorporateAppReasons.tsx
-import React from 'react';
-import { useTranslations } from '@/hooks/useTranslations';
+"use client";
+import { useTranslations } from "@/hooks/useTranslations";
 
 const reasonsDataFallback = [
-  { id: 1, title: 'Много рутинных операций', description: 'Директор по персоналу ищет возможность снизить операционные расходы и сократить время на заполнение бумажных документов' },
-  { id: 2, title: 'Сотрудники не достигают KPI в работе', description: 'Руководитель административно-хозяйственного отдела хочет понять, как проконтролировать эффективность работы сотрудников и повысить их мотивацию' },
-  { id: 3, title: 'Вся документация на бумаге', description: 'Директор департамента управления финансовыми сервисами планирует сделать отчётность в компании более прозрачной' },
-  { id: 4, title: 'В компании более 50 точек продаж', description: 'Директор по клиентскому сервису хочет улучшить опыт клиентов и отзывы о компании с помощью контроля соблюдения стандартов работы' },
+  {
+    id: 1,
+    title: "Много рутинных операций",
+    description:
+      "Директор по персоналу ищет возможность снизить операционные расходы и сократить время на заполнение бумажных документов",
+  },
+  {
+    id: 2,
+    title: "Сотрудники не достигают KPI в работе",
+    description:
+      "Руководитель административно-хозяйственного отдела хочет понять, как проконтролировать эффективность работы сотрудников и повысить их мотивацию",
+  },
+  {
+    id: 3,
+    title: "Вся документация на бумаге",
+    description:
+      "Директор департамента управления финансовыми сервисами планирует сделать отчётность в компании более прозрачной",
+  },
+  {
+    id: 4,
+    title: "В компании более 50 точек продаж",
+    description:
+      "Директор по клиентскому сервису хочет улучшить опыт клиентов и отзывы о компании с помощью контроля соблюдения стандартов работы",
+  },
 ];
 
 const CorporateAppReasons = () => {
   const { messages } = useTranslations();
   const t: any = (messages as any).CorporationReasons;
-  const reasonsData = (t?.items as any[])?.map((item: any, idx: number) => ({ id: idx + 1, title: item.title, description: item.description })) || reasonsDataFallback;
+  const reasonsData =
+    (t?.items as any[])?.map((item: any, idx: number) => ({
+      id: idx + 1,
+      title: item.title,
+      description: item.description,
+    })) || reasonsDataFallback;
   return (
-
-      <div className=" relative flex flex-col items-center justify-center min-h-screen px-4 py-8">
-
-
-          <div className="max-w-full w-full rounded-3xl shadow-lg p-8">
-            <h1 className="text-5xl font-bold text-center mb-12 text-800">
-              {t?.title || 'Когда заказывают разработку корпоративных приложений на Android или iOS?'}
-            </h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {reasonsData.map((reason) => (
-                  <div
-                      key={reason.id}
-                      className="p-6 border-2 border-gray-300 rounded-lg shadow-md"
-                  >
-                    <h2 className="text-4xl font-semibold text-blue-600 mb-2">
-                      {reason.id}. {reason.title}
-                    </h2>
-                    <p className="text-2xl text-700">{reason.description}</p>
-                  </div>
-              ))}
+    <div className=" relative flex flex-col items-center justify-center min-h-screen px-4 py-8">
+      <div className="max-w-full w-full rounded-3xl shadow-lg p-8">
+        <h1 className="text-5xl font-bold text-center mb-12 text-800">
+          {t?.title ||
+            "Когда заказывают разработку корпоративных приложений на Android или iOS?"}
+        </h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {reasonsData.map((reason) => (
+            <div
+              key={reason.id}
+              className="p-6 border-2 border-gray-300 rounded-lg shadow-md"
+            >
+              <h2 className="text-4xl font-semibold text-blue-600 mb-2">
+                {reason.id}. {reason.title}
+              </h2>
+              <p className="text-2xl text-700">{reason.description}</p>
             </div>
-          </div>
+          ))}
         </div>
-        );
-        };
+      </div>
+    </div>
+  );
+};
 
-        export default CorporateAppReasons;
+export default CorporateAppReasons;

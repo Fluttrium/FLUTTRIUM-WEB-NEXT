@@ -1,14 +1,14 @@
 "use client";
-import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { LampContainer } from "@/components/ui/lamp";
-import { BackgroundGradient } from "@/components/ui/background-gradient";
-import Modal from "@/components/Modal";
+import { useState } from "react";
 import { useTranslations } from "use-intl";
+import Modal from "@/components/Modal";
+import { BackgroundGradient } from "@/components/ui/background-gradient";
+import { LampContainer } from "@/components/ui/lamp";
 
 export default function Price() {
   const [isModalOpen, setModalOpen] = useState(false);
-  const t = useTranslations('PricePage');
+  const t = useTranslations("PricePage");
 
   const handleOpenModal = () => setModalOpen(true);
   const handleCloseModal = () => setModalOpen(false);
@@ -28,25 +28,27 @@ export default function Price() {
           {/* Standard plan */}
           <BackgroundGradient className="rounded-[22px] max-w-sm p-6 sm:p-10 bg-white dark:bg-zinc-900 flex flex-col justify-between items-center gap-6 sm:h-full">
             <p className="text-2xl sm:text-3xl dark:text-neutral-200 text-center">
-              {t('standardPlan.title')}
+              {t("standardPlan.title")}
             </p>
             <div className="text-sm sm:text-base text-neutral-600 dark:text-neutral-400 text-center">
               <h2 className="text-base sm:text-xl font-semibold mb-3">
-                {t('standardPlan.included')}
+                {t("standardPlan.included")}
               </h2>
               <ul className="list-disc list-inside text-xs sm:text-sm mb-3">
-                {t.raw('standardPlan.features').map((feature: string, index: number) => (
-                  <li key={index}>{feature}</li>
-                ))}
+                {t
+                  .raw("standardPlan.features")
+                  .map((feature: string, index: number) => (
+                    <li key={index}>{feature}</li>
+                  ))}
               </ul>
             </div>
             <h3 className="text-base sm:text-xl font-semibold text-center mb-4">
-              {t('standardPlan.price')}
+              {t("standardPlan.price")}
             </h3>
             <button
               onClick={handleOpenModal}
               className="flex items-center justify-center w-20 h-20 rounded-full border-2 border-black dark:border-white bg-blue-600 text-white transition duration-200 hover:bg-blue-700 mb-4"
-              title={t('standardPlan.cta')}
+              title={t("standardPlan.cta")}
             >
               <svg
                 className="w-10 h-10"
@@ -68,25 +70,27 @@ export default function Price() {
           {/* Premium plan */}
           <BackgroundGradient className="rounded-[22px] max-w-sm p-6 sm:p-10 bg-white dark:bg-zinc-900 flex flex-col justify-between items-center gap-6 sm:h-full">
             <p className="text-2xl sm:text-3xl dark:text-neutral-200 text-center">
-              {t('premiumPlan.title')}
+              {t("premiumPlan.title")}
             </p>
             <div className="text-sm sm:text-base text-neutral-600 dark:text-neutral-400 text-center">
               <h2 className="text-base sm:text-xl font-semibold mb-3">
-                {t('premiumPlan.included')}
+                {t("premiumPlan.included")}
               </h2>
               <ul className="list-disc list-inside text-xs sm:text-sm mb-3">
-                {t.raw('premiumPlan.features').map((feature: string, index: number) => (
-                  <li key={index}>{feature}</li>
-                ))}
+                {t
+                  .raw("premiumPlan.features")
+                  .map((feature: string, index: number) => (
+                    <li key={index}>{feature}</li>
+                  ))}
               </ul>
             </div>
             <h3 className="text-base sm:text-xl font-semibold text-center mb-4">
-              {t('premiumPlan.price')}
+              {t("premiumPlan.price")}
             </h3>
             <button
               onClick={handleOpenModal}
               className="flex items-center justify-center w-20 h-20 rounded-full border-2 border-black dark:border-white bg-blue-600 text-white transition duration-200 hover:bg-blue-700 mb-4"
-              title={t('premiumPlan.cta')}
+              title={t("premiumPlan.cta")}
             >
               <svg
                 className="w-10 h-10"
@@ -108,25 +112,27 @@ export default function Price() {
           {/* Custom services */}
           <BackgroundGradient className="rounded-[22px] max-w-sm p-6 sm:p-10 bg-white dark:bg-zinc-900 flex flex-col justify-between items-center gap-6 sm:h-full">
             <p className="text-2xl sm:text-3xl dark:text-neutral-200 text-center">
-              {t('customServices.title')}
+              {t("customServices.title")}
             </p>
             <div className="text-sm sm:text-base text-neutral-600 dark:text-neutral-400 text-center">
               <h2 className="text-base sm:text-xl font-semibold mb-3">
-                {t('customServices.included')}
+                {t("customServices.included")}
               </h2>
               <ul className="list-disc list-inside text-xs sm:text-sm mb-3">
-                {t.raw('customServices.features').map((feature: string, index: number) => (
-                  <li key={index}>{feature}</li>
-                ))}
+                {t
+                  .raw("customServices.features")
+                  .map((feature: string, index: number) => (
+                    <li key={index}>{feature}</li>
+                  ))}
               </ul>
             </div>
             <h3 className="text-base sm:text-xl font-semibold text-center mb-4">
-              {t('customServices.description')}
+              {t("customServices.description")}
             </h3>
             <button
               onClick={handleOpenModal}
               className="flex items-center justify-center w-20 h-20 rounded-full border-2 border-black dark:border-white bg-blue-600 text-white transition duration-200 hover:bg-blue-700 mb-4"
-              title={t('customServices.cta')}
+              title={t("customServices.cta")}
             >
               <svg
                 className="w-10 h-10"
@@ -145,7 +151,9 @@ export default function Price() {
             </button>
           </BackgroundGradient>
         </div>
-        {isModalOpen && <Modal isOpen={isModalOpen} onClose={handleCloseModal} />}
+        {isModalOpen && (
+          <Modal isOpen={isModalOpen} onClose={handleCloseModal} />
+        )}
       </motion.h1>
     </LampContainer>
   );

@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { useTranslations } from "@/hooks/useTranslations";
 
 export function CardHoverEffectDemo5() {
@@ -62,7 +61,9 @@ export function HoverEffect({ items }: HoverEffectProps) {
               <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-4">
                 {item.number}. {item.title}
               </h2>
-              <p className="text-sm sm:text-base flex-grow">{item.description}</p>
+              <p className="text-sm sm:text-base flex-grow">
+                {item.description}
+              </p>
             </div>
           ))}
         </div>

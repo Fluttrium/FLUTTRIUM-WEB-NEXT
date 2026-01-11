@@ -1,42 +1,39 @@
 "use client";
 
-import React, {useState} from "react";
-import { cn } from "@/lib/utils";
-import { Label } from "./ui/label";
-import { Input } from "./ui/input";
+import type React from "react";
+import { useState } from "react";
 import { useTranslations } from "use-intl";
+import { cn } from "@/lib/utils";
+import { Input } from "./ui/input";
+import { Label } from "./ui/label";
 
 export function Form() {
-
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [phone, setPhone] = useState('');
-  const [description, setDescription] = useState('');
-  const [loading, setLoading] = useState(false);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [description, setDescription] = useState("");
+  const [_loading, setLoading] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
 
-
     try {
-      const response = await fetch('/api/form', {
-        method: 'POST',
+      const response = await fetch("/api/form", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
-        body: JSON.stringify({name, email, phone, description}),
+        body: JSON.stringify({ name, email, phone, description }),
       });
 
       if (response.ok) {
-
-        setName('');
-        setEmail('');
-        setPhone('');
-        setDescription('');
+        setName("");
+        setEmail("");
+        setPhone("");
+        setDescription("");
       } else {
-        const errorData = await response.json();
-
+        const _errorData = await response.json();
       }
     } finally {
       setLoading(false);
@@ -58,20 +55,19 @@ export function Form() {
               <LabelInputContainer>
                 <Label htmlFor="firstname">{t("label1")}</Label>
                 <Input
-                    onChange={(e) => setName(e.target.value)}
+                  onChange={(e) => setName(e.target.value)}
                   id="firstname"
                   placeholder="Tyler"
                   type="text"
                   className="h-8 text-sm"
                 />
               </LabelInputContainer>
-
             </div>
             {/* Поле email отображается только на десктопе, Рамзес сделай поле не обязательным */}
             <LabelInputContainer className="mb-4">
               <Label htmlFor="email">{t("label3")}</Label>
               <Input
-                  onChange={(e) => setEmail(e.target.value)}
+                onChange={(e) => setEmail(e.target.value)}
                 id="email"
                 placeholder="example@.com"
                 type="email"
@@ -81,7 +77,7 @@ export function Form() {
             <LabelInputContainer className="mb-4">
               <Label htmlFor="phone">{t("label4")}</Label>
               <Input
-                  onChange={(e) => setPhone(e.target.value)}
+                onChange={(e) => setPhone(e.target.value)}
                 id="phone"
                 placeholder="+7 921 457 00 57"
                 type="phone"
@@ -90,7 +86,8 @@ export function Form() {
             </LabelInputContainer>
             <LabelInputContainer className="mb-4">
               <Label htmlFor="idea">{t("label5")}</Label>
-              <Input onChange={(e) => setDescription(e.target.value)}
+              <Input
+                onChange={(e) => setDescription(e.target.value)}
                 id="idea"
                 placeholder={t("placeHold")}
                 className="border border-gray-300 rounded-md p-2 w-full h-20 resize-none text-sm"

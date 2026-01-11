@@ -1,8 +1,8 @@
-"use client"
-import React, { useState } from "react";
+"use client";
 import Image from "next/image";
-import Modal from "../Modal";
+import { useState } from "react";
 import { useTranslations } from "@/hooks/useTranslations";
+import Modal from "../Modal";
 
 export function FreeAudit() {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -42,14 +42,14 @@ export function FreeAudit() {
         </ul>
 
         <div className="flex justify-center lg:justify-start mt-12">
-                    {/* Кнопка */}
-                    <button
-                        onClick={handleOpenModal}
-                        className="relative inline-flex items-center justify-center px-12 py-4 font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 border-2 border-white rounded-full shadow-lg hover:from-blue-700 hover:to-blue-800 hover:shadow-xl transition-all duration-300 ease-in-out text-xl"
-                    >
-                        {t?.cta}
-                    </button>
-                </div>
+          {/* Кнопка */}
+          <button
+            onClick={handleOpenModal}
+            className="relative inline-flex items-center justify-center px-12 py-4 font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 border-2 border-white rounded-full shadow-lg hover:from-blue-700 hover:to-blue-800 hover:shadow-xl transition-all duration-300 ease-in-out text-xl"
+          >
+            {t?.cta}
+          </button>
+        </div>
       </div>
       <Modal isOpen={isModalOpen} onClose={handleCloseModal} />
     </div>

@@ -1,9 +1,9 @@
 "use client";
-import React, { useState } from "react";
 import Image from "next/image";
+import { useState } from "react";
 import { Cover } from "@/components/ui/cover";
-import Modal from "../Modal";
 import { useTranslations } from "@/hooks/useTranslations";
+import Modal from "../Modal";
 
 export function CoverDemo() {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -18,7 +18,10 @@ export function CoverDemo() {
       {/* Левая часть с текстом */}
       <div className="w-full md:w-1/2 md:pl-8 lg:pl-6 flex flex-col justify-center items-center md:items-start">
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-7xl font-semibold mx-auto mt-0 sm:mt-4 md:mt-0 py-4 sm:py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white text-center md:text-left">
-          {m?.cover?.title.split('\n')[0]}<br />{m?.cover?.title.split('\n')[1]?.split('Flutter')[0]} <Cover>Flutter</Cover>
+          {m?.cover?.title.split("\n")[0]}
+          <br />
+          {m?.cover?.title.split("\n")[1]?.split("Flutter")[0]}{" "}
+          <Cover>Flutter</Cover>
         </h1>
         <div className="flex justify-center mt-8 md:mt-12">
           <button
@@ -36,7 +39,10 @@ export function CoverDemo() {
           src="/taximock/Black-Titanium.png"
           alt={m?.cover?.imageAlt || "Preview"}
           className="w-1/2 sm:w-1/3 md:w-2/3 lg:w-3/4 h-auto my-20 object-contain transform rotate-2 shadow-lg"
-          style={{ transform: 'rotate(-70deg)', boxShadow: '0px 10px 30px rgba(0, 0, 0, 0.2)' }}
+          style={{
+            transform: "rotate(-70deg)",
+            boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)",
+          }}
           width={512}
           height={512}
         />

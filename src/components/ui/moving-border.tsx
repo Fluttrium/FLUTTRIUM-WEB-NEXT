@@ -1,6 +1,6 @@
 "use client";
-import React from "react";
 import { motion } from "framer-motion";
+import type React from "react";
 
 export const Button = ({
   borderRadius = "1.75rem",
@@ -46,7 +46,8 @@ export const Button = ({
           }}
           className={`w-full h-full ${borderClassName}`}
           style={{
-            background: "conic-gradient(from 0deg at 50% 50%, #3b82f6, #8b5cf6, #3b82f6)",
+            background:
+              "conic-gradient(from 0deg at 50% 50%, #3b82f6, #8b5cf6, #3b82f6)",
           }}
         />
       </div>

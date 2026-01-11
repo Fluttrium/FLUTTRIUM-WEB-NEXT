@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import Link from 'next/link';
+import Link from "next/link";
+import { useState } from "react";
 
 function ProductDropdown() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,8 +10,8 @@ function ProductDropdown() {
 
   return (
     <div className="relative">
-      <button 
-        onClick={toggleDropdown} 
+      <button
+        onClick={toggleDropdown}
         className="text-sm font-semibold py-2 px-4 bg-gray-200 rounded-md"
       >
         Продукты

@@ -1,12 +1,12 @@
-'use client';
-import React, { useState } from 'react';
-import { useTranslations } from 'use-intl';
-import Image from 'next/image';
-import Modal from '../Modal';
+"use client";
+import Image from "next/image";
+import { useState } from "react";
+import { useTranslations } from "use-intl";
+import Modal from "../Modal";
 
 const MobileAppPage = () => {
   const [isModalOpen, setModalOpen] = useState(false);
-  const t = useTranslations('Mobile'); // Убедитесь, что "Mobile" соответствует ключу переводов в вашем JSON.
+  const t = useTranslations("Mobile"); // Убедитесь, что "Mobile" соответствует ключу переводов в вашем JSON.
 
   const handleOpenModal = () => setModalOpen(true);
   const handleCloseModal = () => setModalOpen(false);
@@ -16,20 +16,20 @@ const MobileAppPage = () => {
       {/* Текстовая часть */}
       <div className="flex-1 w-full text-center lg:text-left">
         <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold mb-4 sm:mb-8">
-          {t('h1')} {/* Ключ для перевода заголовка */}
+          {t("h1")} {/* Ключ для перевода заголовка */}
         </h1>
         <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-4 sm:mb-8 text-white dark:text-white">
-          {t('h2')} {/* Ключ для перевода подзаголовка */}
+          {t("h2")} {/* Ключ для перевода подзаголовка */}
         </h2>
         <p className="text-lg sm:text-xl lg:text-2xl mb-6 text-white dark:text-white">
-          {t('p')} {/* Ключ для перевода абзаца */}
+          {t("p")} {/* Ключ для перевода абзаца */}
         </p>
         <div className="flex justify-center lg:justify-start mt-6 sm:mt-8">
           <button
             onClick={handleOpenModal}
             className="relative inline-flex items-center justify-center px-8 sm:px-12 py-3 sm:py-4 font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 border-2 border-white rounded-full shadow-lg hover:from-blue-700 hover:to-blue-800 hover:shadow-xl transition-all duration-300 ease-in-out text-lg sm:text-xl"
           >
-            {t('button')} {/* Ключ для перевода текста кнопки */}
+            {t("button")} {/* Ключ для перевода текста кнопки */}
           </button>
         </div>
       </div>

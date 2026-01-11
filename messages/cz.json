@@ -61,22 +61,22 @@
     "mainNavItm7": "Nextjs",
     "mainNavItm8": "Startup",
     "mainNavItm9": "Vitrina",
-    "navMainButton":"Vyplnit brief",
-    "serviceItm1" : "Vyvoj webovych stranek",
+    "navMainButton": "Vyplnit brief",
+    "serviceItm1": "Vyvoj webovych stranek",
     "serviceItm2": "Mobilni aplikace",
     "serviceItm3": "Design UI/UX",
     "serviceItm4": "Poradenstvi v oblasti technologii",
     "serviceItm5": "Podpora a údrzba",
     "title1": "Aplikace v krabicich pro maloobchodni prodej",
-    "description1":"Řeseni na klic pro obchody a retezce ke sprave prodeje, skladu a zakaznicke zakladny",
+    "description1": "Řeseni na klic pro obchody a retezce ke sprave prodeje, skladu a zakaznicke zakladny",
     "title2": "Aplikace pro spolecnosti",
     "description2": "Nastroj pro zlepseni internich procesu spolecnosti, ktery poskytuje automatizaci obchodnich procesu",
     "title3": "Online obchod",
     "description3": "Online prodejni platforma, ktera vam umozni rychle vytvorit a spravovat vas online obchod",
     "title4": "CRM system",
     "description4": "Inovativni reseni pro rizeni vztahu se zakazniky",
-    "description5" : "Moderni ramec spolecnosti Google pro vyvoj nativnich aplikaci pro mobilni zarizeni",
-    "description6" : "Vykonny framework pro React, ktery usnadnuje vytvareni rychlych a vykonnych webovych aplikaci",
+    "description5": "Moderni ramec spolecnosti Google pro vyvoj nativnich aplikaci pro mobilni zarizeni",
+    "description6": "Vykonny framework pro React, ktery usnadnuje vytvareni rychlych a vykonnych webovych aplikaci",
     "title5": "Telegram Bot",
     "description7": "Optimalizace a automatizace obchodnich procesu ve spolecnosti",
     "title6": "SEO optimalizace, Yandex Direct",
@@ -230,9 +230,9 @@
       "imageAlt": "Maketa internetoveho obchodu s nozi"
     }
   },
-  "Maintenance" : {
-    "text-1":"Mobilni verze docasne nedostupna",
-     "text-2": "Provadime technicke prace. Navstivte prosim stranky pozdeji nebo je otevrete na svem pocitaci"
+  "Maintenance": {
+    "text-1": "Mobilni verze docasne nedostupna",
+    "text-2": "Provadime technicke prace. Navstivte prosim stranky pozdeji nebo je otevrete na svem pocitaci"
   },
   "Website": {
     "text-1": "Vyvoj webovych stranek",
@@ -242,27 +242,24 @@
     "description": "Podepsani NDA. Prostudujeme zadavaci podminky. Pokud je nemate, posleme vam zadani pro tvorbu webovych stranek a pomuzeme vam ho vyplnit",
     "stage-2": "Zacneme prace ",
     "description-2": "Provadet obchodni zpravodajstvi. Studujeme technickou dokumentaci. Vypocitame, kolik casu bude potreba na vyvoj a testovani. Identifikujeme nepopsane scenare a úzka mista v zadani",
-    "stage-3" : "Vyvoj frontendu a backendu",
-    "description-3" :"Vytvarime rozvrzeni, vyvijime webove stranky a naplnujeme je obsahem",
-    "stage-4" : "Testovani vyrobku",
-    "description-4" : "S pomoci nasich inzenyru kontroly kvality, kteri se na projektu podileli od zacatku, stranky testujeme. Vypracujeme testovaci dokumentaci. Provadime konecne úpravy",
-    "stage-5" : "Poskytujeme vam webove stranky",
-    "description-5" :"Predame vam staveniste a kompletni balicek projektove dokumentace",
-    "stage-6" : "Údrzba webu",
-    "description-6" : "Po prevodu prav k webu jeho historie nekonci. Pokud se v prvnich mesicich zivota webu ukaze, kde a co je treba dokoncit nebo predelat, nabizime dve moznosti: uzavrit smlouvu o údrzbe nebo zahajit novou fazi vyvoje",
-    "h2" : "Etapy prace",
-    "h3" :  "Vytvoreni efektivnich webovych stranek",
+    "stage-3": "Vyvoj frontendu a backendu",
+    "description-3": "Vytvarime rozvrzeni, vyvijime webove stranky a naplnujeme je obsahem",
+    "stage-4": "Testovani vyrobku",
+    "description-4": "S pomoci nasich inzenyru kontroly kvality, kteri se na projektu podileli od zacatku, stranky testujeme. Vypracujeme testovaci dokumentaci. Provadime konecne úpravy",
+    "stage-5": "Poskytujeme vam webove stranky",
+    "description-5": "Predame vam staveniste a kompletni balicek projektove dokumentace",
+    "stage-6": "Údrzba webu",
+    "description-6": "Po prevodu prav k webu jeho historie nekonci. Pokud se v prvnich mesicich zivota webu ukaze, kde a co je treba dokoncit nebo predelat, nabizime dve moznosti: uzavrit smlouvu o údrzbe nebo zahajit novou fazi vyvoje",
+    "h2": "Etapy prace",
+    "h3": "Vytvoreni efektivnich webovych stranek",
     "p": "Duverujte nasim profesionalum a ziskejte kvalitni produkt!",
     "button-2": "Objednat sluzbu"
-
-
   },
-  "Writeus" : {
-    "h2" : "Napiste nam!",
-    "p" : "Pojďme spolecne vytvorit uzivatelsky privetivy digitalni produkt pro vase zakazniky!",
-    "button" : "Zanechte zadost",
-    "p2" : "Kliknutim na tlacitko vyjadrujete souhlas se zpracovanim osobnich údaju a souhlasite se zasadami ochrany osobnich údaju"
-
+  "Writeus": {
+    "h2": "Napiste nam!",
+    "p": "Pojďme spolecne vytvorit uzivatelsky privetivy digitalni produkt pro vase zakazniky!",
+    "button": "Zanechte zadost",
+    "p2": "Kliknutim na tlacitko vyjadrujete souhlas se zpracovanim osobnich údaju a souhlasite se zasadami ochrany osobnich údaju"
   },
   "AuditPage": {
     "title": "Bezplatny expresni audit aplikace",
@@ -276,9 +273,18 @@
     "stages": {
       "title": "Etapy prace",
       "items": [
-        { "stage": "Zaciname praci", "description": "Podepisujeme NDA s vami. Zapojime analytiky do vaseho projektu" },
-        { "stage": "Provadime testovani", "description": "Identifikujeme nefunkcni funkcionalitu, vizualni problemy, analyzujeme rizika a zranitelnosti" },
-        { "stage": "Vyhodnocujeme vysledky", "description": "Pripravime zpravu se strategii zlepseni a optimalizace produktu" }
+        {
+          "stage": "Zaciname praci",
+          "description": "Podepisujeme NDA s vami. Zapojime analytiky do vaseho projektu"
+        },
+        {
+          "stage": "Provadime testovani",
+          "description": "Identifikujeme nefunkcni funkcionalitu, vizualni problemy, analyzujeme rizika a zranitelnosti"
+        },
+        {
+          "stage": "Vyhodnocujeme vysledky",
+          "description": "Pripravime zpravu se strategii zlepseni a optimalizace produktu"
+        }
       ]
     },
     "sidebar": {
@@ -287,36 +293,36 @@
       "cta": "Objednat konzultaci"
     }
   },
-   "Mobile": {
-     "h1" :  "Vyvoj aplikaci pro vice platforem",
-     "h2" : " Aplikace pro iOS a Android najednou? Pojďme ji vyvinout na Flutteru",
-     "p" :  "  Pri vyvoji mobilnich aplikaci pro vice platforem muzeme jednim kódem pokryt dva operacni systemy najednou: iOS a Android. Jednak je to vyhodne, protoze se vyrazne optimalizuji naklady na vyvoj. A za druhe je rychly - vyvoj napric platformami umoznuje zkratit dobu potrebnou k vytvoreni aplikace o 40 %",
-     "button" : "Zanechte zadost",
-     "stage": "Zkoumani projektu" ,
-     "description": "Podepiseme NDA. Prostudujeme vase zadavaci podminky (TOR), a pokud je nemate - i to se stava a je to normalni - pomuzeme vam je vypracovat. Na zacatku druhe faze mame k dispozici popis zakladnich funkci mobilni aplikace",
-     "stage-2": "Odhad rozsahu praci a vyber metodiky",
-     "description-2": "Zvolte metodiku vhodnou pro dany projekt: agilni nebo vodopadovou. Prostudujte technickou dokumentaci. Pote vypocitame odhadovanou dobu vyvoje a testovani. Identifikujeme nepopsane scenare v zadavaci dokumentaci. Naplanujte plan postupu",
-     "stage-3": "Podepsani smlouvy, zahajeni prace",
-     "description-3": "Dodrzovani jasneho planu, prace ve sprintech",
-     "stage-4": "Navrhovani designu aplikace",
-     "description-4": "Vytvorime mapu obrazovky, graficke prvky a podrobny (staticky nebo interaktivni) prototyp s ohledem na mozne scenare pouziti",
-     "stage-5": "Schvaleni designu",
-     "description-5": "Ziskame zpetnou vazbu od obchodniho analytika a klienta, zapracujeme pripominky a provedeme úpravy",
-     "stage-6": "Vyvoj aplikace",
-     "description-6": "Propojujeme vyvojovy tym, ktery pise kód. V teto dobe designer aktivne sleduje praci a kontroluje, jak jsou obrazovky implementovany. Prace probiha v iteracich - vyvineme cast funkci, otestujeme ji a pokracujeme v praci na zbytku fun",
-     "stage-7": "Testovani aplikace a oprava chyb",
-     "description-7": "S pomoci nasich inzenyru kontroly kvality, kteri se na projektu podileli od zacatku, stranky testujeme. Vypracujeme testovaci dokumentaci. Pred uvolnenim aplikace provadime akceptacni testovani: prochazime obchodni pripady aplikace",
-     "stage-8": "Zverejneni aplikace v obchodech",
-     "description-8": "Pridejte aplikaci do obchodu s aplikacemi - App Store, Google Play nebo do jineho obchodu podle vlastniho vyberu. Dulezity bod: aby aplikace prosla hodnocenim obchodniku, muzete pozadat vyvojare o pomoc pri vydani nebo muzete aplikaci pripravit a nahrat do obchodu sami",
-     "stage-9": "Podpora a rozvoj",
-     "description-9": "Jakmile je mobilni aplikace zverejnena, jeji pribeh nekonci. Pracujeme na novych funkcich, vylepsujeme ji a ziskavame zpetnou vazbu od uzivatelu",
-     "stage-10": "Vysledek prace",
-     "description-10": "Hotova, snadno rozsiritelna a udrzovatelna mobilni aplikace publikovana v App Store/Google Play. Stejne jako zdrojovy kód aplikace a jeji dokumentaci",
-     "text" : "Faze prace",
-     "text2": " Vytvoreni efektivni aplikace",
-     "text3" :"Duverujte nasim profesionalum a ziskejte kvalitni produkt!",
-     "text4" : "  Objednat sluzbu"
-   },
+  "Mobile": {
+    "h1": "Vyvoj aplikaci pro vice platforem",
+    "h2": " Aplikace pro iOS a Android najednou? Pojďme ji vyvinout na Flutteru",
+    "p": "  Pri vyvoji mobilnich aplikaci pro vice platforem muzeme jednim kódem pokryt dva operacni systemy najednou: iOS a Android. Jednak je to vyhodne, protoze se vyrazne optimalizuji naklady na vyvoj. A za druhe je rychly - vyvoj napric platformami umoznuje zkratit dobu potrebnou k vytvoreni aplikace o 40 %",
+    "button": "Zanechte zadost",
+    "stage": "Zkoumani projektu",
+    "description": "Podepiseme NDA. Prostudujeme vase zadavaci podminky (TOR), a pokud je nemate - i to se stava a je to normalni - pomuzeme vam je vypracovat. Na zacatku druhe faze mame k dispozici popis zakladnich funkci mobilni aplikace",
+    "stage-2": "Odhad rozsahu praci a vyber metodiky",
+    "description-2": "Zvolte metodiku vhodnou pro dany projekt: agilni nebo vodopadovou. Prostudujte technickou dokumentaci. Pote vypocitame odhadovanou dobu vyvoje a testovani. Identifikujeme nepopsane scenare v zadavaci dokumentaci. Naplanujte plan postupu",
+    "stage-3": "Podepsani smlouvy, zahajeni prace",
+    "description-3": "Dodrzovani jasneho planu, prace ve sprintech",
+    "stage-4": "Navrhovani designu aplikace",
+    "description-4": "Vytvorime mapu obrazovky, graficke prvky a podrobny (staticky nebo interaktivni) prototyp s ohledem na mozne scenare pouziti",
+    "stage-5": "Schvaleni designu",
+    "description-5": "Ziskame zpetnou vazbu od obchodniho analytika a klienta, zapracujeme pripominky a provedeme úpravy",
+    "stage-6": "Vyvoj aplikace",
+    "description-6": "Propojujeme vyvojovy tym, ktery pise kód. V teto dobe designer aktivne sleduje praci a kontroluje, jak jsou obrazovky implementovany. Prace probiha v iteracich - vyvineme cast funkci, otestujeme ji a pokracujeme v praci na zbytku fun",
+    "stage-7": "Testovani aplikace a oprava chyb",
+    "description-7": "S pomoci nasich inzenyru kontroly kvality, kteri se na projektu podileli od zacatku, stranky testujeme. Vypracujeme testovaci dokumentaci. Pred uvolnenim aplikace provadime akceptacni testovani: prochazime obchodni pripady aplikace",
+    "stage-8": "Zverejneni aplikace v obchodech",
+    "description-8": "Pridejte aplikaci do obchodu s aplikacemi - App Store, Google Play nebo do jineho obchodu podle vlastniho vyberu. Dulezity bod: aby aplikace prosla hodnocenim obchodniku, muzete pozadat vyvojare o pomoc pri vydani nebo muzete aplikaci pripravit a nahrat do obchodu sami",
+    "stage-9": "Podpora a rozvoj",
+    "description-9": "Jakmile je mobilni aplikace zverejnena, jeji pribeh nekonci. Pracujeme na novych funkcich, vylepsujeme ji a ziskavame zpetnou vazbu od uzivatelu",
+    "stage-10": "Vysledek prace",
+    "description-10": "Hotova, snadno rozsiritelna a udrzovatelna mobilni aplikace publikovana v App Store/Google Play. Stejne jako zdrojovy kód aplikace a jeji dokumentaci",
+    "text": "Faze prace",
+    "text2": " Vytvoreni efektivni aplikace",
+    "text3": "Duverujte nasim profesionalum a ziskejte kvalitni produkt!",
+    "text4": "  Objednat sluzbu"
+  },
   "DirectPage": {
     "hero": {
       "title": "SEO a Yandex Direct — váš web v TOP a tok klientů",
@@ -412,8 +418,7 @@
       "title": "Chcete stabilní tok klientů?",
       "subtitle": "Zanechte žádost — spustíme SEO a reklamu na klíč s důrazem na ROI a růst prodejů"
     }
-  }
-  ,
+  },
   "ITSupportPage": {
     "title": "Podpora IT sluzeb",
     "subtitle": "Zajistime neprerusovany provoz sluzeb a pratelskou interakci s uzivateli",
@@ -422,8 +427,14 @@
     "stages": {
       "title": "Etapy prace",
       "items": [
-        { "stage": "Zaciname praci", "description": "Zapojime nase specialisty. Osobni IT manazer a tym seniornich L3 inzenyru navrhuji a implementuji slozite projekty pro dosazeni vasich obchodnich cilu" },
-        { "stage": "Uzavirame smlouvu", "description": "Nejen odstraňujeme problemy, ale take delame prevenci" }
+        {
+          "stage": "Zaciname praci",
+          "description": "Zapojime nase specialisty. Osobni IT manazer a tym seniornich L3 inzenyru navrhuji a implementuji slozite projekty pro dosazeni vasich obchodnich cilu"
+        },
+        {
+          "stage": "Uzavirame smlouvu",
+          "description": "Nejen odstraňujeme problemy, ale take delame prevenci"
+        }
       ]
     },
     "sidebar": {
@@ -431,9 +442,8 @@
       "description": "Duverujte nasim profesionalum a ziskejte kvalitni produkt!",
       "cta": "Objednat konzultaci"
     }
-  }
-  ,
-  
+  },
+
   "TgbotPage": {
     "hero": {
       "title": "Telegram boti",
@@ -512,7 +522,10 @@
       "steps": [
         { "title": "Analýza úkolů", "desc": "Studujeme potřeby školení" },
         { "title": "Vývoj", "desc": "Vytváříme chytrého bota pro vaše cíle" },
-        { "title": "Testování", "desc": "Testujeme funkčnost na pilotní skupině" },
+        {
+          "title": "Testování",
+          "desc": "Testujeme funkčnost na pilotní skupině"
+        },
         { "title": "Implementace", "desc": "Spouštíme a školíme zaměstnance" }
       ]
     },
@@ -520,8 +533,7 @@
       "title": "Připraveni automatizovat školení?",
       "subtitle": "Řekněte nám o vašich potřebách firemního školení"
     }
-  }
-  ,
+  },
   "StudPage": {
     "hero": {
       "title1": "Studentsky",
@@ -640,10 +652,22 @@
   "CorporationReasons": {
     "title": "Kdy si firmy objednávají korporátní aplikace pro Android nebo iOS?",
     "items": [
-      { "title": "Příliš mnoho rutinních operací", "description": "HR ředitel hledá možnost snížit provozní náklady a čas na papírování" },
-      { "title": "Zaměstnanci nedosahují KPI", "description": "Vedoucí admin oddělení chce kontrolovat výkon zaměstnanců a zvýšit motivaci" },
-      { "title": "Veškerá dokumentace je na papíře", "description": "Ředitel finančních služeb plánuje zprůhlednit firemní reporty" },
-      { "title": "Společnost má 50+ prodejen", "description": "Ředitel zákaznického servisu chce zlepšit zákaznickou zkušenost kontrolou standardů" }
+      {
+        "title": "Příliš mnoho rutinních operací",
+        "description": "HR ředitel hledá možnost snížit provozní náklady a čas na papírování"
+      },
+      {
+        "title": "Zaměstnanci nedosahují KPI",
+        "description": "Vedoucí admin oddělení chce kontrolovat výkon zaměstnanců a zvýšit motivaci"
+      },
+      {
+        "title": "Veškerá dokumentace je na papíře",
+        "description": "Ředitel finančních služeb plánuje zprůhlednit firemní reporty"
+      },
+      {
+        "title": "Společnost má 50+ prodejen",
+        "description": "Ředitel zákaznického servisu chce zlepšit zákaznickou zkušenost kontrolou standardů"
+      }
     ]
   },
   "CorporationUsage": {
@@ -706,13 +730,25 @@
       {
         "title": "Domovská stránka",
         "description": "Vitrína mobilního obchodu. Novinky, bannery a stories přitahují pozornost a vedou uživatele",
-        "tags": ["novinky", "bannery", "věrnostní program", "katalog akcí", "slevy"],
+        "tags": [
+          "novinky",
+          "bannery",
+          "věrnostní program",
+          "katalog akcí",
+          "slevy"
+        ],
         "image": "/iPhone 15 (1).png"
       },
       {
         "title": "Katalog a karta produktu",
         "description": "Informativní katalog s filtry podle kategorií, tříděním a tlačítkem 'Do košíku'. Atraktivní karty produktů s recenzemi a kompletními informacemi",
-        "tags": ["seznam produktů", "doručovací adresa", "cena", "CloudPayments", "Sberbank"],
+        "tags": [
+          "seznam produktů",
+          "doručovací adresa",
+          "cena",
+          "CloudPayments",
+          "Sberbank"
+        ],
         "image": "/iPhone 15 (2).png"
       },
       {
@@ -742,12 +778,24 @@
     "title": "Výhody",
     "cta": "Probrat projekt",
     "items": [
-      { "title": "Všechny obchody s aplikacemi", "description": "App Store, Google Play, App Gallery, RuStore" },
+      {
+        "title": "Všechny obchody s aplikacemi",
+        "description": "App Store, Google Play, App Gallery, RuStore"
+      },
       { "title": "Fixní cena", "description": "Žádné dodatečné náklady" },
-      { "title": "Licence na aplikaci", "description": "Předáváme kód, nepronajímáme" },
+      {
+        "title": "Licence na aplikaci",
+        "description": "Předáváme kód, nepronajímáme"
+      },
       { "title": "Škálovatelnost", "description": "Žádná omezení pro rozvoj" },
-      { "title": "Infrastruktura partnerských služeb", "description": "1C, Manzana, Sberbank a další" },
-      { "title": "Vlastní ekosystém", "description": "Aplikace pro sběrače a doručovatele k hlavní aplikaci" }
+      {
+        "title": "Infrastruktura partnerských služeb",
+        "description": "1C, Manzana, Sberbank a další"
+      },
+      {
+        "title": "Vlastní ekosystém",
+        "description": "Aplikace pro sběrače a doručovatele k hlavní aplikaci"
+      }
     ]
   },
   "RetailTimeline": {
@@ -805,12 +853,37 @@
   "InternetShopCards": {
     "title": "Řešení pro internetové obchody",
     "items": [
-      { "number": 1, "title": "Internetový obchod na klíč", "description": "Plný cyklus vývoje od obchodní analýzy a individuálního návrhu po integraci se složitými CRM a ERP systémy. Vývoj internetového obchodu na bázi Next JS" },
-      { "number": 2, "title": "Internetový obchod na hotové platformě", "description": "Rychlé spuštění MVP pro první prodeje a custom vývoj složitých projektů na platformě CS-Cart s funkčním enginem pro rychlý start a neomezený růst" },
-      { "number": 3, "title": "Omnichannel projekty", "description": "Automatizace obchodních procesů a budování jednotného ekosystému online a offline prodejních míst. Zlepšujeme zákaznickou zkušenost na základě nejlepších mezinárodních praktik" },
-      { "number": 4, "title": "Replatforming internetového obchodu", "description": "Bezproblémový převod stávajícího webu ze zastaralé CMS nebo vlastního softwaru na multifunkční platformu bez výpadků a ztráty dat" },
-      { "number": 5, "title": "Mobilní aplikace", "description": "Vývoj mobilních aplikací, responzivních webů a PWA řešení pro mobilní obchod. Zvyšujeme konverzi na všech zařízeních" },
-      { "number": 6, "title": "Zůstaly otázky?", "description": "Chcete objednat vytvoření internetového obchodu? Probereme vaši obchodní myšlenku nebo stávající web na bezplatné konzultaci!", "buttonText": "Kontaktujte nás" }
+      {
+        "number": 1,
+        "title": "Internetový obchod na klíč",
+        "description": "Plný cyklus vývoje od obchodní analýzy a individuálního návrhu po integraci se složitými CRM a ERP systémy. Vývoj internetového obchodu na bázi Next JS"
+      },
+      {
+        "number": 2,
+        "title": "Internetový obchod na hotové platformě",
+        "description": "Rychlé spuštění MVP pro první prodeje a custom vývoj složitých projektů na platformě CS-Cart s funkčním enginem pro rychlý start a neomezený růst"
+      },
+      {
+        "number": 3,
+        "title": "Omnichannel projekty",
+        "description": "Automatizace obchodních procesů a budování jednotného ekosystému online a offline prodejních míst. Zlepšujeme zákaznickou zkušenost na základě nejlepších mezinárodních praktik"
+      },
+      {
+        "number": 4,
+        "title": "Replatforming internetového obchodu",
+        "description": "Bezproblémový převod stávajícího webu ze zastaralé CMS nebo vlastního softwaru na multifunkční platformu bez výpadků a ztráty dat"
+      },
+      {
+        "number": 5,
+        "title": "Mobilní aplikace",
+        "description": "Vývoj mobilních aplikací, responzivních webů a PWA řešení pro mobilní obchod. Zvyšujeme konverzi na všech zařízeních"
+      },
+      {
+        "number": 6,
+        "title": "Zůstaly otázky?",
+        "description": "Chcete objednat vytvoření internetového obchodu? Probereme vaši obchodní myšlenku nebo stávající web na bezplatné konzultaci!",
+        "buttonText": "Kontaktujte nás"
+      }
     ]
   },
   "IndustrySolutions": {
@@ -833,11 +906,26 @@
   "FAQ": {
     "title": "FAQ o vývoji internetových obchodů",
     "items": [
-      { "question": "Jaké funkce má mít e‑shop?", "answer": "Správa katalogu, zpracování objednávek, platby a doručení, správa uživatelských účtů." },
-      { "question": "Jak dlouho trvá vývoj od nuly?", "answer": "Průměrně 2–6 měsíců podle složitosti projektu." },
-      { "question": "Kolik stojí vývoj e‑shopu?", "answer": "Závisí na rozsahu a technologiích; obvykle od 500 000 do 3 000 000 RUB v přepočtu." },
-      { "question": "Jaké technologie používáte?", "answer": "Next.js, React, Node.js, PostgreSQL/MongoDB, integrace plateb a logistiky." },
-      { "question": "Integrace s ERP/CRM?", "answer": "Ano, integrujeme s ERP a CRM pro synchronizaci dat a automatizaci procesů." }
+      {
+        "question": "Jaké funkce má mít e‑shop?",
+        "answer": "Správa katalogu, zpracování objednávek, platby a doručení, správa uživatelských účtů."
+      },
+      {
+        "question": "Jak dlouho trvá vývoj od nuly?",
+        "answer": "Průměrně 2–6 měsíců podle složitosti projektu."
+      },
+      {
+        "question": "Kolik stojí vývoj e‑shopu?",
+        "answer": "Závisí na rozsahu a technologiích; obvykle od 500 000 do 3 000 000 RUB v přepočtu."
+      },
+      {
+        "question": "Jaké technologie používáte?",
+        "answer": "Next.js, React, Node.js, PostgreSQL/MongoDB, integrace plateb a logistiky."
+      },
+      {
+        "question": "Integrace s ERP/CRM?",
+        "answer": "Ano, integrujeme s ERP a CRM pro synchronizaci dat a automatizaci procesů."
+      }
     ]
   },
   "CrmParallax": {
@@ -845,20 +933,56 @@
     "headerDescription": "Vytváříme řešení šitá na míru vašim jedinečným potřebám, která se integrují s vašimi nástroji a rostou s vaším podnikáním. Dejte svému týmu možnost pracovat efektivněji a uzavírat obchody rychleji pomocí analýzy a automatizace",
     "products": [
       { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
-      { "title": "Seznam nemovitostí", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
-      { "title": "Seznam nemovitostí", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
+      {
+        "title": "Seznam nemovitostí",
+        "link": "",
+        "thumbnail": "/projects/Список недвижимости.png"
+      },
+      {
+        "title": "Seznam nemovitostí",
+        "link": "",
+        "thumbnail": "/projects/Список недвижимости.png"
+      },
       { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
-      { "title": "CRM trychtýř", "link": "", "thumbnail": "/crm/CRMВоронка.png" },
+      {
+        "title": "CRM trychtýř",
+        "link": "",
+        "thumbnail": "/crm/CRMВоронка.png"
+      },
       { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
       { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
-      { "title": "Úložiště dokumentů", "link": "", "thumbnail": "/crm/Хранилизе документов.png" },
+      {
+        "title": "Úložiště dokumentů",
+        "link": "",
+        "thumbnail": "/crm/Хранилизе документов.png"
+      },
       { "title": "Dashboard", "link": "", "thumbnail": "/crm/Dashboard.png" },
-      { "title": "Nemovitosti", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
+      {
+        "title": "Nemovitosti",
+        "link": "",
+        "thumbnail": "/projects/Список недвижимости.png"
+      },
       { "title": "Dashboard", "link": "", "thumbnail": "/crm/Dashboard.png" },
-      { "title": "CRM trychtýř", "link": "", "thumbnail": "/crm/CRMВоронка.png" },
-      { "title": "Pronajaté objekty", "link": "", "thumbnail": "/crm/Объкты аренды.png" },
-      { "title": "Nemovitosti", "link": "", "thumbnail": "/projects/Список недвижимости.png" },
-      { "title": "CRM trychtýř", "link": "", "thumbnail": "/crm/CRMВоронка.png" }
+      {
+        "title": "CRM trychtýř",
+        "link": "",
+        "thumbnail": "/crm/CRMВоронка.png"
+      },
+      {
+        "title": "Pronajaté objekty",
+        "link": "",
+        "thumbnail": "/crm/Объкты аренды.png"
+      },
+      {
+        "title": "Nemovitosti",
+        "link": "",
+        "thumbnail": "/projects/Список недвижимости.png"
+      },
+      {
+        "title": "CRM trychtýř",
+        "link": "",
+        "thumbnail": "/crm/CRMВоронка.png"
+      }
     ]
   },
   "CrmTimeline": {
@@ -909,12 +1033,36 @@
     "costLabel": "Náklady",
     "durationLabel": "Časový harmonogram",
     "stages": [
-      { "title": "Funkční požadavky", "cost": "od 10 tis. RUB", "duration": "0.5-1 týden" },
-      { "title": "Business analýza", "cost": "od 40 tis. RUB", "duration": "1-2 týdny" },
-      { "title": "Návrh + TS", "cost": "od 70 tis. RUB", "duration": "1-3 týdny" },
-      { "title": "Design/Layout", "cost": "od 30 tis. RUB", "duration": "0.5-3 týdny" },
-      { "title": "Vývoj/Kódování", "cost": "od 350 tis. RUB", "duration": "5-16 týdnů" },
-      { "title": "Vývoj a podpora", "cost": "od 60 hodin", "duration": "od 2000 RUB/hod" }
+      {
+        "title": "Funkční požadavky",
+        "cost": "od 10 tis. RUB",
+        "duration": "0.5-1 týden"
+      },
+      {
+        "title": "Business analýza",
+        "cost": "od 40 tis. RUB",
+        "duration": "1-2 týdny"
+      },
+      {
+        "title": "Návrh + TS",
+        "cost": "od 70 tis. RUB",
+        "duration": "1-3 týdny"
+      },
+      {
+        "title": "Design/Layout",
+        "cost": "od 30 tis. RUB",
+        "duration": "0.5-3 týdny"
+      },
+      {
+        "title": "Vývoj/Kódování",
+        "cost": "od 350 tis. RUB",
+        "duration": "5-16 týdnů"
+      },
+      {
+        "title": "Vývoj a podpora",
+        "cost": "od 60 hodin",
+        "duration": "od 2000 RUB/hod"
+      }
     ]
   }
 }

@@ -1,12 +1,9 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import "./globals.css";
+import Image from "next/image";
+import Link from "next/link";
 
 const IndividualServices = () => {
   return (
     <div className="relative p-4 sm:p-8 flex items-center justify-center min-h-screen bg-black bg-opacity-50 overflow-hidden">
-
       <div className="ring-container p-1 rounded-3xl relative z-10 shadow-lg animate-float">
         <div className="content-container max-w-5xl mx-auto rounded-3xl p-4 sm:p-8 bg-white bg-opacity-90">
           <h1 className="text-3xl sm:text-5xl font-bold text-center mb-6 sm:mb-12 text-black">
@@ -33,8 +30,8 @@ const IndividualServices = () => {
               <Image
                 src="/projects/case8.png"
                 alt="Индивидуальные услуги"
-                width={500} 
-                height={300} 
+                width={500}
+                height={300}
                 className="rounded-lg shadow-md w-full sm:w-auto"
               />
             </div>

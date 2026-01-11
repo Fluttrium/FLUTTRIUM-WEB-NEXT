@@ -1,7 +1,6 @@
 "use client";
-import React from "react";
-import { CardHoverEffectDemo2 } from "./ui/Cards2";
 import { useTranslations } from "@/hooks/useTranslations";
+import { CardHoverEffectDemo2 } from "./ui/Cards2";
 
 export function Benefit() {
   const { messages } = useTranslations();
@@ -19,7 +18,9 @@ export function Benefit() {
 
       {/* Flex для заголовка и карточек в колонку */}
       <div className="md:w-1/2 w-full flex flex-col items-center p-4 md:p-6">
-        <h1 className="text-3xl md:text-4xl font-semibold text-black dark:text-white text-center mb-6">{m?.benefit?.title}</h1>
+        <h1 className="text-3xl md:text-4xl font-semibold text-black dark:text-white text-center mb-6">
+          {m?.benefit?.title}
+        </h1>
         <CardHoverEffectDemo2 />
       </div>
     </div>

@@ -1,10 +1,10 @@
-'use client';
-import React, { useState } from 'react';
-import Image from 'next/image';
+"use client";
+import Image from "next/image";
+import { useState } from "react";
+import { useTranslations } from "@/hooks/useTranslations";
 // Убедитесь, что файл со стилями для частиц подключен и находится в нужной директории
-import Modal from '../Modal';
-import { useTranslations } from '@/hooks/useTranslations';
-import { FlipWordsDemo2 } from './flipword';
+import Modal from "../Modal";
+import { FlipWordsDemo2 } from "./flipword";
 
 const RetailPage = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -18,7 +18,7 @@ const RetailPage = () => {
       {/* Текстовая часть */}
       <div className="flex-1 w-full text-center lg:text-left">
         <h1 className="text-4xl sm:text-6xl font-bold mb-6 sm:mb-12">
-        {t?.title}
+          {t?.title}
         </h1>
         <FlipWordsDemo2 />
         <div className="flex justify-center lg:justify-start mt-12">

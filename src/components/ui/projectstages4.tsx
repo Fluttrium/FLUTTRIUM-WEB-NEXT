@@ -1,7 +1,7 @@
 "use client";
-import React, { useState } from "react";
-import Modal from "../Modal";
+import { useState } from "react";
 import { useTranslations } from "@/hooks/useTranslations";
+import Modal from "../Modal";
 
 // SVG-иконка
 const PlusIcon = () => (
@@ -20,7 +20,6 @@ const PlusIcon = () => (
 // Этапы берём из перевода AuditPage.stages.items
 
 export function ProjectStages4() {
-
   const [isModalOpen, setModalOpen] = useState(false);
   const { messages } = useTranslations();
   const t: any = (messages as any).AuditPage;
@@ -41,7 +40,10 @@ export function ProjectStages4() {
         <h2 className="text-5xl font-semibold mb-10">{t?.stages?.title}</h2>
         <div className="space-y-8">
           {(t?.stages?.items || []).map((stage: any, index: number) => (
-            <div key={index} className="border border-gray-300 rounded-lg overflow-hidden">
+            <div
+              key={index}
+              className="border border-gray-300 rounded-lg overflow-hidden"
+            >
               <button
                 className="flex items-center w-full text-left p-8 rounded-lg transition-colors duration-200 ease-in-out hover:text-blue-600"
                 onClick={() => toggleStage(index)}
@@ -59,31 +61,33 @@ export function ProjectStages4() {
         </div>
       </div>
       <div className="hidden md:block w-full md:w-1/4">
-            <div className="max-h-96 overflow-y-auto p-6 border border-gray-300 rounded-lg bg-white shadow-lg">
-          <h3 className="text-2xl font-semibold text-gray-800 mb-4">{t?.sidebar?.title}</h3>
+        <div className="max-h-96 overflow-y-auto p-6 border border-gray-300 rounded-lg bg-white shadow-lg">
+          <h3 className="text-2xl font-semibold text-gray-800 mb-4">
+            {t?.sidebar?.title}
+          </h3>
           <p className="text-lg text-gray-700 mb-6">
             {t?.sidebar?.description}
           </p>
           <button
-  onClick={handleOpenModal}
-  className="w-full py-3 px-6 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200 flex items-center justify-center"
->
-  {t?.sidebar?.cta}
-  <svg
-    className="ml-2 w-5 h-5"
-    xmlns="http://www.w3.org/2000/svg"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M9 5l7 7-7 7"
-    />
-  </svg>
-</button>
+            onClick={handleOpenModal}
+            className="w-full py-3 px-6 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200 flex items-center justify-center"
+          >
+            {t?.sidebar?.cta}
+            <svg
+              className="ml-2 w-5 h-5"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </button>
         </div>
       </div>
       {isModalOpen && <Modal isOpen={isModalOpen} onClose={handleCloseModal} />}

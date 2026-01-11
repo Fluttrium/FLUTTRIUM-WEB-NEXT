@@ -1,5 +1,4 @@
-'use client';
-import React from "react";
+"use client";
 import Image from "next/image";
 import { useTranslations } from "@/hooks/useTranslations";
 
@@ -36,14 +35,16 @@ export function FunctionEx() {
 
             {/* Хештеги */}
             <div className="flex flex-wrap justify-center">
-              {(advantage.tags as string[]).map((tag: string, tagIndex: number) => (
-                <span
-                  key={tagIndex}
-                  className="border border-gray-400 hover:bg-white hover:text-blue-600 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2 transition duration-300"
-                >
-                  {tag}
-                </span>
-              ))}
+              {(advantage.tags as string[]).map(
+                (tag: string, tagIndex: number) => (
+                  <span
+                    key={tagIndex}
+                    className="border border-gray-400 hover:bg-white hover:text-blue-600 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2 transition duration-300"
+                  >
+                    {tag}
+                  </span>
+                ),
+              )}
             </div>
           </div>
         ))}

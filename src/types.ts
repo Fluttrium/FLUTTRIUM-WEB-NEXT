@@ -1,5 +1,4 @@
 export type MenuItem = {
-    title: string;
-    children?: { title: string; route: string }[];
-  };
-  
+  title: string;
+  children?: { title: string; route: string }[];
+};

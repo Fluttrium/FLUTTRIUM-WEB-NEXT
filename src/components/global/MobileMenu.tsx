@@ -1,7 +1,12 @@
-"use client"
-import { useState } from "react";
+"use client";
 import Link from "next/link";
-import { FaTelegramPlane, FaGithub, FaInstagram, FaYoutube } from "react-icons/fa";
+import { useState } from "react";
+import {
+  FaGithub,
+  FaInstagram,
+  FaTelegramPlane,
+  FaYoutube,
+} from "react-icons/fa";
 
 // Типы для подменю
 interface SubMenuItem {
@@ -69,7 +74,10 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ menuItems, toggleMenu }) => {
           <Link href="https://www.instagram.com/fluttrium/" target="_blank">
             <FaInstagram className="text-white text-2xl" />
           </Link>
-          <Link href="https://www.youtube.com/channel/UCcBh05h-yxZOzXhnOz9ub5w" target="_blank">
+          <Link
+            href="https://www.youtube.com/channel/UCcBh05h-yxZOzXhnOz9ub5w"
+            target="_blank"
+          >
             <FaYoutube className="text-white text-2xl" />
           </Link>
         </div>

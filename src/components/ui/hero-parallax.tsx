@@ -1,14 +1,14 @@
 "use client";
-import React from "react";
 import {
+  type MotionValue,
   motion,
   useScroll,
-  useTransform,
   useSpring,
-  MotionValue,
+  useTransform,
 } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 import { useTranslations } from "@/hooks/useTranslations";
 
 export const HeroParallax = ({
@@ -33,27 +33,27 @@ export const HeroParallax = ({
 
   const translateX = useSpring(
     useTransform(scrollYProgress, [0, 1], [0, 1000]),
-    springConfig
+    springConfig,
   );
   const translateXReverse = useSpring(
     useTransform(scrollYProgress, [0, 1], [0, -1000]),
-    springConfig
+    springConfig,
   );
   const rotateX = useSpring(
     useTransform(scrollYProgress, [0, 0.2], [15, 0]),
-    springConfig
+    springConfig,
   );
   const opacity = useSpring(
     useTransform(scrollYProgress, [0, 0.2], [0.2, 1]),
-    springConfig
+    springConfig,
   );
   const rotateZ = useSpring(
     useTransform(scrollYProgress, [0, 0.2], [20, 0]),
-    springConfig
+    springConfig,
   );
   const translateY = useSpring(
     useTransform(scrollYProgress, [0, 0.2], [-700, 500]),
-    springConfig
+    springConfig,
   );
   return (
     <div
@@ -105,16 +105,17 @@ export const HeroParallax = ({
 export const Header = () => {
   const { messages } = useTranslations();
   const t: any = (messages as any).CrmParallax;
-  
+
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full left-0 top-0">
-  <h1 className="text-4xl md:text-7xl font-bold dark:text-white">
-    {t?.headerTitle || "Оптимизация с помощью CRM-систем"}
-  </h1>
-  <p className="max-w-2xl text-lg sm:text-xl md:text-2xl mt-8 dark:text-white">
-    {t?.headerDescription || "Мы разрабатываем решения под ваши уникальные потребности, которые интегрируются с вашими инструментами и растут вместе с бизнесом. Дайте вашей команде возможность работать эффективнее и быстрее заключать сделки с помощью аналитики и автоматизации"}
-  </p>
-</div>
+      <h1 className="text-4xl md:text-7xl font-bold dark:text-white">
+        {t?.headerTitle || "Оптимизация с помощью CRM-систем"}
+      </h1>
+      <p className="max-w-2xl text-lg sm:text-xl md:text-2xl mt-8 dark:text-white">
+        {t?.headerDescription ||
+          "Мы разрабатываем решения под ваши уникальные потребности, которые интегрируются с вашими инструментами и растут вместе с бизнесом. Дайте вашей команде возможность работать эффективнее и быстрее заключать сделки с помощью аналитики и автоматизации"}
+      </p>
+    </div>
   );
 };
 

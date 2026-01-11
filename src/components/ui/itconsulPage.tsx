@@ -1,9 +1,9 @@
-'use client';
-import React, { useState } from 'react';
-import Image from 'next/image';
+"use client";
+import Image from "next/image";
+import { useState } from "react";
+import { useTranslations } from "@/hooks/useTranslations";
 // Убедитесь, что файл со стилями для частиц подключен и находится в нужной директории
-import Modal from '../Modal';
-import { useTranslations } from '@/hooks/useTranslations';
+import Modal from "../Modal";
 
 const ItPage = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -20,10 +20,10 @@ const ItPage = () => {
           {t?.title}
         </h1>
         <h2 className="text-xl sm:text-2xl font-bold mb-6 sm:mb-12">
-          {t?.description?.split('\n')?.[0]}
+          {t?.description?.split("\n")?.[0]}
         </h2>
         <p className="text-lg sm:text-xl mb-6">
-          {t?.description?.split('\n')?.[1]}
+          {t?.description?.split("\n")?.[1]}
         </p>
         <div className="flex justify-center lg:justify-start mt-12">
           <button

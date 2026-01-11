@@ -1,7 +1,7 @@
 "use client";
-import React, { useState } from "react";
-import Modal from "../Modal";
+import { useState } from "react";
 import { useTranslations } from "@/hooks/useTranslations";
+import Modal from "../Modal";
 
 export function PricingAndTimeline2() {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -52,11 +52,19 @@ export function PricingAndTimeline2() {
         {/* Правая колонка: Закругленные карточки с увеличенным левым отступом */}
         <div className="bg-gradient-to-br from-blue-500 to-blue-300 p-10 rounded-3xl shadow-lg text-white w-full max-w-md text-center lg:ml-20">
           <div className="bg-blue-600 p-10 rounded-3xl shadow-lg">
-            <p className="text-4xl lg:text-5xl font-bold mb-4">{m?.pricing?.timeline?.title}</p>
-            <p className="text-2xl lg:text-3xl">{m?.pricing?.timeline?.subtitle}</p>
+            <p className="text-4xl lg:text-5xl font-bold mb-4">
+              {m?.pricing?.timeline?.title}
+            </p>
+            <p className="text-2xl lg:text-3xl">
+              {m?.pricing?.timeline?.subtitle}
+            </p>
             <div className="mt-8">
-              <p className="text-5xl lg:text-6xl font-bold">{m?.pricing?.cost?.title}</p>
-              <p className="text-2xl lg:text-3xl">{m?.pricing?.cost?.subtitle}</p>
+              <p className="text-5xl lg:text-6xl font-bold">
+                {m?.pricing?.cost?.title}
+              </p>
+              <p className="text-2xl lg:text-3xl">
+                {m?.pricing?.cost?.subtitle}
+              </p>
             </div>
           </div>
         </div>

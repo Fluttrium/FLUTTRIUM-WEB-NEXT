@@ -1,8 +1,8 @@
-'use client';
-import React, { useState } from 'react';
-import { useTranslations } from '@/hooks/useTranslations';
-import Image from 'next/image';
-import Modal from '../Modal';
+"use client";
+import Image from "next/image";
+import { useState } from "react";
+import { useTranslations } from "@/hooks/useTranslations";
+import Modal from "../Modal";
 
 const UiPage = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -21,13 +21,11 @@ const UiPage = () => {
         <h2 className="text-xl sm:text-2xl font-bold mb-6 sm:mb-12">
           {m?.cover?.subtitle}
         </h2>
-        <p className="text-lg sm:text-xl mb-6">
-          {m?.cover?.description}
-        </p>
+        <p className="text-lg sm:text-xl mb-6">{m?.cover?.description}</p>
         <div className="flex justify-center lg:justify-start mt-12">
           <button
-              onClick={handleOpenModal}
-              className="relative inline-flex items-center justify-center px-12 py-4 font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 border-2 border-white rounded-full shadow-lg hover:from-blue-700 hover:to-blue-800 hover:shadow-xl transition-all duration-300 ease-in-out text-xl"
+            onClick={handleOpenModal}
+            className="relative inline-flex items-center justify-center px-12 py-4 font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 border-2 border-white rounded-full shadow-lg hover:from-blue-700 hover:to-blue-800 hover:shadow-xl transition-all duration-300 ease-in-out text-xl"
           >
             {m?.cover?.cta}
           </button>

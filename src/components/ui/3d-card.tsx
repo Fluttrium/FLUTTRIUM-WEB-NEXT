@@ -1,8 +1,8 @@
 "use client";
 
+import type React from "react";
+import { createContext, useContext, useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
-import Image from "next/image";
-import React, { createContext, useState, useContext, useRef, useEffect } from "react";
 
 // Контекст для отслеживания состояния наведения
 const MouseEnterContext = createContext<
@@ -53,7 +53,7 @@ export const CardContainer = ({
           onMouseLeave={handleMouseLeave}
           className={cn(
             "flex items-center justify-center relative transition-all duration-200 ease-linear",
-            className
+            className,
           )}
           style={{ transformStyle: "preserve-3d" }}
         >
@@ -75,7 +75,7 @@ export const CardBody = ({
     <div
       className={cn(
         "h-64 w-64 bg-gray-100 rounded-lg overflow-hidden [transform-style:preserve-3d] [&>*]:[transform-style:preserve-3d]",
-        className
+        className,
       )}
     >
       {children}
@@ -116,7 +116,15 @@ export const CardItem = ({
     } else {
       ref.current.style.transform = `translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg)`;
     }
-  }, [isMouseEntered, translateX, translateY, translateZ, rotateX, rotateY, rotateZ]);
+  }, [
+    isMouseEntered,
+    translateX,
+    translateY,
+    translateZ,
+    rotateX,
+    rotateY,
+    rotateZ,
+  ]);
 
   return (
     <Tag

@@ -1,7 +1,5 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import "./globals.css";
+import Image from "next/image";
+import Link from "next/link";
 
 const BasicPlan = () => {
   return (
@@ -15,7 +13,10 @@ const BasicPlan = () => {
             Что включено:
           </h2>
           <ul className="list-disc list-inside text-base sm:text-lg mb-4 sm:mb-6 text-gray-800">
-            <li>Разработка простого сайта/мобильного приложения (до 5 страниц/экранов)</li>
+            <li>
+              Разработка простого сайта/мобильного приложения (до 5
+              страниц/экранов)
+            </li>
             <li>Дизайн по шаблону</li>
             <li>Адаптация под мобильные устройства</li>
             <li>Минимальная SEO оптимизация</li>

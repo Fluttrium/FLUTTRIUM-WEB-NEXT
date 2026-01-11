@@ -1,10 +1,10 @@
 "use client";
-import React from "react";
-import { motion } from "framer-motion";
-import Link from "next/link";
+import { motion, type Transition } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
+import type React from "react";
 
-const transition = {
+const transition: Transition = {
   type: "spring",
   mass: 0.5,
   damping: 11.5,
@@ -35,20 +35,21 @@ export const MenuItem = ({
       {active !== null && (
         <motion.div
           initial={{ opacity: 0, scale: 0.85, y: 10 }}
-          animate={{ opacity: 1, scale: 1, y: 0 }}
+          animate={{
+            opacity: 1,
+            scale: 1,
+            y: 0,
+          }}
           transition={transition}
         >
           {active === item && (
             <div className="absolute top-[calc(100%_+_1.2rem)] left-1/2 transform -translate-x-1/2 pt-4">
               <motion.div
+                layoutId="active"
                 transition={transition}
-                layoutId="active" // layoutId ensures smooth animation
                 className="bg-white dark:bg-black backdrop-blur-sm rounded-2xl overflow-hidden border border-black/[0.2] dark:border-white/[0.2] shadow-xl"
               >
-                <motion.div
-                  layout // layout ensures smooth animation
-                  className="w-max h-full p-4"
-                >
+                <motion.div layout className="w-max h-full p-4">
                   {children}
                 </motion.div>
               </motion.div>
@@ -69,7 +70,7 @@ export const Menu = ({
 }) => {
   return (
     <nav
-      onMouseLeave={() => setActive(null)} // resets the state
+      onMouseLeave={() => setActive(null)}
       className="relative rounded-full border border-transparent dark:bg-black dark:border-white/[0.2] bg-white shadow-input flex justify-center space-x-4 px-8 py-6 "
     >
       {children}
@@ -92,10 +93,8 @@ export const ProductItem = ({
     <Link href={href} className="flex space-x-2 sm:space-x-4">
       <Image
         src={src}
-
-        width={80} // Размер изображения на мобильных
+        width={80}
         height={80}
-
         alt={title}
         className="flex-shrink-0 object-contain rounded-md shadow-2xl sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px]"
       />
@@ -110,7 +109,6 @@ export const ProductItem = ({
     </Link>
   );
 };
-
 
 export const HoveredLink = ({ children, ...rest }: any) => {
   return (

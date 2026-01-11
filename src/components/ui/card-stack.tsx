@@ -1,6 +1,6 @@
 "use client";
-import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 let interval: any;
 
@@ -24,11 +24,6 @@ export const CardStack = ({
   const SCALE_FACTOR = scaleFactor || 0.06;
   const [cards, setCards] = useState<Card[]>(items);
 
-  useEffect(() => {
-    startFlipping();
-
-    return () => clearInterval(interval);
-  }, []);
   const startFlipping = () => {
     interval = setInterval(() => {
       setCards((prevCards: Card[]) => {
@@ -38,6 +33,12 @@ export const CardStack = ({
       });
     }, 5000);
   };
+
+  useEffect(() => {
+    startFlipping();
+
+    return () => clearInterval(interval);
+  }, [startFlipping]);
 
   return (
     <div className="relative  h-60 w-60 md:h-60 md:w-96">

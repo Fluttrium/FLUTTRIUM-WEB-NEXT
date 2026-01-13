@@ -93,7 +93,7 @@ const Navbar = ({ className }: { className?: string }) => {
 
         {/* Основное меню для мобильных устройств */}
         {isMenuOpen && (
-          <div className="absolute left-0 right-0 top-0 mt-16 bg-black backdrop-blur-lg z-[99] flex flex-col p-4">
+          <div className="absolute left-0 right-0 top-0 mt-16 bg-black backdrop-blur-lg z-[200] flex flex-col p-4">
             <div className="flex flex-col items-start">
               {" "}
               {/* Add items-start here */}

@@ -6,6 +6,9 @@ import {NextIntlClientProvider} from "next-intl";
 import Navbar from "@/components/global/navbar";
 import {ThemeProvider} from "@/providers/theme-provider";
 import YandexMetrika from "@/components/YandexMetrika";
+import PageLoader from "@/components/PageLoader";
+import ScrollToTop from "@/components/ScrollToTop";
+import BackgroundGradient from "@/components/BackgroundGradient";
 
 const onest = Onest({
     subsets: ["latin"],
@@ -29,17 +32,20 @@ export default async function RootLayout({
     );
 
     return (
-        <html lang={language} suppressHydrationWarning>
+        <html lang={language} className='dark' suppressHydrationWarning>
         <body className={onest.className}>
+        <BackgroundGradient/>
         <ThemeProvider
             attribute="class"
             defaultTheme="dark"
-            enableSystem
+            forcedTheme="dark"
             disableTransitionOnChange
         >
+            <ScrollToTop/>
+            <PageLoader/>
             <NextIntlClientProvider messages={messages}>
                 <Navbar/>
-                <main className="pt-20 md:pt-0 lg:pt-0">{children}</main>
+                <main className="relative z-10 pt-20 md:pt-0 lg:pt-0">{children}</main>
             </NextIntlClientProvider>
         </ThemeProvider>
         <YandexMetrika/>

@@ -5,7 +5,6 @@ import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { useTranslations } from "use-intl";
 import CardSwap, { Card } from "@/components/CardSwap";
-import GradientBlinds from "@/components/GradientBlinds";
 import { FlipWords } from "@/components/ui/flip-words";
 import { CTAButton } from "./CTAbutton";
 import { Logo } from "./logo";
@@ -32,8 +31,31 @@ export const Hero = () => {
   const flipCardRef = useRef<HTMLDivElement>(null);
 
   const [portalReady, setPortalReady] = useState(false);
+  const [isInNavbar, setIsInNavbar] = useState(false);
 
   const animationCreated = useRef(false);
+
+  // Принудительный скролл в начало при загрузке
+  useEffect(() => {
+    // Скролл в начало при монтировании компонента
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+
+    // Обновляем ScrollTrigger после полной загрузки страницы
+    const handleLoad = () => {
+      window.scrollTo(0, 0);
+      ScrollTrigger.refresh();
+    };
+
+    if (document.readyState === "complete") {
+      handleLoad();
+    } else {
+      window.addEventListener("load", handleLoad);
+    }
+
+    return () => window.removeEventListener("load", handleLoad);
+  }, []);
 
   // Проверка порталов
   useEffect(() => {
@@ -79,6 +101,9 @@ export const Hero = () => {
     if (!navbarLogoRef.current || !navbarButtonRef.current) return;
 
     ScrollTrigger.getAll().forEach((st) => st.kill());
+
+    // Принудительно обновляем позицию скролла перед созданием анимации
+    window.scrollTo(0, 0);
 
     const ctx = gsap.context(() => {
       const isMobile = window.innerWidth < 768;
@@ -222,6 +247,8 @@ export const Hero = () => {
           scale: 1,
           duration: 0.2,
           ease: "power1.inOut",
+          onStart: () => setIsInNavbar(true),
+          onReverseComplete: () => setIsInNavbar(false),
         },
         "logoExit",
       );
@@ -282,6 +309,9 @@ export const Hero = () => {
       // Финальная пауза - text остается
     }, heroSectionRef);
 
+    // Обновляем ScrollTrigger после создания анимации
+    ScrollTrigger.refresh();
+
     return () => ctx.revert();
   };
 
@@ -317,51 +347,9 @@ export const Hero = () => {
   return (
     <section
       ref={heroSectionRef}
-      className="w-full min-h-screen bg-black relative"
+      className="w-full min-h-screen relative"
     >
-      {/* LiquidEther */}
-      <div className="absolute inset-0 z-0 pointer-events-auto">
-        {/*<LiquidEther*/}
-        {/*    colors={["#5227FF", "#FF9FFC", "#B19EEF"]}*/}
-        {/*    mouseForce={20}*/}
-        {/*    cursorSize={100}*/}
-        {/*    isViscous={false}*/}
-        {/*    viscous={30}*/}
-        {/*    iterationsViscous={32}*/}
-        {/*    iterationsPoisson={32}*/}
-        {/*    resolution={0.5}*/}
-        {/*    isBounce={false}*/}
-        {/*    autoDemo={true}*/}
-        {/*    autoSpeed={0.5}*/}
-        {/*    autoIntensity={2.2}*/}
-        {/*    takeoverDuration={0.25}*/}
-        {/*    autoResumeDelay={3000}*/}
-        {/*    autoRampDuration={0.6}*/}
-        {/*/>*/}
-        {/*<Lightning*/}
-        {/*    hue={220}*/}
-        {/*    xOffset={0}*/}
-        {/*    speed={1}*/}
-        {/*    intensity={1}*/}
-        {/*    size={1}*/}
-        {/*/>*/}
-        <GradientBlinds
-          gradientColors={["#FF9FFC", "#5227FF"]}
-          angle={204}
-          noise={0.3}
-          blindCount={64}
-          blindMinWidth={200}
-          mouseDampening={0.99}
-          mirrorGradient={false}
-          spotlightRadius={0.3}
-          spotlightSoftness={1}
-          spotlightOpacity={1}
-          distortAmount={91}
-          shineDirection="left"
-        />
-      </div>
-
-      {/* Пустой контейнер для Hero - элементы теперь в Portal */}
+      {/* Пустой квсеонтейнер для Hero - элементы теперь в Portal */}
       <div className="relative z-10 pointer-events-none max-w-7xl mx-auto px-4 md:px-10 min-h-screen grid grid-cols-2 md:grid-cols-2 items-center gap-6 md:gap-8 py-20 md:py-0">
         {/* Пусто - элементы рендерятся только через Portal */}
         <div
@@ -418,7 +406,7 @@ export const Hero = () => {
       {/* ОДИН лого - анимируется из Hero в Navbar */}
       {logoPortal &&
         createPortal(
-          <div ref={navbarLogoRef} className="relative z-[9999]">
+          <div ref={navbarLogoRef} className={`relative ${isInNavbar ? "z-[100]" : "z-10"}`}>
             <Logo />
           </div>,
           logoPortal,
@@ -427,7 +415,7 @@ export const Hero = () => {
       {/* ОДНА кнопка - анимируется из Hero в Navbar */}
       {buttonPortal &&
         createPortal(
-          <div ref={navbarButtonRef} className="relative z-[9999]">
+          <div ref={navbarButtonRef} className={`relative ${isInNavbar ? "z-[100]" : "z-10"}`}>
             <CTAButton text={t("button") || "Заполнить бриф"} />
           </div>,
           buttonPortal,

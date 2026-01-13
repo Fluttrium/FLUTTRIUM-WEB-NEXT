@@ -158,7 +158,8 @@ export const Hero = () => {
         x: logoDeltaX,
         y: logoDeltaY,
         scale: logoScale,
-        opacity: 1, // ← ВИДИМЫ
+        opacity: 1,
+        zIndex: 1,
         transformOrigin: "center center",
         pointerEvents: "auto",
         visibility: "visible",
@@ -168,7 +169,8 @@ export const Hero = () => {
         x: buttonDeltaX,
         y: buttonDeltaY,
         scale: buttonScale,
-        opacity: 1, // ← ВИДИМЫ
+        opacity: 1,
+        zIndex: 1,
         transformOrigin: "center center",
         pointerEvents: "auto",
         visibility: "visible",
@@ -244,6 +246,7 @@ export const Hero = () => {
           x: 0,
           y: 0,
           scale: 1,
+          zIndex: 1,
           duration: 0.2,
           ease: "power1.inOut",
         },
@@ -256,6 +259,7 @@ export const Hero = () => {
           x: 0,
           y: 0,
           scale: 1,
+          zIndex: 1,
           duration: 0.2,
           ease: "power1.inOut",
         },
@@ -402,21 +406,29 @@ export const Hero = () => {
 
       {/* ОДИН лого - анимируется из Hero в Navbar */}
       {logoPortal &&
-        createPortal(
-          <div ref={navbarLogoRef} className="relative z-[9999]">
-            <Logo />
-          </div>,
-          logoPortal,
-        )}
+          createPortal(
+              <div
+                  ref={navbarLogoRef}
+                  className="relative"
+                  style={{ zIndex: 1 }}
+              >
+                <Logo />
+              </div>,
+              logoPortal,
+          )}
 
       {/* ОДНА кнопка - анимируется из Hero в Navbar */}
       {buttonPortal &&
-        createPortal(
-          <div ref={navbarButtonRef} className="relative z-[9999]">
-            <CTAButton text={t("button") || "Заполнить бриф"} />
-          </div>,
-          buttonPortal,
-        )}
+          createPortal(
+              <div
+                  ref={navbarButtonRef}
+                  className="relative"
+                  style={{ zIndex: 1 }}
+              >
+                <CTAButton text={t("button") || "Заполнить бриф"} />
+              </div>,
+              buttonPortal,
+          )}
     </section>
   );
 };

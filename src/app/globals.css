@@ -109,3 +109,7 @@ body {
     animation-duration: 35s;
   }
 }
+
+.gradient-background canvas {
+  pointer-events: none !important;
+}

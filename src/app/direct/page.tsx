@@ -491,9 +491,7 @@ const ProcessSection = () => {
           {steps.map((item, index) => (
             <div key={index} className="text-center group">
               <div className="relative mb-6 md:mb-8">
-                <div
-                  className="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center text-white font-bold text-xl md:text-2xl mx-auto mb-3 md:mb-4 group-hover:scale-110 transition-all duration-300 shadow-lg"
-                >
+                <div className="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center text-white font-bold text-xl md:text-2xl mx-auto mb-3 md:mb-4 group-hover:scale-110 transition-all duration-300 shadow-lg">
                   {item.step}
                 </div>
                 <div className="absolute -top-1 -right-1 md:-top-2 md:-right-2 w-6 h-6 md:w-8 md:h-8 bg-blue-400 rounded-full flex items-center justify-center text-white text-xs">
@@ -541,10 +539,6 @@ const ContactFormSection = () => {
 const TelegramBotLanding = () => {
   return (
     <div className="relative overflow-hidden">
-      <div className="absolute inset-0 bg-slate-950">
-        <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
-      </div>
-
       <div className="relative z-10">
         <Navbar />
         <HeroSection />

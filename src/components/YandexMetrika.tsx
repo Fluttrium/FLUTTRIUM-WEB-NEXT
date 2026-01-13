@@ -3,12 +3,12 @@
 import Script from "next/script";
 
 export default function YandexMetrika() {
-    const counterId = 99393235;
+  const counterId = 99393235;
 
-    return (
-        <>
-            <Script id="yandex-metrika" strategy="afterInteractive">
-                {`
+  return (
+    <>
+      <Script id="yandex-metrika" strategy="afterInteractive">
+        {`
           (function(m,e,t,r,i,k,a){
             m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();
@@ -27,16 +27,16 @@ export default function YandexMetrika() {
             ecommerce: "dataLayer" // если нужна электронная коммерция
           });
         `}
-            </Script>
-            <noscript>
-                <div>
-                    <img
-                        src={`https://mc.yandex.ru/watch/${counterId}`}
-                        style={{ position: "absolute", left: "-9999px" }}
-                        alt=""
-                    />
-                </div>
-            </noscript>
-        </>
-    );
+      </Script>
+      <noscript>
+        <div>
+          <img
+            src={`https://mc.yandex.ru/watch/${counterId}`}
+            style={{ position: "absolute", left: "-9999px" }}
+            alt=""
+          />
+        </div>
+      </noscript>
+    </>
+  );
 }

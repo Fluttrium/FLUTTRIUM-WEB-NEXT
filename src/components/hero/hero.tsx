@@ -73,9 +73,9 @@ export const Hero = () => {
   // Добавляем класс hero-active когда порталы готовы
   useEffect(() => {
     if (portalReady) {
-      document.body.classList.add('hero-active');
+      document.body.classList.add("hero-active");
       return () => {
-        document.body.classList.remove('hero-active');
+        document.body.classList.remove("hero-active");
       };
     }
   }, [portalReady]);
@@ -162,14 +162,19 @@ export const Hero = () => {
         const flipCardRect = flipCardRef.current.getBoundingClientRect();
 
         const flipCardStartX = window.innerWidth + 200;
-        const flipCardStartY = window.innerHeight * 0.4 - flipCardRect.height / 2;
-        const flipCardCenterX = window.innerWidth * 0.75 - flipCardRect.width / 2;
-        const flipCardCenterY = window.innerHeight * 0.4 - flipCardRect.height / 2;
+        const flipCardStartY =
+          window.innerHeight * 0.4 - flipCardRect.height / 2;
+        const flipCardCenterX =
+          window.innerWidth * 0.75 - flipCardRect.width / 2;
+        const flipCardCenterY =
+          window.innerHeight * 0.4 - flipCardRect.height / 2;
 
         const flipTextStartX = -flipTextRect.width - 200;
         const flipTextStartY = window.innerHeight / 2 - flipTextRect.height / 2;
-        const flipTextCenterX = window.innerWidth * 0.2 - flipTextRect.width / 2;
-        const flipTextCenterY = window.innerHeight / 2 - flipTextRect.height / 2;
+        const flipTextCenterX =
+          window.innerWidth * 0.2 - flipTextRect.width / 2;
+        const flipTextCenterY =
+          window.innerHeight / 2 - flipTextRect.height / 2;
 
         const flipCardDeltaX = flipCardStartX - flipCardRect.left;
         const flipCardDeltaY = flipCardStartY - flipCardRect.top;
@@ -210,86 +215,86 @@ export const Hero = () => {
 
         tl.addLabel("cardsEnter", 0);
         tl.to(
-            flipCardRef.current,
-            {
-              x: flipCardCenterX - flipCardRect.left,
-              y: flipCardCenterY - flipCardRect.top,
-              opacity: 1,
-              duration: 0.15,
-              ease: "power2.out",
-              onStart: () => {
-                if (flipCardRef.current) {
-                  flipCardRef.current.style.pointerEvents = "auto";
-                }
-              },
+          flipCardRef.current,
+          {
+            x: flipCardCenterX - flipCardRect.left,
+            y: flipCardCenterY - flipCardRect.top,
+            opacity: 1,
+            duration: 0.15,
+            ease: "power2.out",
+            onStart: () => {
+              if (flipCardRef.current) {
+                flipCardRef.current.style.pointerEvents = "auto";
+              }
             },
-            "cardsEnter",
+          },
+          "cardsEnter",
         );
 
         tl.addLabel("cardsDisplay", 0.15);
 
         tl.addLabel("logoExit", 0.35);
         tl.to(
-            navbarLogoRef.current,
-            {
-              x: 0,
-              y: 0,
-              scale: 1,
-              duration: 0.2,
-              ease: "power1.inOut",
-            },
-            "logoExit",
+          navbarLogoRef.current,
+          {
+            x: 0,
+            y: 0,
+            scale: 1,
+            duration: 0.2,
+            ease: "power1.inOut",
+          },
+          "logoExit",
         );
 
         tl.to(
-            navbarButtonRef.current,
-            {
-              x: 0,
-              y: 0,
-              scale: 1,
-              duration: 0.2,
-              ease: "power1.inOut",
-              onComplete: () => {
-                // Полностью убираем все GSAP стили
-                gsap.set(navbarButtonRef.current, { clearProps: "all" });
-              },
+          navbarButtonRef.current,
+          {
+            x: 0,
+            y: 0,
+            scale: 1,
+            duration: 0.2,
+            ease: "power1.inOut",
+            onComplete: () => {
+              // Полностью убираем все GSAP стили
+              gsap.set(navbarButtonRef.current, { clearProps: "all" });
             },
-            "logoExit",
+          },
+          "logoExit",
         );
 
         tl.addLabel("cardsExit", 0.55);
         tl.to(
-            flipCardRef.current,
-            {
-              x: flipCardRect.width + flipCardRect.left,
-              opacity: 0,
-              duration: 0.15,
-              ease: "power2.in",
-              onComplete: () => {
-                if (flipCardRef.current) {
-                  flipCardRef.current.style.pointerEvents = "none";
-                }
-              },
+          flipCardRef.current,
+          {
+            x: flipCardRect.width + flipCardRect.left,
+            opacity: 0,
+            duration: 0.15,
+            ease: "power2.in",
+            onComplete: () => {
+              if (flipCardRef.current) {
+                flipCardRef.current.style.pointerEvents = "none";
+              }
             },
-            "cardsExit",
+          },
+          "cardsExit",
         );
 
         tl.addLabel("textEnter", 0.65);
         tl.to(
-            flipTextRef.current,
-            {
-              x: flipTextCenterX - flipTextRect.left,
-              y: flipTextCenterY - flipTextRect.top,
-              opacity: 1,
-              duration: 0.2,
-              ease: "power2.out",
-              onStart: () => {
-                if (flipTextRef.current) {
-                  flipTextRef.current.style.pointerEvents = "auto";
-                }
-              },
+          flipTextRef.current,
+          {
+            x: flipTextCenterX - flipTextRect.left,
+            y: flipTextCenterY - flipTextRect.top,
+            opacity: 1,
+            duration: 0.2,
+            ease: "power2.out",
+            onStart: () => {
+              if (flipTextRef.current) {
+                flipTextRef.current.style.pointerEvents = "auto";
+              }
             },
-            "textEnter",
+          },
+          "textEnter",
         );
 
         tl.addLabel("textDisplay", 0.85);
@@ -309,27 +314,27 @@ export const Hero = () => {
         });
 
         tl.to(
-            navbarLogoRef.current,
-            {
-              x: 0,
-              y: 0,
-              scale: 1,
-              duration: 0.5,
-              ease: "power1.inOut",
-            },
-            0,
+          navbarLogoRef.current,
+          {
+            x: 0,
+            y: 0,
+            scale: 1,
+            duration: 0.5,
+            ease: "power1.inOut",
+          },
+          0,
         );
 
         tl.to(
-            navbarButtonRef.current,
-            {
-              x: 0,
-              y: 0,
-              scale: 1,
-              duration: 0.5,
-              ease: "power1.inOut",
-            },
-            0,
+          navbarButtonRef.current,
+          {
+            x: 0,
+            y: 0,
+            scale: 1,
+            duration: 0.5,
+            ease: "power1.inOut",
+          },
+          0,
         );
       }
     }, heroSectionRef);
@@ -359,81 +364,81 @@ export const Hero = () => {
   }, []);
 
   const buttonPortal = portalReady
-      ? document.getElementById("navbar-button-portal")
-      : null;
+    ? document.getElementById("navbar-button-portal")
+    : null;
   const logoPortal = portalReady
-      ? document.getElementById("navbar-logo-portal")
-      : null;
+    ? document.getElementById("navbar-logo-portal")
+    : null;
 
   return (
-      <section ref={heroSectionRef} className="w-full min-h-screen relative">
-        <div className="relative z-10 pointer-events-none max-w-7xl mx-auto px-4 md:px-10 min-h-screen grid grid-cols-2 md:grid-cols-2 items-center gap-6 md:gap-8 py-20 md:py-0">
-          <div
-              ref={flipTextRef}
-              className="hidden md:block basis-1/2 pl-4 lg:pl-8 xl:pl-14 text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl z-50 font-normal text-neutral-600 dark:text-neutral-400"
-          >
-            {t("hero_1")}&nbsp;{t("hero_2")}
-            <div className="flex w-full mt-4">
-              <FlipWords words={words2} />
-            </div>
-          </div>
-          <div className="hidden md:block">
-            <div
-                ref={flipCardRef}
-                style={{ height: "600px", position: "relative" }}
-            >
-              <CardSwap
-                  cardDistance={80}
-                  verticalDistance={100}
-                  delay={3000}
-                  pauseOnHover={false}
-                  width={600}
-                  height={300}
-              >
-                <Card className="flex flex-col py-4 px-4 items-start justify-start">
-                  <p className="font-bold text-white text-5xl xl:text-6xl 2xl:text-7xl">
-                    1
-                  </p>
-                  <p className="font-medium text-base xl:text-lg 2xl:text-xl text-neutral-200 mt-8 xl:mt-10 leading-tight">
-                    {t("hero_card1")}
-                  </p>
-                </Card>
-                <Card className="flex flex-col py-4 px-4 items-start justify-start">
-                  <p className="font-bold text-white text-5xl xl:text-6xl 2xl:text-7xl">
-                    2
-                  </p>
-                  <p className="font-medium text-base xl:text-2xl 2xl:text-xl text-neutral-200 mt-8 xl:mt-10 leading-tight">
-                    {t("hero_card2")}
-                  </p>
-                </Card>
-                <Card className="flex flex-col py-4 px-4 items-start justify-start">
-                  <p className="font-bold text-white text-5xl xl:text-6xl 2xl:text-7xl">
-                    3
-                  </p>
-                  <p className="font-medium text-base xl:text-lg 2xl:text-xl text-neutral-200 mt-8 xl:mt-10 leading-tight">
-                    {t("hero_card3")}
-                  </p>
-                </Card>
-              </CardSwap>
-            </div>
+    <section ref={heroSectionRef} className="w-full min-h-screen relative">
+      <div className="relative z-10 pointer-events-none max-w-7xl mx-auto px-4 md:px-10 min-h-screen grid grid-cols-2 md:grid-cols-2 items-center gap-6 md:gap-8 py-20 md:py-0">
+        <div
+          ref={flipTextRef}
+          className="hidden md:block basis-1/2 pl-4 lg:pl-8 xl:pl-14 text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl z-50 font-normal text-neutral-600 dark:text-neutral-400"
+        >
+          {t("hero_1")}&nbsp;{t("hero_2")}
+          <div className="flex w-full mt-4">
+            <FlipWords words={words2} />
           </div>
         </div>
+        <div className="hidden md:block">
+          <div
+            ref={flipCardRef}
+            style={{ height: "600px", position: "relative" }}
+          >
+            <CardSwap
+              cardDistance={80}
+              verticalDistance={100}
+              delay={3000}
+              pauseOnHover={false}
+              width={600}
+              height={300}
+            >
+              <Card className="flex flex-col py-4 px-4 items-start justify-start">
+                <p className="font-bold text-white text-5xl xl:text-6xl 2xl:text-7xl">
+                  1
+                </p>
+                <p className="font-medium text-base xl:text-lg 2xl:text-xl text-neutral-200 mt-8 xl:mt-10 leading-tight">
+                  {t("hero_card1")}
+                </p>
+              </Card>
+              <Card className="flex flex-col py-4 px-4 items-start justify-start">
+                <p className="font-bold text-white text-5xl xl:text-6xl 2xl:text-7xl">
+                  2
+                </p>
+                <p className="font-medium text-base xl:text-2xl 2xl:text-xl text-neutral-200 mt-8 xl:mt-10 leading-tight">
+                  {t("hero_card2")}
+                </p>
+              </Card>
+              <Card className="flex flex-col py-4 px-4 items-start justify-start">
+                <p className="font-bold text-white text-5xl xl:text-6xl 2xl:text-7xl">
+                  3
+                </p>
+                <p className="font-medium text-base xl:text-lg 2xl:text-xl text-neutral-200 mt-8 xl:mt-10 leading-tight">
+                  {t("hero_card3")}
+                </p>
+              </Card>
+            </CardSwap>
+          </div>
+        </div>
+      </div>
 
-        {logoPortal &&
-            createPortal(
-                <div ref={navbarLogoRef} className="relative" style={{ zIndex: 1 }}>
-                  <Logo />
-                </div>,
-                logoPortal,
-            )}
+      {logoPortal &&
+        createPortal(
+          <div ref={navbarLogoRef} className="relative" style={{ zIndex: 1 }}>
+            <Logo />
+          </div>,
+          logoPortal,
+        )}
 
-        {buttonPortal &&
-            createPortal(
-                <div ref={navbarButtonRef} className="relative" style={{ zIndex: 1 }}>
-                  <CTAButton text={t("button") || "Заполнить бриф"} />
-                </div>,
-                buttonPortal,
-            )}
-      </section>
+      {buttonPortal &&
+        createPortal(
+          <div ref={navbarButtonRef} className="relative" style={{ zIndex: 1 }}>
+            <CTAButton text={t("button") || "Заполнить бриф"} />
+          </div>,
+          buttonPortal,
+        )}
+    </section>
   );
 };

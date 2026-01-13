@@ -8,10 +8,7 @@ export default function VitrinaPage() {
   const { messages } = useTranslations();
   const m: any = (messages as any).VitrinaPage;
   return (
-    <div className="min-h-screen bg-slate-950 relative overflow-hidden">
-      {/* Решетка как на главной странице */}
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div>
-
+    <div className="min-h-screen  relative overflow-hidden">
       <div className="container mx-auto p-8 pt-32 relative z-10">
         <h1 className="mb-8 text-center text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold text-gray-800 dark:text-white">
           {m?.title}

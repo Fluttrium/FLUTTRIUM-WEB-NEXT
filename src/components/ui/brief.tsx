@@ -85,7 +85,7 @@ export function BriefForm() {
   };
 
   return (
-    <div className="w-full mx-auto rounded-xl p-10 shadow-lg text-white relative">
+    <div className="w-full mx-auto rounded-xl p-10 shadow-lg text-white relative bg-black">
       {/* Кнопка закрытия */}
       <button
         onClick={handleClose}
@@ -100,7 +100,7 @@ export function BriefForm() {
       </h2>
       <p className="text-white text-2xl mb-6">
         Оставьте заявку, либо звоните{" "}
-        <span className="text-800">+7 (921) 011 27 94</span>
+        <span className="text-800">+7 (499) 490-11-83</span>
       </p>
 
       <form className="space-y-8" onSubmit={handleSubmit}>

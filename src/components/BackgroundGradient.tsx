@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import {useEffect, useState} from "react";
 import GradientBlinds from "@/components/GradientBlinds";
+import LightPillar from "@/components/LightPillar";
 
 export default function BackgroundGradient() {
     const [isMobile, setIsMobile] = useState(false);
@@ -18,7 +19,19 @@ export default function BackgroundGradient() {
 
     return (
         <div className="fixed inset-0 z-0 gradient-background">
-            <GradientBlinds
+            {isMobile ? (<LightPillar
+                topColor="#5227FF"
+                bottomColor="#FF9FFC"
+                intensity={0.4}
+                rotationSpeed={1.2}
+                glowAmount={0.002}
+                pillarWidth={4.8}
+                pillarHeight={0.4}
+                noiseIntensity={1.9}
+                pillarRotation={60}
+                interactive={false}
+                mixBlendMode="normal"
+            />) : <GradientBlinds
                 gradientColors={["#FF9FFC", "#5227FF"]}
                 angle={204}
                 noise={0.3}
@@ -31,7 +44,9 @@ export default function BackgroundGradient() {
                 spotlightOpacity={1}
                 distortAmount={91}
                 shineDirection="left"
-            />
+            />}
+
         </div>
     );
 }
+

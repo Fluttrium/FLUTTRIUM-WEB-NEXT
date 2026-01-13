@@ -51,167 +51,11 @@ const Navbar = ({ className }: { className?: string }) => {
 
   return (
       <header className="fixed right-0 left-0 top-10 z-[100] transition-all duration-300 ease-in-out">
-        <div className="max-w-7xl mx-auto flex items-center justify-between relative">
-          <div id="navbar-logo-portal" className="pointer-events-auto relative z-[1]" />
+        <div className="max-w-7xl mx-auto flex items-center justify-between relative px-4 md:px-0">
+          {/* ЛОГО */}
+          <div id="navbar-logo-portal" className="pointer-events-auto relative z-[101] flex-shrink-0" />
 
-          <div className="md:hidden flex items-center flex-shrink-0">
-            <IconButton
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="transition-all duration-200 hover:scale-110"
-            >
-              {isMenuOpen ? (
-                  <MdClose className="text-2xl sm:text-3xl text-white" />
-              ) : (
-                  <FaBars className="text-2xl sm:text-3xl text-white" />
-              )}
-            </IconButton>
-          </div>
-
-          {isMenuOpen && (
-              <div className="absolute left-0 right-0 top-0 mt-16 bg-black backdrop-blur-lg z-[99] flex flex-col p-4">
-                <div className="flex flex-col items-start">
-                  <HoveredLink
-                      href="/web-sites"
-                      onClick={closeMenu}
-                      className="text-xl md:text-2xl text-left hover:text-blue-500"
-                  >
-                    {messages.navbar?.serviceItm1 || "Веб-сайты"}
-                  </HoveredLink>
-                  <HoveredLink
-                      href="/mobileapp"
-                      onClick={closeMenu}
-                      className="text-xl md:text-2xl text-left hover:text-blue-500"
-                  >
-                    {messages.navbar?.serviceItm2 || "Мобильные приложения"}
-                  </HoveredLink>
-                  <HoveredLink
-                      href="/uiuxdesign"
-                      onClick={closeMenu}
-                      className="text-xl md:text-2xl text-left hover:text-blue-500"
-                  >
-                    {messages.navbar?.serviceItm3 || "UI/UX дизайн"}
-                  </HoveredLink>
-                  <HoveredLink
-                      href="/itconsul"
-                      onClick={closeMenu}
-                      className="text-xl md:text-2xl text-left hover:text-blue-500"
-                  >
-                    {messages.navbar?.serviceItm4 || "IT консалтинг"}
-                  </HoveredLink>
-                  <HoveredLink
-                      href="/itsupport"
-                      onClick={closeMenu}
-                      className="text-xl md:text-2xl text-left hover:text-blue-500"
-                  >
-                    {messages.navbar?.serviceItm5 || "IT поддержка"}
-                  </HoveredLink>
-                  <hr className="my-4 border-t-2 border-gray-600" />
-                  <HoveredLink
-                      href="/retail"
-                      onClick={closeMenu}
-                      className="text-xl md:text-2xl text-left hover:text-blue-500"
-                  >
-                    {messages.navbar?.title1 || "Ритейл"}
-                  </HoveredLink>
-                  <HoveredLink
-                      href="/corporation"
-                      onClick={closeMenu}
-                      className="text-xl md:text-2xl text-left hover:text-blue-500"
-                  >
-                    {messages.navbar?.title2 || "Корпорации"}
-                  </HoveredLink>
-                  <HoveredLink
-                      href="/internetshop"
-                      onClick={closeMenu}
-                      className="text-xl md:text-2xl text-left hover:text-blue-500"
-                  >
-                    {messages.navbar?.title3 || "Интернет-магазины"}
-                  </HoveredLink>
-                  <HoveredLink
-                      href="/crm"
-                      onClick={closeMenu}
-                      className="text-xl md:text-2xl text-left hover:text-blue-500"
-                  >
-                    {messages.navbar?.title4 || "CRM системы"}
-                  </HoveredLink>
-                  <HoveredLink
-                      href="/tgbot"
-                      onClick={closeMenu}
-                      className="text-xl md:text-2xl text-left hover:text-blue-500"
-                  >
-                    {messages.navbar?.title5 || "Телеграм боты"}
-                  </HoveredLink>
-                  <HoveredLink
-                      href="/direct"
-                      onClick={closeMenu}
-                      className="text-xl md:text-2xl text-left hover:text-blue-500"
-                  >
-                    {messages.navbar?.title6 || "Direct"}
-                  </HoveredLink>
-                  <hr className="my-4 border-t-2 border-gray-600" />
-                  <HoveredLink
-                      href="/flutter"
-                      onClick={closeMenu}
-                      className="text-xl md:text-2xl text-left hover:text-blue-500"
-                  >
-                    Flutter
-                  </HoveredLink>
-                  <HoveredLink
-                      href="/nextjs"
-                      onClick={closeMenu}
-                      className="text-xl md:text-2xl text-left hover:text-blue-500"
-                  >
-                    {messages.navbar?.mainNavItm7 || "Next.js"}
-                  </HoveredLink>
-                  <HoveredLink
-                      href="/studstartap"
-                      onClick={closeMenu}
-                      className="text-xl md:text-2xl text-left hover:text-blue-500"
-                  >
-                    {messages.navbar?.mainNavItm2 || "СтудСтартап"}
-                  </HoveredLink>
-                  <HoveredLink
-                      href="/vitrina"
-                      onClick={closeMenu}
-                      className="text-xl md:text-2xl text-left hover:text-blue-500"
-                  >
-                    {messages.navbar?.mainNavItm9 || "Витрина"}
-                  </HoveredLink>
-                  <hr className="my-4 border-t-2 border-gray-600" />
-                  <Link
-                      href="/brief"
-                      onClick={closeMenu}
-                      className="relative h-8 md:h-12 overflow-hidden rounded-full p-[2px] md:p-[3px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
-                  >
-                    <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-                    <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 md:px-6 py-1 md:py-2 text-sm md:text-base font-semibold text-white backdrop-blur-3xl">
-                  {messages.navbar?.navMainButton || "Начать проект"}
-                </span>
-                  </Link>
-                  <hr className="my-4 border-t-2 border-gray-600" />
-                  <div className="flex items-center gap-3">
-                    {["en", "ru", "cz", "de"].map((lang) => (
-                        <button
-                            key={lang}
-                            type="button"
-                            onClick={() => {
-                              handleChangeLanguage(lang);
-                              closeMenu();
-                            }}
-                            className={`px-3 py-1 rounded-md text-base md:text-lg transition-colors ${
-                                language === lang
-                                    ? "bg-white/20 text-white"
-                                    : "bg-white/10 text-neutral-200 hover:bg-white/20"
-                            }`}
-                        >
-                          {lang.toUpperCase()}
-                        </button>
-                    ))}
-                  </div>
-                </div>
-              </div>
-          )}
-
+          {/* ДЕСКТОПНОЕ МЕНЮ */}
           <nav className="hidden md:flex items-center justify-center flex-1 relative z-[105]">
             <Menu setActive={setActive}>
               <HoveredLink href="/vitrina" className="text-xl xl:text-2xl">
@@ -390,7 +234,8 @@ const Navbar = ({ className }: { className?: string }) => {
             </Menu>
           </nav>
 
-          <div className="hidden md:flex items-center gap-4 flex-shrink-0 relative z-[1]">
+          {/* ДЕСКТОПНЫЙ ПЕРЕКЛЮЧАТЕЛЬ ЯЗЫКА */}
+          <div className="hidden md:flex items-center gap-4 flex-shrink-0 relative z-[101]">
             <DropdownMenu>
               <DropdownMenuTrigger className="text-lg xl:text-xl px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors duration-200">
                 {language === "en" ? "EN" : language === "ru" ? "RU" : language === "cz" ? "CZ" : language === "de" ? "DE" : "RU"}
@@ -412,7 +257,193 @@ const Navbar = ({ className }: { className?: string }) => {
             </DropdownMenu>
           </div>
 
-          <div id="navbar-button-portal" className="pointer-events-auto px-6 relative z-[1]" />
+          {/* КНОПКА (ПОРТАЛ) */}
+          <div id="navbar-button-portal" className="pointer-events-auto relative z-[101] flex-shrink-0" />
+
+          {/* БУРГЕР МЕНЮ (только мобильная версия) */}
+          <div className="md:hidden flex items-center ml-4 flex-shrink-0 relative z-[103]">
+            <IconButton
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+                className="transition-all duration-200 hover:scale-110 p-2"
+            >
+              {isMenuOpen ? (
+                  <MdClose className="text-3xl text-white" />
+              ) : (
+                  <FaBars className="text-3xl text-white" />
+              )}
+            </IconButton>
+          </div>
+
+          {/* МОБИЛЬНОЕ МЕНЮ */}
+          {/* МОБИЛЬНОЕ МЕНЮ */}
+          {isMenuOpen && (
+              <>
+                <div
+                    className="fixed inset-0 top-0 bg-black/60 backdrop-blur-sm z-[150] md:hidden"
+                    onClick={closeMenu}
+                />
+                <div className="fixed left-0 right-0 top-0 mx-0 bg-black/95 backdrop-blur-xl z-[151] md:hidden border-b border-white/10 shadow-2xl max-h-screen overflow-y-auto">
+                  {/* КНОПКА ЗАКРЫТИЯ */}
+                  <div className="absolute top-10 right-4 z-[152]">
+                    <IconButton
+                        onClick={closeMenu}
+                        className="transition-all duration-200 hover:scale-110 p-2"
+                    >
+                      <MdClose className="text-3xl text-white" />
+                    </IconButton>
+                  </div>
+
+                  <div className="flex flex-col p-6 pt-24 gap-3">
+                    <HoveredLink
+                        href="/web-sites"
+                        onClick={closeMenu}
+                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                    >
+                      {messages.navbar?.serviceItm1 || "Веб-сайты"}
+                    </HoveredLink>
+                    <HoveredLink
+                        href="/mobileapp"
+                        onClick={closeMenu}
+                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                    >
+                      {messages.navbar?.serviceItm2 || "Мобильные приложения"}
+                    </HoveredLink>
+                    <HoveredLink
+                        href="/uiuxdesign"
+                        onClick={closeMenu}
+                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                    >
+                      {messages.navbar?.serviceItm3 || "UI/UX дизайн"}
+                    </HoveredLink>
+                    <HoveredLink
+                        href="/itconsul"
+                        onClick={closeMenu}
+                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                    >
+                      {messages.navbar?.serviceItm4 || "IT консалтинг"}
+                    </HoveredLink>
+                    <HoveredLink
+                        href="/itsupport"
+                        onClick={closeMenu}
+                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                    >
+                      {messages.navbar?.serviceItm5 || "IT поддержка"}
+                    </HoveredLink>
+
+                    <hr className="my-2 border-t border-white/20" />
+
+                    <HoveredLink
+                        href="/retail"
+                        onClick={closeMenu}
+                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                    >
+                      {messages.navbar?.title1 || "Ритейл"}
+                    </HoveredLink>
+                    <HoveredLink
+                        href="/corporation"
+                        onClick={closeMenu}
+                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                    >
+                      {messages.navbar?.title2 || "Корпорации"}
+                    </HoveredLink>
+                    <HoveredLink
+                        href="/internetshop"
+                        onClick={closeMenu}
+                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                    >
+                      {messages.navbar?.title3 || "Интернет-магазины"}
+                    </HoveredLink>
+                    <HoveredLink
+                        href="/crm"
+                        onClick={closeMenu}
+                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                    >
+                      {messages.navbar?.title4 || "CRM системы"}
+                    </HoveredLink>
+                    <HoveredLink
+                        href="/tgbot"
+                        onClick={closeMenu}
+                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                    >
+                      {messages.navbar?.title5 || "Телеграм боты"}
+                    </HoveredLink>
+                    <HoveredLink
+                        href="/direct"
+                        onClick={closeMenu}
+                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                    >
+                      {messages.navbar?.title6 || "Direct"}
+                    </HoveredLink>
+
+                    <hr className="my-2 border-t border-white/20" />
+
+                    <HoveredLink
+                        href="/flutter"
+                        onClick={closeMenu}
+                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                    >
+                      Flutter
+                    </HoveredLink>
+                    <HoveredLink
+                        href="/nextjs"
+                        onClick={closeMenu}
+                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                    >
+                      {messages.navbar?.mainNavItm7 || "Next.js"}
+                    </HoveredLink>
+                    <HoveredLink
+                        href="/studstartap"
+                        onClick={closeMenu}
+                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                    >
+                      {messages.navbar?.mainNavItm2 || "СтудСтартап"}
+                    </HoveredLink>
+                    <HoveredLink
+                        href="/vitrina"
+                        onClick={closeMenu}
+                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                    >
+                      {messages.navbar?.mainNavItm9 || "Витрина"}
+                    </HoveredLink>
+
+                    <hr className="my-2 border-t border-white/20" />
+
+                    <Link
+                        href="/brief"
+                        onClick={closeMenu}
+                        className="relative h-12 overflow-hidden rounded-full p-[2px] focus:outline-none my-3"
+                    >
+                      <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+                      <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-6 py-2 text-base font-semibold text-white backdrop-blur-3xl whitespace-nowrap">
+              {messages.navbar?.navMainButton || "Начать проект"}
+            </span>
+                    </Link>
+
+                    <hr className="my-2 border-t border-white/20" />
+
+                    <div className="flex items-center justify-center gap-3 py-2 pb-6">
+                      {["en", "ru", "cz", "de"].map((lang) => (
+                          <button
+                              key={lang}
+                              type="button"
+                              onClick={() => {
+                                handleChangeLanguage(lang);
+                                closeMenu();
+                              }}
+                              className={`px-4 py-2 rounded-lg text-base font-medium transition-all ${
+                                  language === lang
+                                      ? "bg-blue-500 text-white shadow-lg scale-105"
+                                      : "bg-white/10 text-neutral-200 hover:bg-white/20"
+                              }`}
+                          >
+                            {lang.toUpperCase()}
+                          </button>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </>
+          )}
         </div>
       </header>
   );

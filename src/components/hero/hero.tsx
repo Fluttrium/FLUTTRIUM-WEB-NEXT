@@ -105,11 +105,11 @@ export const Hero = () => {
       if (isMobile) {
         // МОБИЛЬНАЯ ВЕРСИЯ: По центру друг под другом
         heroLogoX = window.innerWidth / 2 - navbarLogoRect.width / 2;
-        heroLogoY = window.innerHeight / 2 - navbarLogoRect.height - 60;
+        heroLogoY = window.innerHeight / 2 - navbarLogoRect.height - 80;
         heroButtonX = window.innerWidth / 2 - navbarButtonRect.width / 2;
-        heroButtonY = window.innerHeight / 2 + 40;
-        logoScale = 2;
-        buttonScale = 1.2;
+        heroButtonY = window.innerHeight / 2 + 60;
+        logoScale = 2.5;
+        buttonScale = 1.4;
       } else {
         // ДЕСКТОПНАЯ ВЕРСИЯ: Слева
         heroLogoX = window.innerWidth / 4 - navbarLogoRect.width / 2;
@@ -284,7 +284,7 @@ export const Hero = () => {
           scrollTrigger: {
             trigger: heroSectionRef.current,
             start: "bottom bottom",
-            end: "+=3000",
+            end: "+=100",
             scrub: true,
             pin: heroSectionRef.current,
             pinSpacing: true,

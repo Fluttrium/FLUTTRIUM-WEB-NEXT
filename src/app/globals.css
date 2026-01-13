@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@variant dark (&:where(.dark, .dark *));
+
 @layer theme {
   :root {
     --color-background: 0 0% 0%;
@@ -112,4 +114,17 @@ body {
 
 .gradient-background canvas {
   pointer-events: none !important;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+html.dark * {
+  border-color: hsl(var(--color-border));
+}
+
+html.dark body {
+  background-color: hsl(var(--color-background));
+  color: hsl(var(--color-foreground));
 }

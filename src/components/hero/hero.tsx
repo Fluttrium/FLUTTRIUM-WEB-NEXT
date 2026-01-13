@@ -70,6 +70,17 @@ export const Hero = () => {
     return () => clearInterval(checkPortal);
   }, []);
 
+  // Добавляем класс hero-active когда порталы готовы
+  useEffect(() => {
+    if (portalReady) {
+      document.body.classList.add('hero-active');
+      return () => {
+        document.body.classList.remove('hero-active');
+      };
+    }
+  }, [portalReady]);
+
+  // Создаем анимацию
   useEffect(() => {
     if (!portalReady || animationCreated.current) return;
 
@@ -238,6 +249,10 @@ export const Hero = () => {
               scale: 1,
               duration: 0.2,
               ease: "power1.inOut",
+              onComplete: () => {
+                // Полностью убираем все GSAP стили
+                gsap.set(navbarButtonRef.current, { clearProps: "all" });
+              },
             },
             "logoExit",
         );
@@ -284,7 +299,7 @@ export const Hero = () => {
           scrollTrigger: {
             trigger: heroSectionRef.current,
             start: "bottom bottom",
-            end: "+=100",
+            end: "+=1000",
             scrub: true,
             pin: heroSectionRef.current,
             pinSpacing: true,

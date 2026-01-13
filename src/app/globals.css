@@ -128,3 +128,14 @@ html.dark body {
   background-color: hsl(var(--color-background));
   color: hsl(var(--color-foreground));
 }
+
+.hero-active #navbar-logo-portal > div:first-child,
+.hero-active #navbar-button-portal > div:first-child {
+  display: none !important;
+}
+
+/* Портальные элементы должны вести себя как оригинальные */
+#navbar-logo-portal > div:last-child,
+#navbar-button-portal > div:last-child {
+  position: relative;
+}

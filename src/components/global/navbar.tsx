@@ -21,6 +21,9 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { useTranslations } from "@/hooks/useTranslations";
 import { useLanguage } from "@/store";
+import {CTAButton} from "@/components/hero/CTAbutton";
+import {Logo} from "@/components/hero/logo";
+
 
 const Navbar = ({ className }: { className?: string }) => {
   const { messages } = useTranslations();
@@ -52,8 +55,11 @@ const Navbar = ({ className }: { className?: string }) => {
   return (
       <header className="fixed right-0 left-0 top-10 z-[100] transition-all duration-300 ease-in-out">
         <div className="max-w-7xl mx-auto flex items-center justify-between relative px-4 md:px-0">
-          {/* ЛОГО */}
-          <div id="navbar-logo-portal" className="pointer-events-auto relative z-[101] flex-shrink-0" />
+          <div id="navbar-logo-portal" className="pointer-events-auto relative z-[101] flex-shrink-0">
+            <div>
+              <Logo />
+            </div>
+          </div>
 
           {/* ДЕСКТОПНОЕ МЕНЮ */}
           <nav className="hidden md:flex items-center justify-center flex-1 relative z-[105]">
@@ -257,8 +263,12 @@ const Navbar = ({ className }: { className?: string }) => {
             </DropdownMenu>
           </div>
 
-          {/* КНОПКА (ПОРТАЛ) */}
-          <div id="navbar-button-portal" className="pointer-events-auto relative z-[101] flex-shrink-0" />
+          {/* КНОПКА - Портал или обычный рендер */}
+          <div id="navbar-button-portal" className="pointer-events-auto relative z-[101] flex-shrink-0">
+            <div>
+              <CTAButton text={messages.navbar?.navMainButton || "Начать проект"} />
+            </div>
+          </div>
 
           {/* БУРГЕР МЕНЮ (только мобильная версия) */}
           <div className="md:hidden flex items-center ml-4 flex-shrink-0 relative z-[103]">
@@ -274,7 +284,6 @@ const Navbar = ({ className }: { className?: string }) => {
             </IconButton>
           </div>
 
-          {/* МОБИЛЬНОЕ МЕНЮ */}
           {/* МОБИЛЬНОЕ МЕНЮ */}
           {isMenuOpen && (
               <>
@@ -297,35 +306,35 @@ const Navbar = ({ className }: { className?: string }) => {
                     <HoveredLink
                         href="/web-sites"
                         onClick={closeMenu}
-                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                        className="text-xl text-left dark:text-white hover:text-blue-400 transition-colors py-3"
                     >
                       {messages.navbar?.serviceItm1 || "Веб-сайты"}
                     </HoveredLink>
                     <HoveredLink
                         href="/mobileapp"
                         onClick={closeMenu}
-                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                        className="text-xl text-left dark:text-white hover:text-blue-400 transition-colors py-3"
                     >
                       {messages.navbar?.serviceItm2 || "Мобильные приложения"}
                     </HoveredLink>
                     <HoveredLink
                         href="/uiuxdesign"
                         onClick={closeMenu}
-                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                        className="text-xl text-left dark:text-white hover:text-blue-400 transition-colors py-3"
                     >
                       {messages.navbar?.serviceItm3 || "UI/UX дизайн"}
                     </HoveredLink>
                     <HoveredLink
                         href="/itconsul"
                         onClick={closeMenu}
-                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                        className="text-xl text-left dark:text-white hover:text-blue-400 transition-colors py-3"
                     >
                       {messages.navbar?.serviceItm4 || "IT консалтинг"}
                     </HoveredLink>
                     <HoveredLink
                         href="/itsupport"
                         onClick={closeMenu}
-                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                        className="text-xl text-left dark:text-white hover:text-blue-400 transition-colors py-3"
                     >
                       {messages.navbar?.serviceItm5 || "IT поддержка"}
                     </HoveredLink>
@@ -335,42 +344,42 @@ const Navbar = ({ className }: { className?: string }) => {
                     <HoveredLink
                         href="/retail"
                         onClick={closeMenu}
-                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                        className="text-xl text-left dark:text-white hover:text-blue-400 transition-colors py-3"
                     >
                       {messages.navbar?.title1 || "Ритейл"}
                     </HoveredLink>
                     <HoveredLink
                         href="/corporation"
                         onClick={closeMenu}
-                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                        className="text-xl text-left dark:text-white hover:text-blue-400 transition-colors py-3"
                     >
                       {messages.navbar?.title2 || "Корпорации"}
                     </HoveredLink>
                     <HoveredLink
                         href="/internetshop"
                         onClick={closeMenu}
-                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                        className="text-xl text-left dark:text-white hover:text-blue-400 transition-colors py-3"
                     >
                       {messages.navbar?.title3 || "Интернет-магазины"}
                     </HoveredLink>
                     <HoveredLink
                         href="/crm"
                         onClick={closeMenu}
-                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                        className="text-xl text-left dark:text-white hover:text-blue-400 transition-colors py-3"
                     >
                       {messages.navbar?.title4 || "CRM системы"}
                     </HoveredLink>
                     <HoveredLink
                         href="/tgbot"
                         onClick={closeMenu}
-                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                        className="text-xl text-left dark:text-white hover:text-blue-400 transition-colors py-3"
                     >
                       {messages.navbar?.title5 || "Телеграм боты"}
                     </HoveredLink>
                     <HoveredLink
                         href="/direct"
                         onClick={closeMenu}
-                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                        className="text-xl text-left dark:text-white hover:text-blue-400 transition-colors py-3"
                     >
                       {messages.navbar?.title6 || "Direct"}
                     </HoveredLink>
@@ -380,28 +389,28 @@ const Navbar = ({ className }: { className?: string }) => {
                     <HoveredLink
                         href="/flutter"
                         onClick={closeMenu}
-                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                        className="text-xl text-left dark:text-white hover:text-blue-400 transition-colors py-3"
                     >
                       Flutter
                     </HoveredLink>
                     <HoveredLink
                         href="/nextjs"
                         onClick={closeMenu}
-                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                        className="text-xl text-left dark:text-white hover:text-blue-400 transition-colors py-3"
                     >
                       {messages.navbar?.mainNavItm7 || "Next.js"}
                     </HoveredLink>
                     <HoveredLink
                         href="/studstartap"
                         onClick={closeMenu}
-                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                        className="text-xl text-left dark:text-white hover:text-blue-400 transition-colors py-3"
                     >
                       {messages.navbar?.mainNavItm2 || "СтудСтартап"}
                     </HoveredLink>
                     <HoveredLink
                         href="/vitrina"
                         onClick={closeMenu}
-                        className="text-xl text-left text-white hover:text-blue-400 transition-colors py-3"
+                        className="text-xl text-left dark:text-white hover:text-blue-400 transition-colors py-3"
                     >
                       {messages.navbar?.mainNavItm9 || "Витрина"}
                     </HoveredLink>
@@ -415,8 +424,8 @@ const Navbar = ({ className }: { className?: string }) => {
                     >
                       <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
                       <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-6 py-2 text-base font-semibold text-white backdrop-blur-3xl whitespace-nowrap">
-              {messages.navbar?.navMainButton || "Начать проект"}
-            </span>
+                        {messages.navbar?.navMainButton || "Начать проект"}
+                      </span>
                     </Link>
 
                     <hr className="my-2 border-t border-white/20" />

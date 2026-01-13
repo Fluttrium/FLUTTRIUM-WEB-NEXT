@@ -31,7 +31,6 @@ export const Hero = () => {
   const flipCardRef = useRef<HTMLDivElement>(null);
 
   const [portalReady, setPortalReady] = useState(false);
-  const [isInNavbar, setIsInNavbar] = useState(false);
 
   const animationCreated = useRef(false);
 
@@ -247,8 +246,6 @@ export const Hero = () => {
           scale: 1,
           duration: 0.2,
           ease: "power1.inOut",
-          onStart: () => setIsInNavbar(true),
-          onReverseComplete: () => setIsInNavbar(false),
         },
         "logoExit",
       );
@@ -406,7 +403,7 @@ export const Hero = () => {
       {/* ОДИН лого - анимируется из Hero в Navbar */}
       {logoPortal &&
         createPortal(
-          <div ref={navbarLogoRef} className={`relative ${isInNavbar ? "z-[100]" : "z-10"}`}>
+          <div ref={navbarLogoRef} className="relative z-[9999]">
             <Logo />
           </div>,
           logoPortal,
@@ -415,7 +412,7 @@ export const Hero = () => {
       {/* ОДНА кнопка - анимируется из Hero в Navbar */}
       {buttonPortal &&
         createPortal(
-          <div ref={navbarButtonRef} className={`relative ${isInNavbar ? "z-[100]" : "z-10"}`}>
+          <div ref={navbarButtonRef} className="relative z-[9999]">
             <CTAButton text={t("button") || "Заполнить бриф"} />
           </div>,
           buttonPortal,

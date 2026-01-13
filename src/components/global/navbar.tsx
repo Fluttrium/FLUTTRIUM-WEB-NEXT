@@ -83,7 +83,7 @@ const Navbar = ({ className }: { className?: string }) => {
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="transition-all duration-200 hover:scale-110"
           >
-            {isMenuOpen ? (
+          {isMenuOpen ? (
               <MdClose className="text-2xl sm:text-3xl text-white" />
             ) : (
               <FaBars className="text-2xl sm:text-3xl text-white" />
@@ -93,7 +93,7 @@ const Navbar = ({ className }: { className?: string }) => {
 
         {/* Основное меню для мобильных устройств */}
         {isMenuOpen && (
-          <div className="absolute left-0 right-0 top-0 mt-16 bg-black backdrop-blur-lg z-[200] flex flex-col p-4">
+          <div className="absolute left-0 right-0 top-0 mt-16 bg-black backdrop-blur-lg z-[99] flex flex-col p-4">
             <div className="flex flex-col items-start">
               {" "}
               {/* Add items-start here */}
@@ -515,7 +515,7 @@ const Navbar = ({ className }: { className?: string }) => {
         </div>
         <div
           id="navbar-button-portal"
-          className="pointer-events-auto px-6 "
+          className="pointer-events-auto px-6 z-[100]"
         ></div>
       </div>
     </header>

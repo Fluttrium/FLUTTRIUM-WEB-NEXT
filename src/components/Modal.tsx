@@ -17,6 +17,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
   const [email, setEmail] = useState("");
   const [source, setSource] = useState("");
   const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
 
   // Блокировка скролла при открытии модалки
   useEffect(() => {
@@ -33,6 +34,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
+    setSuccess(false);
 
     try {
       const response = await fetch("/api/modal", {
@@ -44,16 +46,11 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
       });
 
       if (response.ok) {
-        console.log("Форма успешно отправлена!");
-        // Очищаем поля формы
         setName("");
         setPhone("");
         setEmail("");
         setSource("");
-        // Закрываем модальное окно
-        onClose();
-        // Показываем уведомление об успехе
-        alert(t("success"));
+        setSuccess(true);
       } else {
         const errorData = await response.json();
         console.error("Ошибка отправки:", errorData);
@@ -145,10 +142,15 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
           <button
             type="submit"
             disabled={loading}
-            className="w-full px-6 py-3 bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 transition-colors duration-200 shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
+            className="w-full px-6 py-3 bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 transition-all duration-200 shadow-lg disabled:opacity-50 disabled:cursor-not-allowed active:scale-95"
           >
-            {loading ? t("submit") : t("submit")}
+            {loading ? "Отправка..." : t("submit")}
           </button>
+          {success && (
+            <p className="mt-4 text-green-400 font-medium text-sm text-center">
+              {t("success")}
+            </p>
+          )}
           <p className="text-sm text-gray-400 mt-4 text-center leading-relaxed">
             {t("privacy")}
           </p>

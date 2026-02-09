@@ -189,7 +189,7 @@ function ExpandedBusinessCard() {
           </h3>
           <div className="relative">
             <Image
-              src="/ChatGPT Image 25 авг. 2025 г., 13_53_39.png"
+              src="/chatgpt-image-aug25.png"
               alt={m?.sections?.social?.title || "Social networks"}
               width={500}
               height={400}

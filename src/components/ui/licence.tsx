@@ -20,7 +20,7 @@ const Licence = () => {
         </div>
         <div className="w-3/4 md:w-2/4 flex justify-center">
           <Image
-            src="/logomock/Peeling Off Sticker.png"
+            src="/logomock/peeling-off-sticker.png"
             alt={t?.imageAlt || "Mockup телефона"}
             width={1000}
             height={1000}

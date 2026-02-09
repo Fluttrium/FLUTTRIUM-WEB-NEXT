@@ -33,7 +33,7 @@ const NextInfo = () => {
       {/* Изображение */}
       <div className="w-full flex justify-center lg:w-2/4 lg:justify-end">
         <Image
-          src="/nextjsmock/Mac Studio.png" // Путь к вашему изображению
+          src="/nextjsmock/mac-studio.png"
           alt={m?.cover?.imageAlt || "Mac Studio"}
           className="w-3/4 md:w-2/3 lg:w-full h-auto object-contain"
           width={1000}

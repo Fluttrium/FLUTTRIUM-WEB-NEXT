@@ -1144,7 +1144,7 @@
         "title": "Регистрация и профиль пользователя",
         "description": "Простая и безопасная регистрация по номеру телефона. Профиль, который сохраняет демографические характеристики и личные предпочтения покупателей",
         "tags": ["аутентификация", "история заказов", "чеки", "бонусы"],
-        "image": "/iPhone 15.png"
+        "image": "/iphone-15.png"
       },
       {
         "title": "Главная страница",
@@ -1156,7 +1156,7 @@
           "каталог акций",
           "скидки"
         ],
-        "image": "/iPhone 15 (1).png"
+        "image": "/iphone-15-1.png"
       },
       {
         "title": "Каталог и карточка товара",
@@ -1168,19 +1168,19 @@
           "CloudPayments",
           "Сбербанк"
         ],
-        "image": "/iPhone 15 (2).png"
+        "image": "/iphone-15-2.png"
       },
       {
         "title": "Корзина и заказ",
         "description": "Ключевая функция приложения. Собирает важные данные о пользователе, помогает снизить количество отказов и увеличить конверсию",
         "tags": ["список товаров", "адрес доставки", "поддержка"],
-        "image": "/iPhone 15 (3).png"
+        "image": "/iphone-15-3.png"
       },
       {
         "title": "Доставка",
         "description": "Интеграция с популярными сервисами доставки. Увеличивает скорость обслуживания и помогает автоматизировать процессы",
         "tags": ["СДЭК", "Яндекс Доставка", "Достависта", "Boxberry"],
-        "image": "/iPhone 15 (4).png"
+        "image": "/iphone-15-4.png"
       },
       {
         "title": "Административная панель",
@@ -1191,7 +1191,7 @@
           "баннеры",
           "редактирование"
         ],
-        "image": "/iPhone 15 (5).png"
+        "image": "/iphone-15-5.png"
       }
     ]
   },
@@ -1366,49 +1366,49 @@
       {
         "title": "Список недвижимости",
         "link": "",
-        "thumbnail": "/projects/Список недвижимости.png"
+        "thumbnail": "/projects/property-list.png"
       },
       {
         "title": "Список недвижимости",
         "link": "",
-        "thumbnail": "/projects/Список недвижимости.png"
+        "thumbnail": "/projects/property-list.png"
       },
       { "title": "Виджет", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
       {
         "title": "CRM Воронка",
         "link": "",
-        "thumbnail": "/crm/CRMВоронка.png"
+        "thumbnail": "/crm/crm-funnel.png"
       },
       { "title": "Виджет", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
       { "title": "Виджет", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
       {
         "title": "Хранилище документов",
         "link": "",
-        "thumbnail": "/crm/Хранилизе документов.png"
+        "thumbnail": "/crm/document-storage.png"
       },
       { "title": "Дашборд", "link": "", "thumbnail": "/crm/Dashboard.png" },
       {
         "title": "Список недвижимости",
         "link": "",
-        "thumbnail": "/projects/Список недвижимости.png"
+        "thumbnail": "/projects/property-list.png"
       },
       { "title": "Дашборд", "link": "", "thumbnail": "/crm/Dashboard.png" },
       {
         "title": "CRM Воронка",
         "link": "",
-        "thumbnail": "/crm/CRMВоронка.png"
+        "thumbnail": "/crm/crm-funnel.png"
       },
       {
         "title": "Объекты аренды",
         "link": "",
-        "thumbnail": "/crm/Объкты аренды.png"
+        "thumbnail": "/crm/rent-objects.png"
       },
       {
         "title": "Список недвижимости",
         "link": "",
-        "thumbnail": "/projects/Список недвижимости.png"
+        "thumbnail": "/projects/property-list.png"
       },
-      { "title": "CRM Воронка", "link": "", "thumbnail": "/crm/CRMВоронка.png" }
+      { "title": "CRM Воронка", "link": "", "thumbnail": "/crm/crm-funnel.png" }
     ]
   },
   "CrmTimeline": {

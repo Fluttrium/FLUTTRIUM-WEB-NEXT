@@ -42,7 +42,7 @@ const BookDemo = () => {
           {" "}
           {/* Убраны отступы сверху */}
           <Image
-            src="/iPhone 16 Pro.png"
+            src="/iphone-16-pro.png"
             alt={t?.imageAlt || "Mockup телефона"}
             width={1000}
             height={1000}

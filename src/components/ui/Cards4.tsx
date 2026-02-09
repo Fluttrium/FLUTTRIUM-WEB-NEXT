@@ -21,7 +21,7 @@ export function CardHoverEffectDemo4() {
       description:
         m?.projects?.[1]?.description ||
         "Создание интернет-магазинов с интуитивным интерфейсом, оптимизированных для удобства покупок и управления товарами. Предлагаем интеграцию с платёжными системами, инструменты для аналитики и адаптивный дизайн для привлечения и удержания клиентов",
-      image: "/knifesmock/MacBookAir(15 inch).png",
+      image: "/knifesmock/macbook-air-15.png",
       link: "",
     },
     {
@@ -29,7 +29,7 @@ export function CardHoverEffectDemo4() {
       description:
         m?.projects?.[2]?.description ||
         "Разработка интернет-порталов для информирования и взаимодействия с широкой аудиторией. Создаём функциональные платформы с удобной навигацией, поддержкой мультимедийного контента, интеграцией с социальными сетями и возможностью масштабирования для любых задач",
-      image: "/nextjsmock/MacBook Air (15 inch).png",
+      image: "/nextjsmock/macbook-air-15.png",
       link: "",
     },
     {
@@ -45,7 +45,7 @@ export function CardHoverEffectDemo4() {
       description:
         m?.projects?.[4]?.description ||
         "Создание онлайн-форумов для активного общения и обмена информацией между пользователями. Реализуем удобные функции для модерирования, возможности для публикации мультимедиа, а также систему уведомлений и поиска для поддержания интереса и активности на платформе",
-      image: "/nextjsmock/Samsung TV@2x.png",
+      image: "/nextjsmock/samsung-tv-2x.png",
       link: "",
     },
   ];

@@ -12,11 +12,13 @@ export function Form() {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [description, setDescription] = useState("");
-  const [_loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
+    setSuccess(false);
 
     try {
       const response = await fetch("/api/form", {
@@ -32,9 +34,13 @@ export function Form() {
         setEmail("");
         setPhone("");
         setDescription("");
+        setSuccess(true);
       } else {
-        const _errorData = await response.json();
+        const errorData = await response.json();
+        alert(errorData.error || "Ошибка отправки");
       }
+    } catch {
+      alert("Ошибка сети, попробуйте позже");
     } finally {
       setLoading(false);
     }
@@ -94,11 +100,17 @@ export function Form() {
               ></Input>
             </LabelInputContainer>
             <button
-              className="bg-gradient-to-br from-black dark:from-zinc-900 to-neutral-600 dark:to-zinc-900 w-full text-white rounded-full h-10 text-sm font-medium"
+              className="bg-gradient-to-br from-black dark:from-zinc-900 to-neutral-600 dark:to-zinc-900 w-full text-white rounded-full h-10 text-sm font-medium active:scale-95 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
               type="submit"
+              disabled={loading}
             >
-              {t("formButton")} &rarr;
+              {loading ? "Отправка..." : <>{t("formButton")} &rarr;</>}
             </button>
+            {success && (
+              <p className="mt-4 text-green-400 font-medium text-sm text-center">
+                Форма успешно отправлена!
+              </p>
+            )}
           </form>
         </div>
       </div>

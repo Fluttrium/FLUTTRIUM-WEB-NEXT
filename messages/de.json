@@ -400,19 +400,19 @@
       {
         "title": "E-Commerce-Entwicklung",
         "description": "Vollständige Online-Shop-Lösungen mit Zahlungsabwicklung",
-        "image": "/projects/Список недвижимости.png",
+        "image": "/projects/property-list.png",
         "buttonText": "Mehr erfahren"
       },
       {
         "title": "Mobile Apps",
         "description": "Native mobile Anwendungen für iOS und Android",
-        "image": "/projects/Список недвижимости.png",
+        "image": "/projects/property-list.png",
         "buttonText": "Mehr erfahren"
       },
       {
         "title": "API-Integration",
         "description": "Integration mit externen Diensten und Zahlungssystemen",
-        "image": "/projects/Список недвижимости.png",
+        "image": "/projects/property-list.png",
         "buttonText": "Mehr erfahren"
       }
     ]
@@ -423,22 +423,22 @@
       {
         "title": "Einzelhandel",
         "description": "Lösungen für Geschäfte und E-Commerce",
-        "image": "/projects/Список недвижимости.png"
+        "image": "/projects/property-list.png"
       },
       {
         "title": "Finanzen",
         "description": "Banking- und Fintech-Anwendungen",
-        "image": "/projects/Список недвижимости.png"
+        "image": "/projects/property-list.png"
       },
       {
         "title": "Gesundheitswesen",
         "description": "Medizinische Anwendungen und Telemedizin",
-        "image": "/projects/Список недвижимости.png"
+        "image": "/projects/property-list.png"
       },
       {
         "title": "Bildung",
         "description": "Lernplattformen und Bildungs-Apps",
-        "image": "/projects/Список недвижимости.png"
+        "image": "/projects/property-list.png"
       }
     ]
   },
@@ -577,52 +577,52 @@
       {
         "title": "Immobilienliste",
         "link": "",
-        "thumbnail": "/projects/Список недвижимости.png"
+        "thumbnail": "/projects/property-list.png"
       },
       {
         "title": "Immobilienliste",
         "link": "",
-        "thumbnail": "/projects/Список недвижимости.png"
+        "thumbnail": "/projects/property-list.png"
       },
       { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
       {
         "title": "CRM-Trichter",
         "link": "",
-        "thumbnail": "/crm/CRMВоронка.png"
+        "thumbnail": "/crm/crm-funnel.png"
       },
       { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
       { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
       {
         "title": "Dokumentenspeicher",
         "link": "",
-        "thumbnail": "/crm/Хранилизе документов.png"
+        "thumbnail": "/crm/document-storage.png"
       },
       { "title": "Dashboard", "link": "", "thumbnail": "/crm/Dashboard.png" },
       {
         "title": "Immobilien",
         "link": "",
-        "thumbnail": "/projects/Список недвижимости.png"
+        "thumbnail": "/projects/property-list.png"
       },
       { "title": "Dashboard", "link": "", "thumbnail": "/crm/Dashboard.png" },
       {
         "title": "CRM-Trichter",
         "link": "",
-        "thumbnail": "/crm/CRMВоронка.png"
+        "thumbnail": "/crm/crm-funnel.png"
       },
       {
         "title": "Mietobjekte",
         "link": "",
-        "thumbnail": "/crm/Объкты аренды.png"
+        "thumbnail": "/crm/rent-objects.png"
       },
       {
         "title": "Immobilien",
         "link": "",
-        "thumbnail": "/projects/Список недвижимости.png"
+        "thumbnail": "/projects/property-list.png"
       },
       {
         "title": "CRM-Trichter",
         "link": "",
-        "thumbnail": "/crm/CRMВоронка.png"
+        "thumbnail": "/crm/crm-funnel.png"
       }
     ]
   },
@@ -1190,7 +1190,7 @@
         "title": "Registrierung und Benutzerprofil",
         "description": "Einfache und sichere Registrierung über Telefonnummer. Profil, das demografische Merkmale und persönliche Präferenzen der Käufer speichert",
         "tags": ["Authentifizierung", "Bestellverlauf", "Quittungen", "Boni"],
-        "image": "/iPhone 15.png"
+        "image": "/iphone-15.png"
       },
       {
         "title": "Hauptseite",
@@ -1202,7 +1202,7 @@
           "Aktionskatalog",
           "Rabatte"
         ],
-        "image": "/iPhone 15 (1).png"
+        "image": "/iphone-15-1.png"
       },
       {
         "title": "Katalog und Produktkarte",
@@ -1214,19 +1214,19 @@
           "CloudPayments",
           "Sberbank"
         ],
-        "image": "/iPhone 15 (2).png"
+        "image": "/iphone-15-2.png"
       },
       {
         "title": "Warenkorb und Bestellung",
         "description": "Schlüsselfunktion der Anwendung. Sammelt wichtige Daten über den Benutzer, hilft, die Anzahl der Abbrüche zu reduzieren und die Konversion zu erhöhen",
         "tags": ["Produktliste", "Lieferadresse", "Support"],
-        "image": "/iPhone 15 (3).png"
+        "image": "/iphone-15-3.png"
       },
       {
         "title": "Lieferung",
         "description": "Integration mit beliebten Lieferdiensten. Erhöht die Servicegeschwindigkeit und hilft, Prozesse zu automatisieren",
         "tags": ["CDEK", "Yandex Lieferung", "Deliverista", "Boxberry"],
-        "image": "/iPhone 15 (4).png"
+        "image": "/iphone-15-4.png"
       },
       {
         "title": "Administratives Panel",
@@ -1237,7 +1237,7 @@
           "Banner",
           "Bearbeitung"
         ],
-        "image": "/iPhone 15 (5).png"
+        "image": "/iphone-15-5.png"
       }
     ]
   },
@@ -1409,52 +1409,52 @@
       {
         "title": "Immobilienliste",
         "link": "",
-        "thumbnail": "/projects/Список недвижимости.png"
+        "thumbnail": "/projects/property-list.png"
       },
       {
         "title": "Immobilienliste",
         "link": "",
-        "thumbnail": "/projects/Список недвижимости.png"
+        "thumbnail": "/projects/property-list.png"
       },
       { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
       {
         "title": "CRM-Trichter",
         "link": "",
-        "thumbnail": "/crm/CRMВоронка.png"
+        "thumbnail": "/crm/crm-funnel.png"
       },
       { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
       { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
       {
         "title": "Dokumentenspeicher",
         "link": "",
-        "thumbnail": "/crm/Хранилизе документов.png"
+        "thumbnail": "/crm/document-storage.png"
       },
       { "title": "Dashboard", "link": "", "thumbnail": "/crm/Dashboard.png" },
       {
         "title": "Immobilienliste",
         "link": "",
-        "thumbnail": "/projects/Список недвижимости.png"
+        "thumbnail": "/projects/property-list.png"
       },
       { "title": "Dashboard", "link": "", "thumbnail": "/crm/Dashboard.png" },
       {
         "title": "CRM-Trichter",
         "link": "",
-        "thumbnail": "/crm/CRMВоронка.png"
+        "thumbnail": "/crm/crm-funnel.png"
       },
       {
         "title": "Mietobjekte",
         "link": "",
-        "thumbnail": "/crm/Объкты аренды.png"
+        "thumbnail": "/crm/rent-objects.png"
       },
       {
         "title": "Immobilienliste",
         "link": "",
-        "thumbnail": "/projects/Список недвижимости.png"
+        "thumbnail": "/projects/property-list.png"
       },
       {
         "title": "CRM-Trichter",
         "link": "",
-        "thumbnail": "/crm/CRMВоронка.png"
+        "thumbnail": "/crm/crm-funnel.png"
       }
     ]
   },

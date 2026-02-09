@@ -10,10 +10,10 @@ const logos = [
     alt: "Петрозаводск",
     priority: false,
   },
-  { src: "/Logo-2.png", alt: "Сибур", priority: true },
+  { src: "/Logo-2.png", alt: "ГПН", priority: true },
   {
-    src: "/ChatGPT Image 5 авг. 2025 г., 22_57_40.png",
-    alt: "Яндекс",
+    src: "/chatgpt-image-aug5.png",
+    alt: "Добрыня",
     priority: false,
   },
   { src: "/sleeplogo-removebg-preview.png", alt: "SleepTech", priority: false },
@@ -91,35 +91,27 @@ const PartnerLogos = () => {
               isReducedMotion ? "animate-none" : ""
             } ${isVisible ? "opacity-100" : "opacity-0"} transition-opacity duration-1000`}
           >
-            {[...logos, ...logos].map((logo, index) => {
-              const isLarge =
-                index % logos.length === 2 || index % logos.length === 4;
-              return (
+            {[...logos, ...logos].map((logo, index) => (
                 <div key={`logo-${index}`} className="flex-shrink-0 group">
-                  <div className="relative">
+                  <div className="w-28 h-28 sm:w-32 sm:h-32 md:w-36 md:h-36 lg:w-40 lg:h-40 rounded-2xl bg-white/90 backdrop-blur-sm p-4 sm:p-5 flex items-center justify-center transition-all duration-500 group-hover:bg-white group-hover:scale-105 group-hover:shadow-lg group-hover:shadow-white/10">
                     <Image
                       src={logo.src}
                       alt={logo.alt}
-                      width={isLarge ? 128 : 96}
-                      height={isLarge ? 128 : 96}
-                      className={`object-contain transition-all duration-500 ${
-                        isLarge
-                          ? "h-20 w-20 sm:h-24 sm:w-24 md:h-28 md:w-28 lg:h-32 lg:w-32 xl:h-36 xl:w-36"
-                          : "h-16 w-16 sm:h-20 sm:w-20 md:h-24 md:w-24 lg:h-28 lg:w-28 xl:h-32 xl:w-32"
-                      } opacity-60 group-hover:opacity-100 group-hover:scale-110 drop-shadow-[0_4px_24px_rgba(0,155,255,0.3)] group-hover:drop-shadow-[0_8px_32px_rgba(0,155,255,0.6)]`}
+                      width={128}
+                      height={128}
+                      className="object-contain w-full h-full"
                       priority={logo.priority}
                       loading={logo.priority ? "eager" : "lazy"}
                     />
                   </div>
                 </div>
-              );
-            })}
+              ))}
           </div>
         </div>
 
         {/* Дополнительная информация */}
         <div className="text-center mt-8 sm:mt-10 md:mt-12 lg:mt-16 px-4">
-          <p className="text-xs sm:text-sm md:text-base text-neutral-400 max-w-3xl mx-auto">
+          <p className="text-xs sm:text-sm md:text-base text-white max-w-3xl mx-auto">
             {t("description")}
           </p>
         </div>

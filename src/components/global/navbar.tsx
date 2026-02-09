@@ -111,7 +111,7 @@ const Navbar = ({ className }: { className?: string }) => {
                     "Коробочное приложение для ритейла"
                   }
                   href="/retail"
-                  src="/crm/iPhone 15 Pro.png"
+                  src="/crm/iphone-15-pro.png"
                   description={
                     messages.navbar?.description1 ||
                     "Готовое решение для магазинов и сетей, позволяющее управлять продажами, складом и клиентской базой"
@@ -129,7 +129,7 @@ const Navbar = ({ className }: { className?: string }) => {
                 <ProductItem
                   title={messages.navbar?.title3 || "Интернет магазин"}
                   href="/internetshop"
-                  src="/knifesmock/MacBookAir(15 inch).png"
+                  src="/knifesmock/macbook-air-15.png"
                   description={
                     messages.navbar?.description3 ||
                     "Платформа для онлайн-продаж, позволяющая быстро создать и управлять интернет-магазином"
@@ -252,7 +252,7 @@ const Navbar = ({ className }: { className?: string }) => {
         </nav>
 
         {/* ДЕСКТОПНЫЙ ПЕРЕКЛЮЧАТЕЛЬ ЯЗЫКА */}
-        <div className="hidden md:flex items-center gap-4 flex-shrink-0 relative z-[101]">
+        <div className="hidden md:flex items-center gap-4 flex-shrink-0 relative z-[101] mr-4">
           <DropdownMenu>
             <DropdownMenuTrigger className="text-lg xl:text-xl px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors duration-200">
               {language === "en"

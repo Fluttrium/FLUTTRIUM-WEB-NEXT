@@ -9,11 +9,13 @@ export function FeedbackForm2() {
   const [phone, setPhone] = useState("");
   const [description, setDescription] = useState("");
   const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
   const t = useTranslations("Writeus");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
+    setSuccess(false);
 
     try {
       const response = await fetch("/api/form", {
@@ -25,14 +27,11 @@ export function FeedbackForm2() {
       });
 
       if (response.ok) {
-        console.log("Форма успешно отправлена!");
-        // Очищаем поля формы
         setName("");
         setEmail("");
         setPhone("");
         setDescription("");
-        // Показываем уведомление об успехе
-        alert("Спасибо! Ваша заявка отправлена.");
+        setSuccess(true);
       } else {
         const errorData = await response.json();
         console.error("Ошибка отправки:", errorData);
@@ -86,10 +85,15 @@ export function FeedbackForm2() {
           <button
             type="submit"
             disabled={loading}
-            className="flex items-center justify-center w-full px-8 py-2 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition duration-200 text-sm rounded-full disabled:opacity-50 disabled:cursor-not-allowed"
+            className="flex items-center justify-center w-full px-8 py-2 border-2 border-black dark:border-white uppercase bg-blue-600 text-white transition-all duration-200 text-sm rounded-full disabled:opacity-50 disabled:cursor-not-allowed active:scale-95"
           >
             {loading ? "Отправка..." : t("button")}
           </button>
+          {success && (
+            <p className="mt-4 text-green-400 font-medium text-sm">
+              Форма успешно отправлена!
+            </p>
+          )}
         </form>
 
         <p className="mt-4 text-sm text-white">{t("p2")}</p>

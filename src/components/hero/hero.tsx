@@ -395,27 +395,30 @@ export const Hero = () => {
               width={600}
               height={300}
             >
-              <Card className="flex flex-col py-4 px-4 items-start justify-start">
-                <p className="font-bold text-white text-5xl xl:text-6xl 2xl:text-7xl">
-                  1
+              <Card className="flex flex-col py-8 px-8 items-start justify-start">
+                <p className="font-extrabold bg-gradient-to-b from-white to-white/40 bg-clip-text text-transparent text-5xl xl:text-6xl 2xl:text-7xl tracking-tight">
+                  01
                 </p>
-                <p className="font-medium text-base xl:text-lg 2xl:text-xl text-neutral-200 mt-8 xl:mt-10 leading-tight">
+                <div className="w-10 h-[2px] bg-gradient-to-r from-white/60 to-transparent mt-6" />
+                <p className="font-semibold text-lg xl:text-xl 2xl:text-2xl text-neutral-100 mt-6 xl:mt-8 leading-snug tracking-wide">
                   {t("hero_card1")}
                 </p>
               </Card>
-              <Card className="flex flex-col py-4 px-4 items-start justify-start">
-                <p className="font-bold text-white text-5xl xl:text-6xl 2xl:text-7xl">
-                  2
+              <Card className="flex flex-col py-8 px-8 items-start justify-start">
+                <p className="font-extrabold bg-gradient-to-b from-white to-white/40 bg-clip-text text-transparent text-5xl xl:text-6xl 2xl:text-7xl tracking-tight">
+                  02
                 </p>
-                <p className="font-medium text-base xl:text-2xl 2xl:text-xl text-neutral-200 mt-8 xl:mt-10 leading-tight">
+                <div className="w-10 h-[2px] bg-gradient-to-r from-white/60 to-transparent mt-6" />
+                <p className="font-semibold text-lg xl:text-xl 2xl:text-2xl text-neutral-100 mt-6 xl:mt-8 leading-snug tracking-wide">
                   {t("hero_card2")}
                 </p>
               </Card>
-              <Card className="flex flex-col py-4 px-4 items-start justify-start">
-                <p className="font-bold text-white text-5xl xl:text-6xl 2xl:text-7xl">
-                  3
+              <Card className="flex flex-col py-8 px-8 items-start justify-start">
+                <p className="font-extrabold bg-gradient-to-b from-white to-white/40 bg-clip-text text-transparent text-5xl xl:text-6xl 2xl:text-7xl tracking-tight">
+                  03
                 </p>
-                <p className="font-medium text-base xl:text-lg 2xl:text-xl text-neutral-200 mt-8 xl:mt-10 leading-tight">
+                <div className="w-10 h-[2px] bg-gradient-to-r from-white/60 to-transparent mt-6" />
+                <p className="font-semibold text-lg xl:text-xl 2xl:text-2xl text-neutral-100 mt-6 xl:mt-8 leading-snug tracking-wide">
                   {t("hero_card3")}
                 </p>
               </Card>

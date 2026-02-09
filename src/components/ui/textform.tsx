@@ -12,9 +12,35 @@ export function TextForm() {
   const { messages } = useTranslations();
   const t: any = (messages as any).Writeus;
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log("Форма отправлена:", { name, email, phone, description });
+    setLoading(true);
+    setSuccess(false);
+    try {
+      const response = await fetch("/api/form", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, email, phone, description }),
+      });
+
+      if (response.ok) {
+        setName("");
+        setEmail("");
+        setPhone("");
+        setDescription("");
+        setSuccess(true);
+      } else {
+        const data = await response.json();
+        alert(data.error || "Ошибка отправки");
+      }
+    } catch {
+      alert("Ошибка сети, попробуйте позже");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -61,10 +87,16 @@ export function TextForm() {
         />
         <button
           type="submit"
-          className="relative inline-flex items-center justify-center w-full px-6 sm:px-8 py-3 font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 border-2 border-white rounded-full shadow-lg hover:from-blue-700 hover:to-blue-800 hover:shadow-xl transition-all duration-300 ease-in-out text-sm"
+          className="relative inline-flex items-center justify-center w-full px-6 sm:px-8 py-3 font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 border-2 border-white rounded-full shadow-lg hover:from-blue-700 hover:to-blue-800 hover:shadow-xl active:scale-95 transition-all duration-300 ease-in-out text-sm disabled:opacity-50 disabled:cursor-not-allowed"
+          disabled={loading}
         >
-          {t?.button || "Оставить заявку"}
+          {loading ? "Отправка..." : (t?.button || "Оставить заявку")}
         </button>
+        {success && (
+          <p className="mt-4 text-green-400 font-medium text-sm sm:text-base">
+            Форма успешно отправлена!
+          </p>
+        )}
       </form>
 
       <p className="mt-3 sm:mt-4 text-xs sm:text-sm text-white leading-relaxed break-words">

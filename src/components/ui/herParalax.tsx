@@ -18,12 +18,12 @@ export const products = [
   {
     title: "Real Estate List",
     link: "",
-    thumbnail: "/projects/Список недвижимости.png",
+    thumbnail: "/projects/property-list.png",
   },
   {
     title: "Real Estate List",
     link: "",
-    thumbnail: "/projects/Список недвижимости.png",
+    thumbnail: "/projects/property-list.png",
   },
   {
     title: "Widget",
@@ -33,7 +33,7 @@ export const products = [
   {
     title: "CRM Funnel",
     link: "",
-    thumbnail: "/crm/CRMВоронка.png",
+    thumbnail: "/crm/crm-funnel.png",
   },
   {
     title: "Widget",
@@ -48,7 +48,7 @@ export const products = [
   {
     title: "Documents",
     link: "",
-    thumbnail: "/crm/Хранилизе документов.png",
+    thumbnail: "/crm/document-storage.png",
   },
   {
     title: "Dashboard",
@@ -58,7 +58,7 @@ export const products = [
   {
     title: "Real Estate",
     link: "",
-    thumbnail: "/projects/Список недвижимости.png",
+    thumbnail: "/projects/property-list.png",
   },
   {
     title: "Dashboard",
@@ -68,21 +68,21 @@ export const products = [
   {
     title: "CRM Funnel",
     link: "",
-    thumbnail: "/crm/CRMВоронка.png",
+    thumbnail: "/crm/crm-funnel.png",
   },
   {
     title: "Rent Objects",
     link: "",
-    thumbnail: "/crm/Объкты аренды.png",
+    thumbnail: "/crm/rent-objects.png",
   },
   {
     title: "Real Estate",
     link: "",
-    thumbnail: "/projects/Список недвижимости.png",
+    thumbnail: "/projects/property-list.png",
   },
   {
     title: "CRM Funnel",
     link: "",
-    thumbnail: "/crm/CRMВоронка.png",
+    thumbnail: "/crm/crm-funnel.png",
   },
 ];

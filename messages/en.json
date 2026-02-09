@@ -1142,7 +1142,7 @@
         "title": "Registration and user profile",
         "description": "Simple and secure registration by phone number. A profile that stores demographics and customer preferences",
         "tags": ["authentication", "order history", "receipts", "bonuses"],
-        "image": "/iPhone 15.png"
+        "image": "/iphone-15.png"
       },
       {
         "title": "Home screen",
@@ -1154,7 +1154,7 @@
           "promo catalog",
           "discounts"
         ],
-        "image": "/iPhone 15 (1).png"
+        "image": "/iphone-15-1.png"
       },
       {
         "title": "Catalog and product card",
@@ -1166,25 +1166,25 @@
           "CloudPayments",
           "Sberbank"
         ],
-        "image": "/iPhone 15 (2).png"
+        "image": "/iphone-15-2.png"
       },
       {
         "title": "Cart and checkout",
         "description": "The key function of the app. Collects important user data, helps reduce drop-offs and increase conversion",
         "tags": ["product list", "delivery address", "support"],
-        "image": "/iPhone 15 (3).png"
+        "image": "/iphone-15-3.png"
       },
       {
         "title": "Delivery",
         "description": "Integration with popular delivery services. Increases service speed and helps automate processes",
         "tags": ["CDEK", "Yandex Delivery", "Dostavista", "Boxberry"],
-        "image": "/iPhone 15 (4).png"
+        "image": "/iphone-15-4.png"
       },
       {
         "title": "Admin panel",
         "description": "User-friendly admin panel. Helps manage banners, push notifications, SMS and newsletters",
         "tags": ["notifications", "assortment", "banners", "editing"],
-        "image": "/iPhone 15 (5).png"
+        "image": "/iphone-15-5.png"
       }
     ]
   },
@@ -1350,41 +1350,41 @@
       {
         "title": "Real Estate List",
         "link": "",
-        "thumbnail": "/projects/Список недвижимости.png"
+        "thumbnail": "/projects/property-list.png"
       },
       {
         "title": "Real Estate List",
         "link": "",
-        "thumbnail": "/projects/Список недвижимости.png"
+        "thumbnail": "/projects/property-list.png"
       },
       { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
-      { "title": "CRM Funnel", "link": "", "thumbnail": "/crm/CRMВоронка.png" },
+      { "title": "CRM Funnel", "link": "", "thumbnail": "/crm/crm-funnel.png" },
       { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
       { "title": "Widget", "link": "", "thumbnail": "/FlatsGrindWidget.png" },
       {
         "title": "Document Storage",
         "link": "",
-        "thumbnail": "/crm/Хранилизе документов.png"
+        "thumbnail": "/crm/document-storage.png"
       },
       { "title": "Dashboard", "link": "", "thumbnail": "/crm/Dashboard.png" },
       {
         "title": "Real Estate",
         "link": "",
-        "thumbnail": "/projects/Список недвижимости.png"
+        "thumbnail": "/projects/property-list.png"
       },
       { "title": "Dashboard", "link": "", "thumbnail": "/crm/Dashboard.png" },
-      { "title": "CRM Funnel", "link": "", "thumbnail": "/crm/CRMВоронка.png" },
+      { "title": "CRM Funnel", "link": "", "thumbnail": "/crm/crm-funnel.png" },
       {
         "title": "Rent Objects",
         "link": "",
-        "thumbnail": "/crm/Объкты аренды.png"
+        "thumbnail": "/crm/rent-objects.png"
       },
       {
         "title": "Real Estate",
         "link": "",
-        "thumbnail": "/projects/Список недвижимости.png"
+        "thumbnail": "/projects/property-list.png"
       },
-      { "title": "CRM Funnel", "link": "", "thumbnail": "/crm/CRMВоронка.png" }
+      { "title": "CRM Funnel", "link": "", "thumbnail": "/crm/crm-funnel.png" }
     ]
   },
   "CrmTimeline": {

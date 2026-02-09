@@ -63,7 +63,7 @@ export function ExperienceDemo() {
         <div className="relative border-4 border-gray-300 rounded-lg overflow-hidden">
           <div className="absolute inset-0 transform rotate-2 skew-y-3 bg-blue-600 z-0"></div>
           <video controls className="w-full h-full relative z-10">
-            <source src="/projects/2024-10-22 12.33.41.mp4" type="video/mp4" />
+            <source src="/projects/demo-2024-10-22.mp4" type="video/mp4" />
             {m?.experience?.videoFallback}
           </video>
         </div>

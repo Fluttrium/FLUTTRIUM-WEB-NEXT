@@ -57,14 +57,14 @@ export function AppleCardsCarouselDemo() {
     {
       category: t("case4.category"),
       title: t("case4.title"),
-      src: "/projects/knifes.png",
+      src: "/knifes.png",
       content: (
         <DummyContent
           contentData={[
             {
               title: t("case41.title"),
               description: t("case41.description"),
-              imageSrc: "/projects/knifes.png",
+              imageSrc: "/knifes.png",
               imageAlt: t("case4.imageAlt"),
             },
             {
@@ -173,14 +173,14 @@ export function AppleCardsCarouselDemo() {
     {
       category: t("case3.category"),
       title: t("case3.title"),
-      src: "/projects/case6.png",
+      src: "/case6.png",
       content: (
         <DummyContent
           contentData={[
             {
               title: t("case31.title"),
               description: t("case31.description"),
-              imageSrc: "/projects/case7.png",
+              imageSrc: "/case7.png",
               imageAlt: t("case3.imageAlt"),
             },
           ]}
@@ -191,26 +191,26 @@ export function AppleCardsCarouselDemo() {
     {
       category: t("case2.category"),
       title: t("case2.title"),
-      src: "/projects/Realistic.png",
+      src: "/Realistic.png",
       content: (
         <DummyContent
           contentData={[
             {
               title: t("case21.title"),
               description: t("case21.description"),
-              imageSrc: "/projects/case3.png",
+              imageSrc: "/case3.png",
               imageAlt: t("case2.imageAlt"),
             },
             {
               title: t("case22.title"),
               description: t("case22.description"),
-              imageSrc: "/projects/case3.png",
+              imageSrc: "/case3.png",
               imageAlt: t("case2.imageAlt"),
             },
             {
               title: t("case23.title"),
               description: t("case23.description"),
-              imageSrc: "/projects/case3.png",
+              imageSrc: "/case3.png",
               imageAlt: t("case2.imageAlt"),
             },
           ]}
@@ -227,19 +227,19 @@ export function AppleCardsCarouselDemo() {
             {
               title: t("case11.title"),
               description: t("case11.description"),
-              imageSrc: "/projects/Foto1.jpg",
+              imageSrc: "/Foto1.jpg",
               imageAlt: t("case1.imageAlt"),
             },
             {
               title: t("case12.title"),
               description: t("case12.description"),
-              imageSrc: "/projects/Foto1.jpg",
+              imageSrc: "/Foto1.jpg",
               imageAlt: t("case1.imageAlt"),
             },
             {
               title: t("case13.title"),
               description: t("case13.description"),
-              imageSrc: "/projects/Foto1.jpg",
+              imageSrc: "/Foto1.jpg",
               imageAlt: t("case1.imageAlt"),
             },
           ]}

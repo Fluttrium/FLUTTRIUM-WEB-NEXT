@@ -220,7 +220,7 @@ export function AppleCardsCarouselDemo() {
     {
       category: t("case1.category"),
       title: t("case1.title"),
-      src: "/dobrmock/CartoonLaptop.png",
+      src: "/CartoonLaptop.png",
       content: (
         <DummyContent
           contentData={[

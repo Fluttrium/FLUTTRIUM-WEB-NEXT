@@ -33,7 +33,7 @@ export const products = [
   {
     title: "CRM Funnel",
     link: "",
-    thumbnail: "/crm/crm-funnel.png",
+    thumbnail: "/crm-funnel.png",
   },
   {
     title: "Widget",
@@ -48,12 +48,12 @@ export const products = [
   {
     title: "Documents",
     link: "",
-    thumbnail: "/crm/document-storage.png",
+    thumbnail: "/document-storage.png",
   },
   {
     title: "Dashboard",
     link: "",
-    thumbnail: "/crm/Dashboard.png",
+    thumbnail: "/Dashboard.png",
   },
   {
     title: "Real Estate",
@@ -63,17 +63,17 @@ export const products = [
   {
     title: "Dashboard",
     link: "",
-    thumbnail: "/crm/Dashboard.png",
+    thumbnail: "/Dashboard.png",
   },
   {
     title: "CRM Funnel",
     link: "",
-    thumbnail: "/crm/crm-funnel.png",
+    thumbnail: "/crm-funnel.png",
   },
   {
     title: "Rent Objects",
     link: "",
-    thumbnail: "/crm/rent-objects.png",
+    thumbnail: "/rent-objects.png",
   },
   {
     title: "Real Estate",
@@ -83,6 +83,6 @@ export const products = [
   {
     title: "CRM Funnel",
     link: "",
-    thumbnail: "/crm/crm-funnel.png",
+    thumbnail: "/crm-funnel.png",
   },
 ];

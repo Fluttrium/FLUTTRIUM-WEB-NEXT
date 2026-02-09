@@ -10,7 +10,7 @@ export function Benefit() {
       {/* Flex для горизонтального выравнивания изображения и контента */}
       <div className="md:w-1/2 w-full p-4 md:p-6">
         <img
-          src="/projects/case7.png" // Путь к вашему изображению
+          src="/case7.png" // Путь к вашему изображению
           alt="Case Study Image"
           className="object-contain w-full h-auto hidden md:block" // Скрыть на мобильных, показать на десктопах
         />

@@ -59,7 +59,7 @@ function ExpandedBusinessCard() {
           </h3>
           <div className="relative">
             <Image
-              src="/projects/knifes.png"
+              src="/knifes.png"
               alt={m?.sections?.webstore?.title || "Webstore"}
               width={500}
               height={400}

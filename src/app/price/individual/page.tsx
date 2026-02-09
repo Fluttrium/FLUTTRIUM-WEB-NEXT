@@ -28,7 +28,7 @@ const IndividualServices = () => {
           <div className="flex justify-center mb-4 sm:mb-6">
             <div className="border border-blue-600 rounded-lg p-1 shadow-lg">
               <Image
-                src="/projects/case8.png"
+                src="/case8.png"
                 alt="Индивидуальные услуги"
                 width={500}
                 height={300}

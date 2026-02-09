@@ -240,7 +240,7 @@ const Navbar = ({ className }: { className?: string }) => {
                 <ProductItem
                   title="Next JS"
                   href="/nextjs"
-                  src="/projects/nextjs-light.svg"
+                  src="/nextjs-light.svg"
                   description={
                     messages.navbar?.description6 ||
                     "Мощный фреймворк для React, который упрощает создание быстрых и производительных веб-приложений"

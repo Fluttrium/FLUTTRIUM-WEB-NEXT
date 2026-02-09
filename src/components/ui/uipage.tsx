@@ -35,7 +35,7 @@ const UiPage = () => {
       {/* Изображение */}
       <div className="w-full flex justify-center lg:w-2/4 lg:justify-end">
         <Image
-          src="/projects/case8.png" // Убедитесь, что путь к изображению корректен.
+          src="/case8.png" // Убедитесь, что путь к изображению корректен.
           alt={m?.cover?.imageAlt || "UI Design"}
           className="w-3/4 md:w-2/3 lg:w-full h-auto object-contain"
           width={1000}

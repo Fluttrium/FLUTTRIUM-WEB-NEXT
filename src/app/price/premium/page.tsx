@@ -33,7 +33,7 @@ const PremiumPlan = () => {
           <div className="flex justify-center mb-4 sm:mb-6">
             <div className="border border-blue-600 rounded-lg p-1 shadow-lg">
               <Image
-                src="/projects/case8.png" // Замените на путь к вашему изображению
+                src="/case8.png" // Замените на путь к вашему изображению
                 alt="Пример премиум дизайна"
                 width={500}
                 height={300}

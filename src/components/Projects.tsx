@@ -25,22 +25,22 @@ export function ProjectsCards() {
     {
       title: t("titlecard1"),
       description: t("titledisc1"),
-      imgSrc: "/projects/case3.png",
+      imgSrc: "/case3.png",
     },
     {
       title: t("titlecard2"),
       description: t("titledisc2"),
-      imgSrc: "/projects/case_dob.png",
+      imgSrc: "/case_dob.png",
     },
     {
       title: t("titlecard3"),
       description: t("titledisc3"),
-      imgSrc: "/projects/case8.png",
+      imgSrc: "/case8.png",
     },
     {
       title: t("titlecard4"),
       description: t("titledisc4"),
-      imgSrc: "/projects/knifes.png",
+      imgSrc: "/knifes.png",
     },
     {
       title: t("titlecard5"),

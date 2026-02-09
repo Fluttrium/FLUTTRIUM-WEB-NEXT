@@ -18,12 +18,12 @@ export const products = [
   {
     title: "Real Estate List",
     link: "",
-    thumbnail: "/projects/property-list.png",
+    thumbnail: "/property-list.png",
   },
   {
     title: "Real Estate List",
     link: "",
-    thumbnail: "/projects/property-list.png",
+    thumbnail: "/property-list.png",
   },
   {
     title: "Widget",
@@ -58,7 +58,7 @@ export const products = [
   {
     title: "Real Estate",
     link: "",
-    thumbnail: "/projects/property-list.png",
+    thumbnail: "/property-list.png",
   },
   {
     title: "Dashboard",
@@ -78,7 +78,7 @@ export const products = [
   {
     title: "Real Estate",
     link: "",
-    thumbnail: "/projects/property-list.png",
+    thumbnail: "/property-list.png",
   },
   {
     title: "CRM Funnel",

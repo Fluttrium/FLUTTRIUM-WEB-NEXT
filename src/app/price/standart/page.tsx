@@ -26,7 +26,7 @@ const StandardPlan = () => {
           <div className="flex justify-center mb-1 sm:mb-2">
             <div className="border border-blue-600 rounded-lg p-0.5 shadow-lg">
               <Image
-                src="/projects/case8.png" // Update with your image path
+                src="/case8.png" // Update with your image path
                 alt="Пример стандартного дизайна"
                 width={125} // 4 times smaller
                 height={75} // 4 times smaller

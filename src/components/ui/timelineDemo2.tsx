@@ -37,7 +37,7 @@ export function TimelineDemo2() {
               </p>
               <div className="flex justify-center mb-4">
                 <Image
-                  src="/trebovaniaIT.png"
+                  src="/crm/trebovaniaIT.png"
                   alt="startup template"
                   width={500}
                   height={500}
@@ -58,7 +58,7 @@ export function TimelineDemo2() {
               </p>
               <div className="flex justify-center mb-4">
                 <Image
-                  src="/kto_pishet_tz.jpg"
+                  src="/crm/kto_pishet_tz.jpg"
                   alt="hero template"
                   width={500}
                   height={500}
@@ -99,7 +99,7 @@ export function TimelineDemo2() {
               </p>
               <div className="flex justify-center mb-4">
                 <Image
-                  src="/1-15.jpg.webp"
+                  src="/crm/1-15.jpg.webp"
                   alt="hero template"
                   width={500}
                   height={500}
@@ -134,7 +134,7 @@ export function TimelineDemo2() {
               </div>
               <div className="flex justify-center mb-4">
                 <Image
-                  src="/sprint.png"
+                  src="/crm/sprint.png"
                   alt="hero template"
                   width={500}
                   height={500}
@@ -155,7 +155,7 @@ export function TimelineDemo2() {
               </p>
               <div className="flex justify-center mb-4">
                 <Image
-                  src="/Scrum-Master-I.jpg.webp"
+                  src="/crm/Scrum-Master-I.jpg.webp"
                   alt="hero template"
                   width={500}
                   height={500}

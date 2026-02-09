@@ -111,7 +111,7 @@ const Navbar = ({ className }: { className?: string }) => {
                     "Коробочное приложение для ритейла"
                   }
                   href="/retail"
-                  src="/iphone-15-pro.png"
+                  src="/crm/iphone-15-pro.png"
                   description={
                     messages.navbar?.description1 ||
                     "Готовое решение для магазинов и сетей, позволяющее управлять продажами, складом и клиентской базой"

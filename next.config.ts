@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   /* config options here */
   reactCompiler: true,
   output: "standalone",
+  images: {
+    unoptimized: true,
+  },
 };
 
 const withNextIntl = createNextIntlPlugin();
